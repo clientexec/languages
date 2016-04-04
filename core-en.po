@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2014-12-31 03:01-0500\n"
+"POT-Creation-Date: 2016-03-30 13:33-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,14 @@ msgstr ""
 
 #, php-format
 msgid "%s attached"
+msgstr ""
+
+#, php-format
+msgid "%s billing types were deleted successfully."
+msgstr ""
+
+#, php-format
+msgid "%s billing types were not deleted, as they are still in use."
 msgstr ""
 
 #, php-format
@@ -120,6 +128,28 @@ msgid "%s, Department %s"
 msgstr ""
 
 msgid ""
+"&quot;You have read, understood and agree to the terms and conditions of the "
+"Registrant\n"
+"Agreement, and that CIRA may, from time to time and at its discretion, amend "
+"any or all of\n"
+"the terms and conditions of the Registrant Agreement, as CIRA deems "
+"appropriate, by\n"
+"posting a notice of the changes on the CIRA website and by sending a notice "
+"of any\n"
+"material changes to Registrant.&quot;&quot;You meet all the requirements of "
+"the Registrant Agreement to be a Registrant, to apply for\n"
+"the registration of a Domain Name Registration, and to hold and maintain a "
+"Domain Name\n"
+"Registration, including without limitation CIRA&#39;s Canadian Presence "
+"Requirements for\n"
+"Registrants, at: www.cira.ca/assets/Documents/Legal/Registrants/CPR.pdf."
+"&quot;&quot;CIRA will collect, use and disclose your personal information, "
+"as set out in CIRA&#39;s\n"
+"Privacy Policy, at: www.cira.ca/assets/Documents/Legal/Registrants/privacy."
+"pdf.&quot;"
+msgstr ""
+
+msgid ""
 "'Secret Word' used to calculate the MD5 hash. <br>NOTE: Please take in "
 "count, you will also need to set the 'Secret Word' on the 2Checkout Site "
 "Management page, and it is to avoid frauds."
@@ -143,7 +173,21 @@ msgstr ""
 msgid "(e.g. yourdomain.com)"
 msgstr ""
 
-msgid "* There are no invoices for the selected month"
+msgid ""
+"(i) A university or college which is located in Canada and which is "
+"authorized or recognized as a university or college under an Act of the "
+"legislature of a province or territory of Canada; or&lt;br /&gt;(ii) A "
+"college, post-secondary school, vocational school, secondary school, pre-"
+"school or other school or educational institution which is located in Canada "
+"and which is recognized by the educational authorities of a province or "
+"territory of Canada or licensed under or maintained by an Act of Parliament "
+"of Canada or of the legislature of a province or territory of Canada.&lt;br /"
+"&gt;Requirements: The Registrant&#39;s name must be the complete official "
+"name of the institution that will hold the domain name registration, without "
+"any abbreviations. A common abbreviation may follow the official name in "
+"parentheses. The Registrant name must be followed by the jurisdiction (e.g. "
+"name of province, municipality) in which the institution is accredited if "
+"not obvious from the Registrant&#39;s name."
 msgstr ""
 
 #, php-format
@@ -178,6 +222,40 @@ msgstr ""
 msgid "...with a total of %s E-mails"
 msgstr ""
 
+msgid ""
+".physio domain names are for members of the global physio/physical therapy "
+"community.\n"
+"\tIn order to register or renew a .physio domain name the applicant must "
+"satisfy Criteria A, B or C\n"
+"Criteria A:\n"
+"Where a professional association that is a member of the World Confederation "
+"for Physical Therapy exists in the country where the applicant resides the "
+"applicant must:\n"
+"1. Be a natural person; and\n"
+"2. Be entitled to be a member of the professional association of the country "
+"where\t they reside or were educated. \n"
+"\n"
+"Criteria B\n"
+"In the case where a professional association exists but is not a member of "
+"the World Confederation for Physical Therapy or where a professional "
+"association does not exist in the country where the applicant resides the "
+"applicant must:\n"
+"1. Be a natural person; and\n"
+"2. Be completing, or have completed, a programme of study that affords "
+"eligibility\t to practice physiotherapy in that country.\n"
+"\n"
+"Criteria C\n"
+"In the case of a company or organisation:\n"
+"1. One of their primary purposes must be to support, promote, service or "
+"supply\t persons identified in Criteria A or B, as an identified "
+"professional group, and\n"
+"2. They may only register a domain name that is a close and substantial "
+"match to\t their business name, product or service.\n"
+"The list of professional associations that are members of the World "
+"Confederation for Physical Therapy is available at the following link, "
+"http://www.wcpt.org/members."
+msgstr ""
+
 msgid "1"
 msgstr ""
 
@@ -205,6 +283,9 @@ msgstr ""
 msgid ""
 "1- Make sure 'Old Passphrase' contains the same value used in the previous "
 "update"
+msgstr ""
+
+msgid "1. Italian and foreign natural persons"
 msgstr ""
 
 msgid "1. Select Package"
@@ -236,7 +317,13 @@ msgid ""
 "update attempt"
 msgstr ""
 
+msgid "2. Companies/One Man Companies"
+msgstr ""
+
 msgid "2. Package Configuration"
+msgstr ""
+
+msgid "2.0"
 msgstr ""
 
 msgid "20 Minutes"
@@ -249,6 +336,9 @@ msgid "3 Minutes"
 msgstr ""
 
 msgid "3 Years"
+msgstr ""
+
+msgid "3. Freelance workers/professionals"
 msgstr ""
 
 msgid "3. Payment Details"
@@ -271,6 +361,9 @@ msgstr ""
 msgid "4 Years"
 msgstr ""
 
+msgid "4. Non-Profit Organizations"
+msgstr ""
+
 msgid "5 Min. Load Average"
 msgstr ""
 
@@ -280,16 +373,25 @@ msgstr ""
 msgid "5 Years"
 msgstr ""
 
+msgid "5. Public Organizations"
+msgstr ""
+
 msgid "6 Minutes"
 msgstr ""
 
 msgid "6 Years"
 msgstr ""
 
+msgid "6. Other Subjects"
+msgstr ""
+
 msgid "7 Minutes"
 msgstr ""
 
 msgid "7 Years"
+msgstr ""
+
+msgid "7. Foreigners who match 2-6"
 msgstr ""
 
 msgid "8 Minutes"
@@ -364,8 +466,101 @@ msgid "@-domains support"
 msgstr ""
 
 msgid ""
+"A Canadian citizen of the age of majority under the laws of the province or "
+"territory in Canada in which he or she resides or last resided.&lt;br/&gt;"
+"Requirements: The Registrant&#39;s name must be the full legal name of the "
+"Canadian Citizen who will hold the domain name registration as the name "
+"would appear on a passport, driver&#39;s license or other identification "
+"document issued by a government. The name can be followed by a space and "
+"&quot;o/a xxxx&quot; where &quot;o/a&quot; stands for &quot;Operating "
+"As&quot; and &quot;xxxx&quot; can be any alpha-numeric string designated by "
+"the applicant and subject to applicable rules and length restrictions (e.g. "
+"&quot;John Doe o/a Doe Consulting Group&quot;). The name may also be "
+"followed by a space and a degree granted to the registrant (eg. PhD.) Full "
+"legal names of individuals may only consist of alphabetic characters and the "
+"special characters: single quote mark(&#39;), hyphen(-), period(.)."
+msgstr ""
+
+msgid ""
+"A Person which does not fall under any other registrant type, but which is "
+"the owner of a trade-mark which is the subject of a registration under the "
+"Trade-marks Act (Canada) R.S.C. 1985, c.T-13 as amended from time to time, "
+"but in this case such permission is limited to a request to register a .ca "
+"domain name consisting of or including the exact word component of that "
+"registered trade-mark.&lt;br /&gt;This Registrant Type is only intended for "
+"Registrants which do not meet the requirements associated with any other "
+"registrant type but which have a trade-mark registered in Canada. (Trade-"
+"marks subject of trade-mark applications and trade-marks registered in other "
+"jurisdictions, such as the United States, do not qualify.)&lt;br /&gt;The "
+"domain name to be registered must include the trade-mark. (eg. If the trade-"
+"mark is AVEA this type of registrant can register avea.ca or aveaisus.ca but "
+"not xyz.ca)."
+msgstr ""
+
+msgid ""
+"A Person which does not meet the requirements for any other Registrant Type, "
+"but which is a Person intended to be protected by Subsection 9(1) of the "
+"Trade-Marks Act (Canada) at whose request the Registrar of Trade-marks has "
+"published notice of adoption of any badge, crest, emblem, official mark or "
+"other mark pursuant to Subsection 9(1), but in this case such permission is "
+"limited to a request to register a .ca domain name consisting of or "
+"including the exact word component of such badge, crest, emblem, official "
+"mark or other mark in respect of which such Person requested publications."
+"&lt;br /&gt;Notes: This registrant type is only intended for Registrants "
+"which do not meet the requirements associated with any other registrant type "
+"but which have an Official Mark registered in Canada. The domain name must "
+"include the official mark (eg. If the official mark is WIPO, the registrant "
+"can register wipo.ca but not intellectual-property.ca)&lt;br /&gt;"
+"Requirements: The Registrant&#39;s name must be the complete official name "
+"of the entity holding the domain name registration without any "
+"abbreviations. (A common abbreviation may follow the complete name in "
+"parentheses.) The registration number of the official mark must follow the "
+"Registrant Name."
+msgstr ""
+
+msgid ""
 "A Template is a pre-configured OS image that you can build a Virtual Machine "
 "on."
+msgstr ""
+
+msgid ""
+"A corporation under the laws of Canada or any province or territory of "
+"Canada, Charities, Cooperative, Council.\n"
+"Requirements: Registrant name must be the full legal name of the corporation "
+"and must be followed by the jurisdiction of incorporation (eg. Canada, "
+"Ontario, NWT...), unless it is obvious from the corporation&#39;s name. "
+"Canadian Internet Registration Authority (Canada). For Charities, the NFP "
+"should be included in the organization name. If this is a not-for-profit "
+"organization, you are also required to submit the registration number i.e.: "
+"123456789 RR0001 "
+msgstr ""
+
+msgid ""
+"A corporation under the laws of Canada or any province or territory of "
+"Canada, Charities, Cooperative, Council.&lt;br/&gt;Requirements: Registrant "
+"name must be the full legal name of the corporation and must be followed by "
+"the jurisdiction of incorporation (eg. Canada, Ontario, NWT...), unless it "
+"is obvious from the corporation&#39;s name. Canadian Internet Registration "
+"Authority (Canada). For Charities, the NFP should be included in the "
+"organization name. If this is a not-for-profit organization, you are also "
+"required to submit the registration number i.e.: 123456789 RR0001"
+msgstr ""
+
+msgid ""
+"A hospital which is located in Canada and which is licensed, authorized or "
+"approved to operate as a hospital under an Act of the legislature of a "
+"province or territory of Canada&lt;br /&gt;Requirements: The Registrant&#39;"
+"s name must be the complete official name of the hospital that will hold the "
+"domain name registration, without any abbreviations. (A common abbreviation "
+"may follow the complete name in parentheses.) The Registrant&#39;s name must "
+"be followed by the jurisdiction (eg. name of province) which accredited the "
+"hospital if not obvious from the Registrant&#39;s name."
+msgstr ""
+
+msgid "A natural person who is a Permanent Resident."
+msgstr ""
+
+msgid "A natural person who is a US Citizen."
 msgstr ""
 
 msgid ""
@@ -377,9 +572,68 @@ msgid "A page refresh will be performed on close."
 msgstr ""
 
 msgid ""
+"A partnership, more than 66 2/3 per cent of whose partners meet the "
+"requirements of one of the following Registrant Types: Corporation (Canada "
+"or Canadian province or territory), Canadian citizen, Permanent Resident of "
+"Canada, Trust established in Canada or a Legal Representative of a Canadian "
+"Citizen or Permanent Resident, which is registered as a partnership under "
+"the laws of any province or territory of Canada.&lt;br /&gt;Requirements: "
+"The Registrant&#39;s name must be the registered name of the partnership "
+"that will hold the domain name registration. The Registrant name must be "
+"followed by the jurisdiction of registration (eg. Alberta) and the "
+"registration number."
+msgstr ""
+
+msgid ""
 "A percentage to increase the amount to charge, due to the high Onebip "
 "payment fees. For example, a value of 20 (20%) will charge an amount of $120 "
 "for an invoice of $100"
+msgstr ""
+
+msgid ""
+"A permanent resident as defined in the Immigration and Refugee Protection "
+"Act (Canada) S.C. 2001, c.27, as amended from time to time, who is &quot;"
+"ordinarily resident&quot; (as defined below) in Canada and of the age of "
+"majority under the laws of the province or territory in Canada in which he "
+"or she resides or last resided. &quot;Ordinarily resident in Canada&quot; "
+"means an individual who resides in Canada for more than 183 days in the "
+"twelve month period immediately preceding the date of the applicable request "
+"for registration of the .ca domain name or sub-domain name and in each "
+"twelve month period thereafter for the duration of the domain name "
+"registration.&lt;br/&gt;Requirements: The Registrant&#39;s name must be the "
+"full legal name of the Permanent Resident who will hold the domain name "
+"registration as the name would appear on a driver&#39;s license or other "
+"identification document issued by a government. The full legal name may be "
+"followed by a space and &quot;o/a xxxx&quot; where &quot;o/a&quot; stands "
+"for &quot;Operating As&quot; and &quot;xxxx&quot; can be any alpha-numeric "
+"string designated by the applicant and subject to applicable rules and "
+"length restrictions (e.g. &quot;John Doe o/a Doe Consulting Group&quot;). "
+"The name may also be followed by a space and a degree granted to the "
+"registrant by a recognized degree granting institution or a recognized "
+"professional designation which the registrant has the right to use (eg. PhD, "
+"MD, DDS.) Full legal names of individuals may only consist of alphabetic "
+"characters and the special characters: single quote mark(&#39;), hyphen(-), "
+"period(.)."
+msgstr ""
+
+msgid ""
+"A political party registered under a relevant electoral law of Canada or any "
+"province or territory of Canada&lt;br /&gt;Requirements: The Registrant&#39;"
+"s name must be the complete official name of the political party holding the "
+"domain name registration, without abbreviations. (A common abbreviation may "
+"follow the official name in parentheses.) The Registrant name must also by "
+"followed by the jurisdiction in Canada in which it is registered (if it is "
+"not obvious from the official name)."
+msgstr ""
+
+msgid ""
+"A relative or absolute URL pointing to a square image of your brand or "
+"product.</br>The recommended minimum size is 128x128px.</br>The recommended "
+"image types are .gif, .jpeg, and .png.</br>Leave this field empty to use the "
+"default image."
+msgstr ""
+
+msgid "A report to migrate a payment method to a different one."
 msgstr ""
 
 msgid ""
@@ -388,7 +642,36 @@ msgid ""
 "ordered and payments processed."
 msgstr ""
 
+msgid "A report to remove the subscription association on a given invoice."
+msgstr ""
+
 msgid "A set of actions that the user will be allowed to perform."
+msgstr ""
+
+msgid ""
+"A trade union which is recognized by a labour board under the laws of Canada "
+"or any province or territory of Canada and which has its head office in "
+"Canada.&lt;br /&gt;Requirements: The Registrant&#39;s name must be the "
+"complete official name of the trade union that will hold the domain name "
+"registration, without abbreviations. (A common abbreviation may follow the "
+"official name in parentheses.) The Registrant name must be followed by the "
+"jurisdiction in Canada which recognizes it (if it is not obvious from the "
+"Registrant&#39;s name.)"
+msgstr ""
+
+#, php-format
+msgid ""
+"A trust established and subsisting under the laws of a province or territory "
+"of Canada, more than 66 2/3 % of whose trustees meet the requirements of one "
+"of the following Registrant Types: Corporation (Canada or Canadian province "
+"or territory), Canadian citizen, Permanent Resident of Canada, or a Legal "
+"Representative of a Canadian Citizen or Permanent Resident.&lt;br /&gt;"
+"Requirements: The Registrant&#39;s name must be the complete official name "
+"of the trust, without any abbreviations. (A common abbreviation may follow "
+"the official name in parentheses.) The Registrant name must also indicate "
+"the total percentage of the trustees that meet one or more of the following "
+"requirements: Canadian citizen, permanent resident, Canadian corporation, "
+"legal representative."
 msgstr ""
 
 msgid "ACL field for reseller account"
@@ -419,6 +702,9 @@ msgid "API Username"
 msgstr ""
 
 msgid "ASP.NET support"
+msgstr ""
+
+msgid "Aboriginal Peoples"
 msgstr ""
 
 msgid "Accept CC Number"
@@ -564,6 +850,9 @@ msgid "Active Products"
 msgstr ""
 
 msgid "Active Users"
+msgstr ""
+
+msgid "Add"
 msgstr ""
 
 msgid "Add & configure products to start selling"
@@ -858,9 +1147,6 @@ msgid ""
 "Additionally, you can enter any additional comments about your service below:"
 msgstr ""
 
-msgid "Addon Domains"
-msgstr ""
-
 msgid "Addon Options"
 msgstr ""
 
@@ -953,6 +1239,9 @@ msgstr ""
 msgid "Against any condition (OR)"
 msgstr ""
 
+msgid "Agree"
+msgstr ""
+
 msgid "Alias To"
 msgstr ""
 
@@ -981,6 +1270,9 @@ msgid "All Closed Tickets"
 msgstr ""
 
 msgid "All Countries"
+msgstr ""
+
+msgid "All Customers"
 msgstr ""
 
 msgid "All Day"
@@ -1052,9 +1344,6 @@ msgstr ""
 msgid "All invoices"
 msgstr ""
 
-msgid "All packages"
-msgstr ""
-
 msgid "All ticket types"
 msgstr ""
 
@@ -1091,7 +1380,13 @@ msgstr ""
 msgid "Allow Customers To Reply From Any E-mail"
 msgstr ""
 
+msgid "Allow Duplicated Subdomains"
+msgstr ""
+
 msgid "Allow FrontPage Authorization"
+msgstr ""
+
+msgid "Allow Publication"
 msgstr ""
 
 msgid "Allow Registration"
@@ -1107,13 +1402,16 @@ msgid ""
 "user"
 msgstr ""
 
+msgid "Allow customer to close tickets"
+msgstr ""
+
 msgid "Allow direct link?"
 msgstr ""
 
 msgid "Allow in signup?"
 msgstr ""
 
-msgid "Allow run services from URL"
+msgid "Allow the publication of contact&#39;s personal data"
 msgstr ""
 
 msgid "Allow to manage the articles"
@@ -1147,6 +1445,9 @@ msgid "Also Send Autopayments And Subscriptions"
 msgstr ""
 
 msgid "Also Update Server"
+msgstr ""
+
+msgid "Alt Emails"
 msgstr ""
 
 msgid "Alt. Account"
@@ -1207,7 +1508,55 @@ msgstr ""
 msgid "An email with an explanation has been sent to "
 msgstr ""
 
+msgid ""
+"An entity or organization that has a physical street address in New York "
+"City."
+msgstr ""
+
+msgid ""
+"An entity or organization that is (i) incorporated within one of the fifty "
+"US states, the District of Columbia, or any of the US possessions or "
+"territories, or (ii) organized or otherwise constituted under the laws of a "
+"state of the US, the District of Columbia or any of its possessions and "
+"territories (including federal, state, or local government of the US, or a "
+"political subdivision thereof, and non-commercial organizations based in the "
+"US.)."
+msgstr ""
+
+msgid ""
+"An executor, administrator or other legal representative of a Person listed "
+"as a Canadian Citizen or Permanent Resident of Canada.&lt;br /&gt;Note: This "
+"registrant type is only available to a person or entity that has been "
+"appointed by legal process to represent an individual who is not competent "
+"to represent him or herself. It is not available to anyone who represents a "
+"Canadian or foreign corporation  in any capacity.&lt;br /&gt;Requirements: "
+"The Registrant&#39;s name must be the full legal name of the Canadian "
+"Citizen or Permanent Resident of Canada who is being represented as it would "
+"appear on a passport, driver&#39;s license or other government "
+"identification document. This must be followed by the full legal name and "
+"capacity of at least one of the official representatives. The representative "
+"should be identified as the administrative contact for these registrations."
+msgstr ""
+
+msgid ""
+"An institution, whether or not incorporated, that:&lt;br /&gt;(i) is located "
+"in Canada; and&lt;br /&gt;(ii) is not established or conducted for profit or "
+"does not form part of, or is not administered or directly or indirectly "
+"controlled by, a body that is established or conducted for profit in which "
+"is held and maintained a collection of documents and other materials that is "
+"open to the public or to researchers.&lt;br /&gt;Requirements: The "
+"Registrant&#39;s name  must be the complete legal name of the institution "
+"which will hold the domain name registration without abbreviations. (A "
+"common abbreviation may follow the complete name in parentheses.)"
+msgstr ""
+
 msgid "And Matching"
+msgstr ""
+
+msgid "Annoucements"
+msgstr ""
+
+msgid "Announcement"
 msgstr ""
 
 msgid "Announcement Opt-Out"
@@ -1236,6 +1585,40 @@ msgstr ""
 msgid "Any (Guests & Registered)"
 msgstr ""
 
+msgid ""
+"Any Indian band as defined in the Indian Act, R.S.C. 1985, c. I-5, as "
+"amended from time to time, and any group of Indian bands;&lt;br /&gt;"
+"Requirements: The name of Registrant must be the Indian Band Name as "
+"registered with the Department of Indian and Northern Affairs, Canada."
+msgstr ""
+
+msgid ""
+"Any individual belonging to any Inuit, First Nation, Metis or other people "
+"indigenous to Canada.&lt;br /&gt;Requirements: The Registrant&#39;s name "
+"must be the full legal name of the Aboriginal Person applying for the "
+"Registration as it would appear on a driver&#39;s license or other "
+"identification document issued by government.&lt;br /&gt;The Registrant may "
+"enter its full legal name followed by a space and &quot;o/a xxxx&quot; where "
+"&quot;o/a&quot; stands for &quot;Operating As&quot; and &quot;xxxx&quot; can "
+"be any alpha-numeric string designated by the applicant and subject to "
+"applicable rules and length restrictions (e.g. &quot;John Doe o/a Doe "
+"Consulting Group&quot;). The name may also be followed by a space and a "
+"degree granted to the registrant by a recognized degree granting institution "
+"or a recognized professional designation which the registrant has the right "
+"to use  (eg. PhD, MD, DDS.)&lt;br /&gt;Full legal names of individuals may "
+"only consist of alphabetic characters and the special characters: single "
+"quote mark(&#39;&#39;), hyphen(-), period(.).&lt;br/&gt;Groups: Any Inuit, "
+"First Nation, Metis or other people indigenous to Canada, and any "
+"collectivity of such Aboriginal peoples.&lt;br /&gt;Requirements: The "
+"Registrant&#39;s name must be the complete official name of the indigenous "
+"people a collectivity of Aboriginal Persons or, if there is no official "
+"name, the name by which the collectivity is commonly known."
+msgstr ""
+
+msgid ""
+"Any subscription id reference will be removed from the entered invoice id."
+msgstr ""
+
 msgid "Apache ASP support"
 msgstr ""
 
@@ -1249,6 +1632,9 @@ msgid "Application Error Notification"
 msgstr ""
 
 msgid "Application Key"
+msgstr ""
+
+msgid "Application Purpose"
 msgstr ""
 
 #, php-format
@@ -1382,6 +1768,9 @@ msgstr ""
 msgid "Associated Servers"
 msgstr ""
 
+msgid "Association"
+msgstr ""
+
 msgid "Attach PDF When Mailing Invoice"
 msgstr ""
 
@@ -1397,7 +1786,17 @@ msgstr ""
 msgid "August"
 msgstr ""
 
+msgid "Australian Business Number"
+msgstr ""
+
+msgid "Australian Company Number"
+msgstr ""
+
 msgid "Authentication Failure - Username/Password not accepted"
+msgstr ""
+
+msgid ""
+"Authentication with Stripe's API failed. Maybe you changed API keys recently."
 msgstr ""
 
 msgid "Author"
@@ -1407,6 +1806,18 @@ msgid "Authorize.Net"
 msgstr ""
 
 msgid "Authorize.Net API Login ID"
+msgstr ""
+
+msgid "Authorize.Net CIM API Login ID"
+msgstr ""
+
+msgid "Authorize.Net CIM Test Mode"
+msgstr ""
+
+msgid "Authorize.Net CIM Transaction Key"
+msgstr ""
+
+msgid "Authorize.Net CIM Validation Mode"
 msgstr ""
 
 msgid "Authorize.Net Transaction Key"
@@ -1600,6 +2011,9 @@ msgstr ""
 msgid "Begin chat"
 msgstr ""
 
+msgid "Bill Date"
+msgstr ""
+
 msgid "Bill To"
 msgstr ""
 
@@ -1645,6 +2059,9 @@ msgstr ""
 msgid "Billing events"
 msgstr ""
 
+msgid "Bitcoin Address - User Custom Field"
+msgstr ""
+
 msgid "BluePay"
 msgstr ""
 
@@ -1657,10 +2074,13 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
+msgid "Bogus legal type to see if this works"
+msgstr ""
+
 msgid "Briefly describe your question"
 msgstr ""
 
-msgid "Browse our Knowledgebase by Topic or Search"
+msgid "Browse our Knowledge base by Topic or Search"
 msgstr ""
 
 msgid "Browse the Products & Services we offer"
@@ -1676,9 +2096,16 @@ msgid "Bulk Mailer"
 msgstr ""
 
 msgid ""
-"Bundled product is only available if choosing the main product from signup. "
-"The bundled product will not be shown if that product itself is reached by "
-"bundled to another product."
+"Bundled product is only available if choosing the main product from signup."
+msgstr ""
+
+msgid "Business Entity"
+msgstr ""
+
+msgid "Business Registration Number"
+msgstr ""
+
+msgid "Business use for profit"
 msgstr ""
 
 msgid "Busy"
@@ -1701,6 +2128,29 @@ msgid ""
 "the public section."
 msgstr ""
 
+msgid ""
+"By registering this domain name, the registrant commits to not undermine the "
+"Principles of Organic Agriculture as formulated by the IFOAM (POA). \n"
+"\t\tIf the registrant is a producer, a transformer or retailer in the field "
+"of agriculture, food and farming, the registrant commits to abide by POA and "
+"by any \n"
+"\t\tregulations in force in the relevant markets where the registrant "
+"intends to present or promote its products within the on-line content "
+"associated with this .BIO domain name(s)"
+msgstr ""
+
+msgid ""
+"By registering this domain name, you certify that the registrant of this "
+"domain is an individual professional architect (or an architecture firm) "
+"registered as a member of a national architects association authorized by "
+"the registry operator, or an architecture-related organization authorized by "
+"the registry operator.&quot;"
+msgstr ""
+
+#, php-format
+msgid "By: %s on %s"
+msgstr ""
+
 msgid "CAST-CONTROL SECURITY HASH"
 msgstr ""
 
@@ -1708,6 +2158,9 @@ msgid "CC Expiration warning E-mail sent"
 msgstr ""
 
 msgid "CC Invoices"
+msgstr ""
+
+msgid "CC Is Not Passphrased"
 msgstr ""
 
 msgid "CC Passphrase"
@@ -1771,6 +2224,12 @@ msgid "Callback URL"
 msgstr ""
 
 msgid "Can use"
+msgstr ""
+
+msgid "Canadian Citizen"
+msgstr ""
+
+msgid "Canadian Resident"
 msgstr ""
 
 msgid "Cancel Certificates(s)"
@@ -1854,6 +2313,9 @@ msgstr ""
 msgid "Category saved successfully"
 msgstr ""
 
+msgid "Central Government Body"
+msgstr ""
+
 msgid "Cert"
 msgstr ""
 
@@ -1864,6 +2326,9 @@ msgid "Certificate Id"
 msgstr ""
 
 msgid "Certificate Information"
+msgstr ""
+
+msgid "Change package password"
 msgstr ""
 
 msgid "Change payment method"
@@ -1878,15 +2343,15 @@ msgid "Changed CC expiration year to %s"
 msgstr ""
 
 #, php-format
-msgid "Changed client status to %s"
-msgstr ""
-
-#, php-format
 msgid "Changed credit balance to %s"
 msgstr ""
 
 #, php-format
 msgid "Changed currency to %s"
+msgstr ""
+
+#, php-format
+msgid "Changed customer #[link]  status to %s"
 msgstr ""
 
 #, php-format
@@ -1899,10 +2364,6 @@ msgstr ""
 
 #, php-format
 msgid "Changed invoice template to %s"
-msgstr ""
-
-#, php-format
-msgid "Changed package #%s status to %s"
 msgstr ""
 
 #, php-format
@@ -1989,6 +2450,10 @@ msgstr ""
 msgid "Changed package #%s, extra attribute #%s to %s"
 msgstr ""
 
+#, php-format
+msgid "Changed package #[link] status to %s"
+msgstr ""
+
 msgid "Changed password"
 msgstr ""
 
@@ -2041,6 +2506,9 @@ msgid "Changed type to \"%s\""
 msgstr ""
 
 msgid "Charge CC Automatically"
+msgstr ""
+
+msgid "Charge CC Automatically Is Disabled For A Package In The Invoice"
 msgstr ""
 
 msgid "Charge Date"
@@ -2096,6 +2564,9 @@ msgid "ChronoPay Language"
 msgstr ""
 
 msgid "City"
+msgstr ""
+
+msgid "Civil Society"
 msgstr ""
 
 msgid "Click for more detailed info"
@@ -2194,16 +2665,19 @@ msgstr ""
 msgid "Clientexec Installer"
 msgstr ""
 
+msgid "Clientexec Product"
+msgstr ""
+
 msgid "Clientexec Settings"
 msgstr ""
 
 msgid "Clientexec Version"
 msgstr ""
 
-msgid "Clients"
+msgid "Clients Online"
 msgstr ""
 
-msgid "Clients Online"
+msgid "Clone"
 msgstr ""
 
 msgid "Clone Product"
@@ -2233,6 +2707,9 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
+msgid "Codice Fiscale"
+msgstr ""
+
 msgid "Coldfusion support"
 msgstr ""
 
@@ -2249,6 +2726,19 @@ msgid "Comment on this article"
 msgstr ""
 
 msgid "Comments"
+msgstr ""
+
+msgid "Community Property"
+msgstr ""
+
+msgid "Community of Owners"
+msgstr ""
+
+msgid ""
+"Companies having their head office in the territory of the European Union"
+msgstr ""
+
+msgid "Companies/One Man Companies"
 msgstr ""
 
 msgid "Company"
@@ -2272,10 +2762,21 @@ msgstr ""
 msgid "Company address"
 msgstr ""
 
+msgid "Company identification number"
+msgstr ""
+
 msgid "Company name"
 msgstr ""
 
+msgid ""
+"Company or person domain is registered for (this must be accurate and CANNOT "
+"BE CHANGED)"
+msgstr ""
+
 msgid "Compare"
+msgstr ""
+
+msgid "Completed"
 msgstr ""
 
 msgid "Compound"
@@ -2339,6 +2840,15 @@ msgstr ""
 msgid "Connector Passphrase"
 msgstr ""
 
+msgid "Consent for Dissemination and Accessibility via the Internet"
+msgstr ""
+
+msgid "Consent for Processing of Information"
+msgstr ""
+
+msgid "Consulate"
+msgstr ""
+
 msgid "Contact"
 msgstr ""
 
@@ -2377,6 +2887,15 @@ msgid "Continue to Last Step"
 msgstr ""
 
 msgid "Controls the source of some core JavaScript Libraries."
+msgstr ""
+
+msgid "Cooperative"
+msgstr ""
+
+msgid "Corporation"
+msgstr ""
+
+msgid "Corporation "
 msgstr ""
 
 msgid "Count"
@@ -2427,15 +2946,26 @@ msgstr ""
 msgid "Create Ticket"
 msgstr ""
 
+msgid ""
+"Create a User Custom Field <a href=\"index.php?"
+"fuse=admin&controller=settings&view=usercustomfields\" target=\"_blank"
+"\">here</a> that will be used for your customers to enter a Bitcoin Address."
+"</br>Enter in this field the exact same name you used to create the User "
+"Custom Field.</br>This will be used in case you need to refund them a "
+"Bitcoin Payment."
+msgstr ""
+
+msgid ""
+"Create a black list separated by comma of the subdomains you will not allow "
+"to be used when placing an order"
+msgstr ""
+
 msgid "Create a new product available to your customers."
 msgstr ""
 
 msgid ""
 "Create a site widget for customers to submit tickets and search your KB "
 "articles"
-msgstr ""
-
-msgid "Create and delete clients"
 msgstr ""
 
 msgid "Create and delete packages"
@@ -2451,6 +2981,9 @@ msgid "Create custom filters which can be saved for future searches"
 msgstr ""
 
 msgid "Create custom groups for easy access and for identification purposes"
+msgstr ""
+
+msgid "Create customers"
 msgstr ""
 
 msgid "Create the products you want to make available to your customers"
@@ -2568,7 +3101,13 @@ msgid ""
 "dedicated IP from the list below."
 msgstr ""
 
+msgid "Current Payment Methods"
+msgstr ""
+
 msgid "Current Users"
+msgstr ""
+
+msgid "Current Version of Registrant Agreement"
 msgstr ""
 
 msgid "Current actions that are active for this plugin"
@@ -2648,6 +3187,10 @@ msgid "Custom fields have been saved"
 msgstr ""
 
 msgid "Customer"
+msgstr ""
+
+#, php-format
+msgid "Customer #%s had an issue creating the %s account. Details: %s"
 msgstr ""
 
 #, php-format
@@ -2781,6 +3324,9 @@ msgstr ""
 msgid "DECRYPT PASSWORDS"
 msgstr ""
 
+msgid "DNI/NIF (for spanish contacts)"
+msgstr ""
+
 msgid "DNS 1"
 msgstr ""
 
@@ -2806,12 +3352,6 @@ msgid "Dashboard"
 msgstr ""
 
 msgid "DataCenter / Provider"
-msgstr ""
-
-msgid "Database Users"
-msgstr ""
-
-msgid "Databases"
 msgstr ""
 
 msgid "Date"
@@ -2848,6 +3388,12 @@ msgid "Days Overdue Before Suspending"
 msgstr ""
 
 msgid "Days To Allow Tickets To Be Reopened"
+msgstr ""
+
+msgid "Days To Send Expiration Notice"
+msgstr ""
+
+msgid "Days To Send Renewal Notice"
 msgstr ""
 
 msgid "Days to trigger Pre-Notify autoclose"
@@ -2913,9 +3459,6 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-msgid "Delete Account"
-msgstr ""
-
 msgid "Delete Addon(s)"
 msgstr ""
 
@@ -2956,6 +3499,9 @@ msgid "Delete Domains(s)"
 msgstr ""
 
 msgid "Delete Entry"
+msgstr ""
+
+msgid "Delete Events"
 msgstr ""
 
 msgid "Delete Expired CC"
@@ -3012,6 +3558,9 @@ msgstr ""
 msgid "Delete customer notes"
 msgstr ""
 
+msgid "Delete customers"
+msgstr ""
+
 msgid ""
 "Delete expired credit card if there are no recurring charges and no unpaid "
 "invoices."
@@ -3035,6 +3584,10 @@ msgid "Delete ticket"
 msgstr ""
 
 msgid "Deleted CC"
+msgstr ""
+
+#, php-format
+msgid "Deleted CC (last four: %s)"
 msgstr ""
 
 msgid "Deleted Staff"
@@ -3096,6 +3649,10 @@ msgstr ""
 msgid "Departments"
 msgstr ""
 
+msgid ""
+"Depending on the type of registrant, different extensions must be provided. "
+msgstr ""
+
 msgid "Description"
 msgstr ""
 
@@ -3112,6 +3669,9 @@ msgid "Description visable by admin in server settings"
 msgstr ""
 
 msgid "Designate this article as an FAQ entry."
+msgstr ""
+
+msgid "Designation of Origin Supervisory Council"
 msgstr ""
 
 msgid "Destination Client ID"
@@ -3188,6 +3748,9 @@ msgstr ""
 msgid "Directi"
 msgstr ""
 
+msgid "Directi Migration"
+msgstr ""
+
 msgid "Disable"
 msgstr ""
 
@@ -3230,6 +3793,9 @@ msgstr ""
 msgid "Display"
 msgstr ""
 
+msgid "Display Successful Invoice Payment Transactions"
+msgstr ""
+
 msgid "Display subscriber lifetime since first becoming client"
 msgstr ""
 
@@ -3262,12 +3828,18 @@ msgstr ""
 msgid "Displays income trends from previous month and year"
 msgstr ""
 
+msgid "Displays predicted income"
+msgstr ""
+
 msgid "Displays stats on usage of individual coupon codes."
 msgstr ""
 
 msgid ""
 "Displays the total number of new signups for a given year broken down by "
 "month."
+msgstr ""
+
+msgid "Displays the total predicted income per month."
 msgstr ""
 
 msgid ""
@@ -3309,6 +3881,9 @@ msgstr ""
 msgid "Divisions"
 msgstr ""
 
+msgid "Do not hide the registrant contact information in CIRA WHOIS."
+msgstr ""
+
 msgid "Do not use subscriptions"
 msgstr ""
 
@@ -3321,13 +3896,22 @@ msgstr ""
 msgid "Domain"
 msgstr ""
 
+msgid "Domain Contact Information"
+msgstr ""
+
 msgid "Domain Encryption"
+msgstr ""
+
+msgid "Domain Host Records"
 msgstr ""
 
 msgid "Domain Information"
 msgstr ""
 
 msgid "Domain Name"
+msgstr ""
+
+msgid "Domain Name Servers"
 msgstr ""
 
 msgid "Domain Package List"
@@ -3352,6 +3936,9 @@ msgid "Domain Registration with ID Protect"
 msgstr ""
 
 msgid "Domain Renewal"
+msgstr ""
+
+msgid "Domain Renewal Notifications"
 msgstr ""
 
 msgid "Domain Search"
@@ -3397,6 +3984,16 @@ msgid "Domain reseller successfully"
 msgstr ""
 
 msgid "Domain updated successfully"
+msgstr ""
+
+msgid "Domain updater cancelled [link]"
+msgstr ""
+
+#, php-format
+msgid "Domain updater changed next due date for [link] to %s"
+msgstr ""
+
+msgid "Domain updater enabled recurring billing for [link]"
 msgstr ""
 
 msgid ""
@@ -3500,8 +4097,16 @@ msgstr ""
 msgid "E-mail address Virualmin error messages will be sent to"
 msgstr ""
 
+msgid "E-mail address error messages will be sent to"
+msgstr ""
+
 msgid ""
 "E-mail address to CC notification messages for new High Priority tickets"
+msgstr ""
+
+msgid ""
+"E-mail address to where you want Moneybookers to send a copy of the "
+"transaction details after the payment process is complete. (Optional)"
 msgstr ""
 
 msgid "E-mail address used to identify you to Moneybookers."
@@ -3570,6 +4175,12 @@ msgstr ""
 msgid "EPP Code"
 msgstr ""
 
+msgid "ERRORS"
+msgstr ""
+
+msgid "Economic Interest Group"
+msgstr ""
+
 msgid "Edit"
 msgstr ""
 
@@ -3633,13 +4244,13 @@ msgstr ""
 msgid "Edit a product available to your customers."
 msgstr ""
 
-msgid "Edit client credit card"
-msgstr ""
-
-msgid "Edit client profile"
+msgid "Edit customer credit card"
 msgstr ""
 
 msgid "Edit customer packages"
+msgstr ""
+
+msgid "Edit customer profile"
 msgstr ""
 
 msgid "Edit payment method"
@@ -3657,6 +4268,12 @@ msgstr ""
 msgid "Edited message"
 msgstr ""
 
+msgid "Educational"
+msgstr ""
+
+msgid "Educational purposes"
+msgstr ""
+
 msgid "Eight Years"
 msgstr ""
 
@@ -3666,7 +4283,7 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-msgid "Email Accounts"
+msgid "Email Address"
 msgstr ""
 
 msgid "Email Customer"
@@ -3745,6 +4362,9 @@ msgstr ""
 msgid "Emails successfully sent"
 msgstr ""
 
+msgid "Embassy"
+msgstr ""
+
 msgid "Enable"
 msgstr ""
 
@@ -3758,6 +4378,12 @@ msgid "Enable NameSuggest?"
 msgstr ""
 
 msgid "Enable Plugin"
+msgstr ""
+
+msgid "Enable Renewal Notifications?"
+msgstr ""
+
+msgid "Enable SEO Links"
 msgstr ""
 
 msgid "Enable SPF on this account."
@@ -3808,16 +4434,35 @@ msgstr ""
 msgid "Enable this setting to disable selling new domain registrations"
 msgstr ""
 
+msgid ""
+"Enable this to automatically convert knowledgebase links to be more SEO "
+"friendly.  You will need to enable the htaccess rules from htaccess.txt"
+msgstr ""
+
 msgid "Enable this to use the testing environment of Realtime Register."
 msgstr ""
 
 msgid "Enabled"
 msgstr ""
 
+msgid "Enabled Languages"
+msgstr ""
+
 msgid "Enabled Plugins"
 msgstr ""
 
 msgid "Enabled in the public section"
+msgstr ""
+
+msgid ""
+"Enabling this option will cause Clientexec not to error if it can not find a "
+"mount point"
+msgstr ""
+
+msgid ""
+"Enabling this setting will allow different orders to use the same subdomain, "
+"while disabling it will avoid placing an order with a subdomain that has "
+"already been used on an active package"
 msgstr ""
 
 msgid ""
@@ -3846,6 +4491,10 @@ msgstr ""
 msgid "Encrypted CC"
 msgstr ""
 
+#, php-format
+msgid "Encrypted CC (last four: %s)"
+msgstr ""
+
 msgid "Encryption Key"
 msgstr ""
 
@@ -3868,6 +4517,9 @@ msgid "End-user license agreement"
 msgstr ""
 
 msgid "Enforce Password Strength"
+msgstr ""
+
+msgid "English"
 msgstr ""
 
 msgid "Enter 0 or leave empty to skip a field"
@@ -4005,6 +4657,11 @@ msgstr ""
 msgid ""
 "Enter the minimum number of characters a password should have to be "
 "considered valid."
+msgstr ""
+
+msgid ""
+"Enter the name of the customer custom field that will hold the Weebly User "
+"ID."
 msgstr ""
 
 msgid ""
@@ -4149,10 +4806,20 @@ msgid "Enter the number of IPs for this package."
 msgstr ""
 
 msgid ""
+"Enter the number of days after a domain expires that Clientexec should send "
+"an expiration notification.  Separate numbers with a comma."
+msgstr ""
+
+msgid ""
 "Enter the number of days after the due date to charge a late fee on "
 "invoices. <br><strong><i>Note: Please enter one number only.</i></"
 "strong><br><br><b>Example</b>: 10 would charge late fee when ten or more "
 "days late."
+msgstr ""
+
+msgid ""
+"Enter the number of days before a domain expires that Clientexec should send "
+"a renewal notification.  Separate numbers with a comma."
 msgstr ""
 
 msgid "Enter the password for your Directi reseller account."
@@ -4220,6 +4887,18 @@ msgid ""
 msgstr ""
 
 msgid "Enter your API Key here."
+msgstr ""
+
+msgid ""
+"Enter your API Key here.<br>You can obtain a license at <a href=\"http://www."
+"fraudlabspro.com/?ref=1614\" target=\"_blank\">https://www.fraudlabspro.com/"
+"</a>"
+msgstr ""
+
+msgid "Enter your API password for your account."
+msgstr ""
+
+msgid "Enter your API username for your account."
 msgstr ""
 
 msgid "Enter your Account No found in API Login Credentials."
@@ -4332,6 +5011,9 @@ msgstr ""
 msgid ""
 "Enter your username for your eNom reseller account. If you are using "
 "ClientExec's account, you can leave this field empty."
+msgstr ""
+
+msgid "Entity Managing Natural Areas"
 msgstr ""
 
 msgid "Erased User"
@@ -4677,6 +5359,12 @@ msgstr ""
 msgid "Expiring within 30 days"
 msgstr ""
 
+msgid "Explicit Acceptance of Registry Terms"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
 msgid "Export Data"
 msgstr ""
 
@@ -4692,12 +5380,6 @@ msgstr ""
 msgid "Extra Information"
 msgstr ""
 
-msgid "FTP"
-msgstr ""
-
-msgid "FTP Accounts"
-msgstr ""
-
 msgid "FTP quota (in bytes, leave empty for unlimited)"
 msgstr ""
 
@@ -4711,6 +5393,9 @@ msgid "Failed CC Invoices"
 msgstr ""
 
 msgid "Failed Credit Card Invoices"
+msgstr ""
+
+msgid "Failed Invoices"
 msgstr ""
 
 msgid "Failed Login to Admin Account"
@@ -4730,6 +5415,9 @@ msgid "Failed updating default plugin"
 msgstr ""
 
 msgid "Failure E-mail"
+msgstr ""
+
+msgid "Farm Partnership"
 msgstr ""
 
 msgid "Favorite Ticket Filter"
@@ -4874,13 +5562,44 @@ msgstr ""
 msgid "For"
 msgstr ""
 
+msgid "For Profit"
+msgstr ""
+
 msgid "For any modifications please visit your "
+msgstr ""
+
+msgid ""
+"For explicit acceptance, the interested party declares that they:&lt;br&gt;\n"
+"c) are aware and agree that the registration and management of a domain name "
+"is subject to\n"
+"   the &quot;Rules of assignment and management of domain names in ccTLD."
+"it&quot; and &quot;Regulations\n"
+"   for the resolution of disputes in the ccTLD.it &quot;and their subsequent "
+"amendments;&lt;br&gt;\n"
+"f) are aware and agree that in the case of erroneous or false declarations "
+"in this request, the\n"
+"   Registry shall immediately revoke the domain name, or proceed with other "
+"legal actions. In\n"
+"   such case the revocation shall not in any way give rise to claims against "
+"the Registry;&lt;br&gt;\n"
+"g) release the Registry from any liability resulting from the assignment and "
+"use of the\n"
+"   domain name by the natural person that has made the request;&lt;br&gt;\n"
+"h) accept the Italian jurisdiction and laws of the Italian State."
+msgstr ""
+
+msgid ""
+"For individual: The corresponding ID-Card/Passport\n"
+"For organization: The corresponding company registration or VAT-number "
 msgstr ""
 
 msgid "For resellers only, leave empty for unlimited"
 msgstr ""
 
 msgid "Forbid dictionary words"
+msgstr ""
+
+msgid "Forbidden Subdomains"
 msgstr ""
 
 msgid "Force"
@@ -4890,6 +5609,12 @@ msgid "Force Recurring?"
 msgstr ""
 
 msgid "Force Transfer Checklist"
+msgstr ""
+
+msgid "Foreign Entity"
+msgstr ""
+
+msgid "Foreigners who match 2-6"
 msgstr ""
 
 msgid "Forever"
@@ -4904,10 +5629,10 @@ msgstr ""
 msgid "Forward To Gateway"
 msgstr ""
 
-msgid "Forwarders"
+msgid "Found in Manage Games"
 msgstr ""
 
-msgid "Found in Manage Games"
+msgid "Foundation"
 msgstr ""
 
 msgid "Four Years"
@@ -4922,7 +5647,16 @@ msgstr ""
 msgid "Fraud Users"
 msgstr ""
 
+msgid "FraudLabs Pro"
+msgstr ""
+
 msgid "Free"
+msgstr ""
+
+msgid "Freelance workers/professionals"
+msgstr ""
+
+msgid "French"
 msgstr ""
 
 msgid "Frequency to send feedback request E-mails"
@@ -4996,7 +5730,13 @@ msgstr ""
 msgid "General Packages"
 msgstr ""
 
+msgid "General Partnership"
+msgstr ""
+
 msgid "General Support"
+msgstr ""
+
+msgid "General and Limited Partnership"
 msgstr ""
 
 msgid ""
@@ -5022,6 +5762,9 @@ msgid "Generate Invoice & Send"
 msgstr ""
 
 msgid "Generate Invoices After Callback Notification"
+msgstr ""
+
+msgid "Generate Next Recurring Invoice"
 msgstr ""
 
 msgid "Generate Ticket Upon Expiration"
@@ -5056,6 +5799,14 @@ msgid ""
 msgstr ""
 
 msgid "Generic Credit Card"
+msgstr ""
+
+msgid "Generic ID"
+msgstr ""
+
+msgid ""
+"Generic ID document used for passports, company registration numbers and "
+"foreign documents"
 msgstr ""
 
 msgid "Get / Set Auto Renew Status"
@@ -5145,6 +5896,15 @@ msgid "Good"
 msgstr ""
 
 msgid "Good enough"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
+msgid "Government Entity"
+msgstr ""
+
+msgid "Government purposes"
 msgstr ""
 
 msgid "Grab Snippet"
@@ -5245,6 +6005,26 @@ msgid ""
 "types. Can be used with Email routing"
 msgstr ""
 
+msgid ""
+"Her Majesty Queen Elizabeth the Second and her successors. Requirements: The "
+"Registrant&#39;s name must be that of Her Majesty the Queen or, after a "
+"succession, the name of her successor."
+msgstr ""
+
+msgid ""
+"Her Majesty the Queen in right of Canada, a province or a territory; an "
+"agent of Her Majesty the Queen in right of Canada, of a province or of a "
+"territory; a federal, provincial or territorial Crown corporation, "
+"government agency or government entity; or a regional, municipal or local "
+"area government.&lt;br /&gt;Requirements: The Registrant&#39;s name must be "
+"the complete official name of the entity that will hold the domain name "
+"registration, without any abbreviations. (A common abbreviation may follow "
+"the official name in parentheses). If the Registrant is not a government, "
+"the Registrant&#39;s name must be followed by the name of the jurisdiction "
+"(eg. Canada, province, territory, municipality, etc) to which the Registrant "
+"is related."
+msgstr ""
+
 msgid "Here's the transcription of the ticket messages:"
 msgstr ""
 
@@ -5254,6 +6034,9 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
+msgid "Hide Payment Methods"
+msgstr ""
+
 msgid "Hide Registrar Information"
 msgstr ""
 
@@ -5261,6 +6044,14 @@ msgid "Hide Setup Fees"
 msgstr ""
 
 msgid "Hide hosting custom fields"
+msgstr ""
+
+msgid "Hide registrant data in CIRA WHOIS"
+msgstr ""
+
+msgid ""
+"Hide the registrant contact information in Cira WHOIS (only available to "
+"individuals)."
 msgstr ""
 
 msgid "Hide whois data"
@@ -5282,6 +6073,9 @@ msgid "HipChat Token"
 msgstr ""
 
 msgid "Home"
+msgstr ""
+
+msgid "Hospital"
 msgstr ""
 
 msgid "Host"
@@ -5355,10 +6149,62 @@ msgid ""
 "Hypervisors provide CPU, RAM and network resources for your Virtual Machines."
 msgstr ""
 
+msgid "I AGREE"
+msgstr ""
+
+msgid "I Agree"
+msgstr ""
+
 msgid "I Agree to the"
 msgstr ""
 
+msgid ""
+"I accept the .ES terms and conditions listed at: http://www.dominios.es/"
+"dominios/sites/default/files/files/T%C3%A9rminos%20y%20condiciones%20del%"
+"20_es%20%28ingl%C3%A9s%29.pdf"
+msgstr ""
+
+msgid "I agree"
+msgstr ""
+
+msgid ""
+"I agree and acknowledge that I am registering based on the criteria stated "
+"above"
+msgstr ""
+
+msgid "I agree to the terms and conditions"
+msgstr ""
+
 msgid "I already have a domain to use."
+msgstr ""
+
+msgid ""
+"I certify that the registrant of this domain is an individual professional "
+"architect (or an architecture firm)."
+msgstr ""
+
+msgid ""
+"I certify that the registrant of this domain the commits to not undermine "
+"the Principles of Organic Agriculture as formulated by the IFOAM (POA). \n"
+"\t\tIf the registrant is a producer, a transformer or retailer in the field "
+"of agriculture, food and farming, the registrant commits to abide by POA and "
+"by any \n"
+"\t\tregulations in force in the relevant markets where the registrant "
+"intends to present or promote its products within the on-line content "
+"associated with this .BIO domain name(s)."
+msgstr ""
+
+msgid "I declare that I am working on behalf of the following type of entity"
+msgstr ""
+
+msgid ""
+"I hereby agree that the Registry is entitled to transfer the data contained "
+"in this application to third parties (i) if ordered to do so by a public "
+"authority, carrying out its legitimate tasks; and (ii) upon demand of an ADR "
+"Provider as mentioned in section 16 of the Terms and Conditions which are "
+"published at www.eurid.eu; and (iii) as provided in Section 2 (WHOIS look-up "
+"facility) of the .eu Domain Name WHOIS Policy which is published at www."
+"eurid.eu."
 msgstr ""
 
 msgid "I want to register a new domain."
@@ -5371,6 +6217,27 @@ msgid "I want to use my own domain."
 msgstr ""
 
 msgid "ID"
+msgstr ""
+
+msgid "ID Column in Solusvm"
+msgstr ""
+
+msgid ""
+"ID card or passport number of the admininstrative contact. You may create "
+"contacts for Spanish citizens using their passport.    In this case you "
+"should indicate “Others” as type of Identification Document and include the "
+"passport number.    Please remember that, in the event that the User may "
+"request a change of registrant, they should sign it with the copy of their "
+"passport"
+msgstr ""
+
+msgid "ID number"
+msgstr ""
+
+msgid "ID type"
+msgstr ""
+
+msgid "ID type for Administrative Contact"
 msgstr ""
 
 msgid ""
@@ -5493,6 +6360,15 @@ msgid "If the problem persists please notify support"
 msgstr ""
 
 msgid ""
+"If the requester is an Italian natural person it contains his/her Codice "
+"Fiscale. \n"
+"For foreigners it can contain a  document number. For associations without "
+"VAT number and tax code must be equal to &quot;n.a.&quot;. \n"
+"In all the other cases must be equal to VAT number (in the 11 numbers format "
+"if Nationality=IT) or the numeric Codice Fiscale."
+msgstr ""
+
+msgid ""
 "If the type of customer (Guest or Registered) that enters a request in the "
 "public section doesn’t have an associated routing rule, then his request "
 "will be silently ignored. Therefore we recommend to have rules for all "
@@ -5525,6 +6401,11 @@ msgstr ""
 msgid ""
 "If using pop3 email fetching, you must provide an email host login "
 "credentials"
+msgstr ""
+
+msgid ""
+"If you also need to cancel the subscription, you will need to visit your "
+"respective gateway account."
 msgstr ""
 
 msgid ""
@@ -5649,6 +6530,9 @@ msgstr ""
 msgid ""
 "If your customer's credit card is stored in Clientexec you must enter your "
 "passphrase."
+msgstr ""
+
+msgid "Ignore Mount Point Errors"
 msgstr ""
 
 msgid "Immediately"
@@ -5784,6 +6668,24 @@ msgstr ""
 msgid "Incorrect format"
 msgstr ""
 
+msgid "Indian Band"
+msgstr ""
+
+msgid "Indicated professional association recognized by government body"
+msgstr ""
+
+msgid "Indicates the processing mode for the request."
+msgstr ""
+
+msgid "Individual"
+msgstr ""
+
+msgid "Individual person responsible for the domain."
+msgstr ""
+
+msgid "Individuals whose primary place of residence is in New York City."
+msgstr ""
+
 msgid "Initial Response"
 msgstr ""
 
@@ -5815,6 +6717,9 @@ msgid "Internal Billing Issues"
 msgstr ""
 
 msgid "Internal Message"
+msgstr ""
+
+msgid "Internal Message for Support Ticket #"
 msgstr ""
 
 msgid "Internet Secure"
@@ -5851,7 +6756,13 @@ msgstr ""
 msgid "Invalid license for domain"
 msgstr ""
 
+msgid "Invalid parameters were supplied to Stripe's API."
+msgstr ""
+
 msgid "Invalid passphrase"
+msgstr ""
+
+msgid "Invalid recipient kind: "
 msgstr ""
 
 msgid "Invalid tax amount"
@@ -6105,6 +7016,9 @@ msgid ""
 "request instead."
 msgstr ""
 
+msgid "Italian and foreign natural persons"
+msgstr ""
+
 msgid "Item(s) deleted successfully"
 msgstr ""
 
@@ -6187,6 +7101,12 @@ msgid "Knowledge base settings for your installation"
 msgstr ""
 
 msgid "KnowledgeBase"
+msgstr ""
+
+msgid "Knowledgebase"
+msgstr ""
+
+msgid "Knowledgebase Article"
 msgstr ""
 
 msgid "Knowledgebase Search"
@@ -6293,7 +7213,19 @@ msgstr ""
 msgid "Left Blank"
 msgstr ""
 
+msgid "Legal Person"
+msgstr ""
+
+msgid "Legal Representative"
+msgstr ""
+
+msgid "Legal type of registrant contact"
+msgstr ""
+
 msgid "Level"
+msgstr ""
+
+msgid "Library, Archive or Museum"
 msgstr ""
 
 msgid "License Type"
@@ -6303,6 +7235,9 @@ msgid "LicenseDefender API Password"
 msgstr ""
 
 msgid "LicenseDefender API Username"
+msgstr ""
+
+msgid "Limited Company"
 msgstr ""
 
 msgid "LinkPoint"
@@ -6358,6 +7293,9 @@ msgid ""
 "in the advanced tab of hosting products"
 msgstr ""
 
+msgid "List of ticket feedback"
+msgstr ""
+
 msgid "List of your customer's Domain packages."
 msgstr ""
 
@@ -6385,6 +7323,9 @@ msgstr ""
 msgid "Live Chat Beta"
 msgstr ""
 
+msgid "Live Mode"
+msgstr ""
+
 msgid "Load Averages"
 msgstr ""
 
@@ -6401,6 +7342,12 @@ msgid "Loading..."
 msgstr ""
 
 msgid "Local"
+msgstr ""
+
+msgid "Local Authority"
+msgstr ""
+
+msgid "Local Public Entity"
 msgstr ""
 
 msgid "Localization"
@@ -6443,6 +7390,12 @@ msgid "Login for users is currently disabled due to server maintenance"
 msgstr ""
 
 msgid "Login to SolusVM"
+msgstr ""
+
+msgid "Login to WHM"
+msgstr ""
+
+msgid "Login to Weebly"
 msgstr ""
 
 msgid "Login to cPanel"
@@ -6774,9 +7727,6 @@ msgstr ""
 msgid "Merge Client"
 msgstr ""
 
-msgid "Merge Customer"
-msgstr ""
-
 msgid "Merge Into Invoice"
 msgstr ""
 
@@ -6787,6 +7737,9 @@ msgid "Merge Packages"
 msgstr ""
 
 msgid "Merge Recurring Fees"
+msgstr ""
+
+msgid "Merge Ticket(s)"
 msgstr ""
 
 msgid "Merge Tickets"
@@ -6810,13 +7763,25 @@ msgstr ""
 msgid "Migrate"
 msgstr ""
 
-msgid "Migrate Guest"
+msgid "Migrate CC Accounts to Authorize.net CIM"
+msgstr ""
+
+msgid "Migrate CC Accounts to Stripe Checkout"
+msgstr ""
+
+msgid "Migrate Payment Method"
 msgstr ""
 
 msgid "Migrate from Directi to ResellerClub"
 msgstr ""
 
 msgid "Migrate support tickets from guest account"
+msgstr ""
+
+msgid "Migrate to Authnet CIM"
+msgstr ""
+
+msgid "Migrate to Stripe Checkout"
 msgstr ""
 
 msgid "Migrate to User"
@@ -6850,6 +7815,9 @@ msgid "Month Tax"
 msgstr ""
 
 msgid "Month Total"
+msgstr ""
+
+msgid "Month and Year"
 msgstr ""
 
 msgid "Monthly"
@@ -6894,6 +7862,9 @@ msgstr ""
 msgid "Must also specify appropriate HTTP Port, usually 443"
 msgstr ""
 
+msgid "Mutual Insurance Company"
+msgstr ""
+
 msgid "My Invoices"
 msgstr ""
 
@@ -6927,9 +7898,6 @@ msgstr ""
 msgid "MySQL Database name"
 msgstr ""
 
-msgid "MySQL Databases"
-msgstr ""
-
 msgid "MySQL Version"
 msgstr ""
 
@@ -6949,6 +7917,11 @@ msgid "NA"
 msgstr ""
 
 msgid "NETIM"
+msgstr ""
+
+msgid ""
+"NIE (ID number for foreigners in Spain, composed of a letter at the "
+"beginning (usually X or Y), 7 numbers and a final letter, not hyphenated)"
 msgstr ""
 
 msgid ""
@@ -7011,6 +7984,18 @@ msgstr ""
 msgid "Nameservers"
 msgstr ""
 
+msgid "National Identity"
+msgstr ""
+
+msgid "National Public Entity"
+msgstr ""
+
+msgid "Natural Person"
+msgstr ""
+
+msgid "Natural or Legal Person"
+msgstr ""
+
 msgid "Need Your Attention"
 msgstr ""
 
@@ -7018,6 +8003,9 @@ msgid "NetEarth One"
 msgstr ""
 
 msgid "Network Usage"
+msgstr ""
+
+msgid "Network communication with Stripe failed"
 msgstr ""
 
 msgid "Never"
@@ -7048,6 +8036,9 @@ msgid "New Customers"
 msgstr ""
 
 msgid "New Invoice"
+msgstr ""
+
+msgid "New Order"
 msgstr ""
 
 msgid "New Passphrase"
@@ -7088,6 +8079,9 @@ msgid ""
 "processor"
 msgstr ""
 
+msgid "Nexus Category"
+msgstr ""
+
 msgid "Nice try but that was an invalid rate"
 msgstr ""
 
@@ -7121,6 +8115,9 @@ msgstr ""
 msgid "No admin updates available in demo mode"
 msgstr ""
 
+msgid "No cPanel / WHM servers are setup."
+msgstr ""
+
 msgid "No description"
 msgstr ""
 
@@ -7136,6 +8133,12 @@ msgstr ""
 msgid "No errors or warnings found"
 msgstr ""
 
+msgid "No invoice entries require updating at this time"
+msgstr ""
+
+msgid "No invoices require updating at this time"
+msgstr ""
+
 msgid "No options have been defined for this addon"
 msgstr ""
 
@@ -7147,6 +8150,9 @@ msgid ""
 msgstr ""
 
 msgid "No profile updates available in demo mode"
+msgstr ""
+
+msgid "No recurring fees require updating at this time"
 msgstr ""
 
 msgid "No routing rule defined"
@@ -7170,6 +8176,15 @@ msgstr ""
 msgid "Non-Admin Username"
 msgstr ""
 
+msgid "Non-Profit Organizations"
+msgstr ""
+
+msgid "Non-profit"
+msgstr ""
+
+msgid "Non-profit business, club, association, religious organization, etc."
+msgstr ""
+
 msgid "None"
 msgstr ""
 
@@ -7189,6 +8204,9 @@ msgid "Not Assigned"
 msgstr ""
 
 msgid "Not Enabled"
+msgstr ""
+
+msgid "Not Great"
 msgstr ""
 
 msgid "Not Paid"
@@ -7225,9 +8243,6 @@ msgid ""
 msgstr ""
 
 msgid "Note was saved successfully"
-msgstr ""
-
-msgid "Note!"
 msgstr ""
 
 msgid "Note(s) have been deleted"
@@ -7363,6 +8378,9 @@ msgstr ""
 msgid "October"
 msgstr ""
 
+msgid "Official Mark"
+msgstr ""
+
 msgid "Okay"
 msgstr ""
 
@@ -7423,6 +8441,20 @@ msgid "Only enter a credit card if you want to change the one on file"
 msgstr ""
 
 msgid "Only for monthly payments"
+msgstr ""
+
+msgid ""
+"Only individuals and organizations that have a physical presence in one of "
+"New York City’s 5 boroughs will be allowed to register a .nyc domain.\n"
+"- P.O Boxes not permitted\n"
+"- Registrants must agree that they are in compliance with all relevant "
+"Federal, New York State and New York City laws and tax requirements\n"
+"- Registrants must remain in compliance with the applicable Nexus Policy for "
+"the duration of domain’s registration\n"
+"- No proxy registrations permitted– Registrants must agree not to license, "
+"sub-delegate or transfer .nyc domain(s) to third parties.\n"
+"\n"
+"I declare that I am an:\n"
 msgstr ""
 
 msgid "Only possible if you have the zlib extension in your PHP installation."
@@ -7531,6 +8563,9 @@ msgstr ""
 msgid "Order new services"
 msgstr ""
 
+msgid "Order or Religious Institution"
+msgstr ""
+
 msgid "Organization"
 msgstr ""
 
@@ -7550,6 +8585,12 @@ msgid "Ostemplate Custom Field"
 msgstr ""
 
 msgid "Other"
+msgstr ""
+
+msgid "Other Subjects"
+msgstr ""
+
+msgid "Others"
 msgstr ""
 
 msgid "Outstanding Invoices"
@@ -7656,6 +8697,9 @@ msgstr ""
 msgid "Packages"
 msgstr ""
 
+msgid "Page Style"
+msgstr ""
+
 msgid "Paid"
 msgstr ""
 
@@ -7681,9 +8725,6 @@ msgstr ""
 msgid "Park DNS"
 msgstr ""
 
-msgid "Parked Domains"
-msgstr ""
-
 msgid "Partially Paid"
 msgstr ""
 
@@ -7698,10 +8739,16 @@ msgstr ""
 msgid "Partition"
 msgstr ""
 
+msgid "Partnership"
+msgstr ""
+
 msgid "Passphrase"
 msgstr ""
 
 msgid "Passphrase Settings"
+msgstr ""
+
+msgid "Passphrase do not match."
 msgstr ""
 
 msgid "Password"
@@ -7790,6 +8837,12 @@ msgstr ""
 msgid "Path to cURL"
 msgstr ""
 
+msgid "Pay"
+msgstr ""
+
+msgid "Pay As You Go Billing Summary"
+msgstr ""
+
 msgid "Pay Invoice"
 msgstr ""
 
@@ -7818,6 +8871,9 @@ msgid "Payment Method"
 msgstr ""
 
 msgid "Payment Plugins"
+msgstr ""
+
+msgid "Payment Processor"
 msgstr ""
 
 msgid "Payment Processors"
@@ -7896,6 +8952,9 @@ msgstr ""
 msgid "Period for TLD"
 msgstr ""
 
+msgid "Permanent Resident"
+msgstr ""
+
 msgid "Permission Denied"
 msgstr ""
 
@@ -7903,6 +8962,17 @@ msgid "Permissions"
 msgstr ""
 
 msgid "Permissions updated successfully"
+msgstr ""
+
+msgid "Personal"
+msgstr ""
+
+msgid ""
+"Personal Identification Number(or Organization number), if you are an "
+"individual registrant (or organization) in Sweden"
+msgstr ""
+
+msgid "Personal use"
 msgstr ""
 
 msgid "Phone"
@@ -7933,6 +9003,9 @@ msgid "Place Order"
 msgstr ""
 
 msgid "Place Order and Create Account"
+msgstr ""
+
+msgid "Plan"
 msgstr ""
 
 msgid "PlanetDomain"
@@ -8004,6 +9077,9 @@ msgstr ""
 msgid "Please enter the code given to you by the robotic system:"
 msgstr ""
 
+msgid "Please enter the name of the page style you would like displayed"
+msgstr ""
+
 msgid "Please enter the path to your Linkpoint Digital Certificate."
 msgstr ""
 
@@ -8022,6 +9098,12 @@ msgid "Please enter your API Username"
 msgstr ""
 
 msgid "Please enter your Authorize.Net API Login ID Here."
+msgstr ""
+
+msgid "Please enter your Authorize.Net CIM API Login ID here."
+msgstr ""
+
+msgid "Please enter your Authorize.Net CIM Transaction Key here."
 msgstr ""
 
 msgid "Please enter your Authorize.Net Transaction Key Here."
@@ -8071,6 +9153,12 @@ msgid ""
 "receive an E-mail shortly with instructions."
 msgstr ""
 
+msgid "Please enter your Stripe Checkout Gateway Publishable Key here."
+msgstr ""
+
+msgid "Please enter your Stripe Checkout Gateway Secret Key here."
+msgstr ""
+
 msgid "Please enter your eProcessingNetwork Transaction Key Here."
 msgstr ""
 
@@ -8111,7 +9199,7 @@ msgstr ""
 
 msgid ""
 "Please have the directory uploads/cache be writable by the web server user "
-"to be able to deploy the upgrade package. Then run this scrip again."
+"to be able to deploy the upgrade package. Then run this script again."
 msgstr ""
 
 msgid "Please login to comment as this user."
@@ -8125,7 +9213,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Please note that you have customized the following template files in your "
+"Please note that you have customized the following files in your "
 "installation, and they will be overwritten when the upgrade package is "
 "unzipped."
 msgstr ""
@@ -8174,6 +9262,11 @@ msgstr ""
 msgid "Please wait, you will be called at"
 msgstr ""
 
+msgid ""
+"Please write a brief description of your intended use of this domain (max "
+"255 characters)"
+msgstr ""
+
 msgid "Plesk control panel integration"
 msgstr ""
 
@@ -8210,6 +9303,9 @@ msgstr ""
 msgid "Pmt Reference"
 msgstr ""
 
+msgid "Political Party"
+msgstr ""
+
 msgid "Poor"
 msgstr ""
 
@@ -8241,6 +9337,18 @@ msgid "Powered by Clientexec"
 msgstr ""
 
 msgid "Pre-Notify Customer"
+msgstr ""
+
+msgid "Predicted Income"
+msgstr ""
+
+msgid "Predicted Subtotal"
+msgstr ""
+
+msgid "Predicted Tax"
+msgstr ""
+
+msgid "Predicted Total Income"
 msgstr ""
 
 msgid "Preference update successful"
@@ -8409,6 +9517,9 @@ msgstr ""
 msgid "Products"
 msgstr ""
 
+msgid "Professional Association"
+msgstr ""
+
 msgid "Profile"
 msgstr ""
 
@@ -8455,6 +9566,15 @@ msgid "Public Announcement"
 msgstr ""
 
 msgid "Public Articles"
+msgstr ""
+
+msgid "Public Law Association"
+msgstr ""
+
+msgid "Public Limited Company"
+msgstr ""
+
+msgid "Public Organizations"
 msgstr ""
 
 msgid "Public Panel Features"
@@ -8664,6 +9784,12 @@ msgstr ""
 msgid "Refunded full amount of %s"
 msgstr ""
 
+msgid "Regional Government Body"
+msgstr ""
+
+msgid "Regional Public Entity"
+msgstr ""
+
 msgid "Register"
 msgstr ""
 
@@ -8697,6 +9823,9 @@ msgstr ""
 msgid "Registered, from selected groups"
 msgstr ""
 
+msgid "Registrant has agreed to CIRA&#39;s Registrant Agreement"
+msgstr ""
+
 msgid "Registrar"
 msgstr ""
 
@@ -8727,6 +9856,9 @@ msgstr ""
 msgid "Registration Status"
 msgstr ""
 
+msgid "Registry Data Transfer Policy"
+msgstr ""
+
 msgid "Reject Anonymous Proxy"
 msgstr ""
 
@@ -8751,13 +9883,34 @@ msgstr ""
 msgid "Remove DNS"
 msgstr ""
 
+msgid "Remove Invoice Subscription"
+msgstr ""
+
 msgid "Remove Is Reseller Checkbox?"
 msgstr ""
 
 msgid "Renew"
 msgstr ""
 
+msgid ""
+"Renewal Notifications are enabled, however the domain updater service is not "
+"scheduled to run only once per day.  Please ensure that this service is set "
+"to only run once per day."
+msgstr ""
+
 msgid "Reopened"
+msgstr ""
+
+msgid "Repair Billing Items"
+msgstr ""
+
+msgid "Repair Corrupt Invoice Entry's Customers"
+msgstr ""
+
+msgid "Repair Corrupt Invoice's Customers"
+msgstr ""
+
+msgid "Repair Corrupt Recurring Fee's Customers"
 msgstr ""
 
 msgid "Repair Corrupt Ticket Dates"
@@ -8770,6 +9923,15 @@ msgid "Repair Ticket Dates"
 msgstr ""
 
 msgid "Repair initial response times"
+msgstr ""
+
+msgid "Repair the invoice entry's customers below"
+msgstr ""
+
+msgid "Repair the invoice's customers below"
+msgstr ""
+
+msgid "Repair the recurring fee's customers below"
 msgstr ""
 
 msgid "Repair the tickets dates below"
@@ -8805,11 +9967,14 @@ msgstr ""
 msgid "Request Access Code"
 msgstr ""
 
+msgid "Request Cancellation"
+msgstr ""
+
 msgid "Request Source"
 msgstr ""
 
 #, php-format
-msgid "Requested cancellation %s"
+msgid "Requested cancellation of #[link] %s"
 msgstr ""
 
 msgid "Require Access Code"
@@ -8891,6 +10056,9 @@ msgid ""
 "will receive an Email shortly with instructions."
 msgstr ""
 
+msgid "Resident alien ID"
+msgstr ""
+
 msgid "Resolution"
 msgstr ""
 
@@ -8904,6 +10072,15 @@ msgid "Result"
 msgstr ""
 
 msgid "Resync Ftp Passwords"
+msgstr ""
+
+msgid "Retrieve invoice entries with corrupt customers"
+msgstr ""
+
+msgid "Retrieve invoices with corrupt customers"
+msgstr ""
+
+msgid "Retrieve recurring fees with corrupt customers"
 msgstr ""
 
 msgid "Retrieve ticket's with corrupt dates"
@@ -9005,6 +10182,9 @@ msgstr ""
 msgid "SSL CSR/CRT Generator"
 msgstr ""
 
+msgid "SSL Certificate Information"
+msgstr ""
+
 msgid "SSL Certificates"
 msgstr ""
 
@@ -9021,6 +10201,9 @@ msgid "SSL Registrar"
 msgstr ""
 
 msgid "SSL Site Management"
+msgstr ""
+
+msgid "SSL Store"
 msgstr ""
 
 msgid "SSL certificate products?"
@@ -9051,6 +10234,9 @@ msgid "Save changes"
 msgstr ""
 
 msgid "Saving"
+msgstr ""
+
+msgid "Savings Bank"
 msgstr ""
 
 msgid "Search"
@@ -9128,6 +10314,9 @@ msgstr ""
 msgid "Select Client Statuses"
 msgstr ""
 
+msgid "Select Customer Groups"
+msgstr ""
+
 msgid "Select Groups"
 msgstr ""
 
@@ -9135,6 +10324,9 @@ msgid "Select Package Type"
 msgstr ""
 
 msgid "Select Product Groups"
+msgstr ""
+
+msgid "Select Products"
 msgstr ""
 
 msgid "Select Registrar"
@@ -9182,6 +10374,17 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Select YES if you want Stripe Checkout to accept Bitcoin payments.</br>You "
+"currently need a US bank account to accept Bitcoin payments.</br>Stripe "
+"users in more than twenty countries can attach a US bank account to their "
+"Stripe account, but we know it is not ideal for non-US users, so we are "
+"working to expand Bitcoin acceptance more broadly.</br>To process live "
+"Bitcoin payments, you need to <a href=\"https://dashboard.stripe.com/account/"
+"bitcoin/enable\" target=\"_blank\">enable the live Bitcoin API on your "
+"account</a>"
+msgstr ""
+
+msgid ""
 "Select YES if you want an invoice sent to customer after signup is "
 "complete.  Only used for offline plugins"
 msgstr ""
@@ -9213,6 +10416,11 @@ msgstr ""
 msgid ""
 "Select YES if you want to display the ReCaptcha spam prevention access code "
 "on the public ticket submission page."
+msgstr ""
+
+msgid ""
+"Select YES if you want to display the successful invoice payment "
+"transactions in the public invoice details, as well as the PDF."
 msgstr ""
 
 msgid ""
@@ -9255,6 +10463,16 @@ msgstr ""
 msgid ""
 "Select YES if you want to show percentage saved in signup script when a "
 "customer selects a longer billing cycle."
+msgstr ""
+
+msgid ""
+"Select YES if you want to show the currency code as well as the symbol.  "
+"Select NO if you want to only show the symbol."
+msgstr ""
+
+msgid ""
+"Select YES if you want to use Authorize.Net CIM testing server, so no actual "
+"monetary transactions are made."
 msgstr ""
 
 msgid ""
@@ -9352,12 +10570,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Select Yes if you want to allow executing services from a URL.<br><b>NOTE:</"
-"b> Set it to <b>YES</b> if your server is running under Windows, or if you "
-"have no access to CRONTAB"
-msgstr ""
-
-msgid ""
 "Select Yes if you want to disallow passwords that contain dictionary words."
 msgstr ""
 
@@ -9444,6 +10656,11 @@ msgid ""
 "transactions are not actually made.<br><br><b>Note: </b>You will first need "
 "to register for a demo account at<br>http://cp.onlyfordemo.net/servlet/"
 "ResellerSignupServlet?&validatenow=false."
+msgstr ""
+
+msgid ""
+"Select Yes if you wish to use the testing environment, so that transactions "
+"are not actually made."
 msgstr ""
 
 msgid "Select Yes to be notified when a new High Priority Ticket is received."
@@ -9609,6 +10826,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Select this option to hide <b>Choose Your Payment Method</b> section when "
+"placing a free order (Total Amount 0)."
+msgstr ""
+
+msgid ""
 "Select this option to hide the Setup Fee column when ordering a package."
 msgstr ""
 
@@ -9627,6 +10849,9 @@ msgstr ""
 msgid ""
 "Select which fields you wish to export and press the button to download the "
 "file"
+msgstr ""
+
+msgid "Select which languages will be available to your customers."
 msgstr ""
 
 msgid ""
@@ -9699,9 +10924,6 @@ msgstr ""
 msgid "Send Draft"
 msgstr ""
 
-msgid "Send E-mails to clients"
-msgstr ""
-
 msgid "Send Invoice"
 msgstr ""
 
@@ -9709,6 +10931,9 @@ msgid "Send Invoice Immediately"
 msgstr ""
 
 msgid "Send Invoice Offset"
+msgstr ""
+
+msgid "Send Invoice(s)"
 msgstr ""
 
 msgid "Send Overdue"
@@ -9735,6 +10960,9 @@ msgstr ""
 msgid "Send email"
 msgstr ""
 
+msgid "Send emails to customers"
+msgstr ""
+
 msgid "Send invoices and receipts"
 msgstr ""
 
@@ -9749,6 +10977,10 @@ msgstr ""
 
 #, php-format
 msgid "Sent Domain Reminder for %s"
+msgstr ""
+
+#, php-format
+msgid "Sent Expired Domain Reminder for %s"
 msgstr ""
 
 msgid "Sent On"
@@ -9868,6 +11100,9 @@ msgstr ""
 msgid "Set to type"
 msgstr ""
 
+msgid "Setting allows FraudLabs Pro customers to check orders for fraud."
+msgstr ""
+
 msgid "Setting allows MaxMind customers to check orders for fraud."
 msgstr ""
 
@@ -9943,6 +11178,9 @@ msgid "Sharing a picture will help us understand your question even more."
 msgstr ""
 
 msgid "Show"
+msgstr ""
+
+msgid "Show Currency Code"
 msgstr ""
 
 msgid "Show Execution Time"
@@ -10076,6 +11314,9 @@ msgstr ""
 msgid "Social data is provided as part of your Clientexec Plus service."
 msgstr ""
 
+msgid "SolusVM Internal VPS ID"
+msgstr ""
+
 msgid "SolusVM Settings"
 msgstr ""
 
@@ -10138,6 +11379,15 @@ msgstr ""
 msgid "Spam"
 msgstr ""
 
+msgid "Spanish Office"
+msgstr ""
+
+msgid "Spanish personal and company VAT ID card (NIF)"
+msgstr ""
+
+msgid "Spanish resident alien ID card (NIE)"
+msgstr ""
+
 msgid ""
 "Specifies any additional arguments that will be added to the default command "
 "line. Works like additional arguments in the game server's service settings."
@@ -10153,6 +11403,12 @@ msgid ""
 msgstr ""
 
 msgid "Split Entry"
+msgstr ""
+
+msgid "Sports Association"
+msgstr ""
+
+msgid "Sports Federation"
 msgstr ""
 
 msgid "Staff"
@@ -10252,7 +11508,19 @@ msgstr ""
 msgid "Status Aliases"
 msgstr ""
 
+msgid "Status E-mail"
+msgstr ""
+
 msgid "Status Message"
+msgstr ""
+
+msgid "Step 1"
+msgstr ""
+
+msgid "Step 2"
+msgstr ""
+
+msgid "Step 3"
 msgstr ""
 
 msgid "Steps"
@@ -10271,6 +11539,18 @@ msgid "Store"
 msgstr ""
 
 msgid "Store Name"
+msgstr ""
+
+msgid "Stripe Checkout Accept Bitcoin Payments"
+msgstr ""
+
+msgid "Stripe Checkout Gateway Publishable Key"
+msgstr ""
+
+msgid "Stripe Checkout Gateway Secret Key"
+msgstr ""
+
+msgid "Stripe Checkout Logo Image URL"
 msgstr ""
 
 msgid "Style"
@@ -10295,6 +11575,9 @@ msgid "Submit"
 msgstr ""
 
 msgid "Submit Application"
+msgstr ""
+
+msgid "Submit New Ticket"
 msgstr ""
 
 msgid "Submit Query"
@@ -10330,6 +11613,9 @@ msgstr ""
 msgid "Subscribed To Tickets"
 msgstr ""
 
+msgid "Subscribed to Support Ticket #"
+msgstr ""
+
 msgid "Subscriber Lifetime"
 msgstr ""
 
@@ -10352,6 +11638,10 @@ msgid "Successful Login to Admin Account"
 msgstr ""
 
 msgid "Successful Login to Customer Account"
+msgstr ""
+
+#, php-format
+msgid "Successfully migrated %s account(s) to %s."
 msgstr ""
 
 msgid "Successfully processed invoice(es)"
@@ -10488,6 +11778,9 @@ msgstr ""
 msgid "System Filters"
 msgstr ""
 
+msgid "System Message"
+msgstr ""
+
 msgid "System Timezone"
 msgstr ""
 
@@ -10530,6 +11823,15 @@ msgid "Tax"
 msgstr ""
 
 msgid "Tax Charged"
+msgstr ""
+
+msgid ""
+"Tax ID. If the requester is an Italian natural person it contains his/her "
+"Codice Fiscale. \n"
+"For foreigners it can contain a  document number. For associations without "
+"VAT number and tax code must be equal to &quot;n.a.&quot;. \n"
+"In all the other cases must be equal to VAT number (in the 11 numbers format "
+"if Nationality=IT) or the numeric Codice Fiscale."
 msgstr ""
 
 msgid "Tax domain orders?"
@@ -10608,6 +11910,9 @@ msgstr ""
 msgid "Temporarily disable login from customers without admin privileges"
 msgstr ""
 
+msgid "Temporary Alliance of Enterprises"
+msgstr ""
+
 msgid "Ten Years"
 msgstr ""
 
@@ -10681,6 +11986,9 @@ msgstr ""
 msgid "The API Connector Password in Settings > Billing"
 msgstr ""
 
+msgid "The Amount Due Is 0"
+msgstr ""
+
 msgid "The CPU(s) this will go on, blank, 0, 1, 2, 3"
 msgstr ""
 
@@ -10736,6 +12044,9 @@ msgid ""
 "accepted."
 msgstr ""
 
+msgid "The Queen"
+msgstr ""
+
 msgid ""
 "The Receipt Footer will only be displayed when extra user input is required, "
 "i.e. when using Verified By Visa, MaterCard SecureCode or DialVerify. HTML "
@@ -10746,6 +12057,48 @@ msgid ""
 "The Receipt Page will only be displayed when extra user input is required, i."
 "e. when using Verified By Visa, MaterCard SecureCode or DialVerify. HTML is "
 "accepted."
+msgstr ""
+
+msgid ""
+"The Registrant of the domain name in question, declares under their own "
+"responsibility that\n"
+"they are:&lt;br&gt;\n"
+"a) in possession of the citizenship or resident in a country belonging to "
+"the European\n"
+"   Union (in the case of registration for natural persons);&lt;br&gt;\n"
+"b) established in a country belonging to the European Union (in the case of "
+"registration\n"
+"   for other organizations););&lt;br&gt;\n"
+"c) aware and accept that the registration and management of a domain name is "
+"subject to\n"
+"   the &quot;Rules of assignment and management of domain names in ccTLD. "
+"it&quot; and&quot;Regulations for the resolution of disputes in the ccTLD."
+"it&quot; and their subsequent\n"
+"   amendments;);&lt;br&gt;\n"
+"d) entitled to the use and/or legal availability of the domain name applied "
+"for, and that\n"
+"   they do not prejudice, with the request for registration, the rights of "
+"others;);&lt;br&gt;\n"
+"e) aware that for the inclusion of personal data in the Database of assigned "
+"domain\n"
+"   names, and their possible dissemination and accessibility via the "
+"Internet, consent\n"
+"   must be given explicitly by ticking the appropriate boxes in the "
+"information below.\n"
+"   See &quot;The policy of the .it Registry in the Whois Database&quot; on "
+"the website of the\n"
+"   Registry (http://www.nic.it););&lt;br&gt;\n"
+"f) aware and agree that in the case of erroneous or false declarations in "
+"this request, the\n"
+"   Registry shall immediately revoke the domain name, or proceed with other "
+"legal\n"
+"   actions. In such case the revocation shall not in any way give rise to "
+"claims against the\n"
+"   Registry;);&lt;br&gt;\n"
+"g) release the Registry from any liability resulting from the assignment and "
+"use of the\n"
+"   domain name by the natural person that has made the request;);&lt;br&gt;\n"
+"h) accept Italian jurisdiction and laws of the Italian State."
 msgstr ""
 
 msgid ""
@@ -10764,10 +12117,16 @@ msgstr ""
 msgid "The billing types(s) were successfully unarchived."
 msgstr ""
 
+msgid "The bundled product has not been configured yet"
+msgstr ""
+
 msgid "The category can not be removed"
 msgstr ""
 
 msgid "The charge was updated successfully"
+msgstr ""
+
+msgid "The contact&#39;s preferred language for communication"
 msgstr ""
 
 #, php-format
@@ -10775,6 +12134,18 @@ msgid "The coupon code '%s' is invalid."
 msgstr ""
 
 msgid "The credit card has already expired"
+msgstr ""
+
+msgid ""
+"The credit card number and expiration month and year of the customers using "
+"the selected payment methods will be migrated to an account in Authorize.net "
+"CIM"
+msgstr ""
+
+msgid ""
+"The credit card number and expiration month and year of the customers using "
+"the selected payment methods will be migrated to an account in Stripe "
+"Checkout"
 msgstr ""
 
 msgid ""
@@ -10893,9 +12264,7 @@ msgid ""
 "%a = area code (eg. 38 for Zwolle)<br />\n"
 "%s = subscriber number (eg. 4530759)<br /><br />\n"
 "Example<br />\n"
-"+31 (0) 38 4530759 --> +%c (0) %a %s<br />\n"
-"<a href=\"http://www.realtimeregister.com/en/content/phone_number_format/\" "
-"target=\"_blank\">Click here for more information.</a>"
+"+31 (0) 38 4530759 --> +%c (0) %a %s<br />"
 msgstr ""
 
 msgid "The game id of the new game sever. Set to blank or NONE to disable."
@@ -10943,6 +12312,34 @@ msgstr ""
 msgid ""
 "The installation process is now complete, <b><a href=\"%s/index.php?"
 "fuse=home&view=login\">Login Now</a></b>"
+msgstr ""
+
+msgid ""
+"The interested party, after reading the above disclosure, gives consent to "
+"the dissemination\n"
+"and accessibility via the Internet, as defined in the disclosure above.\n"
+"Giving consent is optional, but absence of consent does not allow the "
+"dissemination and\n"
+"accessibility of Internet data."
+msgstr ""
+
+msgid ""
+"The interested party, after reading the above disclosure, gives consent to "
+"the processing of\n"
+"information required for registration, as defined in the above disclosure.\n"
+"Giving consent is optional, but if no consent is given, it will not be "
+"possible to finalize the\n"
+"registration, assignment and management of the domain name."
+msgstr ""
+
+msgid ""
+"The invoice entry's customer reference will be updated to match the "
+"respective invoice's customer"
+msgstr ""
+
+msgid ""
+"The invoice's customer reference will be updated to match the respective "
+"package's customer"
 msgstr ""
 
 #, php-format
@@ -10999,6 +12396,11 @@ msgid ""
 "1 for YES"
 msgstr ""
 
+msgid ""
+"The recurring fee's customer reference will be updated to match the "
+"respective package's customer"
+msgstr ""
+
 msgid "The referred ticket does not exist"
 msgstr ""
 
@@ -11021,6 +12423,9 @@ msgid ""
 msgstr ""
 
 msgid "The selected product does not exist"
+msgstr ""
+
+msgid "The selected product is not available"
 msgstr ""
 
 msgid "The selected product was successfully cloned."
@@ -11106,7 +12511,7 @@ msgid "The webhook(s) were saved successfully"
 msgstr ""
 
 #, php-format
-msgid "There are currently %s invoice(s) awaithing to be processed."
+msgid "There are currently %s invoice(s) waiting to be processed."
 msgstr ""
 
 msgid "There are currently no 3rd Party modules installed."
@@ -11168,6 +12573,9 @@ msgstr ""
 msgid "There was an error performing this operation."
 msgstr ""
 
+msgid "There was an error performing this operation. "
+msgstr ""
+
 msgid ""
 "There was an error processing these invoice(es).  Please check the invoice "
 "transactions for more information."
@@ -11186,6 +12594,10 @@ msgid "There was an issue deleting this meeting"
 msgstr ""
 
 msgid "There was an issue updating this charge"
+msgstr ""
+
+#, php-format
+msgid "There was an issue updating your Credit Card. Details: %s"
 msgstr ""
 
 msgid "There was an issue with your installation"
@@ -11207,6 +12619,9 @@ msgstr ""
 msgid "There was not response from eWay. Please double check your information"
 msgstr ""
 
+msgid "There were no billing types to delete."
+msgstr ""
+
 msgid "These articles don't answer my question"
 msgstr ""
 
@@ -11220,11 +12635,33 @@ msgid ""
 "You need to set this to your E-mail address that you want bills to come from."
 msgstr ""
 
+#, php-format
+msgid ""
+"This Registrant Type is principally intended for religious congregations, "
+"social and sports clubs and community groups, council (not registered) or "
+"society (not registered) which are based and operating in Canada. An "
+"unincorporated organization, association or club:&lt;br /&gt;(i) At least "
+"80% of whose members: (A) are ordinarily resident in Canada (if such members "
+"are individuals); or (B) meet the requirements of any one of the following "
+"Registrant Types: Corporation (Canada or Canadian province or territory), "
+"Canadian citizen, Permanent Resident of Canada, Partnership Registered in "
+"Canada, Trust established in Canada, Legal Representative of a Canadian "
+"Citizen or Permanent Resident; and&lt;br /&gt;(ii) At least 80% of whose "
+"directors, officers, employees, managers, administrators or other "
+"representatives are ordinarily resident in Canada.&lt;br /&gt;Requirements: "
+"The Registrant&#39;s name must be the complete name of the association that "
+"will hold the domain name registration, without any abbreviations. (A common "
+"abbreviation may follow the complete name in parentheses)."
+msgstr ""
+
 msgid "This account has not been created on the server yet"
 msgstr ""
 
 msgid ""
 "This allows you to view the status of your team and update your own status."
+msgstr ""
+
+msgid "This billing cycle is no longer supported for SSL."
 msgstr ""
 
 msgid "This can be found in your Directi profile."
@@ -11285,6 +12722,9 @@ msgstr ""
 msgid "This group can't be deleted because it still has members."
 msgstr ""
 
+msgid "This import plugin imports accounts from your cPanel/WHM servers."
+msgstr ""
+
 msgid ""
 "This import plugin imports customer personal information from a comma "
 "separated value (.csv) file."
@@ -11305,6 +12745,9 @@ msgid ""
 "exist in CE) from your registrar account."
 msgstr ""
 
+msgid "This import plugin imports packages from your cPanel/WHM servers."
+msgstr ""
+
 msgid "This invoice can not be edited because it is not in unpaid status"
 msgstr ""
 
@@ -11318,6 +12761,9 @@ msgstr ""
 msgid ""
 "This is a warning notification that your remaining MaxMind queries has "
 "reached your threshold of %s."
+msgstr ""
+
+msgid "This is an internal message"
 msgstr ""
 
 msgid "This is nearly always localhost, so if you don't know use localhost"
@@ -11462,6 +12908,12 @@ msgstr ""
 msgid "This snapin has yet to be configured by admin."
 msgstr ""
 
+msgid "This subdomain is already in use"
+msgstr ""
+
+msgid "This subdomain is currently not allowed"
+msgstr ""
+
 #, php-format
 msgid ""
 "This task can be automated using the generate invoice service. Please enable "
@@ -11523,6 +12975,10 @@ msgstr ""
 msgid "Ticket #%s has been closed"
 msgstr ""
 
+#, php-format
+msgid "Ticket #%s merged to #[link]"
+msgstr ""
+
 msgid "Ticket Auto Close"
 msgstr ""
 
@@ -11533,6 +12989,9 @@ msgid "Ticket Escalated due to rule"
 msgstr ""
 
 msgid "Ticket Events"
+msgstr ""
+
+msgid "Ticket Feedback"
 msgstr ""
 
 msgid "Ticket ID"
@@ -11711,10 +13170,18 @@ msgid ""
 "installation"
 msgstr ""
 
+msgid ""
+"To update your credit card on file, <a href='index.php?"
+"fuse=clients&controller=userprofile&view=paymentmethod'>click here</a>."
+msgstr ""
+
 msgid "Toggle Approval"
 msgstr ""
 
 msgid "Toggle Domain Registrar Lock"
+msgstr ""
+
+msgid "Too many requests made to the API too quickly."
 msgstr ""
 
 msgid "Top questions asked for the selected issue type."
@@ -11762,6 +13229,15 @@ msgstr ""
 msgid "Totals"
 msgstr ""
 
+msgid "Trade Union"
+msgstr ""
+
+msgid "Trade-mark"
+msgstr ""
+
+msgid "Trademark Number"
+msgstr ""
+
 msgid "Traffic quota (in kbytes)"
 msgstr ""
 
@@ -11789,6 +13265,12 @@ msgstr ""
 msgid "Treat as a series"
 msgstr ""
 
+msgid "Trigger package actions"
+msgstr ""
+
+msgid "Trust"
+msgstr ""
+
 msgid "Try Again"
 msgstr ""
 
@@ -11805,6 +13287,9 @@ msgid "Two Years"
 msgstr ""
 
 msgid "Type"
+msgstr ""
+
+msgid "Type of Registrant Entity"
 msgstr ""
 
 msgid "Type of account."
@@ -11830,6 +13315,12 @@ msgstr ""
 msgid "URL to your web site"
 msgstr ""
 
+msgid "US Based Office"
+msgstr ""
+
+msgid "US Citizen"
+msgstr ""
+
 msgid "Un-Approved"
 msgstr ""
 
@@ -11837,6 +13328,9 @@ msgid "Un-Archived"
 msgstr ""
 
 msgid "UnSuspend Packages(s)"
+msgstr ""
+
+msgid "Unable To Process"
 msgstr ""
 
 msgid "Unable to Obtain"
@@ -11869,6 +13363,9 @@ msgid ""
 "for a given service, you need to manually create an entry in the task "
 "scheduler, that runs every minute the command shown below. The PHP binary "
 "must be in the system's path."
+msgstr ""
+
+msgid "Unincorporated Association"
 msgstr ""
 
 msgid "Uninvoiced Charges"
@@ -11955,10 +13452,16 @@ msgstr ""
 msgid "Update Settings"
 msgstr ""
 
+msgid "Update Transfer Status?"
+msgstr ""
+
 msgid "Update social data"
 msgstr ""
 
 msgid "Update via plugin if necessary"
+msgstr ""
+
+msgid "Update your Credit Card information"
 msgstr ""
 
 #, php-format
@@ -11977,6 +13480,9 @@ msgid "Updated profile contact"
 msgstr ""
 
 msgid "Updating"
+msgstr ""
+
+msgid "Updating of this package is not supported"
 msgstr ""
 
 msgid "Upload File"
@@ -12010,6 +13516,12 @@ msgid "Use Defaults"
 msgstr ""
 
 msgid "Use DialVerify Service"
+msgstr ""
+
+msgid "Use English for Registry to Registrant communication"
+msgstr ""
+
+msgid "Use French for Registry to Registrant communication"
 msgstr ""
 
 msgid "Use Maxmind"
@@ -12094,6 +13606,9 @@ msgid ""
 "Used to verify valid transactions from Authorize.Net.<br>NOTE: This value "
 "has to match the value set in the Authorize.Net Merchant Interface - "
 "<i>Optional</i>"
+msgstr ""
+
+msgid "User"
 msgstr ""
 
 #, php-format
@@ -12199,6 +13714,9 @@ msgstr ""
 msgid "Utilities"
 msgstr ""
 
+msgid "VAT ID"
+msgstr ""
+
 msgid "VAT Invoice"
 msgstr ""
 
@@ -12241,9 +13759,7 @@ msgstr ""
 msgid "Validate CC(s)"
 msgstr ""
 
-msgid ""
-"Validate customers their credit cards and view passphrased credit card "
-"numbers"
+msgid "Validate and view customer credit card number"
 msgstr ""
 
 msgid "Validating..."
@@ -12263,7 +13779,12 @@ msgid ""
 "have selected protx as a payment gateway for any of your clients."
 msgstr ""
 
-msgid "View \"Client List\""
+msgid ""
+"Version of the CIRA Registrant Agreement displayed and agreed to by the "
+"Registrant on the Registrar website"
+msgstr ""
+
+msgid "View \"Customer List\""
 msgstr ""
 
 msgid "View \"Recurring Overview\""
@@ -12275,7 +13796,7 @@ msgstr ""
 msgid "View Account Statistics"
 msgstr ""
 
-msgid "View As Client"
+msgid "View As Customer"
 msgstr ""
 
 msgid "View Billing Setup"
@@ -12299,16 +13820,49 @@ msgstr ""
 msgid "View Event Log for Ticket events"
 msgstr ""
 
+msgid "View Events"
+msgstr ""
+
+msgid "View Invoices Generated"
+msgstr ""
+
+msgid "View Invoices Paid"
+msgstr ""
+
 msgid "View Live Chat"
 msgstr ""
 
+msgid "View New Customers"
+msgstr ""
+
+msgid "View PDF Invoice"
+msgstr ""
+
+msgid "View Pending Orders"
+msgstr ""
+
 msgid "View Products"
+msgstr ""
+
+msgid "View Revenue"
 msgstr ""
 
 msgid "View Server Status"
 msgstr ""
 
 msgid "View Support Setup"
+msgstr ""
+
+msgid "View Ticket"
+msgstr ""
+
+msgid "View Ticket Feedback"
+msgstr ""
+
+msgid "View Tickets Closed"
+msgstr ""
+
+msgid "View Tickets Opened"
 msgstr ""
 
 msgid "View a category"
@@ -12326,7 +13880,7 @@ msgstr ""
 msgid "View and agree to the ClientExec EULA before continuing"
 msgstr ""
 
-msgid "View as client"
+msgid "View as customer"
 msgstr ""
 
 msgid "View closed tickets"
@@ -12528,6 +14082,12 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
+msgid "Weebly Cloud integration"
+msgstr ""
+
+msgid "Weebly User ID Custom Field"
+msgstr ""
+
 msgid "Welcome"
 msgstr ""
 
@@ -12651,12 +14211,22 @@ msgid ""
 msgstr ""
 
 msgid ""
+"When enabled, Clientexec will check if a domain has been transfered and "
+"update internal values as needed."
+msgstr ""
+
+msgid ""
+"When enabled, Clientexec will send out renewal notifications for domains "
+"that are expiring."
+msgstr ""
+
+msgid ""
 "When enabled, Team Status Notifications are sent by e-mail when this service "
 "is triggered."
 msgstr ""
 
 msgid ""
-"When enabled, a domain in ClientExec that does not exist at the registrar "
+"When enabled, a domain in Clientexec that does not exist at the registrar "
 "will be marked as cancelled."
 msgstr ""
 
@@ -12677,7 +14247,7 @@ msgstr ""
 
 msgid ""
 "When enabled, an email will be sent to the provided email addresses, "
-"notifying about how many invoices needs to be processed today. If there are "
+"notifying about how many invoices need to be processed today. If there are "
 "no invoices needing to be processed today, no email will be sent. "
 "<br><b>NOTE:</b> Only run once per day to avoid duplicate E-mails."
 msgstr ""
@@ -12835,6 +14405,12 @@ msgid ""
 "uploaded"
 msgstr ""
 
+msgid "Worker-owned Company"
+msgstr ""
+
+msgid "Worker-owned Limited Company"
+msgstr ""
+
 msgid "Working Key"
 msgstr ""
 
@@ -12939,13 +14515,16 @@ msgstr ""
 msgid "You can not delete the demo user while in demo mode"
 msgstr ""
 
-msgid "You can not delete this billing type, as it is still in use"
+msgid "You can not delete these billing types, as they are still in use."
 msgstr ""
 
 msgid "You can not leave a field blank"
 msgstr ""
 
 msgid "You can not merge on invoice #"
+msgstr ""
+
+msgid "You can not merge tickets that do not belong to the same customer."
 msgstr ""
 
 msgid "You can not perform this action on this package"
@@ -12963,7 +14542,7 @@ msgstr ""
 msgid "You can not update this domain"
 msgstr ""
 
-msgid "You can not update this user's while in demo mode"
+msgid "You can not update this user while in demo mode"
 msgstr ""
 
 msgid "You can not view the custom fields for this ticket."
@@ -13031,6 +14610,11 @@ msgid "You do not have permission to delete this file attachment"
 msgstr ""
 
 msgid "You do not have permission to delete trouble tickets"
+msgstr ""
+
+msgid ""
+"You do not have permission to edit customer packages, or the package's "
+"recurring fee is under a subscription."
 msgstr ""
 
 msgid "You do not have permission to remove this file."
@@ -13128,6 +14712,9 @@ msgid ""
 "You must provide a set of pop3 email addresses to check or * to check all"
 msgstr ""
 
+msgid "You must select a condition to filter on."
+msgstr ""
+
 msgid ""
 "You need Plesk Administrator access.<br>NOTE: The username for non-reseller "
 "accounts is the domain name"
@@ -13168,6 +14755,10 @@ msgstr ""
 msgid "Your Email has been sent to"
 msgstr ""
 
+#, php-format
+msgid "Your IP is: %s. Please use this when adding to the registrars API"
+msgstr ""
+
 msgid "Your PSiGate passphrase used to authenticate a valid transaction."
 msgstr ""
 
@@ -13196,9 +14787,6 @@ msgid "Your billing type was successfully added."
 msgstr ""
 
 msgid "Your billing type was successfully updated."
-msgstr ""
-
-msgid "Your billing type(s) was deleted successfully"
 msgstr ""
 
 msgid "Your browser does not support iframes"
@@ -13386,13 +14974,28 @@ msgstr ""
 msgid "at end of billing period"
 msgstr ""
 
+msgid "authenticate"
+msgstr ""
+
+msgid "available"
+msgstr ""
+
 msgid "billed"
 msgstr ""
 
 msgid "by"
 msgstr ""
 
+msgid "cPanel / WHM Accounts"
+msgstr ""
+
+msgid "cPanel / WHM Packages"
+msgstr ""
+
 msgid "cURL Available"
+msgstr ""
+
+msgid "cURL with SSL support"
 msgstr ""
 
 msgid "client packages added from %."
@@ -13413,6 +15016,9 @@ msgstr ""
 msgid "comments"
 msgstr ""
 
+msgid "connect_host"
+msgstr ""
+
 msgid "coupons added from %."
 msgstr ""
 
@@ -13429,6 +15035,9 @@ msgid "customers"
 msgstr ""
 
 msgid "customers notified of expiring credit cards"
+msgstr ""
+
+msgid "data_not_accepted"
 msgstr ""
 
 msgid "day"
@@ -13488,13 +15097,31 @@ msgstr ""
 msgid "eg. red, brown(color_2), yellow"
 msgstr ""
 
+msgid "empty_message"
+msgstr ""
+
+msgid "encoding"
+msgstr ""
+
 msgid "ending in"
 msgstr ""
 
 msgid "english"
 msgstr ""
 
+msgid "execute"
+msgstr ""
+
 msgid "expired credit card ticket(s) generated"
+msgstr ""
+
+msgid "extension_missing"
+msgstr ""
+
+msgid "file_access"
+msgstr ""
+
+msgid "file_open"
 msgstr ""
 
 msgid "for Domain"
@@ -13504,6 +15131,9 @@ msgid "french"
 msgstr ""
 
 msgid "from IP"
+msgstr ""
+
+msgid "from_failed"
 msgstr ""
 
 msgid "game_add_arg"
@@ -13581,6 +15211,12 @@ msgstr ""
 msgid "immediately"
 msgstr ""
 
+msgid "instantiate"
+msgstr ""
+
+msgid "invalid_address"
+msgstr ""
+
 msgid "invoice"
 msgstr ""
 
@@ -13632,6 +15268,9 @@ msgstr ""
 msgid "none"
 msgstr ""
 
+msgid "not available"
+msgstr ""
+
 msgid "nothing"
 msgstr ""
 
@@ -13642,6 +15281,9 @@ msgid "one time fee"
 msgstr ""
 
 msgid "or"
+msgstr ""
+
+msgid "other (for contacts outside Spain)"
 msgstr ""
 
 msgid "package_addons"
@@ -13656,6 +15298,10 @@ msgstr ""
 msgid "packages added from %."
 msgstr ""
 
+#, php-format
+msgid "packages added from %s."
+msgstr ""
+
 msgid "packages added from WHMCS."
 msgstr ""
 
@@ -13665,10 +15311,16 @@ msgstr ""
 msgid "payment configuration page."
 msgstr ""
 
-msgid "phpMyAdmin"
+msgid "portuguese"
 msgstr ""
 
-msgid "portuguese"
+msgid "profile_id is empty."
+msgstr ""
+
+msgid "provide_address"
+msgstr ""
+
+msgid "recipients_failed"
 msgstr ""
 
 msgid "records per page"
@@ -13695,7 +15347,16 @@ msgstr ""
 msgid "search"
 msgstr ""
 
+msgid "signing"
+msgstr ""
+
 msgid "skip_setup_page"
+msgstr ""
+
+msgid "smtp_connect_failed"
+msgstr ""
+
+msgid "smtp_error"
 msgstr ""
 
 msgid "spanish"
@@ -13740,6 +15401,9 @@ msgstr ""
 msgid "unlimited"
 msgstr ""
 
+msgid "variable_set"
+msgstr ""
+
 #, php-format
 msgid "via %s"
 msgstr ""
@@ -13775,6 +15439,9 @@ msgid "voice_slots"
 msgstr ""
 
 msgid "was added successfully"
+msgstr ""
+
+msgid "was cloned successfully"
 msgstr ""
 
 msgid "was created successfully"
@@ -14393,6 +16060,9 @@ msgid "Somalia"
 msgstr ""
 
 msgid "South Africa"
+msgstr ""
+
+msgid "South Sudan"
 msgstr ""
 
 msgid "Spain"

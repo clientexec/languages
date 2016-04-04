@@ -54,6 +54,12 @@ msgstr ""
 msgid "This field is required"
 msgstr ""
 
+msgid "Displaying items"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
 msgid "Submit"
 msgstr "Enviar"
 
@@ -102,7 +108,7 @@ msgstr ""
 msgid "Expiry Date"
 msgstr ""
 
-msgid "Are you sure you want to cancel the selected licenses(s)"
+msgid "Are you sure you want to cancel the selected license(s)"
 msgstr ""
 
 msgid "Package"
@@ -126,7 +132,16 @@ msgstr ""
 msgid "Enter your passphrase:"
 msgstr ""
 
+msgid "Invoice"
+msgstr ""
+
 msgid "Due"
+msgstr ""
+
+msgid "Gateway"
+msgstr ""
+
+msgid "Pmt Reference"
 msgstr ""
 
 msgid "Amount"
@@ -147,7 +162,19 @@ msgstr ""
 msgid "Are sure you want to delete the selected invoice(s)."
 msgstr ""
 
-msgid "Pmt. Reference"
+msgid "Add optional information"
+msgstr ""
+
+msgid "Remove Optional Information"
+msgstr ""
+
+msgid "Payment Reference (Optional)"
+msgstr ""
+
+msgid "Payment Date (Optional)"
+msgstr ""
+
+msgid "Payment Processor (Optional)"
 msgstr ""
 
 msgid ""
@@ -162,12 +189,6 @@ msgid "Date"
 msgstr ""
 
 msgid "Description"
-msgstr ""
-
-msgid "Gateway"
-msgstr ""
-
-msgid "Invoice"
 msgstr ""
 
 msgid "Transaction ID"
@@ -360,6 +381,12 @@ msgstr ""
 msgid "Email Customer"
 msgstr ""
 
+msgid "Any customer using this addon will continue to be charged for it."
+msgstr ""
+
+msgid "Any customer using the selected addon(s) will continue to be charged."
+msgstr ""
+
 msgid "Are you sure you want to delete the selected addon(s)?"
 msgstr ""
 
@@ -423,7 +450,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-msgid "Add Notification"
+msgid "Notification Window"
 msgstr ""
 
 msgid ""
@@ -436,9 +463,6 @@ msgid "Are you sure you want to delete the selected notification(s)?"
 msgstr ""
 
 msgid "Name"
-msgstr ""
-
-msgid "Are you sure you want to delete the selected addon(s)"
 msgstr ""
 
 msgid "Billing Period(s)"
@@ -579,7 +603,10 @@ msgstr ""
 msgid "You can not delete the system email templates."
 msgstr ""
 
-msgid "Add Email Template"
+msgid "Email Template Window"
+msgstr ""
+
+msgid "Code"
 msgstr ""
 
 msgid "Are you sure you want to delete the selected coupon(s)?"
@@ -610,9 +637,6 @@ msgid "Default"
 msgstr ""
 
 msgid "Symbol"
-msgstr ""
-
-msgid "Code"
 msgstr ""
 
 msgid "Alignment"
@@ -735,7 +759,7 @@ msgstr ""
 msgid "Tickets"
 msgstr ""
 
-msgid "Add Ticket Type"
+msgid "Manage Ticket Type"
 msgstr ""
 
 msgid "No staff available - click to add your first staff member to this group"
@@ -781,7 +805,7 @@ msgstr ""
 msgid "Add period start and end dates"
 msgstr ""
 
-msgid "Period dates"
+msgid "Period Dates"
 msgstr ""
 
 msgid "Start"
@@ -811,6 +835,12 @@ msgstr ""
 msgid "Processing Invoice(s)"
 msgstr ""
 
+msgid "Viewing all failed invoices"
+msgstr ""
+
+msgid "Outstanding Amount"
+msgstr ""
+
 msgid "User id field may not be left blank"
 msgstr ""
 
@@ -835,6 +865,9 @@ msgid ""
 "Viewing all draft invoices. These invoices are not ready to be processed."
 msgstr ""
 
+msgid "Customer Name"
+msgstr ""
+
 msgid "Are you sure you want to delete the selected charges(s)"
 msgstr ""
 
@@ -845,12 +878,6 @@ msgid "Due Date"
 msgstr ""
 
 msgid "Do you wish to activate this clients packages as well?"
-msgstr ""
-
-msgid "cancel"
-msgstr ""
-
-msgid "no"
 msgstr ""
 
 msgid "Do you wish to use the server plugin to activate these packages?"
@@ -995,6 +1022,12 @@ msgstr ""
 msgid "Score"
 msgstr ""
 
+msgid "Currency"
+msgstr ""
+
+msgid "Package Count"
+msgstr ""
+
 msgid "Add Client"
 msgstr "Agregar Usuario"
 
@@ -1016,20 +1049,24 @@ msgstr ""
 msgid "Support?"
 msgstr ""
 
-msgid "Add Alternate Account"
+msgid "Manage Alternate Account"
 msgstr ""
 
-msgid "Click OK if you are sure you want to delete this account"
+msgid "Are you sure you want to delete this customer?"
 msgstr ""
 
 msgid ""
-"Do you want to delete the product(s) using the respective server plugin?"
+"Do you want to delete this customer's packages using the respective server "
+"plugin(s)?"
 msgstr ""
 
 msgid "Associated to Ticket Type"
 msgstr ""
 
 msgid "Note"
+msgstr ""
+
+msgid "Subject"
 msgstr ""
 
 msgid "Un-Archive"
@@ -1096,6 +1133,9 @@ msgid "User"
 msgstr ""
 
 msgid "Modified User"
+msgstr ""
+
+msgid "No Pending Orders"
 msgstr ""
 
 msgid "No Tickets Found"
@@ -1173,7 +1213,7 @@ msgstr ""
 msgid "Creater"
 msgstr ""
 
-msgid "Add Canned Reply"
+msgid "Manage Canned Reply"
 msgstr ""
 
 msgid "Select Groups"
@@ -1275,6 +1315,9 @@ msgstr "Cerrar Tiquete(s)"
 msgid "Are you sure you want to delete the selected ticket(s)"
 msgstr ""
 
+msgid "Are you sure you want to merge the selected tickets?"
+msgstr ""
+
 msgid "Are you sure you want to close the selected ticket(s)"
 msgstr "¿Está seguro de querer cerrar el(los) tiquete(s) seleccionados?"
 
@@ -1301,9 +1344,6 @@ msgstr ""
 msgid "Attaching"
 msgstr ""
 
-msgid "Subject"
-msgstr ""
-
 msgid "Created By"
 msgstr ""
 
@@ -1311,6 +1351,27 @@ msgid "Assigned To"
 msgstr ""
 
 msgid "Elapsed"
+msgstr ""
+
+msgid "No Rating"
+msgstr ""
+
+msgid "Excellent"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Not Great"
+msgstr ""
+
+msgid "Poor"
+msgstr ""
+
+msgid "Ticket ID"
+msgstr ""
+
+msgid "Rating"
 msgstr ""
 
 msgid "Registrar Order Id"
@@ -1517,10 +1578,13 @@ msgstr ""
 msgid "Product Add-ons"
 msgstr ""
 
+msgid "Are you sure you want to send the selected invoice(s)"
+msgstr ""
+
 msgid "#"
 msgstr ""
 
-msgid "Please enter your next password"
+msgid "Please enter a new password"
 msgstr ""
 
 msgid "Next Due Date"
