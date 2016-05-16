@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Clientexec 5.4.2\n"
+"Project-Id-Version: Clientexec 5.4.3\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2016-03-30 13:33-0400\n"
+"POT-Creation-Date: 2016-05-14 20:37-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4909,6 +4909,9 @@ msgstr ""
 msgid "Enter your BuycPanel Username"
 msgstr ""
 
+msgid "Enter your Credit Card"
+msgstr ""
+
 msgid "Enter your Login found in API Login Credentials.."
 msgstr ""
 
@@ -5892,6 +5895,9 @@ msgid "GoToMeeting Password"
 msgstr ""
 
 msgid "Good"
+msgstr ""
+
+msgid "Good Enough"
 msgstr ""
 
 msgid "Good enough"
@@ -8149,6 +8155,9 @@ msgid ""
 msgstr ""
 
 msgid "No profile updates available in demo mode"
+msgstr ""
+
+msgid "No rating"
 msgstr ""
 
 msgid "No recurring fees require updating at this time"
@@ -12147,6 +12156,9 @@ msgid ""
 "Checkout"
 msgstr ""
 
+msgid "The customer hasn't stored their credit card."
+msgstr ""
+
 msgid ""
 "The datacenter id where the game server will be created. This is only used "
 "if skip_setup_page = 1"
@@ -13460,7 +13472,7 @@ msgstr ""
 msgid "Update via plugin if necessary"
 msgstr ""
 
-msgid "Update your Credit Card information"
+msgid "Update your Credit Card?"
 msgstr ""
 
 #, php-format
@@ -15311,9 +15323,6 @@ msgid "payment configuration page."
 msgstr ""
 
 msgid "portuguese"
-msgstr ""
-
-msgid "profile_id is empty."
 msgstr ""
 
 msgid "provide_address"
