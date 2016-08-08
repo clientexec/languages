@@ -381,13 +381,13 @@ msgstr ""
 msgid "Email Customer"
 msgstr ""
 
-msgid "Any customer using this addon will continue to be charged for it."
+msgid "NOTICE:"
 msgstr ""
 
-msgid "Any customer using the selected addon(s) will continue to be charged."
+msgid "You have modified the availability to some Product Groups."
 msgstr ""
 
-msgid "Are you sure you want to delete the selected addon(s)?"
+msgid "Do you want existing customers to continue being charged this addon?"
 msgstr ""
 
 msgid "Plugin Variable"
@@ -463,6 +463,17 @@ msgid "Are you sure you want to delete the selected notification(s)?"
 msgstr ""
 
 msgid "Name"
+msgstr ""
+
+msgid "WARNING!"
+msgstr ""
+
+msgid "Are you sure you want to add the selected addon?"
+msgstr ""
+
+msgid ""
+"Existing customers will be applied the default value: 'None' option if "
+"available, or the first option if not."
 msgstr ""
 
 msgid "Billing Period(s)"
@@ -1096,7 +1107,7 @@ msgstr ""
 msgid "Add a new product"
 msgstr ""
 
-msgid "Invoice Date"
+msgid "Next Payment Date"
 msgstr ""
 
 msgid "Invoice Amount"

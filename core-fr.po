@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2016-05-14 20:34-0400\n"
+"POT-Creation-Date: 2016-08-04 23:31-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1356,6 +1356,9 @@ msgstr ""
 msgid "Allow AutoDJ"
 msgstr ""
 
+msgid "Allow Automatic Credit Card Charging"
+msgstr ""
+
 msgid "Allow Creation of Packages With Parked Domains"
 msgstr ""
 
@@ -2110,6 +2113,30 @@ msgid "Business use for profit"
 msgstr ""
 
 msgid "Busy"
+msgstr ""
+
+msgid "Buypass Application ID"
+msgstr ""
+
+msgid "Buypass Gateway ID"
+msgstr ""
+
+msgid "Buypass Live URL"
+msgstr ""
+
+msgid "Buypass Platform"
+msgstr ""
+
+msgid "Buypass Terminal ID"
+msgstr ""
+
+msgid "Buypass Test Mode"
+msgstr ""
+
+msgid "Buypass Test URL"
+msgstr ""
+
+msgid "Buypass User ID"
 msgstr ""
 
 #, php-format
@@ -3271,6 +3298,9 @@ msgstr ""
 msgid "Customers Seen"
 msgstr ""
 
+msgid "Customers With Invoices Ready"
+msgstr ""
+
 msgid "Customize HTML"
 msgstr ""
 
@@ -3429,6 +3459,9 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
+msgid "Default Account"
+msgstr ""
+
 msgid "Default Assignee"
 msgstr ""
 
@@ -3554,9 +3587,6 @@ msgid "Delete Users(s)"
 msgstr ""
 
 msgid "Delete all errors"
-msgstr ""
-
-msgid "Delete customer notes"
 msgstr ""
 
 msgid "Delete customers"
@@ -4609,6 +4639,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enter the Account Reference all domain names should be registered under.  "
+"Leaving this blank will create a different account for each client at the "
+"registrar."
+msgstr ""
+
+msgid ""
 "Enter the SQL queries in the text area.  Each SQL query must end with a semi-"
 "colon."
 msgstr ""
@@ -4616,6 +4652,11 @@ msgstr ""
 msgid ""
 "Enter the URL you want clients to be redirected to after logging out."
 "<br><b>NOTE:</b> Leave this field blank to use the login page."
+msgstr ""
+
+msgid ""
+"Enter the amount of announcements you would like to show on the main page of "
+"Clientexec."
 msgstr ""
 
 msgid "Enter the code"
@@ -5837,9 +5878,6 @@ msgstr ""
 msgid "Get Auto Renew Status"
 msgstr ""
 
-msgid "Get Nameserver Records"
-msgstr ""
-
 msgid "Get Registrar Lock"
 msgstr ""
 
@@ -6183,6 +6221,11 @@ msgid "I agree to the terms and conditions"
 msgstr ""
 
 msgid "I already have a domain to use."
+msgstr ""
+
+msgid ""
+"I authorize that future charges for these packages will be automatically "
+"charged."
 msgstr ""
 
 msgid ""
@@ -6955,9 +6998,6 @@ msgstr ""
 msgid "Invoices"
 msgstr "Factures"
 
-msgid "Invoices Ready"
-msgstr ""
-
 msgid "Invoices To Process Today"
 msgstr ""
 
@@ -7060,8 +7100,9 @@ msgid "Join one of our public rooms"
 msgstr ""
 
 msgid ""
-"Join the <a href=\"http://forum.clientexec.com/\" target=\"_blank"
-"\">community</a> for all the latest news as well as community based support"
+"Join us in our <a href=\"http://slack.clientexec.rocks\" target=\"_blank"
+"\">community slack room</a> for all the latest news as well as community "
+"based support"
 msgstr ""
 
 msgid "July"
@@ -7503,6 +7544,9 @@ msgstr ""
 msgid "Manage automated tasks"
 msgstr ""
 
+msgid "Manage automatic credit card charging"
+msgstr ""
+
 msgid "Manage billing types"
 msgstr ""
 
@@ -7522,6 +7566,9 @@ msgid "Manage currency"
 msgstr ""
 
 msgid "Manage custom fields"
+msgstr ""
+
+msgid "Manage customer notes"
 msgstr ""
 
 msgid "Manage departments"
@@ -8330,6 +8377,9 @@ msgstr ""
 msgid "Number Of Ips Custom Field"
 msgstr ""
 
+msgid "Number of Announcements To Show On Main Page"
+msgstr ""
+
 msgid "Number of CPUs."
 msgstr ""
 
@@ -9128,6 +9178,33 @@ msgstr ""
 msgid "Please enter your BluePay Secret Key Here."
 msgstr ""
 
+msgid ""
+"Please enter your Buypass Application ID here.</br>Application identifier "
+"for the application used in sending/receiving transaction request.</br>The "
+"value of this field is assigned/authorized by the gateway and must be used "
+"in all transactions used by the certified application.</br>Max Size: 20"
+msgstr ""
+
+msgid "Please enter your Buypass Gateway ID here."
+msgstr ""
+
+msgid "Please enter your Buypass Live URL here."
+msgstr ""
+
+msgid ""
+"Please enter your Buypass Platform here.</br>Identifies the platform to "
+"perform transaction processing.</br>Max Size: 11"
+msgstr ""
+
+msgid "Please enter your Buypass Terminal ID here.</br>Max Size: 11"
+msgstr ""
+
+msgid "Please enter your Buypass Test URL here."
+msgstr ""
+
+msgid "Please enter your Buypass User ID here."
+msgstr ""
+
 msgid "Please enter your LinkPoint store Name."
 msgstr ""
 
@@ -9229,6 +9306,9 @@ msgid ""
 "Please note that you have customized the following files in your "
 "installation, and they will be overwritten when the upgrade package is "
 "unzipped."
+msgstr ""
+
+msgid "Please pay this invoice"
 msgstr ""
 
 msgid "Please provide a name for this notification"
@@ -9821,6 +9901,9 @@ msgstr ""
 msgid "Registered Customers (system)"
 msgstr ""
 
+msgid "Registered On: "
+msgstr ""
+
 msgid ""
 "Registered Users.  If a registered user is also in another custom group.  "
 "The permissions of the custom group will override the default registered "
@@ -9903,6 +9986,9 @@ msgid "Remove Is Reseller Checkbox?"
 msgstr ""
 
 msgid "Renew"
+msgstr ""
+
+msgid "Renew Package"
 msgstr ""
 
 msgid ""
@@ -10486,6 +10572,11 @@ msgstr ""
 msgid ""
 "Select YES if you want to use Authorize.Net CIM testing server, so no actual "
 "monetary transactions are made."
+msgstr ""
+
+msgid ""
+"Select YES if you want to use Buypass testing server, so no actual monetary "
+"transactions are made."
 msgstr ""
 
 msgid ""
@@ -11653,11 +11744,17 @@ msgstr ""
 msgid "Successful Login to Customer Account"
 msgstr ""
 
+msgid "Successfully added customer group"
+msgstr ""
+
 #, php-format
 msgid "Successfully migrated %s account(s) to %s."
 msgstr ""
 
-msgid "Successfully processed invoice(es)"
+msgid "Successfully modified automatic credit card charging"
+msgstr ""
+
+msgid "Successfully processed invoice(s)"
 msgstr ""
 
 msgid "Successfully saved license"
@@ -12429,6 +12526,9 @@ msgid ""
 "The reports available below can be found in your plugins/reports directory."
 msgstr ""
 
+msgid "The requested event does not exist"
+msgstr ""
+
 msgid "The response from RealAuth was not recognized."
 msgstr ""
 
@@ -12589,11 +12689,8 @@ msgstr ""
 msgid "There was an error performing this operation."
 msgstr ""
 
-msgid "There was an error performing this operation. "
-msgstr ""
-
 msgid ""
-"There was an error processing these invoice(es).  Please check the invoice "
+"There was an error processing these invoice(s).  Please check the invoice "
 "transactions for more information."
 msgstr ""
 
@@ -13489,6 +13586,10 @@ msgid "Updated alternate E-mail %s (removed for %s)"
 msgstr ""
 
 #, php-format
+msgid "Updated alternate E-mail from %s to %s"
+msgstr ""
+
+#, php-format
 msgid "Updated package #%s"
 msgstr ""
 
@@ -14061,6 +14162,15 @@ msgid ""
 "doesn't have the necessary write permissions to the clientexec directory."
 msgstr ""
 
+msgid "We do not accept orders from anonymous proxy servers."
+msgstr ""
+
+msgid "We do not accept orders from free email services."
+msgstr ""
+
+msgid "We do not accept orders from your country."
+msgstr ""
+
 msgid "We do not accept signups from anonymous proxy servers"
 msgstr ""
 
@@ -14522,6 +14632,9 @@ msgstr ""
 msgid "You can not delete a system alias"
 msgstr ""
 
+msgid "You can not delete a user that does not exist"
+msgstr ""
+
 msgid "You can not delete currencies that have users assigned to them."
 msgstr ""
 
@@ -14529,6 +14642,9 @@ msgid "You can not delete the default currency."
 msgstr ""
 
 msgid "You can not delete the demo user while in demo mode"
+msgstr ""
+
+msgid "You can not delete the guest group"
 msgstr ""
 
 msgid "You can not delete these billing types, as they are still in use."
@@ -14543,7 +14659,13 @@ msgstr ""
 msgid "You can not merge tickets that do not belong to the same customer."
 msgstr ""
 
+msgid "You can not modify automatic credit card charging for this package"
+msgstr ""
+
 msgid "You can not perform this action on this package"
+msgstr ""
+
+msgid "You can not renew this package"
 msgstr ""
 
 msgid "You can not save the custom fields for this ticket."
@@ -14886,6 +15008,11 @@ msgstr ""
 msgid ""
 "Your overall risk is too high, please contact our sales office for more "
 "information"
+msgstr ""
+
+msgid ""
+"Your overall risk is too high, please contact our sales office for more "
+"information."
 msgstr ""
 
 msgid "Your payment method was updated successfully"
@@ -15330,6 +15457,9 @@ msgid "payment configuration page."
 msgstr ""
 
 msgid "portuguese"
+msgstr ""
+
+msgid "profile_id is empty."
 msgstr ""
 
 msgid "provide_address"
