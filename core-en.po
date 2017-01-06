@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2016-08-04 23:31-0400\n"
+"POT-Creation-Date: 2016-11-25 10:03-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -188,6 +188,12 @@ msgid ""
 "parentheses. The Registrant name must be followed by the jurisdiction (e.g. "
 "name of province, municipality) in which the institution is accredited if "
 "not obvious from the Registrant&#39;s name."
+msgstr ""
+
+msgid ""
+"* Select \"One-Time\" for the domain to be free only the first billing "
+"period.\n"
+"* Select \"Recurring\" for the domain to be free on every billing period."
 msgstr ""
 
 #, php-format
@@ -436,18 +442,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"<i>For E-mail piping only</i><br />If set to NO, customers must answer their "
-"tickets using only the E-mails accounts they have registered in ClientExec. "
-"Set to YES to allow any E-mail, which could be useful when the customer "
+"<i>For email piping only</i><br />If set to NO, customers must answer their "
+"tickets using only the emails accounts they have registered in ClientExec. "
+"Set to YES to allow any email, which could be useful when the customer "
 "replies to a ticket and CCs unregistered users who might then reply "
 "afterwards as well."
 msgstr ""
 
 msgid ""
-"<i>For E-mail piping only</i><br />If set to NO, support staff must answer "
-"their tickets using the same E-mail account they have registered in "
-"ClientExec. Set to YES to allow any E-mail. In this case ticket logs will be "
-"marked as \"Tech Support (via E-mail)\"."
+"<i>For email piping only</i><br />If set to NO, support staff must answer "
+"their tickets using the same email account they have registered in "
+"ClientExec. Set to YES to allow any email. In this case ticket logs will be "
+"marked as \"Tech Support (via email)\"."
 msgstr ""
 
 msgid ""
@@ -822,6 +828,9 @@ msgstr ""
 msgid "Activate Cancelled Users"
 msgstr ""
 
+msgid "Activate Manually Added Packages"
+msgstr ""
+
 msgid "Activate Packages(s)"
 msgstr ""
 
@@ -1093,7 +1102,7 @@ msgid "Added CC (last four: %s)"
 msgstr ""
 
 #, php-format
-msgid "Added alternate E-mail %s for %s"
+msgid "Added alternate email %s for %s"
 msgstr ""
 
 msgid "Added message"
@@ -1186,10 +1195,10 @@ msgstr ""
 msgid "Address Line"
 msgstr ""
 
-msgid "Admin E-Mail"
+msgid "Admin E-mail"
 msgstr ""
 
-msgid "Admin E-mail"
+msgid "Admin Email"
 msgstr ""
 
 msgid "Admin Only"
@@ -1498,11 +1507,11 @@ msgstr ""
 msgid "Amount of swap disk size in GB."
 msgstr ""
 
-#, php-format
-msgid "An E-mail has been sent to %s"
+msgid "An E-mail will be sent to this E-mail address in case of a failure"
 msgstr ""
 
-msgid "An E-mail will be sent to this E-mail address in case of a failure"
+#, php-format
+msgid "An email has been sent to %s"
 msgstr ""
 
 msgid "An email has been sent to your account to reset your password."
@@ -1998,9 +2007,6 @@ msgstr ""
 msgid "Banned IPs"
 msgstr ""
 
-msgid "Bcc"
-msgstr ""
-
 msgid ""
 "Be sure to have these services enabled in your gateway before attempting to "
 "use them."
@@ -2181,7 +2187,10 @@ msgstr ""
 msgid "CAST-CONTROL SECURITY HASH"
 msgstr ""
 
-msgid "CC Expiration warning E-mail sent"
+msgid "CC"
+msgstr ""
+
+msgid "CC Expiration warning email sent"
 msgstr ""
 
 msgid "CC Invoices"
@@ -2209,6 +2218,12 @@ msgid "CCAvenue (old version)"
 msgstr ""
 
 msgid "CE Database Backup"
+msgstr ""
+
+msgid "CE Version"
+msgstr ""
+
+msgid "CE Versions"
 msgstr ""
 
 msgid "CEdemo Database Cleaner"
@@ -2259,6 +2274,9 @@ msgstr ""
 msgid "Canadian Resident"
 msgstr ""
 
+msgid "Cancel"
+msgstr ""
+
 msgid "Cancel Certificates(s)"
 msgstr ""
 
@@ -2278,6 +2296,9 @@ msgid "Cancel Package"
 msgstr ""
 
 msgid "Cancel Packages(s)"
+msgstr ""
+
+msgid "Cancel Subscription"
 msgstr ""
 
 msgid "Cancel Users(s)"
@@ -2353,6 +2374,9 @@ msgid "Certificate Id"
 msgstr ""
 
 msgid "Certificate Information"
+msgstr ""
+
+msgid "Certificates Pending Cancelation"
 msgstr ""
 
 msgid "Change package password"
@@ -2594,6 +2618,9 @@ msgid "City"
 msgstr ""
 
 msgid "Civil Society"
+msgstr ""
+
+msgid "Click To Change"
 msgstr ""
 
 msgid "Click for more detailed info"
@@ -2880,6 +2907,9 @@ msgid "Contact"
 msgstr ""
 
 msgid "Contact E-mail"
+msgstr ""
+
+msgid "Contact Info"
 msgstr ""
 
 msgid "Contact Information"
@@ -3624,7 +3654,7 @@ msgid "Deleted Staff"
 msgstr ""
 
 #, php-format
-msgid "Deleted alternate E-mail %s"
+msgid "Deleted alternate email %s"
 msgstr ""
 
 #, php-format
@@ -3775,9 +3805,6 @@ msgstr ""
 msgid "DirectAdmin control panel integration"
 msgstr ""
 
-msgid "Directi"
-msgstr ""
-
 msgid "Directi Migration"
 msgstr ""
 
@@ -3858,6 +3885,12 @@ msgstr ""
 msgid "Displays income trends from previous month and year"
 msgstr ""
 
+msgid "Displays number of each CE version"
+msgstr ""
+
+msgid "Displays number of each PHP version used by CE licenses."
+msgstr ""
+
 msgid "Displays predicted income"
 msgstr ""
 
@@ -3917,13 +3950,16 @@ msgstr ""
 msgid "Do not use subscriptions"
 msgstr ""
 
-msgid "Do you have access to the e-mail address listed as the registrant?"
+msgid "Do you have access to the email address listed as the registrant?"
 msgstr ""
 
 msgid "Documentation"
 msgstr ""
 
 msgid "Domain"
+msgstr ""
+
+msgid "Domain Billing Cycle"
 msgstr ""
 
 msgid "Domain Contact Information"
@@ -4040,6 +4076,9 @@ msgstr ""
 msgid "Domains Packages"
 msgstr ""
 
+msgid "Domains Pending Cancelation"
+msgstr ""
+
 msgid "Don't have an account yet?"
 msgstr ""
 
@@ -4097,15 +4136,6 @@ msgstr ""
 msgid "Duration in months"
 msgstr ""
 
-msgid "E-Mail"
-msgstr ""
-
-msgid "E-Mail Address"
-msgstr ""
-
-msgid "E-Mail events"
-msgstr ""
-
 msgid "E-mail"
 msgstr ""
 
@@ -4131,26 +4161,11 @@ msgid "E-mail address error messages will be sent to"
 msgstr ""
 
 msgid ""
-"E-mail address to CC notification messages for new High Priority tickets"
-msgstr ""
-
-msgid ""
 "E-mail address to where you want Moneybookers to send a copy of the "
 "transaction details after the payment process is complete. (Optional)"
 msgstr ""
 
 msgid "E-mail address used to identify you to Moneybookers."
-msgstr ""
-
-msgid ""
-"E-mail address you want all support questions sent to.  This E-mail address "
-"is used as an entry to some template based E-mails, such as the welcome E-"
-"mail template."
-msgstr ""
-
-msgid ""
-"E-mail addresses ClientExec will send E-mail notifications to after all new "
-"signups. Enter one E-mail per line."
 msgstr ""
 
 msgid "E-mail addresses to be notified."
@@ -4169,10 +4184,6 @@ msgstr ""
 msgid "E-mail debug messages to this address."
 msgstr ""
 
-#, php-format
-msgid "E-mail sent \"%s\""
-msgstr ""
-
 msgid "E-mail server hostname"
 msgstr ""
 
@@ -4180,15 +4191,6 @@ msgid "E-mail subject for the notification."
 msgstr ""
 
 msgid "E-mail subject for the summary notification."
-msgstr ""
-
-msgid "E-mail this announcement to the recipients"
-msgstr ""
-
-msgid "E-mail to support staff"
-msgstr ""
-
-msgid "E-mail(s) for new High Priority support tickets"
 msgstr ""
 
 msgid "E-mails"
@@ -4352,6 +4354,20 @@ msgstr ""
 msgid "Email address provided is not valid."
 msgstr ""
 
+msgid "Email address to CC notification messages for new High Priority tickets"
+msgstr ""
+
+msgid ""
+"Email address you want all support questions sent to.  This email address is "
+"used as an entry to some template based emails, such as the welcome email "
+"template."
+msgstr ""
+
+msgid ""
+"Email addresses Clientexec will send email notifications to after all new "
+"signups. Enter one email per line."
+msgstr ""
+
 msgid "Email errors will be sent to."
 msgstr ""
 
@@ -4364,6 +4380,10 @@ msgstr ""
 msgid "Email routing rule"
 msgstr ""
 
+#, php-format
+msgid "Email sent \"%s\""
+msgstr ""
+
 msgid "Email server hostname"
 msgstr ""
 
@@ -4371,6 +4391,15 @@ msgid "Email server port"
 msgstr ""
 
 msgid "Email templates that can be used throughout Clientexec"
+msgstr ""
+
+msgid "Email this announcement to the recipients"
+msgstr ""
+
+msgid "Email to support staff"
+msgstr ""
+
+msgid "Email(s) for new High Priority support tickets"
 msgstr ""
 
 msgid "Emails"
@@ -4451,6 +4480,11 @@ msgstr ""
 msgid ""
 "Enable the services you want to automatically run.  You will need to enable "
 "cron services for each service."
+msgstr ""
+
+msgid ""
+"Enable this setting if you are connecting to your mail server over SSL and "
+"do not have a valid SSL certificate."
 msgstr ""
 
 msgid ""
@@ -4543,6 +4577,9 @@ msgstr ""
 msgid "End of Billing Cycle"
 msgstr ""
 
+msgid "End of Billing Period"
+msgstr ""
+
 msgid "End-user license agreement"
 msgstr ""
 
@@ -4578,13 +4615,13 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Enter a list of E-mails to which you want to send a BCC, Blind Carbon Copy, "
-"each time an invoice is sent. One e-mail address per line."
+"Enter a list of Emails to which you want to send a summary of the invoices "
+"generated or processed. One email address per line."
 msgstr ""
 
 msgid ""
-"Enter a list of Emails to which you want to send a summary of the invoices "
-"generated or processed. One email address per line."
+"Enter a list of emails to which you want to send a BCC, Blind Carbon Copy, "
+"each time an invoice is sent. One email address per line."
 msgstr ""
 
 msgid "Enter a list of rules to discard incoming emails"
@@ -4596,9 +4633,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Enter an E-mail address if you want to be notified about Log Level 1 "
-"messages or when a catchable error occurs in your ClientExec installation. "
-"One e-mail address per line."
+"Enter an email address if you want to be notified about Log Level 1 messages "
+"or when a catchable error occurs in your ClientExec installation. One email "
+"address per line."
 msgstr ""
 
 msgid ""
@@ -4863,9 +4900,6 @@ msgid ""
 "a renewal notification.  Separate numbers with a comma."
 msgstr ""
 
-msgid "Enter the password for your Directi reseller account."
-msgstr ""
-
 msgid "Enter the password for your Enom reseller account."
 msgstr ""
 
@@ -5018,9 +5052,6 @@ msgstr ""
 msgid "Enter your payment reference"
 msgstr ""
 
-msgid "Enter your username for your Directi reseller account."
-msgstr ""
-
 msgid "Enter your username for your Enom reseller account."
 msgstr ""
 
@@ -5113,19 +5144,19 @@ msgstr ""
 msgid "Error deleting email template(s).  System templates can not be deleted."
 msgstr ""
 
+msgid "Error from PayPal:"
+msgstr ""
+
 msgid "Error occurred deleting passphrase"
 msgstr ""
 
 msgid "Error opening upgrade package"
 msgstr ""
 
-msgid "Error processing invoice(s) - see transaction."
-msgstr ""
-
 msgid "Error retrieving server information: "
 msgstr ""
 
-msgid "Error sending E-mails"
+msgid "Error sending emails"
 msgstr ""
 
 #, php-format
@@ -5140,6 +5171,10 @@ msgid "Error updating customer profile:"
 msgstr ""
 
 msgid "Error updating password (failed strength) "
+msgstr ""
+
+#, php-format
+msgid "Error verifying the email %s. Missing custom user field for email."
 msgstr ""
 
 #, php-format
@@ -5164,7 +5199,7 @@ msgid "Error: Couldn't gzip SQL dump file"
 msgstr ""
 
 #, php-format
-msgid "Error: Failed sending reset password e-mail to %s"
+msgid "Error: Failed sending reset password email to %s"
 msgstr ""
 
 msgid "Error: Resellerid was not passed properly"
@@ -5436,7 +5471,7 @@ msgstr ""
 msgid "Failed CC Invoices"
 msgstr ""
 
-msgid "Failed Credit Card Invoices"
+msgid "Failed Captcha"
 msgstr ""
 
 msgid "Failed Invoices"
@@ -5697,6 +5732,12 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
+msgid "Free Domain Options"
+msgstr ""
+
+msgid "Free Domain?"
+msgstr ""
+
 msgid "Freelance workers/professionals"
 msgstr ""
 
@@ -5872,9 +5913,6 @@ msgid "Get / Set Registrar Lock"
 msgstr ""
 
 msgid "Get / Set Registrar lock"
-msgstr ""
-
-msgid "Get Auto Renew Status"
 msgstr ""
 
 msgid "Get Registrar Lock"
@@ -6482,7 +6520,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you choose not to handle E-mails from guest clients, it is recommended "
+"If you choose not to handle emails from guest clients, it is recommended "
 "that you set up at least one routing rule that handles them with an "
 "autoresponder letting them know that their message was discarded."
 msgstr ""
@@ -6581,7 +6619,13 @@ msgid ""
 "passphrase."
 msgstr ""
 
+msgid "Ignore Invalid Mail Server SSL"
+msgstr ""
+
 msgid "Ignore Mount Point Errors"
+msgstr ""
+
+msgid "Immediate"
 msgstr ""
 
 msgid "Immediately"
@@ -6735,6 +6779,9 @@ msgstr ""
 msgid "Individuals whose primary place of residence is in New York City."
 msgstr ""
 
+msgid "Info"
+msgstr ""
+
 msgid "Initial Response"
 msgstr ""
 
@@ -6786,8 +6833,7 @@ msgstr ""
 msgid "Invalid Credit Card Number"
 msgstr ""
 
-#, php-format
-msgid "Invalid E-mail address %s."
+msgid "Invalid Email Address"
 msgstr ""
 
 msgid "Invalid Group."
@@ -6800,6 +6846,10 @@ msgid "Invalid Rating"
 msgstr ""
 
 msgid "Invalid VAT Number"
+msgstr ""
+
+#, php-format
+msgid "Invalid email address %s."
 msgstr ""
 
 msgid "Invalid license for domain"
@@ -6854,7 +6904,7 @@ msgid "Invoice #%s Refunded"
 msgstr ""
 
 #, php-format
-msgid "Invoice #%s Sent by E-mail"
+msgid "Invoice #%s Sent by email"
 msgstr ""
 
 #, php-format
@@ -6973,25 +7023,7 @@ msgstr ""
 msgid "Invoice was partially paid on"
 msgstr ""
 
-msgid "Invoice(s) were archived successfully."
-msgstr ""
-
-msgid "Invoice(s) were deleted successfully."
-msgstr ""
-
 msgid "Invoice(s) were processed successfully"
-msgstr ""
-
-msgid "Invoice(s) were processed successfully."
-msgstr ""
-
-msgid "Invoice(s) were sent successfully."
-msgstr ""
-
-msgid "Invoice(s) were un-archived successfully."
-msgstr ""
-
-msgid "Invoice(s) were updated successfully"
 msgstr ""
 
 msgid "Invoices"
@@ -7165,9 +7197,6 @@ msgstr ""
 msgid ""
 "Language in which the ChronoPay page will be displayed in. <br/>NL = Dutch, "
 "ES = Spanish, <br/>RU = Russian, EN = English (Default)"
-msgstr ""
-
-msgid "Language preference."
 msgstr ""
 
 msgid "Lapse of time for counting security warnings (in minutes)"
@@ -7774,7 +7803,7 @@ msgstr ""
 msgid "Merge All Data"
 msgstr ""
 
-msgid "Merge Alternate E-mails"
+msgid "Merge Alternate Emails"
 msgstr ""
 
 msgid "Merge Client"
@@ -8333,11 +8362,11 @@ msgstr ""
 msgid "Notification Automation Service"
 msgstr ""
 
-#, php-format
-msgid "Notification E-mail sent \"%s\""
+msgid "Notification Email"
 msgstr ""
 
-msgid "Notification Email"
+#, php-format
+msgid "Notification email sent \"%s\""
 msgstr ""
 
 msgid "Notification has been saved"
@@ -8355,7 +8384,7 @@ msgstr ""
 msgid "Notify Customer"
 msgstr ""
 
-msgid "Notify E-Mails"
+msgid "Notify Emails"
 msgstr ""
 
 msgid "Notify if the server was restarted since the last check."
@@ -8693,6 +8722,9 @@ msgstr ""
 msgid "PHP Version"
 msgstr ""
 
+msgid "PHP Versions"
+msgstr ""
+
 msgid "PHP as Apache Module support"
 msgstr ""
 
@@ -8756,6 +8788,9 @@ msgstr ""
 msgid "Packages"
 msgstr ""
 
+msgid "Packages Pending Cancelation"
+msgstr ""
+
 msgid "Page Style"
 msgstr ""
 
@@ -8776,9 +8811,6 @@ msgid "Paid invoices"
 msgstr ""
 
 msgid "Paid to Date"
-msgstr ""
-
-msgid "Parent ID"
 msgstr ""
 
 msgid "Park DNS"
@@ -8846,7 +8878,7 @@ msgid "Password needs to contain both uppercase and lowercase characters"
 msgstr ""
 
 msgid ""
-"Password required for relaying E-mail through your SMTP Host.<br>NOTE: Only "
+"Password required for relaying email through your SMTP Host.<br>NOTE: Only "
 "fill this in if your server requires server authentication."
 msgstr ""
 
@@ -8891,9 +8923,6 @@ msgid "Passwords do not match"
 msgstr ""
 
 msgid "Past announcements"
-msgstr ""
-
-msgid "Path to cURL"
 msgstr ""
 
 msgid "Pay"
@@ -8963,6 +8992,9 @@ msgid "Payza"
 msgstr ""
 
 msgid "Pending"
+msgstr ""
+
+msgid "Pending Cancelation Packages"
 msgstr ""
 
 msgid "Pending Cancellation List"
@@ -9109,7 +9141,7 @@ msgid "Please ensure that the file is not empty and try uploading again"
 msgstr ""
 
 msgid ""
-"Please ensure that you have access to the e-mail address that is listed as "
+"Please ensure that you have access to the email address that is listed as "
 "the registrant."
 msgstr ""
 
@@ -9126,11 +9158,6 @@ msgid "Please enter a valid email address."
 msgstr ""
 
 msgid "Please enter the EPP code for this domain"
-msgstr ""
-
-msgid ""
-"Please enter the absolute path to cURL on your system.<br>NOTE: Leaving this "
-"blank will instruct CE to assume you have PHP compiled with libCurl."
 msgstr ""
 
 msgid "Please enter the code given to you by the robotic system:"
@@ -9234,11 +9261,6 @@ msgstr ""
 msgid "Please enter your Realex Payments Subaccount to use Here."
 msgstr ""
 
-msgid ""
-"Please enter your Registered E-mail Address below and click Submit. You will "
-"receive an E-mail shortly with instructions."
-msgstr ""
-
 msgid "Please enter your Stripe Checkout Gateway Publishable Key here."
 msgstr ""
 
@@ -9313,7 +9335,7 @@ msgstr ""
 msgid "Please provide a valid credit card number."
 msgstr ""
 
-msgid "Please provide an e-mail template for this notification"
+msgid "Please provide an email template for this notification"
 msgstr ""
 
 msgid "Please reply above this line"
@@ -9820,9 +9842,6 @@ msgstr ""
 msgid "Receipt Page Header"
 msgstr ""
 
-msgid "Receipt(s) were sent successfully."
-msgstr ""
-
 msgid "Received"
 msgstr ""
 
@@ -9909,7 +9928,7 @@ msgstr ""
 msgid "Registered by"
 msgstr ""
 
-msgid "Registered, but not using support E-mail"
+msgid "Registered, but not using support email"
 msgstr ""
 
 msgid "Registered, from selected groups"
@@ -10072,6 +10091,9 @@ msgstr ""
 msgid "Requested cancellation of #[link] %s"
 msgstr ""
 
+msgid "Requesting cancellation for"
+msgstr ""
+
 msgid "Require Access Code"
 msgstr ""
 
@@ -10205,9 +10227,6 @@ msgstr ""
 msgid "RiskThreshold"
 msgstr ""
 
-msgid "Role"
-msgstr ""
-
 msgid "Routing"
 msgstr ""
 
@@ -10275,6 +10294,9 @@ msgid "SSL"
 msgstr ""
 
 msgid "SSL CSR/CRT Generator"
+msgstr ""
+
+msgid "SSL Cert."
 msgstr ""
 
 msgid "SSL Certificate Information"
@@ -10679,17 +10701,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Select Yes if you wish to use Directi's testing environment, so that "
-"transactions are not actually made.<br><br><b>Note: </b>You will first need "
-"to register for a demo account at<br>http://cp.onlyfordemo.net/servlet/"
-"ResellerSignupServlet?&validatenow=false.<br/><br/><span class=\"alert alert-"
-"danger\"><b>WARNING:</b> ResellerClub has deprecated this version of the "
-"API.  Please go to the <a href=\"index.php?fuse=admin&amp;view=migratedirecti"
-"\">Directi Migration tool</a> to switch over to the ResellerClub Plugin.</"
-"span>"
-msgstr ""
-
-msgid ""
 "Select Yes if you wish to use Enom's testing environment, so that "
 "transactions are not actually made. For this to work, you must first "
 "register you server's ip in Enom's testing environment, and your server's "
@@ -10821,7 +10832,7 @@ msgstr ""
 msgid ""
 "Select how often you wish to have the system send an Email to the customer "
 "requesting for feedback about the service, after a ticket is closed. You can "
-"modify the E-mail's template in the E-mail templates settings section."
+"modify the email's template in the email templates settings section."
 msgstr ""
 
 msgid ""
@@ -11087,15 +11098,15 @@ msgid "Sent On"
 msgstr ""
 
 #, php-format
-msgid "Sent overdue E-mail for Invoice #%s"
+msgid "Sent overdue email for Invoice #%s"
 msgstr ""
 
 #, php-format
-msgid "Sent receipt E-mail for Invoice #%s"
+msgid "Sent receipt email for Invoice #%s"
 msgstr ""
 
 #, php-format
-msgid "Sent upcoming charge notification E-mail, for a total charge of %s"
+msgid "Sent upcoming charge notification email, for a total charge of %s"
 msgstr ""
 
 msgid "Separate Taxes"
@@ -11743,6 +11754,9 @@ msgstr ""
 msgid "Successfully added customer group"
 msgstr ""
 
+msgid "Successfully cancelled subscription."
+msgstr ""
+
 #, php-format
 msgid "Successfully migrated %s account(s) to %s."
 msgstr ""
@@ -11756,7 +11770,7 @@ msgstr ""
 msgid "Successfully saved license"
 msgstr ""
 
-msgid "Successfully sent domain reminder e-mail(s)"
+msgid "Successfully sent domain reminder email(s)"
 msgstr ""
 
 msgid "Successfully sent welcome email"
@@ -11902,6 +11916,9 @@ msgid "System shell (e.g. /bin/bash. Leave empty to disallow)"
 msgstr ""
 
 msgid "SystemID"
+msgstr ""
+
+msgid "TLD"
 msgstr ""
 
 msgid "TLD (ex. com, net)"
@@ -12098,24 +12115,6 @@ msgstr ""
 msgid "The CPU(s) this will go on, blank, 0, 1, 2, 3"
 msgstr ""
 
-#, php-format
-msgid ""
-"The E-mail %s can not be set for support because there is already one set "
-"for that."
-msgstr ""
-
-#, php-format
-msgid ""
-"The E-mail %s can not be used because it is already in use for support by "
-"another user."
-msgstr ""
-
-#, php-format
-msgid ""
-"The E-mail %s can not be used because it is already in use in an email "
-"routing rule."
-msgstr ""
-
 msgid ""
 "The E-mail address where a notification will be sent when the number of "
 "remaining queries reaches your MaxMind Low Query Threshold"
@@ -12304,6 +12303,16 @@ msgid ""
 msgstr ""
 
 #, php-format
+msgid ""
+"The email %s can not be used because it is already in use in an email "
+"routing rule."
+msgstr ""
+
+#, php-format
+msgid "The email %s is already in use."
+msgstr ""
+
+#, php-format
 msgid "The email %s is invalid."
 msgstr ""
 
@@ -12314,6 +12323,12 @@ msgid "The email address provided is not valid."
 msgstr ""
 
 msgid "The email address you entered does not exist, please try again"
+msgstr ""
+
+msgid "The email is already in use."
+msgstr ""
+
+msgid "The email is empty."
 msgstr ""
 
 msgid ""
@@ -12578,7 +12593,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The subject of support E-mails will always have this prefix followed by the "
+"The subject of support emails will always have this prefix followed by the "
 "ticket ID, for the system to be able to recognize them when using the "
 "support pipe."
 msgstr ""
@@ -12671,6 +12686,9 @@ msgid ""
 msgstr ""
 
 msgid "There is already a tax rule for that country, state, and level"
+msgstr ""
+
+msgid "There is no subscription id tied to this invoice."
 msgstr ""
 
 msgid "There isn't a domain plugin associated to this package."
@@ -12771,9 +12789,6 @@ msgid ""
 msgstr ""
 
 msgid "This billing cycle is no longer supported for SSL."
-msgstr ""
-
-msgid "This can be found in your Directi profile."
 msgstr ""
 
 msgid "This certificate has not been issued yet"
@@ -12881,23 +12896,23 @@ msgstr ""
 msgid "This is nearly always localhost, so if you don't know use localhost."
 msgstr ""
 
-msgid ""
-"This is the E-mail address that is visible to users after receiving an "
-"invoice payment request by E-mail."
-msgstr ""
-
 msgid "This is the GameCP Control Module "
 msgstr ""
 
-msgid "This is the SMTP host information to relay your E-mail through."
+msgid "This is the SMTP host information to relay your email through."
 msgstr ""
 
 msgid ""
-"This is the SMTP port that will be used when sending E-mail.  Leaving this "
+"This is the SMTP port that will be used when sending email.  Leaving this "
 "blank will use port 25 by default."
 msgstr ""
 
 msgid "This is the access code for your application."
+msgstr ""
+
+msgid ""
+"This is the email address that is visible to users after receiving an "
+"invoice payment request by email."
 msgstr ""
 
 msgid "This is the identifier for your CCAvenue merchant Account."
@@ -12956,7 +12971,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This plugin imports customers, packages, invoices, servers from a WHMCS 5.x "
+"This plugin imports customers, packages, invoices, servers from a WHMCS "
 "installation."
 msgstr ""
 
@@ -13401,9 +13416,6 @@ msgstr ""
 msgid "Type of Registrant Entity"
 msgstr ""
 
-msgid "Type of account."
-msgstr ""
-
 msgid "Type your comment here"
 msgstr ""
 
@@ -13446,6 +13458,17 @@ msgid "Unable to Obtain"
 msgstr ""
 
 msgid "Unable to create file on remote server"
+msgstr ""
+
+#, php-format
+msgid ""
+"Unable to send welcome email(s) for not active package(s) with id(s): %s"
+msgstr ""
+
+#, php-format
+msgid ""
+"Unable to send welcome email(s) with undefined welcome email for package(s) "
+"with id(s): %s"
 msgstr ""
 
 msgid "Unable to validate at the moment."
@@ -13540,6 +13563,9 @@ msgstr ""
 msgid "Update Coupon"
 msgstr ""
 
+msgid "Update Credit Card"
+msgstr ""
+
 msgid "Update DNS Host Information"
 msgstr ""
 
@@ -13574,15 +13600,15 @@ msgid "Update your Credit Card?"
 msgstr ""
 
 #, php-format
-msgid "Updated alternate E-mail %s (added for %s)"
+msgid "Updated alternate email %s (added for %s)"
 msgstr ""
 
 #, php-format
-msgid "Updated alternate E-mail %s (removed for %s)"
+msgid "Updated alternate email %s (removed for %s)"
 msgstr ""
 
 #, php-format
-msgid "Updated alternate E-mail from %s to %s"
+msgid "Updated alternate email from %s to %s"
 msgstr ""
 
 #, php-format
@@ -13804,7 +13830,7 @@ msgid "Username Custom Field"
 msgstr ""
 
 msgid ""
-"Username required for relaying E-mail through your SMTP Host.<br>NOTE: Only "
+"Username required for relaying email through your SMTP Host.<br>NOTE: Only "
 "fill this in if your server requires server authentication. Filling this "
 "setting in will set SMTP authentication on."
 msgstr ""
@@ -13907,6 +13933,9 @@ msgid "View Account Bandwidth Usage"
 msgstr ""
 
 msgid "View Account Statistics"
+msgstr ""
+
+msgid "View Announcements"
 msgstr ""
 
 msgid "View As Customer"
@@ -14213,18 +14242,22 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
-msgid "Welcome E-Mail"
-msgstr ""
-
-#, php-format
-msgid "Welcome E-mail sent to package #%s"
+msgid "Welcome Email"
 msgstr ""
 
 #, php-format
 msgid "Welcome back %s!"
 msgstr ""
 
-msgid "Welcome email(s) sent"
+#, php-format
+msgid "Welcome email sent to package #%s"
+msgstr ""
+
+#, php-format
+msgid "Welcome email(s) sent for package(s) with id(s): %s"
+msgstr ""
+
+msgid "Welcome email(s) sent."
 msgstr ""
 
 msgid "Welcome to Clientexec"
@@ -14275,7 +14308,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When an E-mail is received rules are checked as they are ordered above and "
+"When an email is received rules are checked as they are ordered above and "
 "only the first rule matched will be processed."
 msgstr ""
 
@@ -14416,6 +14449,11 @@ msgstr ""
 msgid ""
 "When enabled, new orders will be activated and processed when this service "
 "is run.  Please note that manually added packages will not be processed."
+msgstr ""
+
+msgid ""
+"When enabled, new packages added by a staff member will also be activated "
+"when they have been paid."
 msgstr ""
 
 msgid ""
@@ -14563,7 +14601,7 @@ msgstr ""
 msgid "You are being logged off for security reasons."
 msgstr ""
 
-msgid "You are can not change an e-mail that is not yours"
+msgid "You are can not change an email that is not yours"
 msgstr ""
 
 msgid ""
@@ -14619,7 +14657,7 @@ msgstr ""
 msgid "You can not cancel the demo user while in demo mode"
 msgstr ""
 
-msgid "You can not change an e-mail that is not yours"
+msgid "You can not change an email that is not yours"
 msgstr ""
 
 msgid "You can not delete a product that is still in use."
@@ -14690,7 +14728,7 @@ msgid ""
 "to a given URL"
 msgstr ""
 
-msgid "You can use * to apply to all incoming E-mails"
+msgid "You can use * to apply to all incoming emails"
 msgstr ""
 
 msgid "You can't use an email already owned by a staff member"
@@ -14768,12 +14806,6 @@ msgstr ""
 msgid "You entered an incorrect passphrase."
 msgstr ""
 
-msgid "You entered the wrong code"
-msgstr ""
-
-msgid "You entered the wrong code."
-msgstr ""
-
 msgid "You have"
 msgstr ""
 
@@ -14813,7 +14845,7 @@ msgstr ""
 msgid "You must be logged in to view this page."
 msgstr ""
 
-msgid "You must enter a valid e-mail address."
+msgid "You must enter a valid email address."
 msgstr ""
 
 msgid "You must fill in all the required fields before submitting your ticket."
@@ -14870,17 +14902,6 @@ msgid "Your API Secret.<br/><i>Ex: api_secret=12ab34cd</i>"
 msgstr ""
 
 msgid "Your Configuration"
-msgstr ""
-
-msgid "Your E-mail"
-msgstr ""
-
-msgid "Your E-mail address"
-msgstr ""
-
-msgid ""
-"Your E-mail is not registered in our system, so your message has been "
-"discarded. This is an automated reply."
 msgstr ""
 
 msgid "Your Email"
@@ -14975,6 +14996,11 @@ msgstr ""
 msgid "Your email address has been associated with spam related activities."
 msgstr ""
 
+msgid ""
+"Your email is not registered in our system, so your message has been "
+"discarded. This is an automated reply."
+msgstr ""
+
 msgid "Your full name"
 msgstr ""
 
@@ -15067,7 +15093,7 @@ msgstr ""
 msgid ""
 "[<font class=bodyhighlight>COMPANYNAME</font>] <br>[<font "
 "class=bodyhighlight>COMPANYURL</font>]<br> URL to your web site<br>[<font "
-"class=bodyhighlight>SUPPORTEMAIL</font>]<br> E-mail to support staff<br>"
+"class=bodyhighlight>SUPPORTEMAIL</font>]<br> Email to support staff<br>"
 "[<font class=bodyhighlight>CLIENTAPPLICATIONURL</font>]<br> URL to "
 "ClientExec."
 msgstr ""
@@ -15547,7 +15573,7 @@ msgstr ""
 msgid "via %s"
 msgstr ""
 
-msgid "via E-mail"
+msgid "via email"
 msgstr ""
 
 msgid "voice_add_slots"

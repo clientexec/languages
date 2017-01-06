@@ -54,6 +54,9 @@ msgstr ""
 msgid "This field is required"
 msgstr ""
 
+msgid "No data found"
+msgstr ""
+
 msgid "Displaying items"
 msgstr ""
 
@@ -154,6 +157,9 @@ msgid "Add Payment Reference"
 msgstr ""
 
 msgid "Viewing Invoices"
+msgstr ""
+
+msgid "Are sure you want to cancel the subscription tied to this invoice?"
 msgstr ""
 
 msgid "Do you want to send a receipt?"
@@ -846,7 +852,7 @@ msgstr ""
 msgid "Processing Invoice(s)"
 msgstr ""
 
-msgid "Viewing all failed invoices"
+msgid "Viewing all failed invoices."
 msgstr ""
 
 msgid "Outstanding Amount"
@@ -855,7 +861,7 @@ msgstr ""
 msgid "User id field may not be left blank"
 msgstr ""
 
-msgid "Viewing all invoices that are passed their due date yet not paid."
+msgid "Viewing all invoices that are past their due date, but not paid."
 msgstr ""
 
 msgid "Viewing all invoices that have not been paid."
@@ -868,7 +874,7 @@ msgid "Viewing invoices for a filtered user."
 msgstr ""
 
 msgid ""
-"Viewing pending invoices. Invoices that have been sent to merchant but not "
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
 "cleared.  i.e. eChecks"
 msgstr ""
 
@@ -1131,6 +1137,9 @@ msgstr ""
 msgid "Add Recurring Charge"
 msgstr ""
 
+msgid "Are sure you want to cancel this subscription?"
+msgstr ""
+
 msgid "Upload Progress"
 msgstr ""
 
@@ -1192,9 +1201,6 @@ msgid "Article Window"
 msgstr ""
 
 msgid "Are you sure you want to delete the selected comment(s)"
-msgstr ""
-
-msgid "E-mail"
 msgstr ""
 
 msgid "Comment"
@@ -1352,7 +1358,7 @@ msgstr ""
 msgid "This file type is not accepted. Please select a different file."
 msgstr ""
 
-msgid "Attaching"
+msgid "To attach"
 msgstr ""
 
 msgid "Created By"
@@ -1548,6 +1554,9 @@ msgid "Add to cart"
 msgstr ""
 
 msgid "Continue"
+msgstr ""
+
+msgid "Please enter a valid domain"
 msgstr ""
 
 msgid "Searching domain availability ..."
