@@ -1,14 +1,14 @@
 # Clientexec language file.
-# Copyright (C) 2016 Clientexec LLC
+# Copyright (C) 2017 Clientexec LLC
 # This file is distributed under the same license as the Clientexec package.
-# Clientexec <i18n@clientexec.com>, 2016.
+# Clientexec <i18n@clientexec.com>, 2017.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Clientexec 5.5.0\n"
+"Project-Id-Version: Clientexec 5.6.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2016-11-25 10:03-0500\n"
+"POT-Creation-Date: 2017-09-20 13:30-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -429,6 +429,22 @@ msgid ""
 "generated</i></strong>.<br><br><b>Example</b>: -10,-5,-1,1,5,10+ would send "
 "on the tenth days before the due date, five days before, one day before, one "
 "day late, five days late and ten or more days late"
+msgstr ""
+
+msgid ""
+"<b>Required for refunds</b>.<br>As 2Checkout users cannot access both the "
+"API and Seller Area, you need to go to your 2Checkout dashboard, then click "
+"<b>Account</b> > <b>User Management</b> > <b>Create Username</b> and create "
+"another account, making sure to provide <b>API Access</b> and <b>API "
+"Updating</b> permissions. Use that password here."
+msgstr ""
+
+msgid ""
+"<b>Required for refunds</b>.<br>As 2Checkout users cannot access both the "
+"API and Seller Area, you need to go to your 2Checkout dashboard, then click "
+"<b>Account</b> > <b>User Management</b> > <b>Create Username</b> and create "
+"another account, making sure to provide <b>API Access</b> and <b>API "
+"Updating</b> permissions. Use that username here."
 msgstr ""
 
 msgid "<b>Total saved</b>"
@@ -1151,10 +1167,6 @@ msgid ""
 "variable is by selling extra slots."
 msgstr ""
 
-msgid ""
-"Additionally, you can enter any additional comments about your service below:"
-msgstr ""
-
 msgid "Addon Options"
 msgstr ""
 
@@ -1395,6 +1407,9 @@ msgid "Allow Duplicated Subdomains"
 msgstr ""
 
 msgid "Allow FrontPage Authorization"
+msgstr ""
+
+msgid "Allow Paypal"
 msgstr ""
 
 msgid "Allow Publication"
@@ -1782,6 +1797,10 @@ msgstr ""
 msgid "Association"
 msgstr ""
 
+#, php-format
+msgid "At the present time, a %s record is not supported with ResellerClub."
+msgstr ""
+
 msgid "Attach PDF When Mailing Invoice"
 msgstr ""
 
@@ -1949,6 +1968,9 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 
+msgid "Average"
+msgstr ""
+
 msgid "Average Rate"
 msgstr ""
 
@@ -1968,6 +1990,9 @@ msgid "BCC"
 msgstr ""
 
 msgid "BILLING"
+msgstr ""
+
+msgid "Back to invoice list"
 msgstr ""
 
 msgid "Backup your database before proceeding."
@@ -2083,6 +2108,67 @@ msgid "Body"
 msgstr ""
 
 msgid "Bogus legal type to see if this works"
+msgstr ""
+
+msgid "Braintree"
+msgstr ""
+
+msgid ""
+"Braintree Environment (value that specifies where requests should be "
+"directed – sandbox or production).<br><b>NOTE:</b> This Environment is "
+"required if you have selected Braintree as a payment gateway for any of your "
+"clients.<br>In order to get it, follow these steps in your Braintree account:"
+"<ol><li>Log into either the production Control Panel or the sandbox Control "
+"Panel, depending on which environment you are working in</li><li>Navigate to "
+"<b>Account</b> > <b>My User</b></li><li>Under <b>API Keys, Tokenization "
+"Keys, Encryption Keys</b>, click <b>View Authorizations</b>. If no API keys "
+"appear, click <b>Generate New API Key</b></li><li>Click <b>View</b> under "
+"the <b>Private Key</b> column to see your public and private keys, merchant "
+"ID, and environment</li></ol>"
+msgstr ""
+
+msgid ""
+"Braintree Merchant ID (a unique identifier for your gateway account, which "
+"is different than your merchant account ID).<br><b>NOTE:</b> This Merchant "
+"ID is required if you have selected Braintree as a payment gateway for any "
+"of your clients.<br>In order to get it, follow these steps in your Braintree "
+"account:<ol><li>Log into either the production Control Panel or the sandbox "
+"Control Panel, depending on which environment you are working in</"
+"li><li>Navigate to <b>Account</b> > <b>My User</b></li><li>Under <b>API "
+"Keys, Tokenization Keys, Encryption Keys</b>, click <b>View Authorizations</"
+"b>. If no API keys appear, click <b>Generate New API Key</b></li><li>Click "
+"<b>View</b> under the <b>Private Key</b> column to see your public and "
+"private keys, merchant ID, and environment</li></ol>"
+msgstr ""
+
+msgid "Braintree Payment was accepted"
+msgstr ""
+
+msgid ""
+"Braintree Private Key (user-specific secure identifier that should not be "
+"shared – even with Braintree).<br><b>NOTE:</b> This Private Key is required "
+"if you have selected Braintree as a payment gateway for any of your clients."
+"<br>In order to get it, follow these steps in your Braintree account:"
+"<ol><li>Log into either the production Control Panel or the sandbox Control "
+"Panel, depending on which environment you are working in</li><li>Navigate to "
+"<b>Account</b> > <b>My User</b></li><li>Under <b>API Keys, Tokenization "
+"Keys, Encryption Keys</b>, click <b>View Authorizations</b>. If no API keys "
+"appear, click <b>Generate New API Key</b></li><li>Click <b>View</b> under "
+"the <b>Private Key</b> column to see your public and private keys, merchant "
+"ID, and environment</li></ol>"
+msgstr ""
+
+msgid ""
+"Braintree Public Key (user-specific public identifier).<br><b>NOTE:</b> This "
+"Public Key is required if you have selected Braintree as a payment gateway "
+"for any of your clients.<br>In order to get it, follow these steps in your "
+"Braintree account:<ol><li>Log into either the production Control Panel or "
+"the sandbox Control Panel, depending on which environment you are working "
+"in</li><li>Navigate to <b>Account</b> > <b>My User</b></li><li>Under <b>API "
+"Keys, Tokenization Keys, Encryption Keys</b>, click <b>View Authorizations</"
+"b>. If no API keys appear, click <b>Generate New API Key</b></li><li>Click "
+"<b>View</b> under the <b>Private Key</b> column to see your public and "
+"private keys, merchant ID, and environment</li></ol>"
 msgstr ""
 
 msgid "Briefly describe your question"
@@ -2201,6 +2287,9 @@ msgstr ""
 msgid "CC Passphrase"
 msgstr ""
 
+msgid "CC Stored Outside"
+msgstr ""
+
 msgid "CC expiration month"
 msgstr ""
 
@@ -2256,6 +2345,14 @@ msgid "Cache Size"
 msgstr ""
 
 msgid "Calculating Totals ..."
+msgstr ""
+
+msgid "Call on updateGatewayInformation"
+msgstr ""
+
+msgid ""
+"Call openHandler() in \"Edit Your Payment Method\" section if missing "
+"Billing-Profile-ID?  1 = YES, 0 = NO"
 msgstr ""
 
 msgid "Callback Password"
@@ -2667,10 +2764,24 @@ msgstr ""
 msgid "Click to view available tags"
 msgstr ""
 
+msgid "ClickSend API Key"
+msgstr ""
+
+msgid "ClickSend Invoice Sending Integration"
+msgstr ""
+
+msgid ""
+"ClickSend Username.  Sign up for an account <a href=\"http://clicksend.com/?"
+"u=12366\">here</a>."
+msgstr ""
+
 msgid "Client"
 msgstr ""
 
 msgid "Client List"
+msgstr ""
+
+msgid "Client Monthly Retention From Last Year"
 msgstr ""
 
 msgid "Client Password Custom Field"
@@ -2725,6 +2836,9 @@ msgid "Clientexec Settings"
 msgstr ""
 
 msgid "Clientexec Version"
+msgstr ""
+
+msgid "Clients"
 msgstr ""
 
 msgid "Clients Online"
@@ -3073,10 +3187,11 @@ msgid "Created package #%s"
 msgstr ""
 
 #, php-format
-msgid "Created recurring entry %s"
+msgid "Created recurring charge #%s"
 msgstr ""
 
-msgid "Created ticket"
+#, php-format
+msgid "Created ticket #%s"
 msgstr ""
 
 msgid "Created ticket #[link]"
@@ -3499,6 +3614,9 @@ msgstr ""
 msgid "Default Country for your ClientExec installation"
 msgstr ""
 
+msgid "Default Feedback Tweet"
+msgstr ""
+
 msgid "Default Server Name"
 msgstr ""
 
@@ -3584,6 +3702,9 @@ msgstr ""
 msgid "Delete Passphrase"
 msgstr ""
 
+msgid "Delete Payment Method"
+msgstr ""
+
 msgid "Delete Pending Users"
 msgstr ""
 
@@ -3629,6 +3750,9 @@ msgid "Delete packages(s)"
 msgstr ""
 
 msgid "Delete recurring charge"
+msgstr ""
+
+msgid "Delete the blesta2ce.php from your blesta root directory."
 msgstr ""
 
 msgid ""
@@ -3743,9 +3867,6 @@ msgid "Destination Client ID must be specified"
 msgstr ""
 
 msgid "Details"
-msgstr ""
-
-msgid "Determine if guest users can post comments on the knowledgebase."
 msgstr ""
 
 msgid "Determine if the comments will be published immediately."
@@ -3894,6 +4015,11 @@ msgid "Displays predicted income"
 msgstr ""
 
 msgid "Displays stats on usage of individual coupon codes."
+msgstr ""
+
+msgid ""
+"Displays the percentage of customers retained from each period in the last "
+"12 months."
 msgstr ""
 
 msgid ""
@@ -4097,6 +4223,9 @@ msgid "Download .csv"
 msgstr ""
 
 msgid "Download Upgrade Package"
+msgstr ""
+
+msgid "Download the Blesta Export tool"
 msgstr ""
 
 msgid "Download the WHMCS Export tool"
@@ -4481,6 +4610,9 @@ msgid ""
 "cron services for each service."
 msgstr ""
 
+msgid "Enable this option to enable Test Mode"
+msgstr ""
+
 msgid ""
 "Enable this setting if you are connecting to your mail server over SSL and "
 "do not have a valid SSL certificate."
@@ -4668,6 +4800,9 @@ msgstr ""
 msgid "Enter tags separated by commas."
 msgstr ""
 
+msgid "Enter the API Key for your NameCheap account."
+msgstr ""
+
 msgid ""
 "Enter the API key for your Prowl account (separate multiple keys with a "
 "comma)"
@@ -4744,6 +4879,12 @@ msgstr ""
 msgid ""
 "Enter the name of the package custom field that will hold the Hostname for "
 "HyperVM."
+msgstr ""
+
+msgid ""
+"Enter the name of the package custom field that will hold the Location (Node "
+"Group ID) for SolusVM.  This is an optional setting only used if you have "
+"multiple locations/nodes"
 msgstr ""
 
 msgid ""
@@ -4899,6 +5040,11 @@ msgid ""
 "a renewal notification.  Separate numbers with a comma."
 msgstr ""
 
+msgid ""
+"Enter the number of knowledgebase articles to show as top questions when a "
+"ticket type is selected when submitting a new ticket."
+msgstr ""
+
 msgid "Enter the password for your Enom reseller account."
 msgstr ""
 
@@ -4969,12 +5115,6 @@ msgid ""
 "</a>"
 msgstr ""
 
-msgid "Enter your API password for your account."
-msgstr ""
-
-msgid "Enter your API username for your account."
-msgstr ""
-
 msgid "Enter your Account No found in API Login Credentials."
 msgstr ""
 
@@ -4985,6 +5125,12 @@ msgid "Enter your BuycPanel Username"
 msgstr ""
 
 msgid "Enter your Credit Card"
+msgstr ""
+
+msgid "Enter your Live Public Key here"
+msgstr ""
+
+msgid "Enter your Live Secret Key here"
 msgstr ""
 
 msgid "Enter your Login found in API Login Credentials.."
@@ -5035,6 +5181,12 @@ msgid ""
 "account by going to your profile link, in the top right corner."
 msgstr ""
 
+msgid "Enter your Test Public Key here"
+msgstr ""
+
+msgid "Enter your Test Secret Key here"
+msgstr ""
+
 msgid "Enter your account area if you are registered"
 msgstr ""
 
@@ -5055,6 +5207,9 @@ msgid "Enter your username for your Enom reseller account."
 msgstr ""
 
 msgid "Enter your username for your NETIM reseller account."
+msgstr ""
+
+msgid "Enter your username for your NameCheap account."
 msgstr ""
 
 msgid "Enter your username for your OnlineNIC reseller account."
@@ -5088,6 +5243,9 @@ msgid ""
 msgstr ""
 
 msgid "Entity Managing Natural Areas"
+msgstr ""
+
+msgid "Environment"
 msgstr ""
 
 msgid "Erased User"
@@ -5163,7 +5321,7 @@ msgid "Error trying to E-mail Team Status Activity to user(s) %s"
 msgstr ""
 
 #, php-format
-msgid "Error trying to E-mail queued message to user(s) %s"
+msgid "Error trying to E-mail queued message %s with subject %s to user(s) %s"
 msgstr ""
 
 msgid "Error updating customer profile:"
@@ -5701,6 +5859,9 @@ msgstr ""
 msgid "Forgot your password"
 msgstr ""
 
+msgid "Form"
+msgstr ""
+
 msgid "Format is \"headername: content\""
 msgstr ""
 
@@ -5757,6 +5918,11 @@ msgstr ""
 
 msgid ""
 "From this tool, select the clientexec.csv.gz file that was downloaded from "
+"the blesta2ce.php and click import."
+msgstr ""
+
+msgid ""
+"From this tool, select the clientexec.csv.gz file that was downloaded from "
 "the whmcs2ce.php and click import."
 msgstr ""
 
@@ -5770,6 +5936,11 @@ msgid "Full Address"
 msgstr ""
 
 msgid "Full Name"
+msgstr ""
+
+msgid ""
+"Function name to be called in this plugin when given conditions are meet "
+"while updateGatewayInformation is invoked"
 msgstr ""
 
 msgid "GENERAL"
@@ -6018,9 +6189,6 @@ msgstr ""
 msgid "Guest ticket access is disabled, please "
 msgstr ""
 
-msgid "Guest users can post comments"
-msgstr ""
-
 msgid "Guests"
 msgstr ""
 
@@ -6056,6 +6224,9 @@ msgid "Hardware Information"
 msgstr ""
 
 msgid "Has Never Logged On"
+msgstr ""
+
+msgid "Has a form to be loaded?  1 = YES, 0 = NO"
 msgstr ""
 
 msgid "Have a question? Ask or enter a search term here."
@@ -6398,6 +6569,18 @@ msgid ""
 msgstr ""
 
 msgid ""
+"If an invoice is paid, and applies to a package that is pending, suspended "
+"or cancelled, recalculate the next due date for that package and their "
+"related recurring fees, based on the date the invoice was paid. This will "
+"work as follows:<ul><li>If a recurring fee is referenced in an invoice "
+"entry, the next due date will be one billing cycle ahead of the date the "
+"invoice was paid.</li><li>If a recurring fee is not referenced in an invoice "
+"entry and the next due date is older than the date the invoice was paid, the "
+"next due date will be the date the invoice was paid, so that it can generate "
+"the invoice to charge those missing charges.</li></ul>"
+msgstr ""
+
+msgid ""
 "If checked this category will be listed with all other global series in a "
 "sidebar navigation UI.  This allows presentation of your global series "
 "together."
@@ -6618,6 +6801,9 @@ msgid ""
 "passphrase."
 msgstr ""
 
+msgid "Iframe Configuration"
+msgstr ""
+
 msgid "Ignore Invalid Mail Server SSL"
 msgstr ""
 
@@ -6631,6 +6817,9 @@ msgid "Immediately"
 msgstr ""
 
 msgid "Import"
+msgstr ""
+
+msgid "Import Blesta Exported File"
 msgstr ""
 
 msgid "Import Data"
@@ -6838,6 +7027,10 @@ msgstr ""
 msgid "Invalid Group."
 msgstr ""
 
+#, php-format
+msgid "Invalid IP address \"%s\" for record \"%s\"."
+msgstr ""
+
 msgid "Invalid Passphrase"
 msgstr ""
 
@@ -6860,9 +7053,6 @@ msgstr ""
 msgid "Invalid passphrase"
 msgstr ""
 
-msgid "Invalid recipient kind: "
-msgstr ""
-
 msgid "Invalid tax amount"
 msgstr ""
 
@@ -6870,6 +7060,9 @@ msgid "Invalid ticket"
 msgstr ""
 
 msgid "Invalid ticket type"
+msgstr ""
+
+msgid "Invalid user id"
 msgstr ""
 
 msgid "Invoice"
@@ -6891,7 +7084,15 @@ msgid "Invoice #%s Deleted"
 msgstr ""
 
 #, php-format
+msgid "Invoice #%s Marked as Credited"
+msgstr ""
+
+#, php-format
 msgid "Invoice #%s Marked as Paid"
+msgstr ""
+
+#, php-format
+msgid "Invoice #%s Marked as Refunded"
 msgstr ""
 
 #, php-format
@@ -6962,7 +7163,13 @@ msgstr ""
 msgid "Invoice Reminder has emailed the following invoices"
 msgstr ""
 
+msgid "Invoice Sending Failed via ClickSend"
+msgstr ""
+
 msgid "Invoice Start Number"
+msgstr ""
+
+msgid "Invoice Successfully Sent via ClickSend"
 msgstr ""
 
 msgid "Invoice Template"
@@ -7066,6 +7273,9 @@ msgstr ""
 msgid "Is"
 msgstr ""
 
+msgid "Is Credit Card stored outside of Clientexec? 1 = YES, 0 = NO"
+msgstr ""
+
 msgid "Is Not"
 msgstr ""
 
@@ -7117,6 +7327,9 @@ msgstr ""
 msgid "Items"
 msgstr ""
 
+msgid "JSON Available"
+msgstr ""
+
 msgid "January"
 msgstr ""
 
@@ -7164,6 +7377,12 @@ msgid "Kernel Version"
 msgstr ""
 
 msgid "Key"
+msgstr ""
+
+msgid "Key Id"
+msgstr ""
+
+msgid "Key Secret"
 msgstr ""
 
 msgid "Keyword search"
@@ -7312,6 +7531,9 @@ msgstr ""
 msgid "LicenseDefender API Username"
 msgstr ""
 
+msgid "Limit"
+msgstr ""
+
 msgid "Limited Company"
 msgstr ""
 
@@ -7399,6 +7621,12 @@ msgid "Live Chat Beta"
 msgstr ""
 
 msgid "Live Mode"
+msgstr ""
+
+msgid "Live Public Key"
+msgstr ""
+
+msgid "Live Secret Key"
 msgstr ""
 
 msgid "Load Averages"
@@ -7524,6 +7752,14 @@ msgid "Main Preferences"
 msgstr ""
 
 msgid "Make a secure payment using your credit card."
+msgstr ""
+
+msgid "Make this my default payment method"
+msgstr ""
+
+msgid ""
+"Make this my default payment method and store my credit card for future "
+"payments"
 msgstr ""
 
 msgid "Make this note available in tickets by assigning it to a ticket type."
@@ -7652,7 +7888,13 @@ msgstr ""
 msgid "March"
 msgstr ""
 
+msgid "Mark Credited"
+msgstr ""
+
 msgid "Mark Paid"
+msgstr ""
+
+msgid "Mark Refunded"
 msgstr ""
 
 msgid "Mark Un-Paid"
@@ -7830,6 +8072,9 @@ msgid "Merge completed successfully"
 msgstr ""
 
 msgid "Merge on next recurring invoice"
+msgstr ""
+
+msgid "Message"
 msgstr ""
 
 msgid "Message Sent"
@@ -8044,6 +8289,9 @@ msgstr ""
 msgid "Name to be passed to any API with the selected option value"
 msgstr ""
 
+msgid "NameCheap"
+msgstr ""
+
 msgid "NameServer #1"
 msgstr ""
 
@@ -8108,6 +8356,9 @@ msgid "New Admin has been added"
 msgstr ""
 
 msgid "New Credit Card Number"
+msgstr ""
+
+msgid "New Customer Retention"
 msgstr ""
 
 msgid "New Customer's This Week"
@@ -8287,6 +8538,9 @@ msgstr ""
 msgid "Not Assigned"
 msgstr ""
 
+msgid "Not Available"
+msgstr ""
+
 msgid "Not Enabled"
 msgstr ""
 
@@ -8408,6 +8662,9 @@ msgid "Number of Announcements To Show On Main Page"
 msgstr ""
 
 msgid "Number of CPUs."
+msgstr ""
+
+msgid "Number of Knowledgebase Articles to Show as Top Questions"
 msgstr ""
 
 msgid "Number of Latest Articles"
@@ -8575,6 +8832,11 @@ msgid "Open Ticket?"
 msgstr ""
 
 msgid "Open Tickets"
+msgstr ""
+
+msgid ""
+"Open the blesta2ce.php in a web browser which will allow you to download a ."
+"csv.gz file."
 msgstr ""
 
 msgid ""
@@ -8812,6 +9074,11 @@ msgstr ""
 msgid "Paid to Date"
 msgstr ""
 
+msgid ""
+"Parameters to be used in the iframe when loaded, like: width, height, "
+"scrolling, frameborder"
+msgstr ""
+
 msgid "Park DNS"
 msgstr ""
 
@@ -8856,6 +9123,9 @@ msgstr ""
 msgid "Password can't contain a dictionary word"
 msgstr ""
 
+msgid "Password has been Reset"
+msgstr ""
+
 #, php-format
 msgid "Password has been sent to %s"
 msgstr ""
@@ -8874,6 +9144,9 @@ msgid "Password needs to contain both alphabetic characters and symbols"
 msgstr ""
 
 msgid "Password needs to contain both uppercase and lowercase characters"
+msgstr ""
+
+msgid "Password required for refunds."
 msgstr ""
 
 msgid ""
@@ -8975,6 +9248,15 @@ msgstr ""
 msgid "Payment Type"
 msgstr ""
 
+msgid "Payment method has been deleted"
+msgstr ""
+
+msgid "Payment method has been set as default"
+msgstr ""
+
+msgid "Payment method not found"
+msgstr ""
+
 msgid "Payment reference has been added successfully"
 msgstr ""
 
@@ -9034,6 +9316,13 @@ msgid "Pending users to be deleted on next run: %d"
 msgstr ""
 
 msgid "Percent Capacity"
+msgstr ""
+
+msgid ""
+"Percentage of customers in each period (month and year) that created the "
+"account that period, had at least one monthly recurring fee and one invoice, "
+"and continues with billing activity in the latest month (has an invoice "
+"created, due or paid in the last 30 days)."
 msgstr ""
 
 msgid "Performing this action could take some time, please be patient"
@@ -9154,6 +9443,9 @@ msgid "Please enter a valid credit card."
 msgstr ""
 
 msgid "Please enter a valid email address."
+msgstr ""
+
+msgid "Please enter any additional comments about your service below:"
 msgstr ""
 
 msgid "Please enter the EPP code for this domain"
@@ -9437,6 +9729,9 @@ msgstr ""
 msgid "Portbase Custom Field"
 msgstr ""
 
+msgid "Post Comments"
+msgstr ""
+
 msgid "Postal Code"
 msgstr ""
 
@@ -9624,6 +9919,9 @@ msgstr ""
 msgid "Product(s) deleted successfully"
 msgstr ""
 
+msgid "Production"
+msgstr ""
+
 msgid "Products"
 msgstr ""
 
@@ -9676,6 +9974,9 @@ msgid "Public Announcement"
 msgstr ""
 
 msgid "Public Articles"
+msgstr ""
+
+msgid "Public Key"
 msgstr ""
 
 msgid "Public Law Association"
@@ -9790,6 +10091,26 @@ msgstr ""
 msgid "Rate: %s"
 msgstr ""
 
+msgid "Razorpay"
+msgstr ""
+
+msgid ""
+"Razorpay Key Id.<br><b>NOTE:</b> This Key Id is required if you have "
+"selected Razorpay as a payment gateway for any of your clients.<br>You can "
+"get it from <a href='https://dashboard.razorpay.com/#/app/keys' "
+"target='_blank'>here</a>"
+msgstr ""
+
+msgid ""
+"Razorpay Key Secret shared during activation API Key.<br><b>NOTE:</b> This "
+"Key Secret is required if you have selected Razorpay as a payment gateway "
+"for any of your clients.<br>You can get it from <a href='https://dashboard."
+"razorpay.com/#/app/keys' target='_blank'>here</a>"
+msgstr ""
+
+msgid "Razorpay Logo Image URL"
+msgstr ""
+
 msgid "Re-open at later date"
 msgstr ""
 
@@ -9835,6 +10156,9 @@ msgstr ""
 msgid "Recalculate"
 msgstr ""
 
+msgid "Recalculate Next Due Dates Related To Packages"
+msgstr ""
+
 msgid "Receipt Page Footer"
 msgstr ""
 
@@ -9872,6 +10196,10 @@ msgstr ""
 msgid "Recurring Transaction for Product"
 msgstr ""
 
+#, php-format
+msgid "Recurring charge #%s Deleted"
+msgstr ""
+
 msgid "Recurring coupons will be applied on every periodic payment"
 msgstr ""
 
@@ -9879,6 +10207,9 @@ msgid "Refund"
 msgstr ""
 
 msgid "Refund Btn"
+msgstr ""
+
+msgid "Refund Password"
 msgstr ""
 
 msgid "Refund invoices"
@@ -10087,7 +10418,10 @@ msgid "Request Source"
 msgstr ""
 
 #, php-format
-msgid "Requested cancellation of #[link] %s"
+msgid "Requested cancellation of #%s %s"
+msgstr ""
+
+msgid "Requested to Reset Password"
 msgstr ""
 
 msgid "Requesting cancellation for"
@@ -10164,6 +10498,9 @@ msgstr ""
 msgid "Reset Passphrase"
 msgstr ""
 
+msgid "Reset Password"
+msgstr ""
+
 msgid "Reset Shopping Cart"
 msgstr ""
 
@@ -10188,6 +10525,9 @@ msgid "Result"
 msgstr ""
 
 msgid "Resync Ftp Passwords"
+msgstr ""
+
+msgid "Retention"
 msgstr ""
 
 msgid "Retrieve invoice entries with corrupt customers"
@@ -10319,9 +10659,6 @@ msgstr ""
 msgid "SSL Site Management"
 msgstr ""
 
-msgid "SSL Store"
-msgstr ""
-
 msgid "SSL certificate products?"
 msgstr ""
 
@@ -10334,6 +10671,9 @@ msgstr ""
 msgid "Same as game_level except for voice servers."
 msgstr ""
 
+msgid "Sandbox"
+msgstr ""
+
 msgid "Saturday"
 msgstr ""
 
@@ -10344,6 +10684,9 @@ msgid "Save Changes"
 msgstr ""
 
 msgid "Save Custom Fields"
+msgstr ""
+
+msgid "Save Default Payment Method"
 msgstr ""
 
 msgid "Save changes"
@@ -10527,6 +10870,10 @@ msgstr ""
 msgid ""
 "Select YES if you want to allow customers to make one-time payments through "
 "this payment processor."
+msgstr ""
+
+msgid ""
+"Select YES if you want to allow your customers to link a paypal account."
 msgstr ""
 
 msgid ""
@@ -10718,6 +11065,9 @@ msgid ""
 "register_prog.php?PROG=REV"
 msgstr ""
 
+msgid "Select Yes if you wish to use NameCheap's sandbox environment."
+msgstr ""
+
 msgid ""
 "Select Yes if you wish to use NameSilo's testing environment, so that "
 "transactions are not actually made."
@@ -10766,11 +11116,6 @@ msgid ""
 "transactions are not actually made.<br><br><b>Note: </b>You will first need "
 "to register for a demo account at<br>http://cp.onlyfordemo.net/servlet/"
 "ResellerSignupServlet?&validatenow=false."
-msgstr ""
-
-msgid ""
-"Select Yes if you wish to use the testing environment, so that transactions "
-"are not actually made."
 msgstr ""
 
 msgid "Select Yes to be notified when a new High Priority Ticket is received."
@@ -10850,6 +11195,11 @@ msgid ""
 msgstr ""
 
 msgid "Select if this filter is private to you"
+msgstr ""
+
+msgid ""
+"Select the box and enter a name to create this account as an organization "
+"instead of an individual."
 msgstr ""
 
 msgid "Select the date format you want sitewide."
@@ -11023,9 +11373,6 @@ msgid "Semiannually"
 msgstr ""
 
 msgid "Send Account Welcome E-mail"
-msgstr ""
-
-msgid "Send Additional Comment"
 msgstr ""
 
 msgid "Send Btn"
@@ -11210,6 +11557,11 @@ msgstr ""
 msgid "Set to type"
 msgstr ""
 
+msgid ""
+"Sets the number of emails that will be sent each time this service is "
+"triggered.  Leave this blank to not have a limit."
+msgstr ""
+
 msgid "Setting allows FraudLabs Pro customers to check orders for fraud."
 msgstr ""
 
@@ -11281,6 +11633,12 @@ msgstr ""
 msgid "Seven Years"
 msgstr ""
 
+msgid "Share Your Feedback"
+msgstr ""
+
+msgid "Share your feedback"
+msgstr ""
+
 msgid "Shared IP"
 msgstr ""
 
@@ -11325,7 +11683,13 @@ msgstr ""
 msgid "Show Twitter Button"
 msgstr ""
 
+msgid "Show Twitter Button on Excellent Feedback"
+msgstr ""
+
 msgid "Show Twitter Button when Finalizing Checkout"
+msgstr ""
+
+msgid "Show Twitter Button when a client rates a support ticket as excellent"
 msgstr ""
 
 msgid "Show expanded menu for Settings"
@@ -11375,6 +11739,12 @@ msgid "Signup Name"
 msgstr ""
 
 msgid "Signup Order"
+msgstr ""
+
+msgid "Signup error.  Please contact us to see what went wrong"
+msgstr ""
+
+msgid "SimpleXML Available"
 msgstr ""
 
 msgid "Single Page Checkout"
@@ -11545,9 +11915,6 @@ msgstr ""
 msgid "Staff Preferences"
 msgstr ""
 
-msgid "Staff Report."
-msgstr ""
-
 msgid "Staff Roles"
 msgstr ""
 
@@ -11622,6 +11989,9 @@ msgid "Status E-mail"
 msgstr ""
 
 msgid "Status Message"
+msgstr ""
+
+msgid "Status NA"
 msgstr ""
 
 msgid "Step 1"
@@ -12056,13 +12426,25 @@ msgid ""
 "to Yes before this content is displayed during signup."
 msgstr ""
 
+msgid "Test Configuration"
+msgstr ""
+
 msgid "Test Hook(s)"
 msgstr ""
 
 msgid "Test Mode"
 msgstr ""
 
+msgid "Test Public Key"
+msgstr ""
+
+msgid "Test Secret Key"
+msgstr ""
+
 msgid "TestMode"
+msgstr ""
+
+msgid "Testing"
 msgstr ""
 
 msgid "Text Area"
@@ -12710,6 +13092,12 @@ msgstr ""
 msgid "There was an error processing this invoice."
 msgstr ""
 
+msgid "There was an error with PayStack."
+msgstr ""
+
+msgid "There was an error with Razorpay."
+msgstr ""
+
 msgid "There was an error with this request"
 msgstr ""
 
@@ -12914,6 +13302,11 @@ msgid ""
 "invoice payment request by email."
 msgstr ""
 
+msgid ""
+"This is the feedback tweet's default content, that can be changed by the "
+"user. It will be appended by the site's URL."
+msgstr ""
+
 msgid "This is the identifier for your CCAvenue merchant Account."
 msgstr ""
 
@@ -12967,6 +13360,11 @@ msgid ""
 "This plugin adds a dashboard panel which lists the current status of all "
 "teamspeak 3 servers.  Data shown includes server uptime, number of servers, "
 "number of clients online and total number of clients allowed."
+msgstr ""
+
+msgid ""
+"This plugin imports customers, packages, invoices, servers from a Blesta "
+"installation."
 msgstr ""
 
 msgid ""
@@ -13092,6 +13490,10 @@ msgid "Ticket"
 msgstr ""
 
 msgid "Ticket #"
+msgstr ""
+
+#, php-format
+msgid "Ticket #%s Deleted"
 msgstr ""
 
 #, php-format
@@ -13626,6 +14028,9 @@ msgstr ""
 msgid "Upload File"
 msgstr ""
 
+msgid "Upload blesta2ce.php to your blesta root directory."
+msgstr ""
+
 msgid "Upload here the file you wish to decrypt"
 msgstr ""
 
@@ -13645,6 +14050,9 @@ msgid "Url to your Clientexec installation"
 msgstr ""
 
 msgid "Use ClientExec Account"
+msgstr ""
+
+msgid "Use Color?"
 msgstr ""
 
 msgid "Use Default Group Color?"
@@ -13677,6 +14085,9 @@ msgstr ""
 msgid "Use SSL"
 msgstr ""
 
+msgid "Use Sandbox?"
+msgstr ""
+
 msgid "Use Shared IP"
 msgstr ""
 
@@ -13693,6 +14104,9 @@ msgid "Use Verify By Visa and MasterCard SecureCode"
 msgstr ""
 
 msgid "Use a Sub Domain"
+msgstr ""
+
+msgid "Use color when sending the invoice"
 msgstr ""
 
 msgid "Use subscriptions"
@@ -13746,7 +14160,12 @@ msgid ""
 "<i>Optional</i>"
 msgstr ""
 
-msgid "User"
+#, php-format
+msgid "User #%s Created"
+msgstr ""
+
+#, php-format
+msgid "User #%s Deleted"
 msgstr ""
 
 #, php-format
@@ -13771,9 +14190,6 @@ msgstr ""
 msgid "User Billing Plan or Group"
 msgstr ""
 
-msgid "User Created"
-msgstr ""
-
 msgid "User Custom Fields"
 msgstr ""
 
@@ -13781,9 +14197,6 @@ msgid "User ID"
 msgstr ""
 
 msgid "User Id"
-msgstr ""
-
-msgid "User Id was not passed"
 msgstr ""
 
 msgid "User Name"
@@ -13805,6 +14218,9 @@ msgid "User Status Aliases"
 msgstr ""
 
 msgid "User Type"
+msgstr ""
+
+msgid "User id was not passed"
 msgstr ""
 
 msgid "User is not active"
@@ -13865,6 +14281,9 @@ msgid "VM Hostname Custom Field"
 msgstr ""
 
 msgid "VM Label Custom Field"
+msgstr ""
+
+msgid "VM Location Custom Field"
 msgstr ""
 
 msgid "VM Name Custom Field"
@@ -14130,6 +14549,9 @@ msgstr ""
 msgid "Void invoices"
 msgstr ""
 
+msgid "Voided"
+msgstr ""
+
 msgid "WARNING: Low MaxMind Queries"
 msgstr ""
 
@@ -14179,6 +14601,11 @@ msgid "Warnings and errors cleared"
 msgstr ""
 
 msgid "We Accept"
+msgstr ""
+
+msgid ""
+"We are sorry.  You have either reached this page incorrectly or your invoice "
+"has already been paid."
 msgstr ""
 
 msgid ""
@@ -14412,17 +14839,17 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When enabled, e-mails won't be sent immediately, but be queued instead and "
-"sent when this service is triggered. Use it to improve performance if you "
-"have to send lots of e-mails at once."
-msgstr ""
-
-msgid ""
 "When enabled, email customers a set number of days before/after a given "
 "event, defined on <a href=\"index.php?"
 "fuse=admin&controller=notifications&view=adminviewnotifications"
 "\"><b><u>Accounts&nbsp;>&nbsp;Notifications</u></b></a>.<br><b>NOTE:</b> "
 "Only run once per day to avoid duplicate E-mails."
+msgstr ""
+
+msgid ""
+"When enabled, emails won't be sent immediately, but be queued instead and "
+"sent when this service is triggered. Use it to improve performance if you "
+"have to send lots of emails at once."
 msgstr ""
 
 msgid "When enabled, invoices will automatically be created."
@@ -14824,6 +15251,10 @@ msgid ""
 "You have some accounts that did not complete the latest passphrase update!"
 msgstr ""
 
+#, php-format
+msgid "You have successfully reset %s's password."
+msgstr ""
+
 msgid "You have successfully updated your password."
 msgstr ""
 
@@ -14944,9 +15375,6 @@ msgid "Your billing type was successfully updated."
 msgstr ""
 
 msgid "Your browser does not support iframes"
-msgstr ""
-
-msgid "Your browser does not support iframes."
 msgstr ""
 
 msgid "Your comments have been submitted"
@@ -15100,13 +15528,11 @@ msgstr ""
 msgid "[INACTIVE] Client Invoice Paid"
 msgstr ""
 
-msgid "accounts added from %."
-msgstr ""
-
-msgid "accounts added from WHMCS."
-msgstr ""
-
 msgid "accounts added."
+msgstr ""
+
+#, php-format
+msgid "admin accounts added from %s."
 msgstr ""
 
 msgid "ago"
@@ -15126,6 +15552,9 @@ msgstr ""
 msgid "and set to %s"
 msgstr ""
 
+msgid "any"
+msgstr ""
+
 msgid "apply to ticket type"
 msgstr ""
 
@@ -15136,9 +15565,6 @@ msgid "assigned to you / total"
 msgstr ""
 
 msgid "at end of billing period"
-msgstr ""
-
-msgid "authenticate"
 msgstr ""
 
 msgid "available"
@@ -15162,10 +15588,16 @@ msgstr ""
 msgid "cURL with SSL support"
 msgstr ""
 
-msgid "client packages added from %."
+#, php-format
+msgid "client domains added from %s."
 msgstr ""
 
-msgid "client packages added from WHMCS."
+#, php-format
+msgid "client package addons added from %s."
+msgstr ""
+
+#, php-format
+msgid "client packages added from %s."
 msgstr ""
 
 msgid "client packages added."
@@ -15180,16 +15612,18 @@ msgstr ""
 msgid "comments"
 msgstr ""
 
-msgid "connect_host"
-msgstr ""
-
-msgid "coupons added from %."
+#, php-format
+msgid "coupons added from %s."
 msgstr ""
 
 msgid "create a new ticket"
 msgstr ""
 
 msgid "current actions that are active for this plugin_per server"
+msgstr ""
+
+#, php-format
+msgid "customer accounts added from %s."
 msgstr ""
 
 msgid "customer group"
@@ -15201,9 +15635,6 @@ msgstr ""
 msgid "customers notified of expiring credit cards"
 msgstr ""
 
-msgid "data_not_accepted"
-msgstr ""
-
 msgid "day"
 msgstr ""
 
@@ -15211,6 +15642,10 @@ msgid "days"
 msgstr ""
 
 msgid "default"
+msgstr ""
+
+#, php-format
+msgid "departments added from %s."
 msgstr ""
 
 msgid "disable_reseller_checkbox"
@@ -15261,31 +15696,13 @@ msgstr ""
 msgid "eg. red, brown(color_2), yellow"
 msgstr ""
 
-msgid "empty_message"
-msgstr ""
-
-msgid "encoding"
-msgstr ""
-
 msgid "ending in"
 msgstr ""
 
 msgid "english"
 msgstr ""
 
-msgid "execute"
-msgstr ""
-
 msgid "expired credit card ticket(s) generated"
-msgstr ""
-
-msgid "extension_missing"
-msgstr ""
-
-msgid "file_access"
-msgstr ""
-
-msgid "file_open"
 msgstr ""
 
 msgid "for Domain"
@@ -15295,9 +15712,6 @@ msgid "french"
 msgstr ""
 
 msgid "from IP"
-msgstr ""
-
-msgid "from_failed"
 msgstr ""
 
 msgid "game_add_arg"
@@ -15363,6 +15777,9 @@ msgstr ""
 msgid "hrs"
 msgstr ""
 
+msgid "iconv Available"
+msgstr ""
+
 msgid "if contains field names"
 msgstr ""
 
@@ -15375,12 +15792,6 @@ msgstr ""
 msgid "immediately"
 msgstr ""
 
-msgid "instantiate"
-msgstr ""
-
-msgid "invalid_address"
-msgstr ""
-
 msgid "invoice"
 msgstr ""
 
@@ -15390,10 +15801,8 @@ msgstr ""
 msgid "invoices"
 msgstr ""
 
-msgid "invoices added from %."
-msgstr ""
-
-msgid "invoices added from WHMCS."
+#, php-format
+msgid "invoices added from %s."
 msgstr ""
 
 msgid "invoices added."
@@ -15444,6 +15853,9 @@ msgstr ""
 msgid "one time fee"
 msgstr ""
 
+msgid "openHandler"
+msgstr ""
+
 msgid "or"
 msgstr ""
 
@@ -15459,14 +15871,8 @@ msgstr ""
 msgid "package_vars_values"
 msgstr ""
 
-msgid "packages added from %."
-msgstr ""
-
 #, php-format
 msgid "packages added from %s."
-msgstr ""
-
-msgid "packages added from WHMCS."
 msgstr ""
 
 msgid "packages added."
@@ -15478,13 +15884,19 @@ msgstr ""
 msgid "portuguese"
 msgstr ""
 
+#, php-format
+msgid "product addons added from %s."
+msgstr ""
+
+#, php-format
+msgid "product groups added from %s."
+msgstr ""
+
+#, php-format
+msgid "products added from %s."
+msgstr ""
+
 msgid "profile_id is empty."
-msgstr ""
-
-msgid "provide_address"
-msgstr ""
-
-msgid "recipients_failed"
 msgstr ""
 
 msgid "records per page"
@@ -15511,16 +15923,11 @@ msgstr ""
 msgid "search"
 msgstr ""
 
-msgid "signing"
+#, php-format
+msgid "servers added from %s."
 msgstr ""
 
 msgid "skip_setup_page"
-msgstr ""
-
-msgid "smtp_connect_failed"
-msgstr ""
-
-msgid "smtp_error"
 msgstr ""
 
 msgid "spanish"
@@ -15547,10 +15954,8 @@ msgstr ""
 msgid "thru"
 msgstr ""
 
-msgid "tickets added from %."
-msgstr ""
-
-msgid "tickets added from WHMCS."
+#, php-format
+msgid "tickets added from %s."
 msgstr ""
 
 msgid "tickets added."
@@ -15563,9 +15968,6 @@ msgid "troubletickets"
 msgstr ""
 
 msgid "unlimited"
-msgstr ""
-
-msgid "variable_set"
 msgstr ""
 
 #, php-format

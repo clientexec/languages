@@ -183,9 +183,7 @@ msgstr ""
 msgid "Payment Processor (Optional)"
 msgstr ""
 
-msgid ""
-"Some invoices are not yet on their due date. Are you sure you want to "
-"proceed?"
+msgid "Some invoices are not due. Are you sure you want to proceed?"
 msgstr ""
 
 msgid "Are you sure you want to process the selected account(s)?"
@@ -382,6 +380,12 @@ msgid "Add Staff Note"
 msgstr ""
 
 msgid "Add Support Ticket"
+msgstr ""
+
+msgid "You must fill in all the required fields before submitting your ticket."
+msgstr ""
+
+msgid "There was an error with this operation"
 msgstr ""
 
 msgid "Email Customer"
@@ -885,6 +889,15 @@ msgstr ""
 msgid "Customer Name"
 msgstr ""
 
+msgid "Failed Reason"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
 msgid "Are you sure you want to delete the selected charges(s)"
 msgstr ""
 
@@ -1067,6 +1080,9 @@ msgid "Support?"
 msgstr ""
 
 msgid "Manage Alternate Account"
+msgstr ""
+
+msgid "Are you sure you want to reset the password of this client?"
 msgstr ""
 
 msgid "Are you sure you want to delete this customer?"
@@ -1263,9 +1279,6 @@ msgstr ""
 msgid "No Package"
 msgstr ""
 
-msgid "There was an error with this operation"
-msgstr ""
-
 msgid "You must complete all the fields before proceeding"
 msgstr ""
 
@@ -1365,6 +1378,9 @@ msgid "Created By"
 msgstr ""
 
 msgid "Assigned To"
+msgstr ""
+
+msgid "Last Reply"
 msgstr ""
 
 msgid "Elapsed"
@@ -1526,9 +1542,6 @@ msgstr ""
 msgid "Are you sure that you wish to remove the item from your cart?"
 msgstr ""
 
-msgid "Go to PayPal to Make Payment"
-msgstr ""
-
 msgid "Items"
 msgstr ""
 
@@ -1598,10 +1611,19 @@ msgstr ""
 msgid "Product Add-ons"
 msgstr ""
 
-msgid "Are you sure you want to send the selected invoice(s)"
+msgid "Are you sure you want to send the selected invoice(s)?"
+msgstr ""
+
+msgid "Invoices have been successfully sent"
 msgstr ""
 
 msgid "#"
+msgstr ""
+
+msgid "Are you sure you want to send the selected invoice?"
+msgstr ""
+
+msgid "Invoice has been successfully sent"
 msgstr ""
 
 msgid "Please enter a new password"
