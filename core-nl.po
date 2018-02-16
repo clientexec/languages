@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2017-09-20 13:30-0400\n"
+"POT-Creation-Date: 2018-02-12 20:59-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,6 +124,10 @@ msgid ""
 msgstr ""
 
 #, php-format
+msgid "%s was removed from your cart since you did not finish completing it"
+msgstr ""
+
+#, php-format
 msgid "%s, Department %s"
 msgstr ""
 
@@ -168,6 +172,9 @@ msgid "(Recurring)"
 msgstr ""
 
 msgid "(Setup)"
+msgstr ""
+
+msgid "(e.g. yourdomain)"
 msgstr ""
 
 msgid "(e.g. yourdomain.com)"
@@ -239,7 +246,7 @@ msgid ""
 "applicant must:\n"
 "1. Be a natural person; and\n"
 "2. Be entitled to be a member of the professional association of the country "
-"where\t they reside or were educated. \n"
+"where\t they reside or were educated.\n"
 "\n"
 "Criteria B\n"
 "In the case where a professional association exists but is not a member of "
@@ -470,11 +477,6 @@ msgid ""
 "their tickets using the same email account they have registered in "
 "ClientExec. Set to YES to allow any email. In this case ticket logs will be "
 "marked as \"Tech Support (via email)\"."
-msgstr ""
-
-msgid ""
-"<i>prorate option</i><br>Select if you want to include the next payment when "
-"prorating."
 msgstr ""
 
 msgid ""
@@ -1080,9 +1082,6 @@ msgstr ""
 msgid "Add tax support to your Clientexec."
 msgstr ""
 
-msgid "Add to Product"
-msgstr ""
-
 msgid ""
 "Add used physical memory threshold in megabytes (MB) you want this service "
 "to E-mail if passed. Current cache use will be subtracted from the Used "
@@ -1112,6 +1111,9 @@ msgid ""
 msgstr ""
 
 msgid "Add/Remove Packages"
+msgstr ""
+
+msgid "Add/Update to Product"
 msgstr ""
 
 #, php-format
@@ -1530,10 +1532,6 @@ msgstr ""
 msgid "An E-mail will be sent to this E-mail address in case of a failure"
 msgstr ""
 
-#, php-format
-msgid "An email has been sent to %s"
-msgstr ""
-
 msgid "An email has been sent to your account to reset your password."
 msgstr ""
 
@@ -1676,6 +1674,9 @@ msgstr ""
 msgid "Applies to package"
 msgstr ""
 
+msgid "Applies to:"
+msgstr ""
+
 msgid "Apply Canned Reply"
 msgstr ""
 
@@ -1725,6 +1726,9 @@ msgid "Archived Billing Types"
 msgstr ""
 
 msgid "Archived Coupons"
+msgstr ""
+
+msgid "Are you sure you want to send the selected invoice(s)?"
 msgstr ""
 
 msgid "Article"
@@ -1914,6 +1918,12 @@ msgstr ""
 msgid "Automatically on account creation"
 msgstr ""
 
+msgid "Automatically suspended package #[link]"
+msgstr ""
+
+msgid "Automatically unsuspended package #[link]"
+msgstr ""
+
 msgid "Automation Information"
 msgstr ""
 
@@ -2098,6 +2108,9 @@ msgstr ""
 msgid "Billing events"
 msgstr ""
 
+msgid "BitPay"
+msgstr ""
+
 msgid "Bitcoin Address - User Custom Field"
 msgstr ""
 
@@ -2254,10 +2267,10 @@ msgstr ""
 
 msgid ""
 "By registering this domain name, the registrant commits to not undermine the "
-"Principles of Organic Agriculture as formulated by the IFOAM (POA). \n"
+"Principles of Organic Agriculture as formulated by the IFOAM (POA).\n"
 "\t\tIf the registrant is a producer, a transformer or retailer in the field "
 "of agriculture, food and farming, the registrant commits to abide by POA and "
-"by any \n"
+"by any\n"
 "\t\tregulations in force in the relevant markets where the registrant "
 "intends to present or promote its products within the on-line content "
 "associated with this .BIO domain name(s)"
@@ -2585,7 +2598,7 @@ msgid "Changed package #%s, Server to %s"
 msgstr ""
 
 #, php-format
-msgid "Changed package #%s, addon %s to %s (%s)"
+msgid "Changed package #%s, addon %s to %s (%s) [Quantity: %s]"
 msgstr ""
 
 #, php-format
@@ -2641,6 +2654,10 @@ msgstr ""
 
 #, php-format
 msgid "Changed recurring entry %s price to %s"
+msgstr ""
+
+#, php-format
+msgid "Changed recurring entry %s quantity to %s"
 msgstr ""
 
 #, php-format
@@ -3257,8 +3274,8 @@ msgstr ""
 
 msgid ""
 "Crontab is not available in your system or you don't have permission to use "
-"it. Therefore, you must manually enter through your hosting control panel "
-"this cron job."
+"it. Please manually create the following cron job in your hosting control "
+"panel."
 msgstr ""
 
 msgid "Crypt Password"
@@ -3881,8 +3898,14 @@ msgid "Determine if the comments will be published immediately."
 msgstr ""
 
 msgid ""
-"Determine if you are going to use subscriptions for recurring charges.  "
-"Subscriptions are started after the initial payment is completed by customer."
+"Determine if you are going to use subscriptions for recurring charges."
+"<ul><li>Please avoid using <b>\"Duration in months\"</b> in your recurring "
+"fees if you are planning to use Paypal Subscriptions. The subscription will "
+"be unlimited until manually canceled either by you, your client or Paypal if "
+"lack of funds, etc.</li><li>Subscriptions will be created after a payment is "
+"completed by the customer, as long as the invoice was paid before becoming "
+"overdue.</li><li>Subscriptions will not be created if the invoice has "
+"prorated items, or with billing cycles greater than 5 years.</li></ul>"
 msgstr ""
 
 msgid "Determine if you wish all customers to have this functionality"
@@ -3986,9 +4009,6 @@ msgstr ""
 msgid "Display subscriber lifetime since first becoming client"
 msgstr ""
 
-msgid "Display type"
-msgstr ""
-
 msgid ""
 "Displays Service Rating.(click on a date to view Rating tickets for that "
 "year and month)"
@@ -4077,6 +4097,9 @@ msgid "Division not supplied"
 msgstr ""
 
 msgid "Divisions"
+msgstr ""
+
+msgid "Do Not Pro-Rate"
 msgstr ""
 
 msgid "Do not hide the registrant contact information in CIRA WHOIS."
@@ -4181,7 +4204,16 @@ msgstr ""
 msgid "Domain quota"
 msgstr ""
 
+msgid "Domain registration"
+msgstr ""
+
+msgid "Domain renewal"
+msgstr ""
+
 msgid "Domain reseller successfully"
+msgstr ""
+
+msgid "Domain transfer"
 msgstr ""
 
 msgid "Domain updated successfully"
@@ -4257,6 +4289,9 @@ msgid "Drop Down"
 msgstr ""
 
 msgid "Drop-down menus"
+msgstr ""
+
+msgid "Due"
 msgstr ""
 
 msgid "Due Date"
@@ -4565,6 +4600,14 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
+msgid "Enable Auto Login"
+msgstr ""
+
+msgid ""
+"Enable Auto Login, to allow you to automatically log in a client from your "
+"third party code"
+msgstr ""
+
 msgid "Enable DKIM on this account."
 msgstr ""
 
@@ -4837,9 +4880,6 @@ msgstr ""
 msgid ""
 "Enter the amount of announcements you would like to show on the main page of "
 "Clientexec."
-msgstr ""
-
-msgid "Enter the code"
 msgstr ""
 
 msgid "Enter the column number for each field (first column is 1)"
@@ -5137,6 +5177,9 @@ msgstr ""
 msgid "Enter your Credit Card"
 msgstr ""
 
+msgid "Enter your Legacy API Key from your bitpay.com merchant account"
+msgstr ""
+
 msgid "Enter your Live Public Key here"
 msgstr ""
 
@@ -5365,10 +5408,6 @@ msgstr ""
 msgid "Error: Couldn't gzip SQL dump file"
 msgstr ""
 
-#, php-format
-msgid "Error: Failed sending reset password email to %s"
-msgstr ""
-
 msgid "Error: Resellerid was not passed properly"
 msgstr ""
 
@@ -5436,6 +5475,9 @@ msgid "Event successfully removed"
 msgstr ""
 
 msgid "Events"
+msgstr ""
+
+msgid "Every"
 msgstr ""
 
 msgid "Every 10 Years"
@@ -6453,10 +6495,10 @@ msgstr ""
 
 msgid ""
 "I certify that the registrant of this domain the commits to not undermine "
-"the Principles of Organic Agriculture as formulated by the IFOAM (POA). \n"
+"the Principles of Organic Agriculture as formulated by the IFOAM (POA).\n"
 "\t\tIf the registrant is a producer, a transformer or retailer in the field "
 "of agriculture, food and farming, the registrant commits to abide by POA and "
-"by any \n"
+"by any\n"
 "\t\tregulations in force in the relevant markets where the registrant "
 "intends to present or promote its products within the on-line content "
 "associated with this .BIO domain name(s)."
@@ -6580,10 +6622,10 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If an invoice is paid, and applies to a package that is pending, suspended "
-"or cancelled, recalculate the next due date for that package and their "
-"related recurring fees, based on the date the invoice was paid. This will "
-"work as follows:<ul><li>If a recurring fee is referenced in an invoice "
+"If an overdue invoice is paid, and applies to a package that is pending, "
+"suspended or cancelled, recalculate the next due date for that package and "
+"their related recurring fees, based on the date the invoice was paid. This "
+"will work as follows:<ul><li>If a recurring fee is referenced in an invoice "
 "entry, the next due date will be one billing cycle ahead of the date the "
 "invoice was paid.</li><li>If a recurring fee is not referenced in an invoice "
 "entry and the next due date is older than the date the invoice was paid, the "
@@ -6641,9 +6683,9 @@ msgstr ""
 
 msgid ""
 "If the requester is an Italian natural person it contains his/her Codice "
-"Fiscale. \n"
+"Fiscale.\n"
 "For foreigners it can contain a  document number. For associations without "
-"VAT number and tax code must be equal to &quot;n.a.&quot;. \n"
+"VAT number and tax code must be equal to &quot;n.a.&quot;.\n"
 "In all the other cases must be equal to VAT number (in the 11 numbers format "
 "if Nationality=IT) or the numeric Codice Fiscale."
 msgstr ""
@@ -7042,6 +7084,9 @@ msgstr ""
 msgid "Invalid IP address \"%s\" for record \"%s\"."
 msgstr ""
 
+msgid "Invalid License"
+msgstr ""
+
 msgid "Invalid Passphrase"
 msgstr ""
 
@@ -7251,6 +7296,9 @@ msgid "Invoices To Process Today"
 msgstr ""
 
 msgid "Invoices generated"
+msgstr ""
+
+msgid "Invoices have been successfully sent"
 msgstr ""
 
 msgid "Invoices paid"
@@ -7519,6 +7567,9 @@ msgstr ""
 msgid "Left Blank"
 msgstr ""
 
+msgid "Legacy API Key"
+msgstr ""
+
 msgid "Legal Person"
 msgstr ""
 
@@ -7714,9 +7765,6 @@ msgid "Login to Weebly"
 msgstr ""
 
 msgid "Login to cPanel"
-msgstr ""
-
-msgid "Login using a social network"
 msgstr ""
 
 msgid "Login using your registered account"
@@ -8514,9 +8562,6 @@ msgstr ""
 msgid "No subscription"
 msgstr ""
 
-msgid "No tickets found"
-msgstr ""
-
 msgid "No tickets require updating at this time"
 msgstr ""
 
@@ -8743,6 +8788,9 @@ msgstr ""
 msgid "Official Mark"
 msgstr ""
 
+msgid "Ok"
+msgstr ""
+
 msgid "Okay"
 msgstr ""
 
@@ -8769,7 +8817,7 @@ msgstr ""
 msgid "One Time"
 msgstr ""
 
-msgid "One time"
+msgid "One time fee"
 msgstr ""
 
 msgid "One-Time"
@@ -8865,6 +8913,9 @@ msgstr ""
 msgid "Open ticket in the name of user"
 msgstr ""
 
+msgid "Open ticket when this product is ordered?"
+msgstr ""
+
 msgid "OpenSRS"
 msgstr ""
 
@@ -8883,6 +8934,9 @@ msgid "Operation failed. You must not change your own status."
 msgstr ""
 
 msgid "Optimize DataBase"
+msgstr ""
+
+msgid "Option"
 msgstr ""
 
 msgid "Option Label"
@@ -8972,13 +9026,13 @@ msgstr ""
 msgid "Overdue Invoices."
 msgstr ""
 
-msgid "Override Amount"
-msgstr ""
-
 msgid "Override Auto Suspend"
 msgstr ""
 
 msgid "Override Opt-Out?"
+msgstr ""
+
+msgid "Override Price"
 msgstr ""
 
 msgid "Override Product Price"
@@ -9799,11 +9853,20 @@ msgstr ""
 msgid "Price Per Term"
 msgstr ""
 
+msgid "Price per unit"
+msgstr ""
+
+msgid "Prices are per unit purchased."
+msgstr ""
+
 msgid ""
 "Prices left empty will not be shown as an available option for this addon. "
 "Tick the Force checkbox below the billing period price to force showing this "
 "option even when the customer has selected a non matching billing cycle "
 "during signup."
+msgstr ""
+
+msgid "Prices will be multiplied by the quantity"
 msgstr ""
 
 msgid "Pricing not set"
@@ -10340,6 +10403,9 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
+msgid "Remove Cancellation"
+msgstr ""
+
 msgid "Remove DNS"
 msgstr ""
 
@@ -10347,6 +10413,9 @@ msgid "Remove Invoice Subscription"
 msgstr ""
 
 msgid "Remove Is Reseller Checkbox?"
+msgstr ""
+
+msgid "Removed cancellation request of #[link]"
 msgstr ""
 
 msgid "Renew"
@@ -10988,6 +11057,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Select YES if you wish to use the testing environment instead of the live "
+"environment"
+msgstr ""
+
+msgid ""
 "Select YES to allow American Express card acceptance with this plugin. No "
 "will prevent this card type."
 msgstr ""
@@ -11177,6 +11251,9 @@ msgstr ""
 msgid "Select a report.."
 msgstr ""
 
+msgid "Select a type for the selected addon"
+msgstr ""
+
 msgid "Select addon to add to this product"
 msgstr ""
 
@@ -11222,9 +11299,6 @@ msgid ""
 msgstr ""
 
 msgid "Select the date format you want sitewide."
-msgstr ""
-
-msgid "Select the day you want to prorate all new orders to."
 msgstr ""
 
 msgid ""
@@ -11291,6 +11365,9 @@ msgid ""
 "Select the template you wish your users to see. For new templates to be "
 "visible you must place the new style in the templates folder, which is off "
 "of the application's root directory."
+msgstr ""
+
+msgid "Select the transaction speed to confirm payment"
 msgstr ""
 
 msgid ""
@@ -11449,6 +11526,9 @@ msgid "Send welcome email?"
 msgstr ""
 
 msgid "Sent"
+msgstr ""
+
+msgid "Sent Date"
 msgstr ""
 
 #, php-format
@@ -11645,6 +11725,9 @@ msgid "Setup Fee"
 msgstr ""
 
 msgid "Setup Fee Only"
+msgstr ""
+
+msgid "Setup fee"
 msgstr ""
 
 msgid "Setup how you want to manage your support department"
@@ -12340,14 +12423,17 @@ msgstr ""
 
 msgid ""
 "Tax ID. If the requester is an Italian natural person it contains his/her "
-"Codice Fiscale. \n"
+"Codice Fiscale.\n"
 "For foreigners it can contain a  document number. For associations without "
-"VAT number and tax code must be equal to &quot;n.a.&quot;. \n"
+"VAT number and tax code must be equal to &quot;n.a.&quot;.\n"
 "In all the other cases must be equal to VAT number (in the 11 numbers format "
 "if Nationality=IT) or the numeric Codice Fiscale."
 msgstr ""
 
 msgid "Tax domain orders?"
+msgstr ""
+
+msgid "Tax per unit"
 msgstr ""
 
 msgid "Tax rule(s) deleted successfully"
@@ -12522,9 +12608,7 @@ msgid ""
 "remaining queries reaches your MaxMind Low Query Threshold"
 msgstr ""
 
-msgid ""
-"The EPP code is required to initiate a transfer of a domain name. The "
-"customer is asked for their EPP code during signup."
+msgid "The EPP code is required to initiate a transfer of a domain name."
 msgstr ""
 
 msgid ""
@@ -12616,6 +12700,9 @@ msgid ""
 msgstr ""
 
 msgid "The article(s) were moved successfully"
+msgstr ""
+
+msgid "The autologin link has expired"
 msgstr ""
 
 msgid "The billing types(s) were successfully archived."
@@ -12722,9 +12809,6 @@ msgid "The email address associated to your Onebip account."
 msgstr ""
 
 msgid "The email address provided is not valid."
-msgstr ""
-
-msgid "The email address you entered does not exist, please try again"
 msgstr ""
 
 msgid "The email is already in use."
@@ -13046,12 +13130,6 @@ msgid "There are currently %s invoice(s) waiting to be processed."
 msgstr ""
 
 msgid "There are currently no 3rd Party modules installed."
-msgstr ""
-
-msgid "There are currently no invoices due"
-msgstr ""
-
-msgid "There are currently no support tickets"
 msgstr ""
 
 msgid ""
@@ -13797,6 +13875,9 @@ msgstr ""
 msgid "Transaction ID"
 msgstr ""
 
+msgid "Transaction Speed"
+msgstr ""
+
 msgid "Transactions"
 msgstr ""
 
@@ -13917,10 +13998,9 @@ msgstr ""
 
 msgid ""
 "Under Windows platforms the automatic setup of scheduled tasks is not "
-"supported. Therefore, after clicking on Yes and having saved the settings "
-"for a given service, you need to manually create an entry in the task "
-"scheduler, that runs every minute the command shown below. The PHP binary "
-"must be in the system's path."
+"supported. Once you have enabled the service(s), you need to manually create "
+"an entry in the task scheduler that will run the command below every minute. "
+"The PHP binary must also be in the system's path."
 msgstr ""
 
 msgid "Unincorporated Association"
@@ -14120,6 +14200,9 @@ msgid "Use Subscription"
 msgstr ""
 
 msgid "Use Test Mode"
+msgstr ""
+
+msgid "Use Testing Environment?"
 msgstr ""
 
 msgid "Use VAT"
@@ -14515,6 +14598,9 @@ msgid "View tickets assigned to other departments, or unassigned"
 msgstr ""
 
 msgid "View tickets assigned to their departments"
+msgstr ""
+
+msgid "View/Send Transfer Key"
 msgstr ""
 
 #, php-format
@@ -15397,6 +15483,9 @@ msgstr ""
 msgid "Your announcements were not unpublished"
 msgstr ""
 
+msgid "Your bcontainer-fluidser does not support iframes"
+msgstr ""
+
 msgid "Your billing type was successfully added."
 msgstr ""
 
@@ -15504,6 +15593,9 @@ msgid "Your recurring billing actions are currently in progress"
 msgstr ""
 
 msgid "Your request to cancel has been submitted."
+msgstr ""
+
+msgid "Your request to remove cancellation has been completed."
 msgstr ""
 
 msgid "Your reseller panel is not configured"
@@ -15635,12 +15727,6 @@ msgstr ""
 msgid "closed"
 msgstr ""
 
-msgid "comment"
-msgstr ""
-
-msgid "comments"
-msgstr ""
-
 #, php-format
 msgid "coupons added from %s."
 msgstr ""
@@ -15722,6 +15808,9 @@ msgstr ""
 msgid "eWay Sandbox"
 msgstr ""
 
+msgid "each"
+msgstr ""
+
 msgid "eg. red, brown(color_2), yellow"
 msgstr ""
 
@@ -15734,7 +15823,7 @@ msgstr ""
 msgid "expired credit card ticket(s) generated"
 msgstr ""
 
-msgid "for Domain"
+msgid "for"
 msgstr ""
 
 msgid "french"
@@ -15978,6 +16067,9 @@ msgid "tax rule added successfully"
 msgstr ""
 
 msgid "tax rule saved successfully"
+msgstr ""
+
+msgid "taxes"
 msgstr ""
 
 msgid "thru"

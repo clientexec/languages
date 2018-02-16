@@ -51,6 +51,15 @@ msgstr ""
 msgid "Switch is not accepted at this time"
 msgstr ""
 
+msgid "Quantity"
+msgstr ""
+
+msgid "Option"
+msgstr ""
+
+msgid "Prices will be multiplied by the quantity"
+msgstr ""
+
 msgid "This field is required"
 msgstr ""
 
@@ -147,7 +156,7 @@ msgstr ""
 msgid "Pmt Reference"
 msgstr ""
 
-msgid "Amount"
+msgid "Balance Due"
 msgstr ""
 
 msgid "Total"
@@ -166,6 +175,9 @@ msgid "Do you want to send a receipt?"
 msgstr ""
 
 msgid "Are sure you want to delete the selected invoice(s)."
+msgstr ""
+
+msgid "Amount"
 msgstr ""
 
 msgid "Add optional information"
@@ -475,15 +487,34 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
+msgid "Display Type"
+msgstr ""
+
 msgid "WARNING!"
 msgstr ""
 
-msgid "Are you sure you want to add the selected addon?"
+msgid "Are you sure you want to add/update the selected addon?"
+msgstr ""
+
+msgid "Drop-down menus"
+msgstr ""
+
+msgid "Radio buttons"
 msgstr ""
 
 msgid ""
-"Existing customers will be applied the default value: 'None' option if "
-"available, or the first option if not."
+"If the addon is been added, existing customers will be applied the default "
+"value: 'None' option if available, or the first option if not."
+msgstr ""
+
+msgid ""
+"If the addon is been updated to quantity type, existing customers will use a "
+"quantity of 1 by default."
+msgstr ""
+
+msgid ""
+"If the addon is been updated from quantity type to a different type, "
+"existing customers will change their quantity to 1."
 msgstr ""
 
 msgid "Billing Period(s)"
@@ -1132,13 +1163,13 @@ msgstr ""
 msgid "Next Payment Date"
 msgstr ""
 
-msgid "Invoice Amount"
-msgstr ""
-
 msgid "Next Date"
 msgstr ""
 
 msgid "Billing Type"
+msgstr ""
+
+msgid "Price per unit"
 msgstr ""
 
 msgid "Taxable"
@@ -1407,6 +1438,60 @@ msgstr ""
 msgid "Rating"
 msgstr ""
 
+msgid "Loading..."
+msgstr ""
+
+msgid "No data available in table"
+msgstr ""
+
+msgid "Showing % to % of % entries"
+msgstr ""
+
+msgid "_START_"
+msgstr ""
+
+msgid "_END_"
+msgstr ""
+
+msgid "_TOTAL_"
+msgstr ""
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+msgid "filtered from % total entries"
+msgstr ""
+
+msgid "_MAX_"
+msgstr ""
+
+msgid "Show % entries"
+msgstr ""
+
+msgid "Search:"
+msgstr ""
+
+msgid "No matching records found"
+msgstr ""
+
+msgid "<<"
+msgstr ""
+
+msgid ">>"
+msgstr ""
+
+msgid ">"
+msgstr ""
+
+msgid "<"
+msgstr ""
+
+msgid "activate to sort column ascending"
+msgstr ""
+
+msgid "activate to sort column descending"
+msgstr ""
+
 msgid "Registrar Order Id"
 msgstr ""
 
@@ -1441,6 +1526,15 @@ msgid "Certificate CSR"
 msgstr ""
 
 msgid "Certificate Admin Email"
+msgstr ""
+
+msgid "Next Due Date"
+msgstr ""
+
+msgid "Billing Cycle"
+msgstr ""
+
+msgid "Actions"
 msgstr ""
 
 msgid "en"
@@ -1517,9 +1611,6 @@ msgid "First"
 msgstr ""
 
 msgid "Last"
-msgstr ""
-
-msgid "Organization"
 msgstr ""
 
 msgid "Address"
@@ -1611,13 +1702,7 @@ msgstr ""
 msgid "Product Add-ons"
 msgstr ""
 
-msgid "Are you sure you want to send the selected invoice(s)?"
-msgstr ""
-
-msgid "Invoices have been successfully sent"
-msgstr ""
-
-msgid "#"
+msgid "No Invoices To Show"
 msgstr ""
 
 msgid "Are you sure you want to send the selected invoice?"
@@ -1629,16 +1714,16 @@ msgstr ""
 msgid "Please enter a new password"
 msgstr ""
 
-msgid "Next Due Date"
-msgstr ""
-
-msgid "Billing Cycle"
-msgstr ""
-
-msgid "Actions"
+msgid "No Packages To Show"
 msgstr ""
 
 msgid "Not Applicable"
+msgstr ""
+
+msgid "There are currently no support tickets"
+msgstr ""
+
+msgid "There are currently no invoices due"
 msgstr ""
 
 msgid "Reset password"
