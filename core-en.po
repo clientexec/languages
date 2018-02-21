@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2018-02-12 20:59-0500\n"
+"POT-Creation-Date: 2018-02-21 11:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2421,6 +2421,9 @@ msgid "Canceled Users"
 msgstr ""
 
 msgid "Cancellation Requests"
+msgstr ""
+
+msgid "Cancellation Type"
 msgstr ""
 
 msgid "Cancellations"
