@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2018-02-21 11:22-0500\n"
-"PO-Revision-Date: 2015-08-26 17:00-0400\n"
+"POT-Creation-Date: 2018-06-25 13:26-0400\n"
+"PO-Revision-Date: 2018-03-13 09:50-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #, php-format
 msgid " from %s"
@@ -358,9 +358,6 @@ msgstr ""
 
 msgid "3. Payment Details"
 msgstr "3. Detalles Pago"
-
-msgid "30 Day Billing"
-msgstr "Facturación 30 días"
 
 msgid ""
 "32 bit alphanumber CCAvenue key.<br>Note: This key is available at 'Generate "
@@ -745,6 +742,9 @@ msgid "Accept Coupons"
 msgstr "Aceptar Cupones"
 
 msgid "Accept sold out orders?"
+msgstr ""
+
+msgid "Accepted"
 msgstr ""
 
 msgid "Accepted Credit Cards"
@@ -1504,6 +1504,9 @@ msgstr ""
 msgid "Also Update Server"
 msgstr ""
 
+msgid "Also delete users with these statuses"
+msgstr ""
+
 msgid "Alt Emails"
 msgstr ""
 
@@ -1622,9 +1625,6 @@ msgstr ""
 msgid "Announcements"
 msgstr "Anuncios"
 
-msgid "Annual"
-msgstr "Anual"
-
 msgid "Annually"
 msgstr "Anual"
 
@@ -1693,6 +1693,9 @@ msgstr ""
 
 #, php-format
 msgid "Applied account credit to invoice #%s"
+msgstr ""
+
+msgid "Applies To Package"
 msgstr ""
 
 msgid "Applies to package"
@@ -1893,16 +1896,18 @@ msgid "Auto Mailer"
 msgstr ""
 
 msgid ""
-"Auto Mailer has detected issues with some of the required Services for the "
-"Events selected. Please take a look"
-msgstr ""
-
-msgid "Auto Mailer has emailed the following events to the following customers"
+"Auto Mailer / Ticket Creator has detected issues with some of the required "
+"Services for the Events selected. Please take a look"
 msgstr ""
 
 msgid ""
-"Auto Mailer has not been able to find the Email Templates with the following "
-"ids. Please take a look"
+"Auto Mailer / Ticket Creator has emailed and/or created tickets for the "
+"following events to the following customers"
+msgstr ""
+
+msgid ""
+"Auto Mailer / Ticket Creator has not been able to find the Email Templates "
+"with the following ids. Please take a look"
 msgstr ""
 
 msgid "Auto Payment"
@@ -2131,6 +2136,10 @@ msgstr ""
 
 msgid "Billing Preferences"
 msgstr ""
+
+#, fuzzy
+msgid "Billing Type"
+msgstr "Tipos Facturas"
 
 msgid "Billing Types"
 msgstr "Tipos Facturas"
@@ -2843,6 +2852,9 @@ msgstr ""
 msgid "Client"
 msgstr "Cliente"
 
+msgid "Client Id"
+msgstr ""
+
 msgid "Client List"
 msgstr ""
 
@@ -2940,6 +2952,9 @@ msgid "Code"
 msgstr ""
 
 msgid "Codice Fiscale"
+msgstr ""
+
+msgid "CoinPayments"
 msgstr ""
 
 msgid "Coldfusion support"
@@ -3105,9 +3120,6 @@ msgstr ""
 msgid "Content"
 msgstr ""
 
-msgid "Content Delivery Network"
-msgstr ""
-
 msgid ""
 "Content to add to the footer of your PDF invoices visible by your customer."
 msgstr ""
@@ -3122,9 +3134,6 @@ msgid "Continue Shopping"
 msgstr "Continuar Compras"
 
 msgid "Continue to Last Step"
-msgstr ""
-
-msgid "Controls the source of some core JavaScript Libraries."
 msgstr ""
 
 msgid "Cooperative"
@@ -3277,6 +3286,12 @@ msgstr ""
 msgid "Credit Card Expiration Date"
 msgstr ""
 
+msgid "Credit Card Expiration Month"
+msgstr ""
+
+msgid "Credit Card Expiration Year"
+msgstr ""
+
 msgid "Credit Card Expired"
 msgstr "Tarjeta de Crédito Expirada"
 
@@ -3284,6 +3299,9 @@ msgid "Credit Card Invoices"
 msgstr ""
 
 msgid "Credit Card Invoices Ready"
+msgstr ""
+
+msgid "Credit Card Last 4 Digits"
 msgstr ""
 
 msgid "Credit Card Last Four"
@@ -3603,6 +3621,9 @@ msgstr "Estado / Provincia"
 
 msgid "Date"
 msgstr "Fecha"
+
+msgid "Date Activated"
+msgstr ""
 
 msgid "Date Created"
 msgstr "Fecha de Creación"
@@ -4336,6 +4357,9 @@ msgstr "Descargar"
 msgid "Download .csv"
 msgstr "Descargar .csv"
 
+msgid "Download .json"
+msgstr ""
+
 msgid "Download Upgrade Package"
 msgstr ""
 
@@ -4376,6 +4400,9 @@ msgid "Dummy Plugin"
 msgstr "Plugin Placebo"
 
 msgid "Duration (months)"
+msgstr ""
+
+msgid "Duration In Months"
 msgstr ""
 
 msgid "Duration in months"
@@ -4687,6 +4714,9 @@ msgstr ""
 msgid "Enable DKIM on this account."
 msgstr ""
 
+msgid "Enable Device Tracking Addon"
+msgstr ""
+
 msgid "Enable NameSpinner?"
 msgstr ""
 
@@ -4889,13 +4919,8 @@ msgstr ""
 msgid "Enter a list of rules to discard incoming emails"
 msgstr ""
 
-msgid ""
-"Enter a password if you wish to encrypt the file, or else leave empty. Only "
-"possible if you have the mcrypt extension in your PHP installation"
+msgid "Enter a password if you wish to encrypt the file, or else leave empty."
 msgstr ""
-"Ingrese una contraseña si desea encriptar el archivo, o de lo contrario deje "
-"vacío. Solamente posible si tiene la extensión mcrypt en su instalación de "
-"PHP"
 
 msgid ""
 "Enter an email address if you want to be notified about Log Level 1 messages "
@@ -4954,6 +4979,12 @@ msgid ""
 "Enter the Account Reference all domain names should be registered under.  "
 "Leaving this blank will create a different account for each client at the "
 "registrar."
+msgstr ""
+
+msgid "Enter the Hash per rate for this product."
+msgstr ""
+
+msgid "Enter the ID of the scheduler for this product."
 msgstr ""
 
 msgid ""
@@ -5235,6 +5266,9 @@ msgid ""
 "ticket type is selected when submitting a new ticket."
 msgstr ""
 
+msgid "Enter the number of works for this package."
+msgstr ""
+
 msgid "Enter the password for your Enom reseller account."
 msgstr "Ingrese la contraseña para su cuenta de revendedor de Enom."
 
@@ -5319,6 +5353,12 @@ msgstr ""
 msgid "Enter your Credit Card"
 msgstr ""
 
+msgid ""
+"Enter your IPN Secret from your <a target='_blank' href='https://www."
+"coinpayments.net/index.php?"
+"ref=219a5b5f2eacd21f82e48d267f5bd7dc'>coinpayments.net</a> account"
+msgstr ""
+
 msgid "Enter your Legacy API Key from your bitpay.com merchant account"
 msgstr ""
 
@@ -5332,6 +5372,13 @@ msgid "Enter your Login found in API Login Credentials.."
 msgstr ""
 
 msgid ""
+"Enter your MaxMind Account ID.  This is used for the device tracking add-"
+"on<br>You can obtain a license at <br><a href=http://www.maxmind.com/app/"
+"ccv_buynow?rId=clientexec target=_blank>http://www.maxmind.com/app/"
+"ccv_buynow</a>"
+msgstr ""
+
+msgid ""
 "Enter your MaxMind License Key here.<br>You can obtain a license at <br><a "
 "href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
 "target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
@@ -5339,6 +5386,12 @@ msgstr ""
 "Ingrese su MaxMind License Key aquí.<br>Puede obtener una licencia en <br><a "
 "href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
 "target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
+
+msgid ""
+"Enter your Merchant ID from your <a target='_blank' href='https://www."
+"coinpayments.net/index.php?"
+"ref=219a5b5f2eacd21f82e48d267f5bd7dc'>coinpayments.net</a> account"
+msgstr ""
 
 msgid ""
 "Enter your NetEarth One Reseller ID.  This can be found in your NetEarth One "
@@ -5443,14 +5496,19 @@ msgstr ""
 msgid "Entity Managing Natural Areas"
 msgstr ""
 
+msgid "Entries"
+msgstr ""
+
 msgid "Environment"
 msgstr ""
 
-msgid "Erased User"
-msgstr "Usuario Eliminado"
-
 msgid "Erased ticket type"
 msgstr "Tipo de tiquete borrado"
+
+msgid ""
+"Erases inactive, cancelled and/or fraud users after the amount of days "
+"selected with that status."
+msgstr ""
 
 msgid ""
 "Erases pending users after the amount of days selected without being "
@@ -5564,20 +5622,6 @@ msgid ""
 msgstr ""
 "Error: se intento comprimir un archivo SQL sin tener la extención zlib "
 "habilitada"
-
-msgid ""
-"Error: attempted to encrypt SQL dump file without having the mcrypt "
-"extension enabled"
-msgstr ""
-"Error: se ha intentado encriptar un archivo SQL sin tener la extensión de "
-"mcrypt habilitada"
-
-msgid ""
-"Error: attempted to encrypt/decrypt domain passwords without having the "
-"mcrypt extension enabled"
-msgstr ""
-"Error: intentó encriptar/desencriptar contraseñas de dominio sin tener la "
-"extensión mcrypt habilitada"
 
 msgid "Error: authentication with FTP server failed"
 msgstr "Error: la autenticación con el servidor FTP ha fallado"
@@ -5848,6 +5892,9 @@ msgid "Failed Login to Admin Account"
 msgstr ""
 
 msgid "Failed Login to Customer Account"
+msgstr ""
+
+msgid "Failed Reason"
 msgstr ""
 
 #, php-format
@@ -6233,9 +6280,6 @@ msgstr ""
 
 msgid "Generate Invoice & Send"
 msgstr ""
-
-msgid "Generate Invoices After Callback Notification"
-msgstr "Generar Facturas Después de la Notificación del Callback"
 
 msgid "Generate Next Recurring Invoice"
 msgstr ""
@@ -6780,6 +6824,9 @@ msgid "IP Address"
 msgstr ""
 
 msgid "IP Addresses (one per line)"
+msgstr ""
+
+msgid "IPN Secert"
 msgstr ""
 
 msgid "IPs currently banned"
@@ -7554,6 +7601,9 @@ msgstr ""
 msgid "Is"
 msgstr "Es"
 
+msgid "Is Changeable"
+msgstr ""
+
 msgid "Is Credit Card stored outside of Clientexec? 1 = YES, 0 = NO"
 msgstr ""
 
@@ -7615,9 +7665,6 @@ msgstr ""
 
 msgid "January"
 msgstr "Enero"
-
-msgid "JavaScript Source"
-msgstr ""
 
 msgid "Job Title"
 msgstr "Profesión"
@@ -7937,9 +7984,6 @@ msgstr "Cargando..."
 msgid "Loading..."
 msgstr ""
 
-msgid "Local"
-msgstr ""
-
 msgid "Local Authority"
 msgstr ""
 
@@ -8220,6 +8264,9 @@ msgstr ""
 msgid "Max upload file size"
 msgstr ""
 
+msgid "MaxMind Account ID"
+msgstr ""
+
 msgid "MaxMind Fraud Risk Score"
 msgstr "Calificación de Riesgo de Fraude de MaxMind"
 
@@ -8377,6 +8424,9 @@ msgid "Message"
 msgstr ""
 
 msgid "Message Sent"
+msgstr ""
+
+msgid "Message Type"
 msgstr ""
 
 msgid "Message submitted. Thanks!"
@@ -8695,6 +8745,9 @@ msgstr "Número Nexmo"
 
 msgid "Next"
 msgstr "Siguiente"
+
+msgid "Next Bill Date"
+msgstr ""
 
 msgid "Next Billing Date"
 msgstr ""
@@ -9201,6 +9254,9 @@ msgstr ""
 msgid "Option Label"
 msgstr ""
 
+msgid "Option Name"
+msgstr ""
+
 msgid "Options"
 msgstr ""
 
@@ -9360,6 +9416,9 @@ msgstr "Nombre del Paquete"
 
 msgid "Package Overview"
 msgstr "Resumen Paquete"
+
+msgid "Package Reference"
+msgstr ""
 
 msgid "Package Status Aliases"
 msgstr ""
@@ -9673,6 +9732,12 @@ msgid ""
 msgstr ""
 
 msgid "Performing this action could take some time, please be patient"
+msgstr ""
+
+msgid "Period End Date"
+msgstr ""
+
+msgid "Period Start Date"
 msgstr ""
 
 msgid "Period for TLD"
@@ -10121,6 +10186,9 @@ msgstr "Nombre de Usuario Preferido"
 msgid "Prefix the hostname with ssl:// for SSL connections."
 msgstr ""
 
+msgid "Press the button to download the file"
+msgstr ""
+
 msgid "Previous"
 msgstr "Anterior"
 
@@ -10132,6 +10200,12 @@ msgstr ""
 
 msgid "Price Per Term"
 msgstr "Precio por Plazo"
+
+msgid "Price Per Unit"
+msgstr ""
+
+msgid "Price Percent"
+msgstr ""
 
 msgid "Price per unit"
 msgstr ""
@@ -10153,6 +10227,15 @@ msgid "Pricing not set"
 msgstr ""
 
 msgid "Primary"
+msgstr ""
+
+msgid "Primary Pool Hostname Custom Field"
+msgstr ""
+
+msgid "Primary Pool Password Custom Field"
+msgstr ""
+
+msgid "Primary Pool Username Custom Field"
 msgstr ""
 
 msgid "Primary disk size"
@@ -10267,6 +10350,9 @@ msgid "Product Name to be displayed on the ChronoPay hosted payment page."
 msgstr "Nombre del Producto a ser mostrado en la página de pago de Chronopay."
 
 msgid "Product Status Alias"
+msgstr ""
+
+msgid "Product Type"
 msgstr ""
 
 msgid "Product for"
@@ -10544,6 +10630,9 @@ msgstr ""
 
 #, php-format
 msgid "Recurring Fee with id #%s  is invalid. Billing Cycle can not be 0"
+msgstr ""
+
+msgid "Recurring Fees"
 msgstr ""
 
 msgid "Recurring Invoice Setting"
@@ -10881,8 +10970,8 @@ msgid "Reset Shopping Cart"
 msgstr ""
 
 msgid ""
-"Reset your password by entering your registered Email address below. You "
-"will receive an Email shortly with instructions."
+"Reset your password by entering your registered email address below. You "
+"will receive an email shortly with instructions."
 msgstr ""
 
 msgid "Resident alien ID"
@@ -10890,6 +10979,10 @@ msgstr ""
 
 msgid "Resolution"
 msgstr ""
+
+#, fuzzy
+msgid "Response"
+msgstr "Respuesta Inicial"
 
 msgid "Response Time Goal"
 msgstr ""
@@ -11106,6 +11199,15 @@ msgstr ""
 msgid "Searching for string"
 msgstr ""
 
+msgid "Secondary Pool Hostname Custom Field"
+msgstr ""
+
+msgid "Secondary Pool Password Custom Field"
+msgstr ""
+
+msgid "Secondary Pool Username Custom Field"
+msgstr ""
+
 msgid "Secret Word"
 msgstr "Palabra Secreta"
 
@@ -11181,17 +11283,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Select YES if you prefer CE to only generate invoices upon notification of "
-"payment via the callback supported by this processor.  Setting to NO will "
-"generate invoices normally but require you to manually mark them paid as you "
-"receive notification from processor."
-msgstr ""
-"Seleccione Sí si prefiere que CE sólo genere facturas por notidficación de "
-"pago vía el callback soportado por este procesador. Poniéndolo en No "
-"generará facturas normalmente, pero requiere que usted las marque "
-"manualmente como pagadas en cuanto reciba la información del procesador."
-
-msgid ""
 "Select YES if you want ClientExec to forward all new customers to the "
 "gateway selected for payment. CHECK and MONEY ORDER selections will just "
 "create the pending account and notify admin."
@@ -11212,15 +11303,6 @@ msgid ""
 msgstr ""
 "Seleccione SI si desea que ClientExec muestre los términos y condiciones y "
 "fuerce la aprobación antes de completar el proceso de registro."
-
-msgid ""
-"Select YES if you want ClientExec to treat monthly billing by 30 day "
-"intervals.  If you select NO then the same day will be used to determine "
-"intervals."
-msgstr ""
-"Selecciones SI si desea que ClientExec considere meses de 30 días solamente. "
-"Si selecciona NO entonces se usará siempre el mismo día para determinar los "
-"intervalos."
 
 msgid ""
 "Select YES if you want Stripe Checkout to accept Bitcoin payments.</br>You "
@@ -11662,6 +11744,9 @@ msgid ""
 "{name} folder."
 msgstr ""
 
+msgid "Select the hash rate."
+msgstr ""
+
 msgid ""
 "Select the method you want ClientExec to send mail.<br>NOTE: If you have "
 "selected SMTP you will need to complete the SMTP settings as well."
@@ -11736,6 +11821,9 @@ msgstr ""
 "Seleccione la plantilla que usted desea que sus usuarios vean. Para que las "
 "nuevas plantillas sean visibles, deberá ubicar el nuevo estilo en la carpeta "
 "templates, la cual esta en la raiz del directorio de la aplicación."
+
+msgid "Select the tolerance for this package."
+msgstr ""
 
 msgid "Select the transaction speed to confirm payment"
 msgstr ""
@@ -11837,12 +11925,6 @@ msgstr ""
 msgid "Seller ID"
 msgstr "ID del Vendedor"
 
-msgid "Semi-Annual"
-msgstr "Semestral"
-
-msgid "Semiannual"
-msgstr ""
-
 msgid "Semiannually"
 msgstr "Semestral"
 
@@ -11867,6 +11949,9 @@ msgstr "Días de Anticipación para Enviar Facturas"
 msgid "Send Invoice(s)"
 msgstr ""
 
+msgid "Send Notifications"
+msgstr ""
+
 msgid "Send Overdue"
 msgstr "Enviar Vencimiento"
 
@@ -11874,6 +11959,9 @@ msgid "Send Receipt"
 msgstr "Enviar Recibo"
 
 msgid "Send Reminder"
+msgstr ""
+
+msgid "Send Support"
 msgstr ""
 
 msgid "Send Transfer Key"
@@ -12125,6 +12213,9 @@ msgstr "Cuota Instalación"
 
 msgid "Setup Fee Only"
 msgstr "Costo de Instalación Solamente"
+
+msgid "Setup Price Per Unit"
+msgstr ""
 
 msgid "Setup fee"
 msgstr ""
@@ -12541,6 +12632,15 @@ msgstr "Tienda"
 msgid "Store Name"
 msgstr "Nombre de la Tienda"
 
+msgid "Stratumsphere Miner to Miner Integration"
+msgstr ""
+
+msgid "Stratumsphere Settings"
+msgstr ""
+
+msgid "Stratumsphere Threshold Integration"
+msgstr ""
+
 msgid "Stripe Checkout Accept Bitcoin Payments"
 msgstr ""
 
@@ -12604,6 +12704,9 @@ msgstr "Enviar tiquete"
 msgid "Submitted"
 msgstr "Enviado"
 
+msgid "Submitted By"
+msgstr ""
+
 msgid "Submitting..."
 msgstr "Enviando..."
 
@@ -12623,6 +12726,9 @@ msgid "Subscription"
 msgstr ""
 
 msgid "Subscription ID"
+msgstr ""
+
+msgid "Subscription Id"
 msgstr ""
 
 msgid "Subscription is active."
@@ -12839,6 +12945,9 @@ msgstr ""
 
 msgid "Tax"
 msgstr "Impuesto"
+
+msgid "Tax Amount"
+msgstr ""
 
 msgid "Tax Charged"
 msgstr "Impuesto Cobrado"
@@ -13197,6 +13306,11 @@ msgstr ""
 msgid ""
 "The datacenter where the voice server will be created. This is only used if "
 "skip_setup_page = 1"
+msgstr ""
+
+msgid ""
+"The device tracking add-on identifies devices as they move across networks "
+"and enhances the ability of the minFraud services to detect fraud"
 msgstr ""
 
 msgid "The directory 'uploads/support' is not writable."
@@ -13601,6 +13715,9 @@ msgstr ""
 
 msgid "There are no Payment Processors configured!"
 msgstr "¡No hay Procesadores de Pagos configurados!"
+
+msgid "There are no TLDs configured"
+msgstr ""
 
 msgid "There are no articles for this category"
 msgstr "No hay artículos para esta categoría"
@@ -14380,7 +14497,13 @@ msgstr "Tamaño de tráfico (en kbytes)"
 msgid "Transaction"
 msgstr ""
 
+msgid "Transaction Date"
+msgstr ""
+
 msgid "Transaction ID"
+msgstr ""
+
+msgid "Transaction Id"
 msgstr ""
 
 msgid "Transaction Speed"
@@ -14689,6 +14812,9 @@ msgstr "Utilizar MaxMind"
 msgid "Use PayPal Sandbox"
 msgstr "Use el sitio de pruebas de PayPal"
 
+msgid "Use Paypal Subscription"
+msgstr ""
+
 msgid "Use Quantum Gateway's Maxmind fraud screening services."
 msgstr ""
 "Utilizar servicios de investigación del fraude de MaxMind para Quantum "
@@ -14788,6 +14914,9 @@ msgstr ""
 "Usado para verificar la validez de transacciones con Authorize.NET.<br>Nota: "
 "Este valor debe coincidir con el valor ingresado en la Merchant Interface de "
 "Autorize.NET - <i>Opcional</i>"
+
+msgid "User"
+msgstr ""
 
 #, php-format
 msgid "User #%s Created"
@@ -14952,6 +15081,9 @@ msgid "Validate and view customer credit card number"
 msgstr ""
 
 msgid "Validating..."
+msgstr ""
+
+msgid "Value"
 msgstr ""
 
 msgid "Variable Name"
@@ -15231,13 +15363,6 @@ msgid ""
 "Please enable at"
 msgstr ""
 
-msgid ""
-"Warning: domain passwords are encrypted, but the mcrypt extension is not "
-"enabled"
-msgstr ""
-"Advertencia: Las contraseñas de dominio estan encriptadas, pero la extensión "
-"de mcrypt no esta habilitada"
-
 msgid "Warnings and errors cleared"
 msgstr ""
 
@@ -15495,11 +15620,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When enabled, email customers a set number of days before/after a given "
-"event, defined on <a href=\"index.php?"
+"When enabled, email customers and/or create support tickets a set number of "
+"days before/after a given event, defined on <a href=\"index.php?"
 "fuse=admin&controller=notifications&view=adminviewnotifications"
 "\"><b><u>Accounts&nbsp;>&nbsp;Notifications</u></b></a>.<br><b>NOTE:</b> "
-"Only run once per day to avoid duplicate E-mails."
+"Only run once per day to avoid duplicate E-mails or Tickets."
 msgstr ""
 
 msgid ""
@@ -15641,6 +15766,9 @@ msgstr ""
 
 msgid "Whether package settings are set"
 msgstr "Si las configuraciones del paquete están definidas"
+
+msgid "Whether the client will be able to change the values of this field"
+msgstr ""
 
 msgid "Whether this server plugin can set reseller accounts"
 msgstr "Si este plugin del servidor puede establecer cuentas de revendedor"
@@ -15904,13 +16032,6 @@ msgstr "No tiene permiso para eliminar este archivo."
 msgid "You do not have permission to update another staff members preferences"
 msgstr ""
 
-msgid ""
-"You do not have the mcrypt extension enabled. You cannot encrypt/decrypt "
-"domain passwords without it"
-msgstr ""
-"Usted no tiene habilitada la extensión mcrypt. Usted no puede encriptar/"
-"desencriptar las contraseñas de dominio sin esta."
-
 msgid "You don't have permission to open tickets of this type."
 msgstr ""
 
@@ -15934,6 +16055,10 @@ msgstr ""
 
 msgid ""
 "You have some accounts that did not complete the latest passphrase update!"
+msgstr ""
+
+#, php-format
+msgid "You have successfully %s."
 msgstr ""
 
 #, php-format
@@ -16301,6 +16426,9 @@ msgstr ""
 msgid "client packages added."
 msgstr "paquetes de clientes agregados."
 
+msgid "clients"
+msgstr ""
+
 msgid "closed"
 msgstr "cerrados"
 
@@ -16321,9 +16449,6 @@ msgstr ""
 
 msgid "customer group"
 msgstr ""
-
-msgid "customers"
-msgstr "clientes"
 
 msgid "customers notified of expiring credit cards"
 msgstr "clientes notificados de tarjetas de crédito a expirar"
@@ -17440,8 +17565,8 @@ msgid ""
 "We urge you to subscribe to our email announcements however you may opt-out "
 "by selecting NO."
 msgstr ""
-"Le urgimos que se suscriba a nuestros anuncios por email sin embargo puede "
-"optar por no hacerlo seleccionando NO."
+"Le recomendamos que se suscriba a nuestros anuncios por email sin embargo "
+"puede optar por no hacerlo seleccionando NO."
 
 msgid "Western Sahara"
 msgstr "Sahara Occidental"
@@ -17464,6 +17589,80 @@ msgstr "Zimbabue"
 
 msgid "Zipcode"
 msgstr "Código Postal"
+
+#~ msgid "30 Day Billing"
+#~ msgstr "Facturación 30 días"
+
+#~ msgid "Annual"
+#~ msgstr "Anual"
+
+#~ msgid ""
+#~ "Enter a password if you wish to encrypt the file, or else leave empty. "
+#~ "Only possible if you have the mcrypt extension in your PHP installation"
+#~ msgstr ""
+#~ "Ingrese una contraseña si desea encriptar el archivo, o de lo contrario "
+#~ "deje vacío. Solamente posible si tiene la extensión mcrypt en su "
+#~ "instalación de PHP"
+
+#~ msgid "Erased User"
+#~ msgstr "Usuario Eliminado"
+
+#~ msgid ""
+#~ "Error: attempted to encrypt SQL dump file without having the mcrypt "
+#~ "extension enabled"
+#~ msgstr ""
+#~ "Error: se ha intentado encriptar un archivo SQL sin tener la extensión de "
+#~ "mcrypt habilitada"
+
+#~ msgid ""
+#~ "Error: attempted to encrypt/decrypt domain passwords without having the "
+#~ "mcrypt extension enabled"
+#~ msgstr ""
+#~ "Error: intentó encriptar/desencriptar contraseñas de dominio sin tener la "
+#~ "extensión mcrypt habilitada"
+
+#~ msgid "Generate Invoices After Callback Notification"
+#~ msgstr "Generar Facturas Después de la Notificación del Callback"
+
+#~ msgid ""
+#~ "Select YES if you prefer CE to only generate invoices upon notification "
+#~ "of payment via the callback supported by this processor.  Setting to NO "
+#~ "will generate invoices normally but require you to manually mark them "
+#~ "paid as you receive notification from processor."
+#~ msgstr ""
+#~ "Seleccione Sí si prefiere que CE sólo genere facturas por notidficación "
+#~ "de pago vía el callback soportado por este procesador. Poniéndolo en No "
+#~ "generará facturas normalmente, pero requiere que usted las marque "
+#~ "manualmente como pagadas en cuanto reciba la información del procesador."
+
+#~ msgid ""
+#~ "Select YES if you want ClientExec to treat monthly billing by 30 day "
+#~ "intervals.  If you select NO then the same day will be used to determine "
+#~ "intervals."
+#~ msgstr ""
+#~ "Selecciones SI si desea que ClientExec considere meses de 30 días "
+#~ "solamente. Si selecciona NO entonces se usará siempre el mismo día para "
+#~ "determinar los intervalos."
+
+#~ msgid "Semi-Annual"
+#~ msgstr "Semestral"
+
+#~ msgid ""
+#~ "Warning: domain passwords are encrypted, but the mcrypt extension is not "
+#~ "enabled"
+#~ msgstr ""
+#~ "Advertencia: Las contraseñas de dominio estan encriptadas, pero la "
+#~ "extensión de mcrypt no esta habilitada"
+
+#~ msgid ""
+#~ "You do not have the mcrypt extension enabled. You cannot encrypt/decrypt "
+#~ "domain passwords without it"
+#~ msgstr ""
+#~ "Usted no tiene habilitada la extensión mcrypt. Usted no puede encriptar/"
+#~ "desencriptar las contraseñas de dominio sin esta."
+
+#~ msgid "customers"
+#~ msgstr "clientes"
 
 #~ msgid "Enter the code"
 #~ msgstr "Ingrese el código"
@@ -18168,10 +18367,6 @@ msgstr "Código Postal"
 #~ msgstr "Mis Preferencias"
 
 #, fuzzy
-#~ msgid "Response"
-#~ msgstr "Respuesta Inicial"
-
-#, fuzzy
 #~ msgid "Edited on"
 #~ msgstr "Editar"
 
@@ -18273,10 +18468,6 @@ msgstr "Código Postal"
 #, fuzzy
 #~ msgid "Next Date"
 #~ msgstr "Fecha de la Próxima Factura"
-
-#, fuzzy
-#~ msgid "Billing Type"
-#~ msgstr "Tipos Facturas"
 
 #, fuzzy
 #~ msgid "Add Recurring Charge"
