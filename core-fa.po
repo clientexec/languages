@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2018-06-25 13:26-0400\n"
-"PO-Revision-Date: 2017-07-17 11:22+0430\n"
+"POT-Creation-Date: 2019-09-13 22:59-0400\n"
+"PO-Revision-Date: 2019-09-14 05:29+0430\n"
 "Last-Translator: Hadi Shahidi ( www.irwebhost.com ) <hadi.shahidi@gmail."
 "com>\n"
 "Language-Team: irwebhost <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fa_IR\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.2\n"
 
 #, php-format
 msgid " from %s"
@@ -88,6 +88,10 @@ msgstr ""
 
 #, php-format
 msgid "%s package(s) suspended"
+msgstr ""
+
+#, php-format
+msgid "%s package(s) terminated"
 msgstr ""
 
 #, php-format
@@ -356,7 +360,7 @@ msgid "3. Freelance workers/professionals"
 msgstr ""
 
 msgid "3. Payment Details"
-msgstr "3.جزییات پرداخت"
+msgstr "3.مرور و پرداخت"
 
 msgid ""
 "32 bit alphanumber CCAvenue key.<br>Note: This key is available at 'Generate "
@@ -699,6 +703,9 @@ msgstr ""
 msgid "ACL field for reseller account"
 msgstr ""
 
+msgid "API Client ID"
+msgstr ""
+
 msgid "API ID"
 msgstr ""
 
@@ -718,6 +725,9 @@ msgid "API Secret"
 msgstr ""
 
 msgid "API Signature"
+msgstr ""
+
+msgid "API Token"
 msgstr ""
 
 msgid "API Username"
@@ -754,7 +764,7 @@ msgid "Access Code"
 msgstr ""
 
 msgid "Access Denied."
-msgstr "ورود ناموفق"
+msgstr "امکان دسترسی وجود ندارد."
 
 msgid "Access Hash"
 msgstr ""
@@ -763,7 +773,7 @@ msgid "Access Key"
 msgstr ""
 
 msgid "Access denied"
-msgstr "ورود ناموفق"
+msgstr "امکان دسترسی وجود ندارد."
 
 msgid "Access disabled. Software upgrade in progress."
 msgstr ""
@@ -772,7 +782,9 @@ msgid "Access key used to authenticate to server."
 msgstr ""
 
 msgid "Access the client portal by registering below."
-msgstr "با عضویت در فرم زیر میتوانید وارد پرتال شوید"
+msgstr ""
+"با عضویت در فرم زیر میتوانید وارد پرتال شوید . حتما تمام مشخصات خود را با "
+"حروف لاتین وارد نمایید"
 
 msgid ""
 "According to our records we have previously called you. If you did not "
@@ -944,6 +956,9 @@ msgstr ""
 msgid "Add Line"
 msgstr ""
 
+msgid "Add Main Email As Alternate Email"
+msgstr ""
+
 msgid "Add Name Server"
 msgstr "افزودن نیم سرور"
 
@@ -999,7 +1014,7 @@ msgid "Add Status"
 msgstr ""
 
 msgid "Add Support Ticket"
-msgstr ""
+msgstr "افزودن تیکت پشتیبانی"
 
 msgid "Add Tax"
 msgstr ""
@@ -1068,7 +1083,7 @@ msgid "Add notes to customer"
 msgstr ""
 
 msgid "Add package"
-msgstr ""
+msgstr "افزودن سرویس"
 
 msgid "Add reply"
 msgstr "پاسخ دهید"
@@ -1460,7 +1475,7 @@ msgid "Allowed file extensions"
 msgstr "پسوندهای مجاز"
 
 msgid "Already Registered?"
-msgstr "قبلا ثبت نام شده است؟"
+msgstr "عضویت قبلی دارم"
 
 msgid "Already chatting"
 msgstr ""
@@ -1579,6 +1594,9 @@ msgid ""
 "common abbreviation may follow the complete name in parentheses.)"
 msgstr ""
 
+msgid "An internal service error has occurred in Paypal. Please try again"
+msgstr ""
+
 msgid "And Matching"
 msgstr ""
 
@@ -1594,6 +1612,12 @@ msgstr ""
 msgid "Announcement has been saved"
 msgstr ""
 
+msgid "Announcement(s) pinned successfully"
+msgstr ""
+
+msgid "Announcement(s) unpinped successfully"
+msgstr ""
+
 msgid "Announcements"
 msgstr "اطلاعیه ها"
 
@@ -1602,13 +1626,6 @@ msgstr "سالانه"
 
 msgid "Anonymous"
 msgstr ""
-
-msgid ""
-"Anonymous posting has been disabled.  Please login or create an account to "
-"post comments."
-msgstr ""
-"ثبت نظر برای کاربر میهمان غیر فعال است.لطفاً برای ثبت نظر به اکانت خود وارد "
-"شوید."
 
 msgid "Any (Guests & Registered)"
 msgstr ""
@@ -1679,7 +1696,7 @@ msgid "Applies to:"
 msgstr ""
 
 msgid "Apply Canned Reply"
-msgstr ""
+msgstr "استفاده از پیام های آماده"
 
 msgid "Apply Coupon"
 msgstr "اعمال تخفیف"
@@ -1730,7 +1747,7 @@ msgid "Archived Coupons"
 msgstr ""
 
 msgid "Are you sure you want to send the selected invoice(s)?"
-msgstr ""
+msgstr "آیا از ارسال فاکتورها اطمینان دارید ؟"
 
 msgid "Article"
 msgstr ""
@@ -1816,7 +1833,7 @@ msgid "Attach PDF When Mailing Invoice"
 msgstr ""
 
 msgid "Attachment"
-msgstr ""
+msgstr "افزودن فایل"
 
 msgid "Attachments"
 msgstr "فایل های پیوست"
@@ -1891,6 +1908,12 @@ msgstr ""
 msgid "Auto Suspend / Unsuspend"
 msgstr ""
 
+msgid "Auto Terminate"
+msgstr ""
+
+msgid "Auto Terminate Service Summary"
+msgstr ""
+
 msgid "Auto-Renew Domain"
 msgstr ""
 
@@ -1922,6 +1945,9 @@ msgid "Automatically on account creation"
 msgstr ""
 
 msgid "Automatically suspended package #[link]"
+msgstr ""
+
+msgid "Automatically terminated package #[link]"
 msgstr ""
 
 msgid "Automatically unsuspended package #[link]"
@@ -2060,6 +2086,9 @@ msgid ""
 "use it."
 msgstr ""
 
+msgid "Before trying to run this migration, please follow these steps"
+msgstr ""
+
 msgid "Begin chat"
 msgstr ""
 
@@ -2105,6 +2134,9 @@ msgstr ""
 msgid "Billing Preferences"
 msgstr ""
 
+msgid "Billing Profile ID"
+msgstr ""
+
 msgid "Billing Type"
 msgstr ""
 
@@ -2115,9 +2147,6 @@ msgid "Billing events"
 msgstr ""
 
 msgid "BitPay"
-msgstr ""
-
-msgid "Bitcoin Address - User Custom Field"
 msgstr ""
 
 msgid "BluePay"
@@ -2435,7 +2464,7 @@ msgid "Cancellation Requests"
 msgstr ""
 
 msgid "Cancellation Type"
-msgstr ""
+msgstr "دلیل لغو سرویس"
 
 msgid "Cancellations"
 msgstr ""
@@ -2502,6 +2531,9 @@ msgstr ""
 
 msgid "Certificates Pending Cancelation"
 msgstr ""
+
+msgid "Change Password"
+msgstr "تغییر رمز ورود"
 
 msgid "Change package password"
 msgstr ""
@@ -2690,9 +2722,6 @@ msgstr ""
 msgid "Charge CC Automatically Is Disabled For A Package In The Invoice"
 msgstr ""
 
-msgid "Charge Date"
-msgstr ""
-
 msgid "Charge Description"
 msgstr ""
 
@@ -2768,6 +2797,9 @@ msgstr ""
 msgid "Click here to turn the service on."
 msgstr ""
 
+msgid "Click on <i>Show advanced options</i>"
+msgstr ""
+
 msgid "Click on one of the available rooms to the left."
 msgstr ""
 
@@ -2817,6 +2849,9 @@ msgid "Client List"
 msgstr ""
 
 msgid "Client Monthly Retention From Last Year"
+msgstr ""
+
+msgid "Client Name"
 msgstr ""
 
 msgid "Client Password Custom Field"
@@ -2886,7 +2921,7 @@ msgid "Clone Product"
 msgstr ""
 
 msgid "Close Ticket"
-msgstr "تیکت بسته"
+msgstr "بستن تیکت"
 
 msgid "Close Ticket(s)"
 msgstr "تیکت های بسته"
@@ -3028,6 +3063,9 @@ msgstr ""
 msgid "Configure your standard billing settings and create coupons"
 msgstr ""
 
+msgid "Confirm New Password"
+msgstr "تایید کلمه عبور جدید"
+
 msgid "Confirm Passphrase"
 msgstr ""
 
@@ -3056,8 +3094,14 @@ msgstr ""
 msgid "Consulate"
 msgstr ""
 
-msgid "Contact"
+msgid "Consumer Key"
 msgstr ""
+
+msgid "Consumer Secret"
+msgstr ""
+
+msgid "Contact"
+msgstr "تماس"
 
 msgid "Contact E-mail"
 msgstr ""
@@ -3088,9 +3132,12 @@ msgid "Continue Installing"
 msgstr ""
 
 msgid "Continue Shopping"
-msgstr "ادامه خرید"
+msgstr "افزودن خرید جدید"
 
 msgid "Continue to Last Step"
+msgstr ""
+
+msgid "Control Web Panel Plugin"
 msgstr ""
 
 msgid "Cooperative"
@@ -3151,15 +3198,6 @@ msgid "Create Ticket"
 msgstr ""
 
 msgid ""
-"Create a User Custom Field <a href=\"index.php?"
-"fuse=admin&controller=settings&view=usercustomfields\" target=\"_blank"
-"\">here</a> that will be used for your customers to enter a Bitcoin Address."
-"</br>Enter in this field the exact same name you used to create the User "
-"Custom Field.</br>This will be used in case you need to refund them a "
-"Bitcoin Payment."
-msgstr ""
-
-msgid ""
 "Create a black list separated by comma of the subdomains you will not allow "
 "to be used when placing an order"
 msgstr ""
@@ -3200,7 +3238,7 @@ msgid "Create your eNom reseller account"
 msgstr ""
 
 msgid "Created"
-msgstr ""
+msgstr "ایجاد شده"
 
 msgid "Created By"
 msgstr ""
@@ -3238,7 +3276,7 @@ msgid "Credit"
 msgstr ""
 
 msgid "Credit Balance"
-msgstr ""
+msgstr "مانده اعتبار"
 
 msgid "Credit Card Expiration Date"
 msgstr ""
@@ -3541,6 +3579,9 @@ msgstr ""
 msgid "DECRYPT PASSWORDS"
 msgstr ""
 
+msgid "DELETED"
+msgstr ""
+
 msgid "DNI/NIF (for spanish contacts)"
 msgstr ""
 
@@ -3589,6 +3630,9 @@ msgstr ""
 msgid "Date Range"
 msgstr ""
 
+msgid "Date Sent"
+msgstr "تاریخ ارسال"
+
 msgid "Date Submitted"
 msgstr ""
 
@@ -3605,6 +3649,9 @@ msgid "Days Overdue"
 msgstr ""
 
 msgid "Days Overdue Before Suspending"
+msgstr ""
+
+msgid "Days Overdue Before Terminating"
 msgstr ""
 
 msgid "Days To Allow Tickets To Be Reopened"
@@ -3695,6 +3742,9 @@ msgid "Delete Article(s)"
 msgstr ""
 
 msgid "Delete Billing Period(s)"
+msgstr ""
+
+msgid "Delete Billing Profile IDs"
 msgstr ""
 
 msgid "Delete Btn"
@@ -3812,6 +3862,13 @@ msgstr ""
 msgid "Delete ticket"
 msgstr ""
 
+msgid "Deleted Billing Profile ID"
+msgstr ""
+
+#, php-format
+msgid "Deleted Billing Profile ID (%s: %s)"
+msgstr ""
+
 msgid "Deleted CC"
 msgstr ""
 
@@ -3835,6 +3892,9 @@ msgstr ""
 
 #, php-format
 msgid "Deleted package #%s"
+msgstr ""
+
+msgid "Deleting"
 msgstr ""
 
 msgid "Deliver to E-mail address"
@@ -4051,6 +4111,9 @@ msgid ""
 "has replied to them) based on a date range."
 msgstr ""
 
+msgid "Displays income by gateway"
+msgstr ""
+
 msgid "Displays income trends from previous month and year"
 msgstr ""
 
@@ -4069,6 +4132,9 @@ msgstr ""
 msgid ""
 "Displays the percentage of customers retained from each period in the last "
 "12 months."
+msgstr ""
+
+msgid "Displays the total income by gateway per month."
 msgstr ""
 
 msgid ""
@@ -4180,9 +4246,6 @@ msgstr ""
 
 msgid "Domain Renewal"
 msgstr "تمدید دامنه"
-
-msgid "Domain Renewal Notifications"
-msgstr ""
 
 msgid "Domain Search"
 msgstr "جستجو دامنه "
@@ -4296,7 +4359,7 @@ msgid "Download the WHMCS Export tool"
 msgstr ""
 
 msgid "Draft"
-msgstr ""
+msgstr "پیش نویس"
 
 msgid "Draft Articles"
 msgstr ""
@@ -4519,8 +4582,14 @@ msgstr ""
 msgid "Email Customer"
 msgstr "ایمیل مشتری"
 
+msgid "Email History"
+msgstr "سوابق ایمیل"
+
 msgid "Email Name"
 msgstr "نام ایمیل"
+
+msgid "Email Notifications"
+msgstr ""
 
 msgid "Email POP3 fetching"
 msgstr ""
@@ -4625,6 +4694,9 @@ msgstr ""
 msgid "Enable"
 msgstr "فعال"
 
+msgid "Enable <i>Handle card information directly</i>"
+msgstr ""
+
 msgid "Enable Auto Login"
 msgstr ""
 
@@ -4713,6 +4785,9 @@ msgstr ""
 msgid ""
 "Enable this to automatically convert knowledgebase links to be more SEO "
 "friendly.  You will need to enable the htaccess rules from htaccess.txt"
+msgstr ""
+
+msgid "Enable this to use the test API."
 msgstr ""
 
 msgid "Enable this to use the testing environment of Realtime Register."
@@ -4959,6 +5034,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enter the name of the package custom field that will hold the FTP username "
+"(to be shown in welcome emails)"
+msgstr ""
+
+msgid ""
 "Enter the name of the package custom field that will hold the Hostname for "
 "HyperVM."
 msgstr ""
@@ -5082,6 +5162,16 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enter the name of the package custom field that will hold the panel login "
+"password (not used when product type is website"
+msgstr ""
+
+msgid ""
+"Enter the name of the package custom field that will hold the panel login "
+"username (not used when product type is website"
+msgstr ""
+
+msgid ""
 "Enter the name of the package custom field that will hold the voice "
 "hostname. (optional)"
 msgstr ""
@@ -5200,6 +5290,9 @@ msgid ""
 "</a>"
 msgstr ""
 
+msgid "Enter your API Key."
+msgstr ""
+
 msgid "Enter your Account No found in API Login Credentials."
 msgstr ""
 
@@ -5283,6 +5376,9 @@ msgstr ""
 msgid "Enter your ResellOne reseller private key."
 msgstr ""
 
+msgid "Enter your Reseller ID."
+msgstr ""
+
 msgid ""
 "Enter your ResellerClub Reseller ID.  This can be found in your ResellerClub "
 "account by going to your profile link, in the top right corner."
@@ -5302,6 +5398,12 @@ msgstr ""
 
 msgid ""
 "Enter your default contact handle name for Admin, Billing, Tech Contact."
+msgstr ""
+
+msgid "Enter your name.com API token."
+msgstr ""
+
+msgid "Enter your name.com username."
 msgstr ""
 
 msgid "Enter your passphrase"
@@ -5616,6 +5718,9 @@ msgstr ""
 msgid "Excerpt"
 msgstr ""
 
+msgid "Exclude Free Domains From Charge Domain Invoice Offset"
+msgstr ""
+
 msgid "Execute"
 msgstr ""
 
@@ -5627,6 +5732,12 @@ msgid "Execution Time: %s seconds"
 msgstr ""
 
 msgid "Existing Domain Importing"
+msgstr ""
+
+msgid "Existing Password"
+msgstr "کلمه عبور فعلی شما"
+
+msgid "Existing password does not match"
 msgstr ""
 
 msgid "Expected Monthly Income"
@@ -5749,6 +5860,12 @@ msgid "Failed to Refund Invoice #%s"
 msgstr ""
 
 msgid "Failed to add user"
+msgstr ""
+
+msgid "Failed to delete Billing Profile ID for user with ID"
+msgstr ""
+
+msgid "Failed to delete Billing Profile IDs"
 msgstr ""
 
 msgid "Failed updating default plugin"
@@ -5892,11 +6009,6 @@ msgid "First and Last Name"
 msgstr "نام و نام خانوادگی"
 
 msgid "Five Years"
-msgstr ""
-
-msgid ""
-"Follow the links for the given configurations you need to complete before "
-"accepting orders"
 msgstr ""
 
 msgid "For"
@@ -6065,6 +6177,9 @@ msgstr ""
 msgid "GameCP URL"
 msgstr ""
 
+msgid "Gateway"
+msgstr ""
+
 msgid "General"
 msgstr "اطلاعات کلی"
 
@@ -6226,6 +6341,11 @@ msgid "Go back"
 msgstr ""
 
 msgid ""
+"Go to <i><a href='https://dashboard.stripe.com/account/integration/settings' "
+"target='_blank'>Settings > Compliance and reporting > Integration</a></i>"
+msgstr ""
+
+msgid ""
 "Go to the ResellerClub registrar plugin and fill in your Reseller ID and "
 "Password.  Note: The Reseller ID is NOT your email address like it was in "
 "the Directi plugin."
@@ -6330,6 +6450,11 @@ msgstr ""
 msgid "Has a form to be loaded?  1 = YES, 0 = NO"
 msgstr ""
 
+msgid ""
+"Has a form to be loaded?  1 = YES, 0 = NO<br><b>Required to use the new API."
+"</b>"
+msgstr ""
+
 msgid "Have a question? Ask or enter a search term here."
 msgstr "برای رسیدن به پاسخ سوال خود لطفا لغت یا جمله خود را جستجو کنید"
 
@@ -6382,9 +6507,6 @@ msgid "Here's the transcription of the ticket messages:"
 msgstr ""
 
 msgid "Hi there! It is really great to see you."
-msgstr ""
-
-msgid "Hide"
 msgstr ""
 
 msgid "Hide Payment Methods"
@@ -6449,6 +6571,9 @@ msgstr "هاست"
 msgid "Hosting Account"
 msgstr ""
 
+msgid "Hosting Controller integration"
+msgstr ""
+
 msgid "Hosting Package List"
 msgstr ""
 
@@ -6456,6 +6581,9 @@ msgid "Hosting Packages"
 msgstr ""
 
 msgid "Hosting account parameters"
+msgstr ""
+
+msgid "HostingController Settings"
 msgstr ""
 
 msgid "Hostname"
@@ -6641,6 +6769,10 @@ msgstr ""
 msgid "IP Addresses (one per line)"
 msgstr ""
 
+#, php-format
+msgid "IP unblocked on %s via CSF"
+msgstr ""
+
 msgid "IPN Secert"
 msgstr ""
 
@@ -6660,6 +6792,11 @@ msgid "Identify which currencies are supported in your Clientexec"
 msgstr ""
 
 msgid "Identify which currencies are supported in your Clientexec."
+msgstr ""
+
+msgid ""
+"If <b>Create Ticket</b> is set to YES, select here to whom you want the "
+"ticket to be assigned."
 msgstr ""
 
 msgid ""
@@ -6756,6 +6893,11 @@ msgstr ""
 msgid ""
 "If there are any KB categories defined as a global series, a separate icon "
 "will be added to the public home page."
+msgstr ""
+
+msgid ""
+"If this plugin is Auto Payment, is Credit Card stored outside of Clientexec? "
+"1 = YES, 0 = NO"
 msgstr ""
 
 msgid ""
@@ -7040,6 +7182,9 @@ msgstr ""
 msgid "Income (Tax Out)"
 msgstr ""
 
+msgid "Income By Gateway"
+msgstr ""
+
 msgid "Income Growth"
 msgstr ""
 
@@ -7053,9 +7198,9 @@ msgid "Incorrect email or password"
 msgstr ""
 
 msgid ""
-"Incorrect email or password.&nbsp;&nbsp;If you do not have account with us "
-"please register first."
-msgstr "ایمیل یا رمز شما درست نیست. اگر حساب کاربری ندارید لطفا ثبت نام کنید"
+"Incorrect email or password.&nbsp;&nbsp;If you do not have an account with "
+"us please register first."
+msgstr "ایمیل یا رمز عبور اشتباه است . اگر حساب کاربری ندارید ابتدا عضو شوید"
 
 msgid "Incorrect format"
 msgstr ""
@@ -7112,7 +7257,7 @@ msgid "Internal Billing Issues"
 msgstr ""
 
 msgid "Internal Message"
-msgstr ""
+msgstr "پیغام داخلی"
 
 msgid "Internal Message for Support Ticket #"
 msgstr ""
@@ -7356,7 +7501,7 @@ msgid "Invoices generated"
 msgstr ""
 
 msgid "Invoices have been successfully sent"
-msgstr ""
+msgstr "فاکتورها با موفقیت به ایمیل شما ارسال گردید"
 
 msgid "Invoices paid"
 msgstr ""
@@ -7393,9 +7538,6 @@ msgstr ""
 msgid "Is Changeable"
 msgstr ""
 
-msgid "Is Credit Card stored outside of Clientexec? 1 = YES, 0 = NO"
-msgstr ""
-
 msgid "Is Not"
 msgstr ""
 
@@ -7406,6 +7548,9 @@ msgid "Is private registration turned off?"
 msgstr ""
 
 msgid "Is the domain unlocked?"
+msgstr ""
+
+msgid "Is this plugin storing a Billing-Profile-ID? 1 = YES, 0 = NO"
 msgstr ""
 
 msgid ""
@@ -7544,7 +7689,7 @@ msgid "Last Generated"
 msgstr ""
 
 msgid "Last Login"
-msgstr ""
+msgstr "آخرین ورود"
 
 msgid "Last Month"
 msgstr ""
@@ -7791,9 +7936,6 @@ msgstr "شما با نام کاربری "
 msgid "Login"
 msgstr "ورود"
 
-msgid "Login Attempts"
-msgstr ""
-
 msgid "Login Disabled"
 msgstr ""
 
@@ -7820,6 +7962,11 @@ msgstr ""
 
 msgid "Login to cPanel"
 msgstr "ورود به سی پنل"
+
+msgid ""
+"Login to your <i><a href='https://dashboard.stripe.com/login' "
+"target='_blank'>Stripe Dashboard</a></i>"
+msgstr ""
 
 msgid "Login using your registered account"
 msgstr "با استفاده از حساب کاربری ثبت شده وارد شوید"
@@ -7869,12 +8016,12 @@ msgid "Make a secure payment using your credit card."
 msgstr ""
 
 msgid "Make this my default payment method"
-msgstr ""
+msgstr "این روش پرداخت به عنوان روش پرداخت پیش فرض برای من در نظر گرفته شود"
 
 msgid ""
 "Make this my default payment method and store my credit card for future "
 "payments"
-msgstr ""
+msgstr "\"\"\"\"روش پرداخت پیش فرض\"\"\"\""
 
 msgid "Make this note available in tickets by assigning it to a ticket type."
 msgstr ""
@@ -8006,7 +8153,7 @@ msgid "Mark Credited"
 msgstr ""
 
 msgid "Mark Paid"
-msgstr ""
+msgstr "پرداخت شد"
 
 msgid "Mark Refunded"
 msgstr ""
@@ -8034,6 +8181,15 @@ msgstr ""
 
 msgid "Max file size"
 msgstr "حداکثر اندازه فایل"
+
+msgid "Max number of files"
+msgstr ""
+
+msgid "Max number of inodes"
+msgstr ""
+
+msgid "Max number of procs"
+msgstr ""
 
 msgid "Max upload file size"
 msgstr ""
@@ -8409,6 +8565,9 @@ msgstr ""
 msgid "Name to be passed to any API with the selected option value"
 msgstr ""
 
+msgid "Name.com"
+msgstr ""
+
 msgid "NameCheap"
 msgstr ""
 
@@ -8497,7 +8656,7 @@ msgid "New Passphrase"
 msgstr ""
 
 msgid "New Password"
-msgstr ""
+msgstr "کلمه عبور جدید (رمز جدید)"
 
 msgid "New customers"
 msgstr ""
@@ -8674,7 +8833,7 @@ msgid "Not Sent"
 msgstr "ارسال نشده"
 
 msgid "Not Taxable"
-msgstr ""
+msgstr "عدم مشمول مالیات"
 
 msgid "Not Yet Registered"
 msgstr ""
@@ -8718,7 +8877,7 @@ msgid ""
 msgstr ""
 
 msgid "Notes"
-msgstr ""
+msgstr "یادداشت ها"
 
 msgid "Notes visible to customer"
 msgstr ""
@@ -8775,6 +8934,9 @@ msgstr ""
 msgid "November"
 msgstr ""
 
+msgid "Now, you should be ready to run this migration"
+msgstr ""
+
 msgid "Number Of Ips Custom Field"
 msgstr ""
 
@@ -8791,6 +8953,10 @@ msgid "Number of Latest Articles"
 msgstr ""
 
 #, php-format
+msgid "Number of clients to be charged: %d"
+msgstr ""
+
+#, php-format
 msgid ""
 "Number of credit cards expiring this month: %d<br>Number of credit cards "
 "expired last month: %d"
@@ -8798,10 +8964,6 @@ msgstr ""
 
 #, php-format
 msgid "Number of customers to be billed: %d"
-msgstr ""
-
-#, php-format
-msgid "Number of customers to be charged: %d"
 msgstr ""
 
 msgid ""
@@ -8826,7 +8988,15 @@ msgid "Number of packages pending auto suspension: %d"
 msgstr ""
 
 #, php-format
+msgid "Number of packages pending auto termination: %d"
+msgstr ""
+
+#, php-format
 msgid "Number of packages requiring manual suspension: %d"
+msgstr ""
+
+#, php-format
+msgid "Number of packages requiring manual termination: %d"
 msgstr ""
 
 msgid "Number of security warnings triggering a ban"
@@ -8936,6 +9106,9 @@ msgstr ""
 msgid ""
 "Only suspend packages that are this many days overdue. Enter 0 here to "
 "disable package suspension"
+msgstr ""
+
+msgid "Only terminate packages that are this many days overdue."
 msgstr ""
 
 msgid ""
@@ -9163,6 +9336,9 @@ msgstr ""
 msgid "Package Reference"
 msgstr ""
 
+msgid "Package Settings"
+msgstr ""
+
 msgid "Package Status Aliases"
 msgstr ""
 
@@ -9179,10 +9355,10 @@ msgid "Package add-on"
 msgstr "امکانات اضافی"
 
 msgid "Package list"
-msgstr "لیست پکیج"
+msgstr "لیست سروریسها"
 
 msgid "Packages"
-msgstr "پکیج ها"
+msgstr "سرویسها"
 
 msgid "Packages Pending Cancelation"
 msgstr ""
@@ -9198,7 +9374,7 @@ msgid "Paid %s.  Account paid in full"
 msgstr ""
 
 msgid "Paid Invoices"
-msgstr ""
+msgstr "فاکتورهای پرداخت شده"
 
 msgid "Paid On"
 msgstr "تاریخ پرداخت"
@@ -9208,6 +9384,12 @@ msgstr ""
 
 msgid "Paid to Date"
 msgstr "پیش پرداخت"
+
+msgid "Panel Login Name Custom Field"
+msgstr ""
+
+msgid "Panel Login Password Custom Field"
+msgstr ""
 
 msgid ""
 "Parameters to be used in the iframe when loaded, like: width, height, "
@@ -9327,6 +9509,9 @@ msgid "Passwords"
 msgstr ""
 
 msgid "Passwords do not match"
+msgstr ""
+
+msgid "Passwords do not match."
 msgstr ""
 
 msgid "Past announcements"
@@ -9476,7 +9661,7 @@ msgid "Permanent Resident"
 msgstr ""
 
 msgid "Permission Denied"
-msgstr ""
+msgstr "دسترسی به این صفحه محدود است"
 
 msgid "Permissions"
 msgstr ""
@@ -9493,6 +9678,9 @@ msgid ""
 msgstr ""
 
 msgid "Personal use"
+msgstr ""
+
+msgid "Pesapal"
 msgstr ""
 
 msgid "Phone"
@@ -9516,7 +9704,13 @@ msgstr ""
 msgid "Physical Memory"
 msgstr ""
 
+msgid "Pin"
+msgstr ""
+
 msgid "Pin the active customer on right panel"
+msgstr ""
+
+msgid "Pin this announcement"
 msgstr ""
 
 msgid "Place Order"
@@ -9587,7 +9781,7 @@ msgid "Please enter a valid email address."
 msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید."
 
 msgid "Please enter any additional comments about your service below:"
-msgstr ""
+msgstr "شما می توانید هر گونه نظر درباره خدمات را درفرم زیرارسال فرمایید"
 
 msgid "Please enter the EPP code for this domain"
 msgstr " برای این دامنه را وارد کنید EPP لطفا کد"
@@ -9602,17 +9796,49 @@ msgid "Please enter the path to your Linkpoint Digital Certificate."
 msgstr ""
 
 msgid ""
+"Please enter your API Client ID.<br><b>Required to use the new API.</"
+"b><br>To get this value, you need to login to <a href=\"https://developer."
+"paypal.com\" target=\"_blank\">https://developer.paypal.com</a> using your "
+"live PayPal account credentials and then follow the instructions below:"
+"<ul><li>Go to Dashboard > My Apps & Credentials</li><li>Go to REST API Apps "
+"> Create App</li><li>Enter a name for the app and generate an app</"
+"li><li>Once the App is generated, click on the App > Select \"Live\" mode "
+"and then you will see the live \"Client ID\" and \"Secret\"</li></ul><b>NOTE:"
+"</b> Make sure to create one app per each Clientexec installation you use, "
+"or it could lead to issues."
+msgstr ""
+
+msgid ""
 "Please enter your API Key for your Onebip here. The API Key can be set under "
 "the \"My Account\" section of your Onebip account."
 msgstr ""
 
-msgid "Please enter your API Password"
+msgid ""
+"Please enter your API Password.<br><b>Required to do refunds or cancel "
+"subscriptions.</b>"
 msgstr ""
 
-msgid "Please enter your API Signature"
+msgid ""
+"Please enter your API Secret.<br><b>Required to do subscriptions using the "
+"new API.</b><br>To get this value, you need to login to <a href=\"https://"
+"developer.paypal.com\" target=\"_blank\">https://developer.paypal.com</a> "
+"using your live PayPal account credentials and then follow the instructions "
+"below:<ul><li>Go to Dashboard > My Apps & Credentials</li><li>Go to REST API "
+"Apps > Create App</li><li>Enter a name for the app and generate an app</"
+"li><li>Once the App is generated, click on the App > Select \"Live\" mode "
+"and then you will see the live \"Client ID\" and \"Secret\"</li></ul><b>NOTE:"
+"</b> Make sure to create one app per each Clientexec installation you use, "
+"or it could lead to issues."
 msgstr ""
 
-msgid "Please enter your API Username"
+msgid ""
+"Please enter your API Signature.<br><b>Required to do refunds or cancel "
+"subscriptions.</b>"
+msgstr ""
+
+msgid ""
+"Please enter your API Username.<br><b>Required to do refunds or cancel "
+"subscriptions.</b>"
 msgstr ""
 
 msgid "Please enter your Authorize.Net API Login ID Here."
@@ -9717,6 +9943,12 @@ msgstr ""
 msgid "Please enter your new profile and billing details below to continue."
 msgstr "لطفا در فرم زیر مشخصات حساب جدید و جزییات پرداخت خود را وارد کنید."
 
+msgid "Please enter your pesapal consumer key."
+msgstr ""
+
+msgid "Please enter your pesapal consumer secret."
+msgstr ""
+
 msgid "Please fill in all required fields."
 msgstr "لطفاً فیلدهای مورد نیاز را وارد کنید"
 
@@ -9759,7 +9991,7 @@ msgid ""
 msgstr ""
 
 msgid "Please pay this invoice"
-msgstr ""
+msgstr "لطفا این فاکتور را پرداخت نمایید."
 
 msgid "Please provide a name for this notification"
 msgstr ""
@@ -9875,6 +10107,9 @@ msgstr ""
 
 msgid "Postal Code"
 msgstr "کدپستی"
+
+msgid "Posting has been disabled."
+msgstr ""
 
 msgid "Powered by"
 msgstr ""
@@ -10100,7 +10335,7 @@ msgid "Professional Association"
 msgstr ""
 
 msgid "Profile"
-msgstr ""
+msgstr "پروفایل"
 
 msgid "Profile Contact"
 msgstr ""
@@ -10184,7 +10419,7 @@ msgid "Purchase Status"
 msgstr "وضعیت خرید"
 
 msgid "Quantity"
-msgstr ""
+msgstr "تعداد"
 
 msgid "Quantity available"
 msgstr ""
@@ -10325,7 +10560,7 @@ msgid "Rearrange Accounts"
 msgstr ""
 
 msgid "Recalculate"
-msgstr ""
+msgstr "محاسبه مجدد"
 
 msgid "Recalculate Next Due Dates Related To Packages"
 msgstr ""
@@ -10487,7 +10722,7 @@ msgid "Reject High Risk Country"
 msgstr ""
 
 msgid "Related KB Articles"
-msgstr ""
+msgstr "مقالات آموزشی مرتبط"
 
 msgid "Related Topics"
 msgstr ""
@@ -10496,7 +10731,7 @@ msgid "Remove"
 msgstr "حذف"
 
 msgid "Remove Cancellation"
-msgstr ""
+msgstr "کنسل نشود"
 
 msgid "Remove DNS"
 msgstr "حذف DNS"
@@ -10514,7 +10749,7 @@ msgid "Renew"
 msgstr ""
 
 msgid "Renew Package"
-msgstr ""
+msgstr "تمدید سرویس"
 
 msgid ""
 "Renewal Notifications are enabled, however the domain updater service is not "
@@ -10642,6 +10877,12 @@ msgstr ""
 msgid "Requires Manual Suspension?"
 msgstr ""
 
+msgid "Requires Manual Termination"
+msgstr ""
+
+msgid "Requires Manual Termination?"
+msgstr ""
+
 msgid "Requires Manual Unsuspension"
 msgstr ""
 
@@ -10688,6 +10929,8 @@ msgid ""
 "Reset your password by entering your registered email address below. You "
 "will receive an email shortly with instructions."
 msgstr ""
+"آدرس ایمیل ثبت شده در سیستم ما را وارد کنید تا پسورد جدید در کوتاه ترین زمان "
+"برای شما ارسال شود."
 
 msgid "Resident alien ID"
 msgstr ""
@@ -10711,6 +10954,9 @@ msgid "Resync Ftp Passwords"
 msgstr ""
 
 msgid "Retention"
+msgstr ""
+
+msgid "Retrieve EPP Code"
 msgstr ""
 
 msgid "Retrieve invoice entries with corrupt customers"
@@ -10983,6 +11229,9 @@ msgstr ""
 msgid "Select Registrar"
 msgstr ""
 
+msgid "Select Server"
+msgstr ""
+
 msgid "Select Servers"
 msgstr ""
 
@@ -11009,17 +11258,6 @@ msgstr ""
 msgid ""
 "Select YES if you want ClientExec to show the terms and conditions and "
 "enforce approval before completing the signup process."
-msgstr ""
-
-msgid ""
-"Select YES if you want Stripe Checkout to accept Bitcoin payments.</br>You "
-"currently need a US bank account to accept Bitcoin payments.</br>Stripe "
-"users in more than twenty countries can attach a US bank account to their "
-"Stripe account, but we know it is not ideal for non-US users, so we are "
-"working to expand Bitcoin acceptance more broadly.</br>To process live "
-"Bitcoin payments, you need to <a href=\"https://dashboard.stripe.com/account/"
-"bitcoin/enable\" target=\"_blank\">enable the live Bitcoin API on your "
-"account</a>"
 msgstr ""
 
 msgid ""
@@ -11384,10 +11622,15 @@ msgstr ""
 msgid "Select if this filter is private to you"
 msgstr ""
 
+msgid "Select the Product Type you are selling"
+msgstr ""
+
 msgid ""
 "Select the box and enter a name to create this account as an organization "
 "instead of an individual."
 msgstr ""
+"در صورتی که مایل هستید این حساب بصورت حقوقی ایجاد شود نام مجموعه را به لاتین "
+"در اینجا وارد نمایید"
 
 msgid "Select the date format you want sitewide."
 msgstr ""
@@ -11434,9 +11677,11 @@ msgstr ""
 
 msgid ""
 "Select the number of weeks prior to your Domain invoice's due date to "
-"generate and charge your customer their invoice.  Note: This setting applies "
-"to all payment plugins your customers are set to, except by subscriptions. "
-"Credit Cards will be charged and invoices will be created."
+"generate and charge your customer their invoice.</br><b>Notes:</b></br>- "
+"This setting applies to all payment plugins your customers are set to, "
+"except by subscriptions.</br>- Credit Cards will be charged and invoices "
+"will be created.</br>- The value set in <b>\"Send Invoice Offset\"</b> will "
+"be used if it is greater than the value on this setting."
 msgstr ""
 
 msgid ""
@@ -11520,6 +11765,9 @@ msgid ""
 "transactions in DemoMode"
 msgstr ""
 
+msgid "Select yes to use the testing envrionment."
+msgstr ""
+
 msgid ""
 "Selecting NO will allow you to generate the invoices without charging the "
 "Credit Card for this customer's package only."
@@ -11557,7 +11805,7 @@ msgid "Seller ID"
 msgstr ""
 
 msgid "Semiannually"
-msgstr ""
+msgstr "شش ماهه"
 
 msgid "Send Account Welcome E-mail"
 msgstr ""
@@ -11608,7 +11856,7 @@ msgid "Send copy to"
 msgstr ""
 
 msgid "Send email"
-msgstr ""
+msgstr "ارسال ایمیل"
 
 msgid "Send emails to customers"
 msgstr ""
@@ -11848,7 +12096,7 @@ msgid "Sharing a picture will help us understand your question even more."
 msgstr "با ارسال یک تصویر میتوانید به درک بیشتر ما از سوال کمک کنید"
 
 msgid "Show"
-msgstr ""
+msgstr "نمایش"
 
 msgid "Show Currency Code"
 msgstr ""
@@ -12232,9 +12480,6 @@ msgstr ""
 msgid "Stratumsphere Threshold Integration"
 msgstr ""
 
-msgid "Stripe Checkout Accept Bitcoin Payments"
-msgstr ""
-
 msgid "Stripe Checkout Gateway Publishable Key"
 msgstr ""
 
@@ -12287,7 +12532,7 @@ msgid "Submit an issue"
 msgstr "ارسال تیکت"
 
 msgid "Submit reply"
-msgstr ""
+msgstr "ارسال پاسخ"
 
 msgid "Submit ticket"
 msgstr "ارسال تیکت"
@@ -12302,7 +12547,7 @@ msgid "Submitting..."
 msgstr ""
 
 msgid "Subscribe"
-msgstr ""
+msgstr "مشترک شوید"
 
 msgid "Subscribed To Tickets"
 msgstr ""
@@ -12326,7 +12571,7 @@ msgid "Subscription is active."
 msgstr ""
 
 msgid "Subtotal"
-msgstr ""
+msgstr "مجموع"
 
 msgid "Success message"
 msgstr ""
@@ -12375,6 +12620,9 @@ msgid "Successfully updated name servers"
 msgstr ""
 
 msgid "Successfully updated passphrase"
+msgstr ""
+
+msgid "Successfully updated password"
 msgstr ""
 
 msgid "Successfully updated status"
@@ -12449,6 +12697,9 @@ msgstr ""
 msgid "Supported Features"
 msgstr ""
 
+msgid "Supported plugins"
+msgstr ""
+
 msgid "Supported signup addons variables"
 msgstr ""
 
@@ -12476,6 +12727,9 @@ msgstr ""
 msgid ""
 "Synchronize initial response times for older tickets with response time zero "
 "(pre 5.0 tickets)."
+msgstr ""
+
+msgid "Synergy Wholesale"
 msgstr ""
 
 msgid "System"
@@ -12705,6 +12959,8 @@ msgstr "با تشکر از اظهارنظر شما"
 
 msgid "Thank you very much for your payment."
 msgstr ""
+"با تشکر از پرداخت شما - فاکتور شما بصورت خودکار در وضعیت پرداخت شده قرار "
+"خواهد گرفت"
 
 msgid "Thanks! What would you like to do next?"
 msgstr ""
@@ -12907,6 +13163,8 @@ msgid ""
 "The email %s can not be used because it is already in use as a secondary "
 "contact by another user."
 msgstr ""
+"ایمیل آدرس %s به دلیل آنکه قبلاً در این سایت موجود است قابل استفاده نمیباشد."
+"برای عضویت جدید از یک آدرس جدید استفاده کنید."
 
 #, php-format
 msgid ""
@@ -13255,10 +13513,6 @@ msgstr ""
 msgid "There are currently no 3rd Party modules installed."
 msgstr ""
 
-msgid ""
-"There are just a couple more steps to complete then you are off and running."
-msgstr ""
-
 msgid "There are no Payment Processors configured!"
 msgstr ""
 
@@ -13309,6 +13563,9 @@ msgid "There was an error contacting the registrar, please try again!"
 msgstr ""
 
 msgid "There was an error performing this operation."
+msgstr ""
+
+msgid "There was an error performing this operation. "
 msgstr ""
 
 msgid ""
@@ -13369,6 +13626,11 @@ msgstr ""
 msgid ""
 "This Application Key lets you easily integrate Clientexec with 3rd party "
 "providers via webhooks to different callbacks."
+msgstr ""
+
+msgid ""
+"This Composite Resource will be used if no custom fields for resource are "
+"provided"
 msgstr ""
 
 msgid ""
@@ -13731,6 +13993,9 @@ msgstr ""
 msgid "Ticket #%s merged to #[link]"
 msgstr ""
 
+msgid "Ticket Assign To"
+msgstr ""
+
 msgid "Ticket Auto Close"
 msgstr ""
 
@@ -13961,10 +14226,10 @@ msgid "Total Packages"
 msgstr ""
 
 msgid "Total Paid"
-msgstr ""
+msgstr "جمع کل پرداختی"
 
 msgid "Total Products"
-msgstr "مجموع محصولات"
+msgstr "تعداد سرویسها"
 
 msgid "Total Tax"
 msgstr ""
@@ -14045,7 +14310,7 @@ msgid "Turn an account into a demo account"
 msgstr ""
 
 msgid "Two Years"
-msgstr ""
+msgstr "دو ساله"
 
 msgid "Type"
 msgstr "نوع"
@@ -14117,6 +14382,15 @@ msgstr ""
 msgid "Unauthorized access to this action"
 msgstr ""
 
+#, php-format
+msgid "Unblock Failed, please open a %s."
+msgstr ""
+
+#, php-format
+msgid ""
+"Unblock Successful.  If you are still experiencing issues, please open a %s."
+msgstr ""
+
 msgid "Undefined"
 msgstr ""
 
@@ -14155,9 +14429,12 @@ msgid "Unpaid"
 msgstr "پرداخت نشده"
 
 msgid "Unpaid Invoices"
-msgstr ""
+msgstr "فاکتورهای پرداخت نشده"
 
 msgid "Unpaid invoices"
+msgstr ""
+
+msgid "Unpin"
 msgstr ""
 
 msgid "Unpublish"
@@ -14166,8 +14443,11 @@ msgstr ""
 msgid "Unsaved Filter"
 msgstr ""
 
-msgid "Unsubscribe"
+msgid "Unsent Invoices"
 msgstr ""
+
+msgid "Unsubscribe"
+msgstr "لغو اشتراک"
 
 msgid "Unsuspended"
 msgstr ""
@@ -14396,6 +14676,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Used to store package IDs of manually terminated packages whose email has "
+"already been sent."
+msgstr ""
+
+msgid ""
 "Used to verify valid transactions from Authorize.Net.<br>NOTE: This value "
 "has to match the value set in the Authorize.Net Merchant Interface - "
 "<i>Optional</i>"
@@ -14604,7 +14889,7 @@ msgid "View Announcements"
 msgstr ""
 
 msgid "View As Customer"
-msgstr ""
+msgstr "مشاهده به عنوان مشتری"
 
 msgid "View Billing Setup"
 msgstr ""
@@ -14619,6 +14904,9 @@ msgid "View Domain Nameservers"
 msgstr ""
 
 msgid "View Domain Overview"
+msgstr ""
+
+msgid "View Email History"
 msgstr ""
 
 msgid "View Event Log for Customer and Package events"
@@ -14707,9 +14995,6 @@ msgstr ""
 
 msgid "View past announcements"
 msgstr "اطلاعیه های قبلی"
-
-msgid "View recent activity of your Clientexec Installation."
-msgstr ""
 
 msgid "View reports list"
 msgstr ""
@@ -14800,6 +15085,9 @@ msgid "Void invoices"
 msgstr ""
 
 msgid "Voided"
+msgstr "باطل"
+
+msgid "WARNING"
 msgstr ""
 
 msgid "WARNING: Low MaxMind Queries"
@@ -14858,15 +15146,6 @@ msgid ""
 "doesn't have the necessary write permissions to the clientexec directory."
 msgstr ""
 
-msgid "We do not accept orders from anonymous proxy servers."
-msgstr ""
-
-msgid "We do not accept orders from free email services."
-msgstr ""
-
-msgid "We do not accept orders from your country."
-msgstr ""
-
 msgid "We do not accept signups from anonymous proxy servers"
 msgstr ""
 
@@ -14901,6 +15180,9 @@ msgstr ""
 msgid "Website"
 msgstr "وب سایت"
 
+msgid "Website FTP Username Custom Field"
+msgstr ""
+
 msgid "Wednesday"
 msgstr ""
 
@@ -14929,9 +15211,6 @@ msgid "Welcome email(s) sent for package(s) with id(s): %s"
 msgstr ""
 
 msgid "Welcome email(s) sent."
-msgstr ""
-
-msgid "Welcome to Clientexec"
 msgstr ""
 
 msgid "What can we assist you with?"
@@ -14979,6 +15258,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"When a package requires manual termination you will be notified at this "
+"email address. If packages are terminated when this service is run, a "
+"summary email will be sent to this address."
+msgstr ""
+
+msgid ""
 "When an email is received rules are checked as they are ordered above and "
 "only the first rule matched will be processed."
 msgstr ""
@@ -14986,6 +15271,11 @@ msgstr ""
 msgid ""
 "When displaying products in the compare style you must select one package to "
 "be the highlighted product."
+msgstr ""
+
+msgid ""
+"When done, please repeat the steps to disable <i>Handle card information "
+"directly</i>"
 msgstr ""
 
 msgid ""
@@ -15029,6 +15319,13 @@ msgstr ""
 msgid ""
 "When enabled this snapin gives your customers the ability to obtain their "
 "own eNom accounts on a self-service basis."
+msgstr ""
+
+msgid ""
+"When enabled, <b>free domains</b> will ignore the configuration of <b>"
+"\"Charge Domain Invoice Offset\"</b> and will instead use the configuration "
+"of <b>\"Send Invoice Offset\"</b>. This helps free domains to be invoiced "
+"together with the hosting package when their next due date is matching."
 msgstr ""
 
 msgid ""
@@ -15139,6 +15436,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"When enabled, overdue packages will be terminated and removed from the "
+"server."
+msgstr ""
+
+msgid ""
 "When enabled, suspended and paid packages will be unsuspended when this "
 "service is run."
 msgstr ""
@@ -15162,13 +15464,18 @@ msgid ""
 msgstr ""
 
 msgid ""
+"When enabled, this snapin allows your clients to unblock themselves from any "
+"cPanel server that has CSF installed."
+msgstr ""
+
+msgid ""
 "When enabled, tickets remaining unresponded to by customers for x amount of "
 "days will automatically be closed."
 msgstr ""
 
 msgid ""
-"When enabled, will also process your customer's credit cards for invoices "
-"that are due or past-due and have declined transactions."
+"When enabled, will also process your clients credit cards for invoices that "
+"are due or past-due and have declined transactions."
 msgstr ""
 
 msgid ""
@@ -15177,9 +15484,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When enabled, will process your customer's credit cards for invoices that "
-"are due or past-due. This will only process your customers whose credit card "
-"is stored outside of ClientExec."
+"When enabled, will process your clients credit cards for invoices that are "
+"due or past-due. This will only process your clients whose credit card is "
+"stored outside of Clientexec."
 msgstr ""
 
 msgid ""
@@ -15376,12 +15683,15 @@ msgid "You can not perform this action on this package"
 msgstr ""
 
 msgid "You can not renew this package"
-msgstr ""
+msgstr "شما قادر به تمدید این سرویس نیستید"
 
 msgid "You can not save the custom fields for this ticket."
 msgstr ""
 
 msgid "You can not send the welcome email for this package"
+msgstr ""
+
+msgid "You can not update password in demo mode."
 msgstr ""
 
 msgid "You can not update settings while in demo mode"
@@ -15443,7 +15753,7 @@ msgid "You do not have access to view that page"
 msgstr "شما امکان مشاهده این صفحه را ندارید"
 
 msgid "You do not have access to view this page."
-msgstr ""
+msgstr "شما دسترسی برای مشاهده این صفحه ندارید."
 
 msgid "You do not have any credit cards passphrased."
 msgstr ""
@@ -15522,7 +15832,7 @@ msgid "You must be logged in to access that feature"
 msgstr ""
 
 msgid "You must be logged in to view this page."
-msgstr ""
+msgstr "برای مشاهده صفحه به حساب خود وارد شوید"
 
 msgid "You must enter a valid email address."
 msgstr ""
@@ -15580,6 +15890,9 @@ msgstr ""
 msgid "Your API Secret.<br/><i>Ex: api_secret=12ab34cd</i>"
 msgstr ""
 
+msgid "Your Billing Profile ID was deleted successfully."
+msgstr ""
+
 msgid "Your Configuration"
 msgstr "پیکربندی سرویس شما"
 
@@ -15603,7 +15916,7 @@ msgid "Your account is inactive"
 msgstr ""
 
 msgid "Your account is not active"
-msgstr ""
+msgstr "حساب کاربری شما در حال حاضر فعال نمی باشد!"
 
 msgid "Your account is not valid"
 msgstr ""
@@ -15611,7 +15924,13 @@ msgstr ""
 msgid "Your announcements were not deleted"
 msgstr ""
 
+msgid "Your announcements were not pinned"
+msgstr ""
+
 msgid "Your announcements were not published"
+msgstr ""
+
+msgid "Your announcements were not unpinned"
 msgstr ""
 
 msgid "Your announcements were not unpublished"
@@ -15721,9 +16040,7 @@ msgid "Your payment source is set to"
 msgstr "روش پرداخت شما :"
 
 msgid "Your profile has been updated"
-msgstr ""
-"لطفا اطلاعات پروفایل خود را کامل کنید، درغیر این صورت قادر به استفاده از "
-"پرتال نمی باشید."
+msgstr "اطلاعات پروفایل شما بروز شد"
 
 msgid "Your recurring billing actions are currently in progress"
 msgstr ""
@@ -15732,7 +16049,7 @@ msgid "Your request to cancel has been submitted."
 msgstr "درخواست لغو سرویس ارسال گردید"
 
 msgid "Your request to remove cancellation has been completed."
-msgstr ""
+msgstr "انصراف از کنسل (حذف) سرویس انجام شد"
 
 msgid "Your reseller panel is not configured"
 msgstr ""
@@ -15837,6 +16154,9 @@ msgid "cPanel / WHM Accounts"
 msgstr ""
 
 msgid "cPanel / WHM Packages"
+msgstr ""
+
+msgid "cPanel Accounts Not Created On Servers"
 msgstr ""
 
 msgid "cURL Available"
@@ -16105,7 +16425,7 @@ msgid "one time"
 msgstr ""
 
 msgid "one time fee"
-msgstr ""
+msgstr "فقط یک بار"
 
 msgid "openHandler"
 msgstr ""
@@ -16526,7 +16846,7 @@ msgid "Ethiopia"
 msgstr ""
 
 msgid "Expired"
-msgstr "منقضی شدهب"
+msgstr "منقضی شده"
 
 msgid "Faroe Islands"
 msgstr ""
@@ -16820,7 +17140,7 @@ msgid "Qatar"
 msgstr ""
 
 msgid "Receive Email Announcements"
-msgstr ""
+msgstr "دریافت ایمیلهای مربوط به سرویس"
 
 msgid "Records per page"
 msgstr ""
@@ -17019,6 +17339,32 @@ msgid "Zipcode"
 msgstr ""
 
 #~ msgid ""
+#~ "Additionally, you can enter any additional comments about your service "
+#~ "below:"
+#~ msgstr ""
+#~ "علاوه بر این، شما می توانید هر گونه نظر درباره خدمات را درفرم زیرارسال "
+#~ "فرمایید"
+
+#~ msgid ""
+#~ "Anonymous posting has been disabled.  Please login or create an account "
+#~ "to post comments."
+#~ msgstr ""
+#~ "ثبت نظر برای کاربر میهمان غیر فعال است.لطفاً برای ثبت نظر به اکانت خود "
+#~ "وارد شوید."
+
+#~ msgid "Display type"
+#~ msgstr "نوع نمایش"
+
+#~ msgid ""
+#~ "Incorrect email or password.&nbsp;&nbsp;If you do not have account with "
+#~ "us please register first."
+#~ msgstr ""
+#~ "ایمیل یا رمز شما درست نیست. اگر حساب کاربری ندارید لطفا ثبت نام کنید"
+
+#~ msgid "No tickets found"
+#~ msgstr "تیکتی پیدا نشد"
+
+#~ msgid ""
 #~ "Reset your password by entering your registered Email address below. You "
 #~ "will receive an Email shortly with instructions."
 #~ msgstr ""
@@ -17031,11 +17377,8 @@ msgstr ""
 #~ msgid "Semiannual"
 #~ msgstr "شش ماهه"
 
-#~ msgid "No tickets found"
-#~ msgstr "تیکتی پیدا نشد"
-
-#~ msgid "Display type"
-#~ msgstr "نوع نمایش"
+#~ msgid "Send Additional Comment"
+#~ msgstr "ارسال نظر"
 
 #~ msgid "There are currently no invoices due"
 #~ msgstr "هیچ فاکتوری جدیدی وجود ندارد"
@@ -17049,15 +17392,17 @@ msgstr ""
 #~ msgid "comments"
 #~ msgstr "نظر"
 
-#~ msgid ""
-#~ "Additionally, you can enter any additional comments about your service "
-#~ "below:"
-#~ msgstr ""
-#~ "علاوه بر این، شما می توانید هر گونه نظر درباره خدمات را درفرم زیرارسال "
-#~ "فرمایید"
+#~ msgid "No Invoices To Show"
+#~ msgstr "فاکتوری برای نمایش وجود ندارد"
 
-#~ msgid "Send Additional Comment"
-#~ msgstr "ارسال نظر"
+#~ msgid "Invoice has been successfully sent"
+#~ msgstr "فاکتور با موفقیت ارسال گردید"
+
+#~ msgid "Share your Feedback"
+#~ msgstr "نظرتان را ارسال فرمایید"
+
+#~ msgid "No Emails To Show"
+#~ msgstr "هیج ایمیلی وجود ندارد"
 
 #~ msgid "All packages"
 #~ msgstr "همه پکیج ها"
