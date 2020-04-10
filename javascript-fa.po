@@ -1152,14 +1152,20 @@ msgid ""
 "plugin(s)?"
 msgstr ""
 
+msgid "Subject"
+msgstr "موضوع"
+
+msgid "To"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
 msgid "Associated to Ticket Type"
 msgstr ""
 
 msgid "Note"
 msgstr ""
-
-msgid "Subject"
-msgstr "موضوع"
 
 msgid "Un-Archive"
 msgstr ""
@@ -1180,6 +1186,11 @@ msgid "Ticket Type"
 msgstr ""
 
 msgid "No items found"
+msgstr ""
+
+msgid ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
 msgstr ""
 
 msgid "Are you sure you want to delete the selected package(s)"

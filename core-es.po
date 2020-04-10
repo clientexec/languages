@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2019-09-12 16:08-0400\n"
+"POT-Creation-Date: 2020-03-26 16:51-0400\n"
 "PO-Revision-Date: 2018-03-13 09:50-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -591,11 +591,9 @@ msgid "A natural person who is a US Citizen."
 msgstr ""
 
 msgid ""
-"A notification E-mail will be sent when the number of remaining queries "
+"A notification email will be sent when the number of remaining queries "
 "reaches this value."
 msgstr ""
-"Un E-mail de notificación será enviado cuando el número de de consultas "
-"restantes alcance este valor."
 
 msgid "A page refresh will be performed on close."
 msgstr "Al cerrar la página será recargada."
@@ -719,6 +717,9 @@ msgid "API Key"
 msgstr "Llave API"
 
 msgid "API Key has not been generated"
+msgstr ""
+
+msgid "API Pass"
 msgstr ""
 
 msgid "API Password"
@@ -1903,9 +1904,6 @@ msgstr ""
 msgid "Authorize.Net CIM Transaction Key"
 msgstr ""
 
-msgid "Authorize.Net CIM Validation Mode"
-msgstr ""
-
 msgid "Authorize.Net Transaction Key"
 msgstr "Authorize.Net Transaction Key"
 
@@ -2416,9 +2414,6 @@ msgstr ""
 msgid "CPU Speed"
 msgstr ""
 
-msgid "CPanel control panel integration"
-msgstr ""
-
 msgid "CSR"
 msgstr ""
 
@@ -2884,6 +2879,9 @@ msgstr ""
 msgid "Client"
 msgstr "Cliente"
 
+msgid "Client Emails"
+msgstr ""
+
 msgid "Client Id"
 msgstr ""
 
@@ -3028,9 +3026,6 @@ msgstr "Compañía"
 
 msgid "Company Address"
 msgstr "Dirección de la Empresa"
-
-msgid "Company ID"
-msgstr "ID de la Compañía"
 
 msgid "Company Name"
 msgstr "Nombre de la Compañía"
@@ -3183,6 +3178,9 @@ msgstr ""
 msgid "Control Web Panel Plugin"
 msgstr ""
 
+msgid "Controls the source of some core JavaScript and CSS libraries"
+msgstr ""
+
 msgid "Cooperative"
 msgstr ""
 
@@ -3190,6 +3188,9 @@ msgid "Corporation"
 msgstr ""
 
 msgid "Corporation "
+msgstr ""
+
+msgid "Could not find invoice payment log"
 msgstr ""
 
 msgid "Count"
@@ -4212,6 +4213,9 @@ msgstr ""
 msgid "Displays the total predicted income per month."
 msgstr ""
 
+msgid "Displays the total transactions by month."
+msgstr ""
+
 msgid ""
 "Displays total recurring transactions broken down by billing cycles with the "
 "sum and expected yearly income from each."
@@ -4238,6 +4242,9 @@ msgstr "Muestra total de usuarios de cada país."
 
 msgid "Displays total users using each language."
 msgstr "Muestra el total de usuarios usando cada lenguaje,"
+
+msgid "Displays transactions by month"
+msgstr ""
 
 msgid "Displays upcoming charges"
 msgstr "Muestra cargos futuros"
@@ -4895,6 +4902,23 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enabling this setting will reject any order using a free email service, such "
+"as gmail, hotmail, or yahoo.<br><b>NOTE:</b> Requires Insights or Factors "
+"Service"
+msgstr ""
+
+msgid ""
+"Enabling this setting will reject any order where the IP address is an "
+"Anonymous Proxy.<br><b>NOTE:</b> Requires Insights or Factors Service"
+msgstr ""
+
+msgid ""
+"Enabling this setting will reject any order where the billing address "
+"country does not match the country the IP address is registered to."
+"<br><b>NOTE:</b> Requires Insights or Factors Service."
+msgstr ""
+
+msgid ""
 "Enabling this setting will remove registrar information when a client views "
 "their domain package in ClientExec"
 msgstr ""
@@ -5042,6 +5066,9 @@ msgstr ""
 msgid "Enter tags separated by commas."
 msgstr ""
 
+msgid "Enter the API Key for your Joker.com account."
+msgstr ""
+
 msgid "Enter the API Key for your NameCheap account."
 msgstr ""
 
@@ -5057,6 +5084,9 @@ msgid ""
 msgstr ""
 
 msgid "Enter the Hash per rate for this product."
+msgstr ""
+
+msgid "Enter the ID of the IP pool for this VPS."
 msgstr ""
 
 msgid "Enter the ID of the scheduler for this product."
@@ -5100,6 +5130,13 @@ msgstr ""
 msgid ""
 "Enter the full URL of the logo you'd like to use in the Client Portal. Its "
 "height should be 38px."
+msgstr ""
+
+msgid "Enter the htpasswd password if you have secured your API via htpasswd."
+msgstr ""
+
+msgid ""
+"Enter the htpassword username if you have secured your API via htpasswd."
 msgstr ""
 
 msgid "Enter the id of the node group this VM is being created on."
@@ -5151,6 +5188,12 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enter the name of the package custom field that will hold the Location "
+"(Slave Server ID).  This is an optional setting only used if you have "
+"multiple locations/slaves"
+msgstr ""
+
+msgid ""
 "Enter the name of the package custom field that will hold the Number Of Ips "
 "for HyperVM."
 msgstr ""
@@ -5188,6 +5231,15 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Enter the name of the package custom field that will hold the VM Operating "
+"System."
+msgstr ""
+
+msgid ""
+"Enter the name of the package custom field that will hold the VM Password."
+msgstr ""
+
+msgid ""
 "Enter the name of the package custom field that will hold the VM hostname "
 "for OnApp."
 msgstr ""
@@ -5195,6 +5247,10 @@ msgstr ""
 msgid ""
 "Enter the name of the package custom field that will hold the VM hostname "
 "for SolusVM."
+msgstr ""
+
+msgid ""
+"Enter the name of the package custom field that will hold the VM hostname."
 msgstr ""
 
 msgid ""
@@ -5465,20 +5521,13 @@ msgid "Enter your Login found in API Login Credentials.."
 msgstr ""
 
 msgid ""
-"Enter your MaxMind Account ID.  This is used for the device tracking add-"
-"on<br>You can obtain a license at <br><a href=http://www.maxmind.com/app/"
-"ccv_buynow?rId=clientexec target=_blank>http://www.maxmind.com/app/"
-"ccv_buynow</a>"
+"Enter your MaxMind Account ID. <br>You can obtain a license at <a "
+"href=https://www.maxmind.com/en/solutions/minfraud-services?rId=clientexec "
+"target=_blank>https://www.maxmind.com/en/solutions/minfraud-services</a>"
 msgstr ""
 
-msgid ""
-"Enter your MaxMind License Key here.<br>You can obtain a license at <br><a "
-"href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
-"target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
+msgid "Enter your MaxMind License Key here."
 msgstr ""
-"Ingrese su MaxMind License Key aquí.<br>Puede obtener una licencia en <br><a "
-"href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
-"target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
 
 msgid ""
 "Enter your Merchant ID from your <a target='_blank' href='https://www."
@@ -5866,6 +5915,24 @@ msgstr "Ejemplos"
 
 msgid "Excellent"
 msgstr "Excelente"
+
+msgid "Exception when calling CustomersApi->createCustomer: "
+msgstr ""
+
+msgid "Exception when calling CustomersApi->createCustomerCard: "
+msgstr ""
+
+msgid "Exception when calling CustomersApi->createPayment: "
+msgstr ""
+
+msgid "Exception when calling CustomersApi->deleteCustomer: "
+msgstr ""
+
+msgid "Exception when calling CustomersApi->deleteCustomerCard: "
+msgstr ""
+
+msgid "Exception when calling RefundsApi->refundPayment: "
+msgstr ""
 
 msgid "Excerpt"
 msgstr ""
@@ -6396,7 +6463,7 @@ msgstr ""
 msgid "Generate Invoice & Send"
 msgstr ""
 
-msgid "Generate Next Recurring Invoice"
+msgid "Generate Invoices Per Package"
 msgstr ""
 
 msgid "Generate Ticket Upon Expiration"
@@ -6409,6 +6476,9 @@ msgid "Generate an API key for external integration with Clientexec."
 msgstr ""
 
 msgid "Generate my API key"
+msgstr ""
+
+msgid "Generate next invoice"
 msgstr ""
 
 msgid "Generate pending invoices and run batch payments"
@@ -6784,6 +6854,12 @@ msgstr "¿Qué tan útil fue este artículo para Ud?"
 msgid "How may we assist you?"
 msgstr "¿Cómo podemos ayudarle?"
 
+msgid "Htpasswd Password"
+msgstr ""
+
+msgid "Htpasswd Username"
+msgstr ""
+
 msgid "HyperVM API url"
 msgstr "URL del API de HyperVM"
 
@@ -6915,15 +6991,6 @@ msgstr ""
 "ID usada para identificarle ante E-Gold.<br>Nota: Esta ID es requerida si "
 "usted ha selecionado E-Gold como un medio de pago para alguno de sus "
 "clientes."
-
-msgid ""
-"ID used to identify you to Internet Secure.<br>NOTE: This ID is required if "
-"you have selected Internet Secure as a payment gateway for any of your "
-"clients."
-msgstr ""
-"ID usada para identificarle ante Internet Secure.<br>Nota: Esta ID es "
-"requerida si ha seleccionado Internet Secure como medio de pago para alguno "
-"de sus clientes."
 
 msgid ""
 "ID used to identify you to PSiGate.<br>NOTE: This ID is required if you have "
@@ -7418,9 +7485,6 @@ msgstr ""
 msgid "Indicated professional association recognized by government body"
 msgstr ""
 
-msgid "Indicates the processing mode for the request."
-msgstr ""
-
 msgid "Individual"
 msgstr ""
 
@@ -7468,9 +7532,6 @@ msgstr "Mensaje Interno"
 
 msgid "Internal Message for Support Ticket #"
 msgstr ""
-
-msgid "Internet Secure"
-msgstr "Internet Secure"
 
 msgid "Internet.bs Corp."
 msgstr ""
@@ -7594,6 +7655,10 @@ msgstr "Facturar Después de Registro"
 msgid "Invoice BCC"
 msgstr ""
 
+#, fuzzy
+msgid "Invoice Date"
+msgstr "Fecha de la Próxima Factura"
+
 msgid "Invoice Disclaimer"
 msgstr ""
 
@@ -7695,6 +7760,12 @@ msgstr "La factura fue pagada en"
 
 msgid "Invoice was partially paid on"
 msgstr "La factura fue parcialmente pagada en"
+
+msgid "Invoice(s) generated successfully"
+msgstr ""
+
+msgid "Invoice(s) were not generated as the package(s) are not recurring"
+msgstr ""
 
 msgid "Invoice(s) were processed successfully"
 msgstr "La(s) factura(s) se ha(n) procesado exitosamente"
@@ -7819,6 +7890,9 @@ msgid ""
 "Join us in our <a href=\"http://slack.clientexec.rocks\" target=\"_blank"
 "\">community slack room</a> for all the latest news as well as community "
 "based support"
+msgstr ""
+
+msgid "Joker.com"
 msgstr ""
 
 msgid "July"
@@ -8102,9 +8176,6 @@ msgstr "Real"
 msgid "Live Chat Beta"
 msgstr ""
 
-msgid "Live Mode"
-msgstr ""
-
 msgid "Live Public Key"
 msgstr ""
 
@@ -8174,6 +8245,9 @@ msgstr ""
 msgid "Login to SolusVM"
 msgstr ""
 
+msgid "Login to Virtualizor"
+msgstr ""
+
 msgid "Login to WHM"
 msgstr ""
 
@@ -8236,6 +8310,9 @@ msgid "Main Preferences"
 msgstr ""
 
 msgid "Make a secure payment using your credit card."
+msgstr ""
+
+msgid "Make the reseller account own itself."
 msgstr ""
 
 msgid "Make this my default payment method"
@@ -8391,6 +8468,9 @@ msgstr "Marcar como Spam"
 msgid "Mark invoice paid or unpaid"
 msgstr "Marcar factura como pagada o no pagada"
 
+msgid "Mass Pay"
+msgstr ""
+
 msgid "MasterCard"
 msgstr "MasterCard"
 
@@ -8432,15 +8512,6 @@ msgstr "Umbral Minimo de Consultas para MaxMind"
 
 msgid "MaxMind Warning E-mail"
 msgstr "E-mail de advertencia de MaxMind"
-
-msgid ""
-"MaxMind risk score is based on known risk factors and their likelihood to "
-"indicate possible fraud. Select the threshold you want ClientExec to reject "
-"on. ( 0=low risk 100=high risk)<br><b>NOTE:</b> Requires MaxMind<br>To see "
-"how the fraud score is obtained visit <br><a href=http://www.maxmind.com/en/"
-"riskscore?rId=clientexec target=_blank>http://www.maxmind.com/en/riskscore</"
-"a>"
-msgstr ""
 
 #, fuzzy
 msgid "Maximum # of Accounts"
@@ -8538,6 +8609,9 @@ msgstr "E-mail del Mercader"
 msgid "Merchant ID"
 msgstr "ID Comerciante"
 
+msgid "Merchant Key"
+msgstr ""
+
 msgid "Merge"
 msgstr ""
 
@@ -8562,10 +8636,10 @@ msgstr ""
 msgid "Merge Recurring Fees"
 msgstr ""
 
-msgid "Merge Ticket(s)"
+msgid "Merge Support Tickets"
 msgstr ""
 
-msgid "Merge Tickets"
+msgid "Merge Ticket(s)"
 msgstr ""
 
 msgid "Merge completed successfully"
@@ -9796,6 +9870,9 @@ msgstr "Pagar Factura"
 msgid "Pay invoice here:"
 msgstr ""
 
+msgid "Pay via Mass Pay"
+msgstr ""
+
 msgid "Pay with"
 msgstr "Pagar con"
 
@@ -10188,6 +10265,12 @@ msgid "Please enter your Realex Payments Shared Secret Here."
 msgstr ""
 
 msgid "Please enter your Realex Payments Subaccount to use Here."
+msgstr ""
+
+msgid "Please enter your Square Payment Access Token here."
+msgstr ""
+
+msgid "Please enter your Square Payment Application ID here."
 msgstr ""
 
 msgid "Please enter your Stripe Checkout Gateway Publishable Key here."
@@ -10996,9 +11079,6 @@ msgstr "Rechazar Disparidad en el País"
 msgid "Reject Free E-mail Service"
 msgstr "Rechazar Servicio de E-mail Gratuito"
 
-msgid "Reject High Risk Country"
-msgstr "Rechazar país de Alto Riesgo"
-
 msgid "Related KB Articles"
 msgstr "Artículos Relacionados de la BC"
 
@@ -11097,6 +11177,12 @@ msgstr "Responder a cualquier tiquete asignado"
 
 msgid "Report"
 msgstr "Reporte"
+
+msgid "Report Chargeback"
+msgstr ""
+
+msgid "Report Chargebacks to MaxMind"
+msgstr ""
 
 msgid "Report Management"
 msgstr "Gestión de Reportes"
@@ -11686,6 +11772,11 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Select YES if you want to use Square Payment's testing server, so no actual "
+"monetary transactions are made.."
+msgstr ""
+
+msgid ""
 "Select YES if you want to use Testing server, so no actual monetary "
 "transactions are made."
 msgstr ""
@@ -11807,6 +11898,9 @@ msgstr ""
 msgid ""
 "Select Yes if you wish to use Internet.bs testing environment, so that "
 "transactions are not actually made."
+msgstr ""
+
+msgid "Select Yes if you wish to use Joker's OT&E system"
 msgstr ""
 
 msgid ""
@@ -11964,6 +12058,12 @@ msgstr ""
 msgid "Select if this filter is private to you"
 msgstr ""
 
+msgid ""
+"Select the MaxMind Service you would like to use.  More information on "
+"service types is available <a href=\"https://www.maxmind.com/en/solutions/"
+"minfraud-services\" target=\"_blank\">here</a>."
+msgstr ""
+
 msgid "Select the Product Type you are selling"
 msgstr ""
 
@@ -12067,6 +12167,9 @@ msgstr ""
 msgid "Select the transaction speed to confirm payment"
 msgstr ""
 
+msgid "Select the type of VM for this package."
+msgstr ""
+
 msgid ""
 "Select this option if you want to display an Access code to prevent signup "
 "flooding and require the form to be filled in by a human. It will also be "
@@ -12091,6 +12194,12 @@ msgid "Select ticket priority"
 msgstr ""
 
 msgid "Select ticket type"
+msgstr ""
+
+msgid "Select to enable test/sandbox mode"
+msgstr ""
+
+msgid "Select to ensure the callback comes from a PayFast IP."
 msgstr ""
 
 msgid "Select type"
@@ -12383,52 +12492,9 @@ msgstr ""
 "de fraudes."
 
 msgid ""
-"Setting allows you to reject any order using free E-mail services like "
-"Hotmail and Yahoo (free E-mail = higher risk).<br><b>NOTE: </b>Requires "
-"MaxMind"
-msgstr ""
-"La opción le permite rechazar cualquier orden que use un servicio de E-mail "
-"gratuito, tal y como hotmail o yahoo (E-mail gratuito = mayor riesgo)."
-"<br><b>Nota: </b>Requiere MaxMind"
-
-msgid ""
-"Setting allows you to reject any order where country of IP address does not "
-"match the billing address country (mismatch = higher risk).<br><b>NOTE: </"
-"b>Requires MaxMind"
-msgstr ""
-"La opción le permite rechazar cualquier orden de una dirección IP que no "
-"coincida con la direccion del país de facturación (disparidad = mayor "
-"riesgo).<br><b>Nota: </b>Requiere MaxMind"
-
-msgid ""
-"Setting allows you to reject any order where the IP address is an Anonymous "
-"Proxy (anonymous proxy = very high risk).<br><b>NOTE: </b>Requires MaxMind"
-msgstr ""
-"La opción le permite rechazar cualquier orden donde la dirección Ip sea un "
-"Proxy Anónimo (proxy anónimo = riesgo muy alto).<br><b>Nota: </b>Requiere "
-"MaxMind"
-
-msgid ""
-"Setting allows you to reject any order where the country the IP is based "
-"from is considered a country where fraudulent order is likely.<br><b>NOTE: </"
-"b>Requires MaxMind"
-msgstr ""
-"La opción le permite rechazar cualquier orden de donde la IP del país sea "
-"considerada que una orden puede ser fraudulenta.<br><b>Nota: </b>Requiere "
-"MaxMind"
-
-msgid ""
 "Setting this package as recurring will allow you to set a billing cycle and "
 "additional billing information."
 msgstr ""
-
-msgid ""
-"Setting this to YES will show the MaxMind fraud screening logo in the signup "
-"footer if credit card fraud detection or phone verification is turned on."
-msgstr ""
-"Estableciendo esta opción en sí mostrará el logo de fraude an el pie del "
-"registro si se detecta fraude por tarjeta de crédito o si la verificación "
-"telefónica esta activada."
 
 msgid "Setting updated successfully"
 msgstr ""
@@ -12506,9 +12572,6 @@ msgstr ""
 
 msgid "Show Google+ Button when Finalizing Checkout"
 msgstr ""
-
-msgid "Show MaxMind Logo"
-msgstr "Mostrar el logo de Maxmind"
 
 msgid "Show Product Addons"
 msgstr ""
@@ -12644,9 +12707,6 @@ msgstr ""
 msgid "Some files didn't pass the file integrity check "
 msgstr ""
 
-msgid "Sorry we are not accepting orders from your country"
-msgstr "Discúlpenos pero no aceptamos ordenes desde su país"
-
 msgid "Sorry you don't have access to support tickets."
 msgstr ""
 
@@ -12704,6 +12764,9 @@ msgstr "Ordenar por Tipo de Pago"
 msgid "Source"
 msgstr ""
 
+msgid "Source IP Security Check?"
+msgstr ""
+
 msgid "Spam"
 msgstr "Spam"
 
@@ -12737,6 +12800,12 @@ msgid "Sports Association"
 msgstr ""
 
 msgid "Sports Federation"
+msgstr ""
+
+msgid "Square Payment Access Token"
+msgstr ""
+
+msgid "Square Payment Application ID"
 msgstr ""
 
 msgid "Staff"
@@ -13001,6 +13070,9 @@ msgstr ""
 msgid "Successfully processed invoice(s)"
 msgstr ""
 
+msgid "Successfully reported chargeback to MaxMind"
+msgstr ""
+
 msgid "Successfully saved license"
 msgstr ""
 
@@ -13182,6 +13254,9 @@ msgstr ""
 msgid "TLD has not been configured"
 msgstr ""
 
+msgid "TLDs"
+msgstr ""
+
 msgid "TOTAL"
 msgstr "TOTAL"
 
@@ -13329,6 +13404,9 @@ msgstr ""
 msgid "Test Mode"
 msgstr ""
 
+msgid "Test Mode?"
+msgstr ""
+
 msgid "Test Public Key"
 msgstr ""
 
@@ -13350,8 +13428,7 @@ msgstr ""
 msgid "Thank you"
 msgstr ""
 
-#, php-format
-msgid "Thank you for choosing %s"
+msgid "Thank you for choosing Clientexec"
 msgstr ""
 
 msgid "Thank you for rating this article"
@@ -13389,13 +13466,6 @@ msgstr ""
 
 msgid "The CPU(s) this will go on, blank, 0, 1, 2, 3"
 msgstr ""
-
-msgid ""
-"The E-mail address where a notification will be sent when the number of "
-"remaining queries reaches your MaxMind Low Query Threshold"
-msgstr ""
-"La dirección de E-mail donde una notificación será enviada cuando el número "
-"restante de consultas alcance su umbral de pocas consultas en MaxMind"
 
 msgid "The EPP code is required to initiate a transfer of a domain name."
 msgstr ""
@@ -13558,7 +13628,7 @@ msgstr ""
 
 msgid ""
 "The device tracking add-on identifies devices as they move across networks "
-"and enhances the ability of the minFraud services to detect fraud"
+"and enhances the ability of the minFraud services to detect fraud."
 msgstr ""
 
 msgid "The directory 'uploads/support' is not writable."
@@ -13617,6 +13687,11 @@ msgstr ""
 msgid "The email address provided is not valid."
 msgstr ""
 
+msgid ""
+"The email address where a notification will be sent when the number of "
+"remaining queries reaches your MaxMind Low Query Threshold"
+msgstr ""
+
 msgid "The email is already in use."
 msgstr ""
 
@@ -13670,6 +13745,12 @@ msgid ""
 "The following setting will allow you to determine if when <b>Recurring "
 "Invoice Setting</b> is set to <b>Generate Invoice & Send</b> to also send "
 "the invoices even if they are from autopayments or subscriptions."
+msgstr ""
+
+msgid ""
+"The following setting will allow you to determine if when generating "
+"recurring invoices, to separate the packages in different invoices if "
+"possible. Subscriptions will not be separated."
 msgstr ""
 
 msgid ""
@@ -13763,6 +13844,13 @@ msgstr ""
 
 #, php-format
 msgid "The latest version available is <b>%s</b>"
+msgstr ""
+
+msgid ""
+"The minFraud service evaluates your transactions against billions of scored "
+"transactions from the minFraud network, drawing on machine learning as well "
+"as years of expert review to provide a numerical indicator of risk.  Any "
+"Risk Score higher then this number will be rejected."
 msgstr ""
 
 msgid ""
@@ -13969,6 +14057,9 @@ msgstr "No hay artículos para esta categoría"
 msgid "There are no packages configured for this package type"
 msgstr ""
 
+msgid "There are no product(s) selected"
+msgstr ""
+
 msgid "There are no product(s) to delete"
 msgstr ""
 
@@ -14033,10 +14124,31 @@ msgstr ""
 msgid "There was an error with this request"
 msgstr ""
 
+msgid "There was an issue adding the main email as an alternate email"
+msgstr ""
+
 msgid "There was an issue adding this user"
 msgstr ""
 
 msgid "There was an issue deleting this meeting"
+msgstr ""
+
+msgid "There was an issue merging the alternate emails"
+msgstr ""
+
+msgid "There was an issue merging the data"
+msgstr ""
+
+msgid "There was an issue merging the invoices"
+msgstr ""
+
+msgid "There was an issue merging the packages"
+msgstr ""
+
+msgid "There was an issue merging the recurring fees"
+msgstr ""
+
+msgid "There was an issue merging the support tickets"
 msgstr ""
 
 msgid "There was an issue updating this charge"
@@ -14173,6 +14285,9 @@ msgstr ""
 
 msgid "This group can't be deleted because it still has members."
 msgstr "Este grupo no puede ser eliminado porque aún tiene miembros."
+
+msgid "This import plugin imports TLDs and sets a default price."
+msgstr ""
 
 msgid "This import plugin imports accounts from your cPanel/WHM servers."
 msgstr ""
@@ -14767,6 +14882,9 @@ msgstr ""
 msgid "Transactions"
 msgstr ""
 
+msgid "Transactions By Month"
+msgstr ""
+
 msgid "Transfer"
 msgstr ""
 
@@ -15096,6 +15214,9 @@ msgstr ""
 msgid "Use SSL"
 msgstr "Usar SSL"
 
+msgid "Use Sandbox"
+msgstr ""
+
 msgid "Use Sandbox?"
 msgstr ""
 
@@ -15254,6 +15375,9 @@ msgid "User Status Aliases"
 msgstr "Agregar Estado"
 
 msgid "User Type"
+msgstr ""
+
+msgid "User does not exist."
 msgstr ""
 
 msgid "User id was not passed"
@@ -15483,7 +15607,7 @@ msgstr "Ver todos los eventos"
 msgid "View an article"
 msgstr "Ver un artículo"
 
-msgid "View and agree to the ClientExec EULA before continuing"
+msgid "View and agree to the Clientexec EULA before continuing"
 msgstr ""
 
 msgid "View as customer"
@@ -15565,6 +15689,12 @@ msgstr "Viendo Tiquetes"
 msgid "Virtual Servers"
 msgstr "Servidores Virtuales."
 
+msgid "Virtualizor Settings"
+msgstr ""
+
+msgid "Virtualizor control panel integration"
+msgstr ""
+
 msgid "Virtualmin control panel integration"
 msgstr ""
 
@@ -15603,6 +15733,9 @@ msgstr ""
 
 msgid "WARNING: Low MaxMind Queries"
 msgstr "ADVERTENCIA: Tiene pocas consultas en MaxMind"
+
+msgid "WHM Username"
+msgstr ""
 
 msgid "WHMPHP control panel integration"
 msgstr ""
@@ -15660,8 +15793,8 @@ msgstr ""
 msgid "We do not accept signups from anonymous proxy servers"
 msgstr "No permitimos registros desde servidores de proxy anónimos"
 
-msgid "We do not accept signups from free E-mail services"
-msgstr "No permitimos registros desde servicios de E-mail gratuitos"
+msgid "We do not accept signups from free email providers"
+msgstr ""
 
 msgid "We do not store credit card information for your selected payment type"
 msgstr ""
@@ -16113,6 +16246,9 @@ msgstr "Quisiera..."
 msgid "Year"
 msgstr "Año"
 
+msgid "Yearly"
+msgstr ""
+
 msgid "Years"
 msgstr "Años"
 
@@ -16463,6 +16599,15 @@ msgstr ""
 msgid "Your PSiGate passphrase used to authenticate a valid transaction."
 msgstr "Su passphrase de PSiGate usado para autenticar una transacción válida."
 
+msgid "Your PayFast Merchant ID"
+msgstr ""
+
+msgid "Your PayFast Merchant Key"
+msgstr ""
+
+msgid "Your PayFast Passphrase"
+msgstr ""
+
 msgid "Your Question"
 msgstr "Su Pregunta"
 
@@ -16717,6 +16862,9 @@ msgstr ""
 msgid "cPanel Accounts Not Created On Servers"
 msgstr ""
 
+msgid "cPanel control panel integration"
+msgstr ""
+
 msgid "cURL Available"
 msgstr ""
 
@@ -16962,7 +17110,13 @@ msgstr "Soporte para mod_perl"
 msgid "mod_python support"
 msgstr "Soporte para mod_python"
 
+msgid "month"
+msgstr ""
+
 msgid "month(s)"
+msgstr ""
+
+msgid "monthly"
 msgstr ""
 
 msgid "months"
@@ -17202,6 +17356,9 @@ msgstr ""
 
 msgid "year"
 msgstr "año"
+
+msgid "yearly"
+msgstr ""
 
 msgid "years"
 msgstr "años"
@@ -17901,6 +18058,102 @@ msgstr "Zimbabue"
 
 msgid "Zipcode"
 msgstr "Código Postal"
+
+#~ msgid "Company ID"
+#~ msgstr "ID de la Compañía"
+
+#~ msgid ""
+#~ "ID used to identify you to Internet Secure.<br>NOTE: This ID is required "
+#~ "if you have selected Internet Secure as a payment gateway for any of your "
+#~ "clients."
+#~ msgstr ""
+#~ "ID usada para identificarle ante Internet Secure.<br>Nota: Esta ID es "
+#~ "requerida si ha seleccionado Internet Secure como medio de pago para "
+#~ "alguno de sus clientes."
+
+#~ msgid "Internet Secure"
+#~ msgstr "Internet Secure"
+
+#~ msgid ""
+#~ "A notification E-mail will be sent when the number of remaining queries "
+#~ "reaches this value."
+#~ msgstr ""
+#~ "Un E-mail de notificación será enviado cuando el número de de consultas "
+#~ "restantes alcance este valor."
+
+#~ msgid ""
+#~ "Enter your MaxMind License Key here.<br>You can obtain a license at "
+#~ "<br><a href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
+#~ "target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
+#~ msgstr ""
+#~ "Ingrese su MaxMind License Key aquí.<br>Puede obtener una licencia en "
+#~ "<br><a href=http://www.maxmind.com/app/ccv_buynow?rId=clientexec "
+#~ "target=_blank>http://www.maxmind.com/app/ccv_buynow</a>"
+
+#~ msgid "Reject High Risk Country"
+#~ msgstr "Rechazar país de Alto Riesgo"
+
+#~ msgid ""
+#~ "Setting allows you to reject any order using free E-mail services like "
+#~ "Hotmail and Yahoo (free E-mail = higher risk).<br><b>NOTE: </b>Requires "
+#~ "MaxMind"
+#~ msgstr ""
+#~ "La opción le permite rechazar cualquier orden que use un servicio de E-"
+#~ "mail gratuito, tal y como hotmail o yahoo (E-mail gratuito = mayor "
+#~ "riesgo).<br><b>Nota: </b>Requiere MaxMind"
+
+#~ msgid ""
+#~ "Setting allows you to reject any order where country of IP address does "
+#~ "not match the billing address country (mismatch = higher risk)."
+#~ "<br><b>NOTE: </b>Requires MaxMind"
+#~ msgstr ""
+#~ "La opción le permite rechazar cualquier orden de una dirección IP que no "
+#~ "coincida con la direccion del país de facturación (disparidad = mayor "
+#~ "riesgo).<br><b>Nota: </b>Requiere MaxMind"
+
+#~ msgid ""
+#~ "Setting allows you to reject any order where the IP address is an "
+#~ "Anonymous Proxy (anonymous proxy = very high risk).<br><b>NOTE: </"
+#~ "b>Requires MaxMind"
+#~ msgstr ""
+#~ "La opción le permite rechazar cualquier orden donde la dirección Ip sea "
+#~ "un Proxy Anónimo (proxy anónimo = riesgo muy alto).<br><b>Nota: </"
+#~ "b>Requiere MaxMind"
+
+#~ msgid ""
+#~ "Setting allows you to reject any order where the country the IP is based "
+#~ "from is considered a country where fraudulent order is likely."
+#~ "<br><b>NOTE: </b>Requires MaxMind"
+#~ msgstr ""
+#~ "La opción le permite rechazar cualquier orden de donde la IP del país sea "
+#~ "considerada que una orden puede ser fraudulenta.<br><b>Nota: </b>Requiere "
+#~ "MaxMind"
+
+#~ msgid ""
+#~ "Setting this to YES will show the MaxMind fraud screening logo in the "
+#~ "signup footer if credit card fraud detection or phone verification is "
+#~ "turned on."
+#~ msgstr ""
+#~ "Estableciendo esta opción en sí mostrará el logo de fraude an el pie del "
+#~ "registro si se detecta fraude por tarjeta de crédito o si la verificación "
+#~ "telefónica esta activada."
+
+#~ msgid "Show MaxMind Logo"
+#~ msgstr "Mostrar el logo de Maxmind"
+
+#~ msgid "Sorry we are not accepting orders from your country"
+#~ msgstr "Discúlpenos pero no aceptamos ordenes desde su país"
+
+#~ msgid ""
+#~ "The E-mail address where a notification will be sent when the number of "
+#~ "remaining queries reaches your MaxMind Low Query Threshold"
+#~ msgstr ""
+#~ "La dirección de E-mail donde una notificación será enviada cuando el "
+#~ "número restante de consultas alcance su umbral de pocas consultas en "
+#~ "MaxMind"
+
+#~ msgid "We do not accept signups from free E-mail services"
+#~ msgstr "No permitimos registros desde servicios de E-mail gratuitos"
 
 #~ msgid ""
 #~ "Incorrect email or password.&nbsp;&nbsp;If you do not have account with "
@@ -18775,10 +19028,6 @@ msgstr "Código Postal"
 #, fuzzy
 #~ msgid "Add a new product"
 #~ msgstr "Administrar Productos"
-
-#, fuzzy
-#~ msgid "Invoice Date"
-#~ msgstr "Fecha de la Próxima Factura"
 
 #, fuzzy
 #~ msgid "Invoice Amount"
