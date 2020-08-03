@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clientexec 5.1.0\n"
 "Report-Msgid-Bugs-To: i18n@clientexec.com\n"
-"POT-Creation-Date: 2020-03-26 16:51-0400\n"
+"POT-Creation-Date: 2020-07-28 13:59-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,14 @@ msgstr ""
 
 #, php-format
 msgid "%s attached"
+msgstr ""
+
+#, php-format
+msgid "%s billing cycles were deleted successfully."
+msgstr ""
+
+#, php-format
+msgid "%s billing cycles were not deleted, as they are still in use."
 msgstr ""
 
 #, php-format
@@ -273,18 +281,41 @@ msgid ""
 "http://www.wcpt.org/members."
 msgstr ""
 
+msgid "0 Days"
+msgstr ""
+
+msgid "0 Months"
+msgstr ""
+
+msgid "0 Weeks"
+msgstr ""
+
+msgid "0 Years"
+msgstr ""
+
+msgid "0 days"
+msgstr ""
+
+msgid "0 months"
+msgstr ""
+
+msgid "0 weeks"
+msgstr ""
+
+msgid "0 years"
+msgstr ""
+
 msgid "1"
 msgstr ""
 
 msgid ""
-"1 = Create, update or remove Gateway customer information through the "
-"function UpdateGateway when customer choose to use this gateway, customer "
-"profile is updated, customer is deleted or customer status is changed. 0 = "
-"Do nothing."
+"1 = Create, update or remove Gateway client information through the function "
+"UpdateGateway when client choose to use this gateway, client profile is "
+"updated, client is deleted or client status is changed. 0 = Do nothing."
 msgstr ""
 
 msgid ""
-"1 = Only used to specify a billing type for a customer. 0 = full fledged "
+"1 = Only used to specify a billing type for a client. 0 = full fledged "
 "plugin requiring complete functions"
 msgstr ""
 
@@ -292,9 +323,6 @@ msgid "1 Min. Load Average"
 msgstr ""
 
 msgid "1 Minute"
-msgstr ""
-
-msgid "1 Year"
 msgstr ""
 
 msgid ""
@@ -314,6 +342,33 @@ msgstr ""
 msgid "10 Years"
 msgstr ""
 
+msgid "10 years"
+msgstr ""
+
+msgid "11 Days"
+msgstr ""
+
+msgid "11 Months"
+msgstr ""
+
+msgid "11 Weeks"
+msgstr ""
+
+msgid "11 Years"
+msgstr ""
+
+msgid "11 days"
+msgstr ""
+
+msgid "11 months"
+msgstr ""
+
+msgid "11 weeks"
+msgstr ""
+
+msgid "11 years"
+msgstr ""
+
 msgid "15 Minutes"
 msgstr ""
 
@@ -323,10 +378,31 @@ msgstr ""
 msgid "2"
 msgstr ""
 
+msgid "2 Days"
+msgstr ""
+
 msgid "2 Minutes"
 msgstr ""
 
+msgid "2 Months"
+msgstr ""
+
+msgid "2 Weeks"
+msgstr ""
+
 msgid "2 Years"
+msgstr ""
+
+msgid "2 days"
+msgstr ""
+
+msgid "2 months"
+msgstr ""
+
+msgid "2 weeks"
+msgstr ""
+
+msgid "2 years"
 msgstr ""
 
 msgid ""
@@ -346,19 +422,76 @@ msgstr ""
 msgid "20 Minutes"
 msgstr ""
 
+msgid "21 Days"
+msgstr ""
+
+msgid "21 Months"
+msgstr ""
+
+msgid "21 Weeks"
+msgstr ""
+
+msgid "21 Years"
+msgstr ""
+
+msgid "21 days"
+msgstr ""
+
+msgid "21 months"
+msgstr ""
+
+msgid "21 weeks"
+msgstr ""
+
+msgid "21 years"
+msgstr ""
+
 msgid "2Checkout"
+msgstr ""
+
+msgid "3 Days"
 msgstr ""
 
 msgid "3 Minutes"
 msgstr ""
 
+msgid "3 Months"
+msgstr ""
+
+msgid "3 Weeks"
+msgstr ""
+
 msgid "3 Years"
+msgstr ""
+
+msgid "3 days"
+msgstr ""
+
+msgid "3 months"
+msgstr ""
+
+msgid "3 weeks"
+msgstr ""
+
+msgid "3 years"
 msgstr ""
 
 msgid "3. Freelance workers/professionals"
 msgstr ""
 
 msgid "3. Payment Details"
+msgstr ""
+
+msgid "31 Days"
+msgstr ""
+
+msgid "31 Weeks"
+msgstr ""
+
+msgid "31 days"
+msgstr ""
+
+msgid "31 weeks"
 msgstr ""
 
 msgid ""
@@ -369,13 +502,43 @@ msgstr ""
 msgid "3rd party subscription"
 msgstr ""
 
+msgid "4 Days"
+msgstr ""
+
 msgid "4 Minutes"
+msgstr ""
+
+msgid "4 Months"
+msgstr ""
+
+msgid "4 Weeks"
 msgstr ""
 
 msgid "4 Years"
 msgstr ""
 
+msgid "4 days"
+msgstr ""
+
+msgid "4 months"
+msgstr ""
+
+msgid "4 weeks"
+msgstr ""
+
+msgid "4 years"
+msgstr ""
+
 msgid "4. Non-Profit Organizations"
+msgstr ""
+
+msgid "41 Weeks"
+msgstr ""
+
+msgid "41 weeks"
+msgstr ""
+
+msgid "5 Days"
 msgstr ""
 
 msgid "5 Min. Load Average"
@@ -384,45 +547,163 @@ msgstr ""
 msgid "5 Minutes"
 msgstr ""
 
+msgid "5 Months"
+msgstr ""
+
+msgid "5 Weeks"
+msgstr ""
+
 msgid "5 Years"
+msgstr ""
+
+msgid "5 days"
+msgstr ""
+
+msgid "5 months"
+msgstr ""
+
+msgid "5 weeks"
+msgstr ""
+
+msgid "5 years"
 msgstr ""
 
 msgid "5. Public Organizations"
 msgstr ""
 
+msgid "51 Weeks"
+msgstr ""
+
+msgid "51 weeks"
+msgstr ""
+
+msgid "6 Days"
+msgstr ""
+
 msgid "6 Minutes"
+msgstr ""
+
+msgid "6 Months"
+msgstr ""
+
+msgid "6 Weeks"
 msgstr ""
 
 msgid "6 Years"
 msgstr ""
 
+msgid "6 days"
+msgstr ""
+
+msgid "6 months"
+msgstr ""
+
+msgid "6 weeks"
+msgstr ""
+
+msgid "6 years"
+msgstr ""
+
 msgid "6. Other Subjects"
+msgstr ""
+
+msgid "7 Days"
 msgstr ""
 
 msgid "7 Minutes"
 msgstr ""
 
+msgid "7 Months"
+msgstr ""
+
+msgid "7 Weeks"
+msgstr ""
+
 msgid "7 Years"
+msgstr ""
+
+msgid "7 days"
+msgstr ""
+
+msgid "7 months"
+msgstr ""
+
+msgid "7 weeks"
+msgstr ""
+
+msgid "7 years"
 msgstr ""
 
 msgid "7. Foreigners who match 2-6"
 msgstr ""
 
+msgid "8 Days"
+msgstr ""
+
 msgid "8 Minutes"
+msgstr ""
+
+msgid "8 Months"
+msgstr ""
+
+msgid "8 Weeks"
 msgstr ""
 
 msgid "8 Years"
 msgstr ""
 
+msgid "8 days"
+msgstr ""
+
+msgid "8 months"
+msgstr ""
+
+msgid "8 weeks"
+msgstr ""
+
+msgid "8 years"
+msgstr ""
+
+msgid "9 Days"
+msgstr ""
+
 msgid "9 Minutes"
+msgstr ""
+
+msgid "9 Months"
+msgstr ""
+
+msgid "9 Weeks"
 msgstr ""
 
 msgid "9 Years"
 msgstr ""
 
+msgid "9 days"
+msgstr ""
+
+msgid "9 months"
+msgstr ""
+
+msgid "9 weeks"
+msgstr ""
+
+msgid "9 years"
+msgstr ""
+
 msgid ""
 "<b>American Express:</b><br />The CVV2 number is the 4 digit value printed "
 "on the front of the card above the credit card number."
+msgstr ""
+
+msgid ""
+"<b>Duration (months)</b> should be used only for Billing Cycles which have "
+"their Time Unit in Months or Years."
+msgstr ""
+
+msgid ""
+"<b>Duration in months</b> should be used only for Billing Cycles which have "
+"their Time Unit in Months or Years."
 msgstr ""
 
 msgid ""
@@ -438,6 +719,16 @@ msgid ""
 "generated</i></strong>.<br><br><b>Example</b>: -10,-5,-1,1,5,10+ would send "
 "on the tenth days before the due date, five days before, one day before, one "
 "day late, five days late and ten or more days late"
+msgstr ""
+
+msgid ""
+"<b>Prorate To Day</b> and <b>Include Following Payment</b> should be used "
+"only for Billing Cycles which have their Time Unit in Months or Years."
+msgstr ""
+
+msgid ""
+"<b>Prorate To Day</b> and <b>Include Following Payment</b> will also apply "
+"to the addons purchased with the product."
 msgstr ""
 
 msgid ""
@@ -920,6 +1211,9 @@ msgstr ""
 msgid "Add Charge"
 msgstr ""
 
+msgid "Add Client Group"
+msgstr ""
+
 msgid "Add Comment"
 msgstr ""
 
@@ -932,7 +1226,7 @@ msgstr ""
 msgid "Add Custom Field"
 msgstr ""
 
-msgid "Add Customer Group"
+msgid "Add Cycle"
 msgstr ""
 
 msgid "Add DNS"
@@ -1107,21 +1401,20 @@ msgstr ""
 msgid "Add variable payment to an invoice"
 msgstr ""
 
-msgid ""
-"Add/Edit any additional custom fields to be viewed in customer's products"
+msgid "Add/Edit any additional custom fields to be viewed in client's products"
 msgstr ""
 
 msgid ""
-"Add/Edit any additional custom fields to be viewed in customer's products."
+"Add/Edit any additional custom fields to be viewed in client's products."
 msgstr ""
 
 msgid ""
-"Add/Edit any additional custom fields to be viewed in the customer or admin "
+"Add/Edit any additional custom fields to be viewed in the client or admin "
 "profile"
 msgstr ""
 
 msgid ""
-"Add/Edit any additional custom fields to be viewed in the customer or admin "
+"Add/Edit any additional custom fields to be viewed in the client or admin "
 "profile."
 msgstr ""
 
@@ -1129,6 +1422,10 @@ msgid "Add/Remove Packages"
 msgstr ""
 
 msgid "Add/Update to Product"
+msgstr ""
+
+#, php-format
+msgid "Added %s to credit balance. Reason: %s"
 msgstr ""
 
 #, php-format
@@ -1193,6 +1490,12 @@ msgid "Addon description"
 msgstr ""
 
 msgid "Addon list"
+msgstr ""
+
+msgid ""
+"Addon prices for billing cycles not used in this product will not be "
+"available to the client, unless you select the force show option in the "
+"addon setup screen."
 msgstr ""
 
 msgid "Addons"
@@ -1442,12 +1745,12 @@ msgid ""
 "will find them in API Settings in Nexmo Dashboard."
 msgstr ""
 
+msgid "Allow client to close tickets"
+msgstr ""
+
 msgid ""
 "Allow creation of accounts with packages that are global or owned by this "
 "user"
-msgstr ""
-
-msgid "Allow customer to close tickets"
 msgstr ""
 
 msgid "Allow direct link?"
@@ -1535,6 +1838,9 @@ msgstr "Montant"
 msgid "Amount of RAM assigned in MB."
 msgstr ""
 
+msgid "Amount of Units"
+msgstr ""
+
 msgid "Amount of days"
 msgstr ""
 
@@ -1620,9 +1926,6 @@ msgid "Announcement(s) unpinped successfully"
 msgstr ""
 
 msgid "Announcements"
-msgstr ""
-
-msgid "Annually"
 msgstr ""
 
 msgid "Anonymous"
@@ -1826,10 +2129,6 @@ msgstr ""
 msgid "Association"
 msgstr ""
 
-#, php-format
-msgid "At the present time, a %s record is not supported with ResellerClub."
-msgstr ""
-
 msgid "Attach PDF When Mailing Invoice"
 msgstr ""
 
@@ -1898,6 +2197,9 @@ msgid ""
 msgstr ""
 
 msgid "Auto Payment"
+msgstr ""
+
+msgid "Auto Refresh Ticket List"
 msgstr ""
 
 msgid "Auto Registration Renewal At Registrar"
@@ -2785,7 +3087,7 @@ msgid "Click here to pay"
 msgstr ""
 
 msgid ""
-"Click here to process your customer's credit cards for invoices that are due "
+"Click here to process your client's credit cards for invoices that are due "
 "or past-due."
 msgstr ""
 
@@ -2804,8 +3106,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Click the button below to automatically update your TLDs and customer "
-"domains to use the ResellerClub plugin."
+"Click the button below to automatically update your TLDs and client domains "
+"to use the ResellerClub plugin."
 msgstr ""
 
 msgid "Click the button below to log into PayPal and make your payment."
@@ -2840,6 +3142,12 @@ msgstr ""
 msgid "Client Emails"
 msgstr ""
 
+msgid "Client Group"
+msgstr ""
+
+msgid "Client Groups"
+msgstr ""
+
 msgid "Client Id"
 msgstr ""
 
@@ -2853,6 +3161,9 @@ msgid "Client Name"
 msgstr ""
 
 msgid "Client Password Custom Field"
+msgstr ""
+
+msgid "Client Permissions"
 msgstr ""
 
 msgid "Client Port Custom Field"
@@ -2910,6 +3221,12 @@ msgid "Clients"
 msgstr ""
 
 msgid "Clients Online"
+msgstr ""
+
+msgid "Clients Seen"
+msgstr ""
+
+msgid "Clients With Invoices Ready"
 msgstr ""
 
 msgid "Clone"
@@ -3034,6 +3351,12 @@ msgid "Configure Package"
 msgstr ""
 
 msgid "Configure Payment Plugin"
+msgstr ""
+
+msgid "Configure billing cycles available"
+msgstr ""
+
+msgid "Configure billing cycles available."
 msgstr ""
 
 msgid "Configure billing types available in invoices"
@@ -3197,25 +3520,30 @@ msgid "Create Ticket"
 msgstr ""
 
 msgid ""
+"Create a black list separated by comma of the domain phrases you will not "
+"allow to be registered"
+msgstr ""
+
+msgid ""
 "Create a black list separated by comma of the subdomains you will not allow "
 "to be used when placing an order"
 msgstr ""
 
-msgid "Create a new product available to your customers."
+msgid "Create a new product available to your clients."
 msgstr ""
 
 msgid ""
-"Create a site widget for customers to submit tickets and search your KB "
+"Create a site widget for clients to submit tickets and search your KB "
 "articles"
 msgstr ""
 
 msgid "Create and delete packages"
 msgstr ""
 
-msgid "Create and edit products available to your customers"
+msgid "Create and edit products available to your clients"
 msgstr ""
 
-msgid "Create and edit products available to your customers."
+msgid "Create and edit products available to your clients."
 msgstr ""
 
 msgid "Create custom filters which can be saved for future searches"
@@ -3311,6 +3639,9 @@ msgid "Credit Card Payments Processor"
 msgstr ""
 
 msgid "Credit Cards Needing Validation"
+msgstr ""
+
+msgid "Credit History"
 msgstr ""
 
 msgid "Credit cards pending validation"
@@ -3427,7 +3758,7 @@ msgid "Custom error documents support"
 msgstr ""
 
 msgid ""
-"Custom fields are fields that can be filled in by customer when completing a "
+"Custom fields are fields that can be filled in by client when completing a "
 "support ticket via the public form. You can modify these custom fields"
 msgstr ""
 
@@ -3470,9 +3801,6 @@ msgstr ""
 msgid "Customer Events"
 msgstr ""
 
-msgid "Customer Group"
-msgstr ""
-
 msgid "Customer Groups"
 msgstr ""
 
@@ -3494,9 +3822,6 @@ msgstr ""
 msgid "Customer Packages"
 msgstr ""
 
-msgid "Customer Permissions"
-msgstr ""
-
 msgid "Customer Profile"
 msgstr ""
 
@@ -3516,12 +3841,6 @@ msgid "Customer(s) deleted successfully"
 msgstr ""
 
 msgid "Customers"
-msgstr ""
-
-msgid "Customers Seen"
-msgstr ""
-
-msgid "Customers With Invoices Ready"
 msgstr ""
 
 msgid "Customize HTML"
@@ -3641,7 +3960,13 @@ msgid ""
 "style='font-size:smaller'>For example [SMARTDATE_next monday]</i>"
 msgstr ""
 
+msgid "Day"
+msgstr ""
+
 msgid "Day to charge late fee"
+msgstr ""
+
+msgid "Days"
 msgstr ""
 
 msgid "Days Overdue"
@@ -3841,9 +4166,6 @@ msgid ""
 "invoices."
 msgstr ""
 
-msgid "Delete packages(s)"
-msgstr ""
-
 msgid "Delete recurring charge"
 msgstr ""
 
@@ -3851,8 +4173,8 @@ msgid "Delete the blesta2ce.php from your blesta root directory."
 msgstr ""
 
 msgid ""
-"Delete the passphrase that was used to further encrypt your customer's "
-"credit cards."
+"Delete the passphrase that was used to further encrypt your client's credit "
+"cards."
 msgstr ""
 
 msgid "Delete the whmcs2ce.php from your WHMCS root directory."
@@ -3944,7 +4266,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-msgid "Description of the addon option displayed to customer"
+msgid "Description of the addon option displayed to client"
 msgstr ""
 
 msgid "Description of what settings are available here"
@@ -3983,9 +4305,10 @@ msgid ""
 "fees if you are planning to use Paypal Subscriptions. The subscription will "
 "be unlimited until manually canceled either by you, your client or Paypal if "
 "lack of funds, etc.</li><li>Subscriptions will be created after a payment is "
-"completed by the customer, as long as the invoice was paid before becoming "
+"completed by the client, as long as the invoice was paid before becoming "
 "overdue.</li><li>Subscriptions will not be created if the invoice has "
-"prorated items, or with billing cycles greater than 5 years.</li></ul>"
+"prorated items, or with billing cycles greater than 5 years (Old API), or "
+"with billing cycles greater than 1 year (New API).</li></ul>"
 msgstr ""
 
 msgid "Determine if you wish all customers to have this functionality"
@@ -4006,13 +4329,13 @@ msgid "Determine the number you wish to start numbering your support tickets."
 msgstr ""
 
 msgid ""
-"Determine what custom fields Clientexec will expose for your customers to "
-"fill out with their support tickets.  Can be associated to ticket types."
+"Determine what custom fields Clientexec will expose for your clients to fill "
+"out with their support tickets.  Can be associated to ticket types."
 msgstr ""
 
 msgid ""
-"Determine what custom fields Clientexec will expose for your customers to "
-"fill out with their support tickets. Can be associated to ticket types"
+"Determine what custom fields Clientexec will expose for your clients to fill "
+"out with their support tickets. Can be associated to ticket types"
 msgstr ""
 
 msgid "Determine which social features Clientexec exposes"
@@ -4225,6 +4548,9 @@ msgstr ""
 msgid "Domain Name"
 msgstr ""
 
+msgid "Domain Name Api"
+msgstr ""
+
 msgid "Domain Name Servers"
 msgstr ""
 
@@ -4336,7 +4662,7 @@ msgstr ""
 msgid "Don't have an account yet?"
 msgstr ""
 
-msgid "Don't have an account?  Register now"
+msgid "Don't have an account? Register now"
 msgstr ""
 
 msgid "Don't reassign"
@@ -4539,7 +4865,7 @@ msgstr ""
 msgid "Edit Your Payment Method"
 msgstr ""
 
-msgid "Edit a product available to your customers."
+msgid "Edit a product available to your clients."
 msgstr ""
 
 msgid "Edit customer credit card"
@@ -4570,9 +4896,6 @@ msgid "Educational"
 msgstr ""
 
 msgid "Educational purposes"
-msgstr ""
-
-msgid "Eight Years"
 msgstr ""
 
 msgid "Elapsed"
@@ -4777,11 +5100,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Enable this setting to allow your customers to manage their own domains when "
+"Enable this setting to allow your clients to manage their own domains when "
 "bundling"
 msgstr ""
 
-msgid "Enable this setting to allow your customers to transfer domains"
+msgid "Enable this setting to allow your clients to transfer domains"
 msgstr ""
 
 msgid "Enable this setting to disable selling new domain registrations"
@@ -4852,10 +5175,10 @@ msgstr ""
 msgid "Encrypt Domain Passwords"
 msgstr ""
 
-msgid "Encrypt your customer's credit card numbers using a new passphrase."
+msgid "Encrypt your client's credit card numbers using a new passphrase."
 msgstr ""
 
-msgid "Encrypt/Decrypt your customer's domain passwords"
+msgid "Encrypt/Decrypt your client's domain passwords"
 msgstr ""
 
 msgid "Encrypted"
@@ -4905,6 +5228,9 @@ msgid "Enter API key for your Internet.bs reseller account."
 msgstr ""
 
 msgid "Enter Name Server #1, used in stand alone domains."
+msgstr ""
+
+msgid "Enter SEO Keywords separated by commas."
 msgstr ""
 
 msgid ""
@@ -4971,9 +5297,6 @@ msgid "Enter related or new tags"
 msgstr ""
 
 msgid "Enter rules to discard incoming emails"
-msgstr ""
-
-msgid "Enter tags separated by commas."
 msgstr ""
 
 msgid "Enter the API Key for your Joker.com account."
@@ -5274,6 +5597,9 @@ msgstr ""
 msgid "Enter the number of works for this package."
 msgstr ""
 
+msgid "Enter the password for your Domain Name API reseller account."
+msgstr ""
+
 msgid "Enter the password for your Enom reseller account."
 msgstr ""
 
@@ -5393,8 +5719,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Enter your NetEarth One Reseller ID.  This can be found in your NetEarth One "
-"account by going to your profile link, in the top right corner."
+"Enter your NetEarth One Reseller ID.  This can be found in your NetEarth "
+"One    account by going to your profile link, in the top right corner."
 msgstr ""
 
 msgid "Enter your OnlineNIC reseller password."
@@ -5419,7 +5745,7 @@ msgid "Enter your Realtime Register dealer password."
 msgstr ""
 
 msgid ""
-"Enter your Resell.biz Reseller ID.  This can be found in your Resell.biz "
+"Enter your Resell.biz Reseller ID.  This can be found in your Resell.biz    "
 "account by going to your profile link, in the top right corner."
 msgstr ""
 
@@ -5430,8 +5756,9 @@ msgid "Enter your Reseller ID."
 msgstr ""
 
 msgid ""
-"Enter your ResellerClub Reseller ID.  This can be found in your ResellerClub "
-"account by going to your profile link, in the top right corner."
+"Enter your ResellerClub Reseller ID.  This can be found in your "
+"ResellerClub    account by going to your profile link, in the top right "
+"corner."
 msgstr ""
 
 msgid "Enter your Test Public Key here"
@@ -5460,6 +5787,9 @@ msgid "Enter your passphrase"
 msgstr ""
 
 msgid "Enter your payment reference"
+msgstr ""
+
+msgid "Enter your username for your Domain Name Api reseller account."
 msgstr ""
 
 msgid "Enter your username for your Enom reseller account."
@@ -5679,60 +6009,6 @@ msgid "Events"
 msgstr ""
 
 msgid "Every"
-msgstr ""
-
-msgid "Every 10 Years"
-msgstr ""
-
-msgid "Every 10 years"
-msgstr ""
-
-msgid "Every 2 Years"
-msgstr ""
-
-msgid "Every 2 years"
-msgstr ""
-
-msgid "Every 3 Years"
-msgstr ""
-
-msgid "Every 3 years"
-msgstr ""
-
-msgid "Every 4 Years"
-msgstr ""
-
-msgid "Every 4 years"
-msgstr ""
-
-msgid "Every 5 Years"
-msgstr ""
-
-msgid "Every 5 years"
-msgstr ""
-
-msgid "Every 6 Years"
-msgstr ""
-
-msgid "Every 6 years"
-msgstr ""
-
-msgid "Every 7 Years"
-msgstr ""
-
-msgid "Every 7 years"
-msgstr ""
-
-msgid "Every 8 Years"
-msgstr ""
-
-msgid "Every 8 years"
-msgstr ""
-
-msgid "Every 9 Years"
-msgstr ""
-
-msgid "Every 9 years"
 msgstr ""
 
 msgid "Every month"
@@ -6076,9 +6352,6 @@ msgstr ""
 msgid "First and Last Name"
 msgstr ""
 
-msgid "Five Years"
-msgstr ""
-
 msgid "For"
 msgstr ""
 
@@ -6119,6 +6392,9 @@ msgstr ""
 msgid "Forbid dictionary words"
 msgstr ""
 
+msgid "Forbidden Domains Phrases"
+msgstr ""
+
 msgid "Forbidden Subdomains"
 msgstr ""
 
@@ -6156,9 +6432,6 @@ msgid "Found in Manage Games"
 msgstr ""
 
 msgid "Foundation"
-msgstr ""
-
-msgid "Four Years"
 msgstr ""
 
 msgid "Fraud"
@@ -6306,6 +6579,9 @@ msgstr ""
 msgid "Generate Invoices Per Package"
 msgstr ""
 
+msgid "Generate Next Invoice"
+msgstr ""
+
 msgid "Generate Ticket Upon Expiration"
 msgstr ""
 
@@ -6316,9 +6592,6 @@ msgid "Generate an API key for external integration with Clientexec."
 msgstr ""
 
 msgid "Generate my API key"
-msgstr ""
-
-msgid "Generate next invoice"
 msgstr ""
 
 msgid "Generate pending invoices and run batch payments"
@@ -6545,12 +6818,12 @@ msgid "Help ClientExec improve the application by reporting system use data."
 msgstr ""
 
 msgid ""
-"Help your customers identify what issues they are having by creating ticket "
+"Help your clients identify what issues they are having by creating ticket "
 "types.  Can be used with Email routing."
 msgstr ""
 
 msgid ""
-"Help your customers identify what issues they are having by creating ticket "
+"Help your clients identify what issues they are having by creating ticket "
 "types. Can be used with Email routing"
 msgstr ""
 
@@ -6683,6 +6956,9 @@ msgid "How helpful was this article to you?"
 msgstr ""
 
 msgid "How may we assist you?"
+msgstr ""
+
+msgid "How often to auto refresh the ticket list."
 msgstr ""
 
 msgid "Htpasswd Password"
@@ -6950,11 +7226,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If the type of customer (Guest or Registered) that enters a request in the "
+"If the type of client (Guest or Registered) that enters a request in the "
 "public section doesn’t have an associated routing rule, then his request "
 "will be silently ignored. Therefore we recommend to have rules for all "
-"customer types, setting autoresponders with the appropriate messages for "
-"those you don’t wish to process."
+"client types, setting autoresponders with the appropriate messages for those "
+"you don’t wish to process."
 msgstr ""
 
 msgid ""
@@ -6995,9 +7271,10 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you are using PayPal Subscriptions, you should only use recurring coupons "
-"if they are indefinite.<br/>If you prorate, percentage coupons will only "
-"take affect on setup values, if the coupon has been set for that."
+"If you are using <b>PayPal Subscriptions</b>, you should only use recurring "
+"coupons if they are indefinite.<br/>If you <b>prorate</b>, percentage "
+"coupons will only take affect on setup values, if the coupon has been set "
+"for that."
 msgstr ""
 
 msgid ""
@@ -7114,7 +7391,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If your customer's credit card is stored in Clientexec you must enter your "
+"If your client's credit card is stored in Clientexec you must enter your "
 "passphrase."
 msgstr ""
 
@@ -7166,13 +7443,12 @@ msgid ""
 msgstr ""
 
 msgid ""
-"In order to help prevent fraudulent orders we require new customers to "
-"verify their phone number"
+"In order to help prevent fraudulent orders we require new clients to verify "
+"their phone number"
 msgstr ""
 
 msgid ""
-"In the client portal, have the customer's product list appear in the "
-"dashboard"
+"In the client portal, have the client's product list appear in the dashboard"
 msgstr ""
 
 msgid "Inactive"
@@ -7219,7 +7495,7 @@ msgstr ""
 msgid "Include in Admin Profile"
 msgstr ""
 
-msgid "Include in Customer"
+msgid "Include in Client"
 msgstr ""
 
 msgid "Include in Identifier"
@@ -7341,10 +7617,6 @@ msgstr ""
 msgid "Invalid Group."
 msgstr ""
 
-#, php-format
-msgid "Invalid IP address \"%s\" for record \"%s\"."
-msgstr ""
-
 msgid "Invalid License"
 msgstr ""
 
@@ -7406,6 +7678,10 @@ msgstr ""
 
 #, php-format
 msgid "Invoice #%s Marked as Paid"
+msgstr ""
+
+#, php-format
+msgid "Invoice #%s Marked as Pending"
 msgstr ""
 
 #, php-format
@@ -7774,6 +8050,9 @@ msgstr ""
 msgid "Last Processed"
 msgstr ""
 
+msgid "Last Reply"
+msgstr ""
+
 msgid "Last Run"
 msgstr ""
 
@@ -7929,19 +8208,19 @@ msgstr ""
 msgid "List of ticket feedback"
 msgstr ""
 
-msgid "List of your customer's Domain packages."
+msgid "List of your client's Domain packages."
 msgstr ""
 
-msgid "List of your customer's General packages."
+msgid "List of your client's General packages."
 msgstr ""
 
-msgid "List of your customer's Hosting packages."
+msgid "List of your client's Hosting packages."
 msgstr ""
 
-msgid "List of your customer's SSL packages."
+msgid "List of your client's SSL packages."
 msgstr ""
 
-msgid "List of your customer's packages pending cancellation."
+msgid "List of your client's packages pending cancellation."
 msgstr ""
 
 msgid "Listener Slots"
@@ -8103,7 +8382,7 @@ msgstr ""
 msgid "Manage Aliases"
 msgstr ""
 
-msgid "Manage Customer Groups"
+msgid "Manage Client Groups"
 msgstr ""
 
 msgid "Manage Domain"
@@ -8143,6 +8422,9 @@ msgid "Manage automated tasks"
 msgstr ""
 
 msgid "Manage automatic credit card charging"
+msgstr ""
+
+msgid "Manage billing cycles"
 msgstr ""
 
 msgid "Manage billing types"
@@ -8227,6 +8509,9 @@ msgid "Mark Credited"
 msgstr ""
 
 msgid "Mark Paid"
+msgstr ""
+
+msgid "Mark Pending"
 msgstr ""
 
 msgid "Mark Refunded"
@@ -8705,6 +8990,9 @@ msgstr ""
 msgid "New Admin has been added"
 msgstr ""
 
+msgid "New Clients"
+msgstr ""
+
 msgid "New Credit Card Number"
 msgstr ""
 
@@ -8768,9 +9056,6 @@ msgid "Nexus Category"
 msgstr ""
 
 msgid "Nice try but that was an invalid rate"
-msgstr ""
-
-msgid "Nine Years"
 msgstr ""
 
 msgid "No"
@@ -8950,7 +9235,7 @@ msgstr ""
 msgid "Notes"
 msgstr ""
 
-msgid "Notes visible to customer"
+msgid "Notes visible to client"
 msgstr ""
 
 msgid "Notes(s) have been updated"
@@ -9403,6 +9688,9 @@ msgstr ""
 msgid "Package Name"
 msgstr "Nom de Domaine"
 
+msgid "Package Names"
+msgstr ""
+
 msgid "Package Overview"
 msgstr ""
 
@@ -9763,9 +10051,6 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-msgid "Phone Country Code"
-msgstr ""
-
 msgid "Phone Ext"
 msgstr ""
 
@@ -9784,7 +10069,7 @@ msgstr ""
 msgid "Pin"
 msgstr ""
 
-msgid "Pin the active customer on right panel"
+msgid "Pin the active client on right panel"
 msgstr ""
 
 msgid "Pin this announcement"
@@ -10257,11 +10542,14 @@ msgstr ""
 msgid ""
 "Prices left empty will not be shown as an available option for this addon. "
 "Tick the Force checkbox below the billing period price to force showing this "
-"option even when the customer has selected a non matching billing cycle "
-"during signup."
+"option even when the client has selected a non matching billing cycle during "
+"signup."
 msgstr ""
 
 msgid "Prices will be multiplied by the quantity"
+msgstr ""
+
+msgid "Prices will be multiplied by the quantity."
 msgstr ""
 
 msgid "Pricing not set"
@@ -10414,6 +10702,11 @@ msgstr ""
 msgid "Products"
 msgstr ""
 
+msgid ""
+"Products of type Domain and their respective Addons will only be able to use "
+"Billing Cycles which have their Time Unit in Years."
+msgstr ""
+
 msgid "Professional Association"
 msgstr ""
 
@@ -10532,9 +10825,6 @@ msgid "Quantum Vault Gateway Username"
 msgstr ""
 
 msgid "Quantum Vault Gateway VaultKey"
-msgstr ""
-
-msgid "Quarterly"
 msgstr ""
 
 msgid "Query Failed"
@@ -10822,6 +11112,10 @@ msgstr ""
 msgid "Remove Is Reseller Checkbox?"
 msgstr ""
 
+#, php-format
+msgid "Removed %s from credit balance. Reason: %s"
+msgstr ""
+
 msgid "Removed cancellation request of #[link]"
 msgstr ""
 
@@ -11103,6 +11397,12 @@ msgstr ""
 msgid "Run schedule - Month"
 msgstr ""
 
+msgid "SEO Description"
+msgstr ""
+
+msgid "SEO Keywords"
+msgstr ""
+
 msgid "SHOULD GENERALLY BE 80"
 msgstr ""
 
@@ -11292,10 +11592,10 @@ msgstr ""
 msgid "Select Assignee"
 msgstr ""
 
-msgid "Select Client Statuses"
+msgid "Select Client Groups"
 msgstr ""
 
-msgid "Select Customer Groups"
+msgid "Select Client Statuses"
 msgstr ""
 
 msgid "Select Groups"
@@ -11345,17 +11645,17 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Select YES if you want an invoice sent to customer after signup is "
-"complete.  Only used for offline plugins"
+"Select YES if you want an invoice sent to client after signup is complete.  "
+"Only used for offline plugins"
 msgstr ""
 
 msgid ""
-"Select YES if you want an invoice sent to the customer after signup is "
+"Select YES if you want an invoice sent to the client after signup is "
 "complete."
 msgstr ""
 
 msgid ""
-"Select YES if you want an invoice sent to the customer after signup is "
+"Select YES if you want an invoice sent to the client after signup is "
 "complete.  NOTE: PayPal Website Payments Pro does not send a receipt for "
 "this payment type."
 msgstr ""
@@ -11373,8 +11673,7 @@ msgid ""
 "this payment processor."
 msgstr ""
 
-msgid ""
-"Select YES if you want to allow your customers to link a paypal account."
+msgid "Select YES if you want to allow your clients to link a paypal account."
 msgstr ""
 
 msgid ""
@@ -11632,6 +11931,11 @@ msgid ""
 "ResellerSignupServlet?&validatenow=false."
 msgstr ""
 
+msgid ""
+"Select Yes if you wish to use the testing environment, so that transactions "
+"are not actually made."
+msgstr ""
+
 msgid "Select Yes to be notified when a new High Priority Ticket is received."
 msgstr ""
 
@@ -11793,7 +12097,7 @@ msgstr ""
 msgid ""
 "Select the template you wish to set options for.   These options are "
 "template specific, so make sure you set the options for all the templates "
-"you are making available to your customers."
+"you are making available to your clients."
 msgstr ""
 
 msgid ""
@@ -11907,9 +12211,6 @@ msgid "Self-Managed"
 msgstr ""
 
 msgid "Seller ID"
-msgstr ""
-
-msgid "Semiannually"
 msgstr ""
 
 msgid "Send Account Welcome E-mail"
@@ -12084,7 +12385,7 @@ msgid "Set the amount of days before deleting a pending user from the system"
 msgstr ""
 
 msgid ""
-"Set the selected template as the primary customer portal template.  If no "
+"Set the selected template as the primary client portal template.  If no "
 "template is selected as the primary template then the <b>default</b> "
 "template will be used."
 msgstr ""
@@ -12111,10 +12412,10 @@ msgid ""
 "triggered.  Leave this blank to not have a limit."
 msgstr ""
 
-msgid "Setting allows FraudLabs Pro customers to check orders for fraud."
+msgid "Setting allows FraudLabs Pro slients to check orders for fraud."
 msgstr ""
 
-msgid "Setting allows MaxMind customers to check orders for fraud."
+msgid "Setting allows MaxMind clients to check orders for fraud."
 msgstr ""
 
 msgid ""
@@ -12145,9 +12446,6 @@ msgstr ""
 msgid "Setup Fee"
 msgstr ""
 
-msgid "Setup Fee Only"
-msgstr ""
-
 msgid "Setup Price Per Unit"
 msgstr ""
 
@@ -12155,9 +12453,6 @@ msgid "Setup fee"
 msgstr ""
 
 msgid "Setup how you want to manage your support department"
-msgstr ""
-
-msgid "Seven Years"
 msgstr ""
 
 msgid "Share Your Feedback"
@@ -12275,9 +12570,6 @@ msgid "Single Page Checkout"
 msgstr ""
 
 msgid "Site Widget"
-msgstr ""
-
-msgid "Six Years"
 msgstr ""
 
 msgid "Size"
@@ -12968,9 +13260,6 @@ msgstr ""
 msgid "Temporary Alliance of Enterprises"
 msgstr ""
 
-msgid "Ten Years"
-msgstr ""
-
 msgid "Term Length"
 msgstr ""
 
@@ -13576,6 +13865,11 @@ msgid "The value sent to selected plugin when this option is selected"
 msgstr ""
 
 msgid ""
+"The value should be an integer number representing how many months it will "
+"be recurring."
+msgstr ""
+
+msgid ""
 "The voice id of the new voice sever. Set to blank or NONE to disable.<br /> "
 "Values are TEAMSPEAK for Teamspeak 2 and TCXXXXXXXXX for any other game "
 "server. Replace XXXXXXXXX with the Id assigned in TCAdmin."
@@ -13734,6 +14028,9 @@ msgstr ""
 msgid "There was not response from eWay. Please double check your information"
 msgstr ""
 
+msgid "There were no billing cycles to delete."
+msgstr ""
+
 msgid "There were no billing types to delete."
 msgstr ""
 
@@ -13751,8 +14048,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This E-mail is sent from protx to inform the customer of the transaction.  "
-"You need to set this to your E-mail address that you want bills to come from."
+"This E-mail is sent from protx to inform the client of the transaction.  You "
+"need to set this to your E-mail address that you want bills to come from."
 msgstr ""
 
 #, php-format
@@ -13779,9 +14076,6 @@ msgstr ""
 
 msgid ""
 "This allows you to view the status of your team and update your own status."
-msgstr ""
-
-msgid "This billing cycle is no longer supported for SSL."
 msgstr ""
 
 msgid "This certificate has not been issued yet"
@@ -13820,11 +14114,11 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This field is only visible by staff members and not visible to the customer "
+"This field is only visible by staff members and not visible to the client "
 "when viewing their profile."
 msgstr ""
 
-msgid "This field is read only for customers. Staff may still edit."
+msgid "This field is read only for clients. Staff may still edit."
 msgstr ""
 
 msgid "This field will be stored encrypted in the database."
@@ -13846,23 +14140,23 @@ msgid "This import plugin imports accounts from your cPanel/WHM servers."
 msgstr ""
 
 msgid ""
-"This import plugin imports customer personal information from a comma "
+"This import plugin imports client personal information from a comma "
 "separated value (.csv) file."
 msgstr ""
 
 msgid ""
-"This import plugin imports customers, packages, and invoices from a "
-"Clientexec exported file"
+"This import plugin imports clients, packages, and invoices from a Clientexec "
+"exported file"
 msgstr ""
 
 msgid ""
-"This import plugin imports customers, packages, and invoices from a "
-"Clientexec exported file."
+"This import plugin imports clients, packages, and invoices from a Clientexec "
+"exported file."
 msgstr ""
 
 msgid ""
-"This import plugin imports domains and customers (if they don't already "
-"exist in CE) from your registrar account."
+"This import plugin imports domains and clients (if they don't already exist "
+"in CE) from your registrar account."
 msgstr ""
 
 msgid "This import plugin imports packages from your cPanel/WHM servers."
@@ -13972,12 +14266,12 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This plugin imports customers, packages, invoices, servers from a Blesta "
+"This plugin imports clients, packages, invoices, servers from a Blesta "
 "installation."
 msgstr ""
 
 msgid ""
-"This plugin imports customers, packages, invoices, servers from a WHMCS "
+"This plugin imports clients, packages, invoices, servers from a WHMCS "
 "installation."
 msgstr ""
 
@@ -14075,9 +14369,6 @@ msgstr ""
 msgid ""
 "This works in tandem with the Tickets Generator automation service, so you "
 "need to have it enabled for this routing rule to work."
-msgstr ""
-
-msgid "Three Years"
 msgstr ""
 
 msgid "Thursday"
@@ -14248,6 +14539,9 @@ msgstr ""
 msgid "Time Since Last Reply"
 msgstr ""
 
+msgid "Time Unit"
+msgstr ""
+
 msgid ""
 "Timer to enable if one of the items added to cart is managed by stock "
 "control. After the time set in this setting elapses without action in "
@@ -14414,6 +14708,9 @@ msgstr ""
 msgid "Treat as a series"
 msgstr ""
 
+msgid "Trial Version"
+msgstr ""
+
 msgid "Trigger package actions"
 msgstr ""
 
@@ -14430,9 +14727,6 @@ msgid "Tuesday"
 msgstr "Mardi"
 
 msgid "Turn an account into a demo account"
-msgstr ""
-
-msgid "Two Years"
 msgstr ""
 
 msgid "Type"
@@ -14477,9 +14771,6 @@ msgid "UnSuspend Packages(s)"
 msgstr ""
 
 msgid "Unable To Process"
-msgstr ""
-
-msgid "Unable to Obtain"
 msgstr ""
 
 msgid "Unable to create file on remote server"
@@ -14676,9 +14967,9 @@ msgid "Upload whmcs2ce.php to your WHMCS root directory."
 msgstr ""
 
 msgid ""
-"Upon receiving a recurring payment for a domain renewal use the domain's "
-"plugin to renew automatically<br/><b>Note:</b> If no is selected a ticket "
-"will be opened for manual renewal."
+"Upon receiving a payment for a domain renewal use the domain's plugin to "
+"renew automatically<br/><b>Note:</b> If no is selected a ticket will be "
+"opened for manual renewal."
 msgstr ""
 
 msgid "Uptime"
@@ -14766,12 +15057,12 @@ msgid "Use testing server"
 msgstr ""
 
 msgid ""
-"Use this to force the emailing of this announcement to customers who have "
+"Use this to force the emailing of this announcement to clients who have "
 "opted out of announcements."
 msgstr ""
 
 msgid ""
-"Use this to force the emailing of this notification to customers who have "
+"Use this to force the emailing of this notification to clients who have "
 "opted out of announcements."
 msgstr ""
 
@@ -15017,7 +15308,7 @@ msgstr ""
 msgid "View Announcements"
 msgstr ""
 
-msgid "View As Customer"
+msgid "View As Client"
 msgstr ""
 
 msgid "View Billing Setup"
@@ -15033,6 +15324,9 @@ msgid "View Domain Nameservers"
 msgstr ""
 
 msgid "View Domain Overview"
+msgstr ""
+
+msgid "View EPP Code"
 msgstr ""
 
 msgid "View Email History"
@@ -15056,7 +15350,7 @@ msgstr ""
 msgid "View Live Chat"
 msgstr ""
 
-msgid "View New Customers"
+msgid "View New Clients"
 msgstr ""
 
 msgid "View PDF Invoice"
@@ -15195,10 +15489,10 @@ msgstr ""
 msgid "Visa"
 msgstr ""
 
-msgid "Visible by customer"
+msgid "Visible by client"
 msgstr ""
 
-msgid "Visible to customer"
+msgid "Visible to client"
 msgstr ""
 
 msgid "Voice Hostname Custom Field"
@@ -15259,7 +15553,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Warning: Performing this action will require that your customers re-enter "
+"Warning: Performing this action will require that your client's re-enter "
 "their credit card numbers"
 msgstr ""
 
@@ -15328,6 +15622,12 @@ msgid "Weebly Cloud integration"
 msgstr ""
 
 msgid "Weebly User ID Custom Field"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Weeks"
 msgstr ""
 
 msgid "Welcome"
@@ -15633,7 +15933,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When selected, the active customer will be pinned by default unless unpinned "
+"When selected, the active client will be pinned by default unless unpinned "
 "by staff"
 msgstr ""
 
@@ -15732,7 +16032,7 @@ msgid ""
 msgstr ""
 
 #, php-format
-msgid "You are currently in the client view mode for customer '%s'."
+msgid "You are currently in the client view mode for client '%s'."
 msgstr ""
 
 msgid "You are currently logged in as admin"
@@ -15801,6 +16101,9 @@ msgid "You can not delete the demo user while in demo mode"
 msgstr ""
 
 msgid "You can not delete the guest group"
+msgstr ""
+
+msgid "You can not delete these billing cycles, as they are still in use."
 msgstr ""
 
 msgid "You can not delete these billing types, as they are still in use."
@@ -16016,6 +16319,11 @@ msgid ""
 "accounts is the domain name"
 msgstr ""
 
+msgid ""
+"You need to have a <b>Billing Cycle</b> defined with <b>Time Unit</b> in "
+"<b>Months</b> and <b>Amount of Units</b> equal to <b>1</b>."
+msgstr ""
+
 msgid "You will need to select a package before submitting"
 msgstr ""
 
@@ -16087,6 +16395,12 @@ msgid "Your announcements were not unpublished"
 msgstr ""
 
 msgid "Your bcontainer-fluidser does not support iframes"
+msgstr ""
+
+msgid "Your billing cycle was successfully added."
+msgstr ""
+
+msgid "Your billing cycle was successfully updated."
 msgstr ""
 
 msgid "Your billing type was successfully added."
@@ -16319,6 +16633,10 @@ msgid "cURL with SSL support"
 msgstr ""
 
 #, php-format
+msgid "client accounts added from %s."
+msgstr ""
+
+#, php-format
 msgid "client domains added from %s."
 msgstr ""
 
@@ -16427,6 +16745,9 @@ msgid "ending in"
 msgstr ""
 
 msgid "english"
+msgstr ""
+
+msgid "every"
 msgstr ""
 
 msgid "expired credit card ticket(s) generated"
@@ -16578,9 +16899,6 @@ msgid "not available"
 msgstr ""
 
 msgid "nothing"
-msgstr ""
-
-msgid "one time"
 msgstr ""
 
 msgid "one time fee"

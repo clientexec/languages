@@ -48,10 +48,10 @@ msgstr ""
 msgid "Name"
 msgstr "Nome"
 
-msgid "What to do with existing customers?"
+msgid "What to do with existing clients?"
 msgstr ""
 
-msgid "Do you want existing customers to continue being charged this addon?"
+msgid "Do you want existing clients to continue being charged this addon?"
 msgstr ""
 
 msgid "Cancel"
@@ -437,7 +437,7 @@ msgstr ""
 msgid "There was an error with this operation"
 msgstr ""
 
-msgid "Email Customer"
+msgid "Email Client"
 msgstr ""
 
 msgid "NOTICE:"
@@ -467,7 +467,7 @@ msgstr ""
 msgid "Are you sure you want to delete the selected announcement(s)"
 msgstr ""
 
-msgid "Are you sure you want to delete the selected customer groups(s)?"
+msgid "Are you sure you want to delete the selected client groups(s)?"
 msgstr ""
 
 msgid "Description:"
@@ -482,7 +482,7 @@ msgstr ""
 msgid "Members"
 msgstr ""
 
-msgid "Add/Edit Customer Group"
+msgid "Add/Edit Client Group"
 msgstr ""
 
 msgid "Your secret key"
@@ -505,8 +505,7 @@ msgstr ""
 
 msgid ""
 "Are you sure you want to reset the selected notification(s)?<br>Doing so "
-"will allow the notification(s) to email again the previously ignored "
-"customers."
+"will allow the notification(s) to email again the previously ignored clients."
 msgstr ""
 
 msgid "Are you sure you want to delete the selected notification(s)?"
@@ -528,18 +527,18 @@ msgid "Radio buttons"
 msgstr ""
 
 msgid ""
-"If the addon is been added, existing customers will be applied the default "
+"If the addon is been added, existing clients will be applied the default "
 "value: 'None' option if available, or the first option if not."
 msgstr ""
 
 msgid ""
-"If the addon is been updated to quantity type, existing customers will use a "
+"If the addon is been updated to quantity type, existing clients will use a "
 "quantity of 1 by default."
 msgstr ""
 
 msgid ""
 "If the addon is been updated from quantity type to a different type, "
-"existing customers will change their quantity to 1."
+"existing clients will change their quantity to 1."
 msgstr ""
 
 msgid "Billing Period(s)"
@@ -560,15 +559,6 @@ msgstr "Renovar"
 msgid "Are you sure you want to delete the selected TLD billing period(s)"
 msgstr ""
 
-msgid "One Time"
-msgstr "Uma Vez"
-
-msgid "Year"
-msgstr "Ano"
-
-msgid "Years"
-msgstr "Anos"
-
 msgid "TLD Setup Window"
 msgstr ""
 
@@ -584,28 +574,7 @@ msgstr ""
 msgid "Are you sure you want to delete this product group"
 msgstr ""
 
-msgid "view pricing"
-msgstr "ver preços"
-
 msgid "Are you sure you want to delete the selected product(s)"
-msgstr ""
-
-msgid "Monthly"
-msgstr "Mensal"
-
-msgid "Quarterly"
-msgstr "Trimestral"
-
-msgid "Semiannually"
-msgstr ""
-
-msgid "Annually"
-msgstr ""
-
-msgid "2 Year"
-msgstr ""
-
-msgid "One-Time"
 msgstr ""
 
 msgid "Late Fee"
@@ -654,6 +623,21 @@ msgid "DataCenter / Provider"
 msgstr ""
 
 msgid "New API Key has been generated"
+msgstr ""
+
+msgid "Are you sure you want to delete the selected billing cycle(s)"
+msgstr ""
+
+msgid "Time Unit"
+msgstr ""
+
+msgid "Amount of Units"
+msgstr ""
+
+msgid "Recurring Fees"
+msgstr ""
+
+msgid "Add/Edit Billing Cycle"
 msgstr ""
 
 msgid "Archive"
@@ -945,7 +929,10 @@ msgid ""
 "Viewing all draft invoices. These invoices are not ready to be processed."
 msgstr ""
 
-msgid "Customer Name"
+msgid "Created"
+msgstr ""
+
+msgid "Client Name"
 msgstr ""
 
 msgid "Failed Reason"
@@ -999,7 +986,7 @@ msgstr ""
 msgid "Are you sure you want to delete the selected packages(s)"
 msgstr ""
 
-msgid "Do you want to delete this customer if they have no packages?"
+msgid "Do you want to delete this client if they have no packages?"
 msgstr ""
 
 msgid "Are you sure you want to cancel the selected package(s)"
@@ -1008,7 +995,7 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-msgid "Customer"
+msgid "Client"
 msgstr ""
 
 msgid "Reason"
@@ -1138,17 +1125,23 @@ msgstr ""
 msgid "Manage Alternate Account"
 msgstr ""
 
+msgid "Add Credit"
+msgstr ""
+
+msgid "Remove Credit"
+msgstr ""
+
 msgid "Are you sure you want to reset the password of this client?"
 msgstr ""
 
 msgid "Are you sure you want to export this client data?"
 msgstr ""
 
-msgid "Are you sure you want to delete this customer?"
+msgid "Are you sure you want to delete this client?"
 msgstr ""
 
 msgid ""
-"Do you want to delete this customer's packages using the respective server "
+"Do you want to delete this client's packages using the respective server "
 "plugin(s)?"
 msgstr ""
 
@@ -1179,7 +1172,7 @@ msgstr ""
 msgid "Entered By"
 msgstr ""
 
-msgid "Viewable By Customer"
+msgid "Viewable By Client"
 msgstr ""
 
 msgid "Ticket Type"
@@ -1193,7 +1186,10 @@ msgid ""
 "the selected package(s) as long as they have recurring charges?"
 msgstr ""
 
-msgid "Are you sure you want to delete the selected package(s)"
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr ""
+
+msgid "Are you sure you want to cancel the selected package(s)?"
 msgstr ""
 
 msgid "Add a new product"
@@ -1328,7 +1324,7 @@ msgstr ""
 msgid "Select Ticket Assignee"
 msgstr ""
 
-msgid "Selected by customer"
+msgid "Selected by client"
 msgstr ""
 
 msgid "You have subscribed to this ticket"
@@ -1400,7 +1396,7 @@ msgstr ""
 msgid "to %"
 msgstr ""
 
-msgid "for customer %"
+msgid "for client %"
 msgstr ""
 
 msgid "for assignee %"
@@ -1687,6 +1683,9 @@ msgstr "Termos & Condições"
 msgid "Please enter the Coupon Code"
 msgstr "Introduza o código do Cupão"
 
+msgid "Sorry, % is invalid."
+msgstr ""
+
 msgid "% for %"
 msgstr "% por %"
 
@@ -1725,6 +1724,9 @@ msgstr "está disponível para registar"
 
 msgid "Available Domains"
 msgstr "Domínios Disponíveis"
+
+msgid "Years"
+msgstr "Anos"
 
 msgid "But don’t worry, we found these other great domains for you."
 msgstr ""
@@ -1786,6 +1788,21 @@ msgstr ""
 
 msgid "articles that might answer your question."
 msgstr ""
+
+#~ msgid "One Time"
+#~ msgstr "Uma Vez"
+
+#~ msgid "Year"
+#~ msgstr "Ano"
+
+#~ msgid "view pricing"
+#~ msgstr "ver preços"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensal"
+
+#~ msgid "Quarterly"
+#~ msgstr "Trimestral"
 
 #~ msgid "Semiannual"
 #~ msgstr "Semestral"
